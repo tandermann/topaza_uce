@@ -1,0 +1,220 @@
+
+#
+#step1: bootstrap
+#
+###################################################################
+#
+#
+#  MPEST analysis of the mammal data set (54 species 20 genes)
+#
+#
+#
+###################################################################
+
+###################################################################
+#      bootstrap data 
+#
+###################################################################
+library(phybase)
+data<-read.dna.seq("mammal.nex")
+sequence<-data$seq
+gene<-data$gene
+name<-data$name
+
+#for convenience, we change the taxa names to "seq11 seq12....seq64"
+taxaname<-paste("seq",11:64,sep="")
+ngene<-dim(gene)[1]
+
+
+#you may put all the bootstrap samples in a single file and then use
+#phyml to estimate gene trees for all the bootstrap samples in the file.
+#after getting gene tree estimates from phyml, you need to root these 
+#gene trees (see the section root trees below) and create a control file.
+#Then run MPEST.
+
+bootstrap.mulgene(sequence,gene,taxaname,1000,outfile="mammalboot")
+
+#If you can run phyml on a cluster, you may create 1000 files, 
+#each of them contains a bootstrap sample.
+#These files can be submit to the cluster simutaneously
+
+boot<-1000
+filename<-paste("mammalboot",1:boot,sep="")
+for(i in 1:boot)
+{
+print(i)
+bootstrap.mulgene(sequence,gene,taxaname,1,outfile=filename[i])
+}
+
+
+####################################################################
+#   run phyml: create run files for submitting jobs on cluster
+#
+####################################################################
+boot<-1000
+seqfile<-paste("mammalboot",1:boot,sep="")
+datafile<-paste("control",1:boot,sep="")
+runfile<-paste("run",1:boot,sep="")
+
+  for(j in 1:boot)
+  {
+	a<-paste(seqfile[j],"\ns\n20\nm\nm\nm\nv\ny\nr\na\ny\ny\n",sep="")
+	#a<-paste(seqfile[j],"\nf\noutfile",j,"\ny\nf\nouttree",j,sep="")
+	write.table(a,file=datafile[j],row.names=F, col.names=F, quote=F)
+	write.table(paste("./phyml < control",j,sep=""),file=runfile[j],row.names=F,col.names=F,quote=F)
+  }
+
+
+write.table(paste("bsub -q short_serial -o out ./run",1:1000,sep=""),file="subphyml",row.names=F,col.names=F,quote=F)
+
+
+####################################################################
+#     root trees 
+#
+####################################################################
+library(phybase")
+boot<-1
+treefile<-paste("mammalboot",1:boot,"_phyml_tree.txt",sep="")
+outfile<-paste("sp",1:boot,".tree",sep="")
+
+
+for(j in 1:boot)
+  {
+	a<-read.tree.string(treefile[j])$tree
+	ngenetree<-length(a)
+	d<-rep("",ngenetree)
+	for(k in 1:ngenetree) 
+	{
+		spname<-species.name(a[k])
+		nspecies<-length(spname)
+		outgroup<-which(spname=="seq11")
+		b<-read.tree.nodes(a[k],spname)$node
+		
+		c<-write.subtree(2*nspecies-1,root.tree(b,outgroup),nspecies,2*nspecies-1)
+		d[k]<-node2name(c,name=spname)
+				
+	}
+	write.tree.string(d,format="phylip",file=outfile[j])
+}
+
+
+
+for(i in 1:boot)
+write.tree.string(a[,i],format="phylip",file=treefile[i])
+
+
+####################################################################################
+#        create control files, run files to run MPEST on cluster
+#
+######################################################################################
+
+#create control files. please refer to the manual for the format of the control file
+#note that we have changed taxa names to "seq11, seq12...seq64" and here we define
+#the species names as species1, species2...species54. Of course, you may use any names 
+#for these species. The number "1" right after the species name is the number of 
+#taxa that belong to this species. If this number is "2", then there must be 
+#two taxa names after "2".  
+
+nsim<-1000	
+file<-paste("control",1:nsim,sep="")
+treefile<-paste("sp",1:nsim,".tree",sep="")
+
+
+c<-"species1 1 seq11
+species2 1 seq12
+species3 1 seq13
+species4 1 seq14
+species5 1 seq15
+species6 1 seq16
+species7 1 seq17
+species8 1 seq18
+species9 1 seq19
+species10 1 seq20
+species11 1 seq21
+species12 1 seq22
+species13 1 seq23
+species14 1 seq24
+species15 1 seq25
+species16 1 seq26
+species17 1 seq27
+species18 1 seq28
+species19 1 seq29
+species20 1 seq30
+species21 1 seq31
+species22 1 seq32
+species23 1 seq33
+species24 1 seq34
+species25 1 seq35
+species26 1 seq36
+species27 1 seq37
+species28 1 seq38
+species29 1 seq39
+species30 1 seq40
+species31 1 seq41
+species32 1 seq42
+species33 1 seq43
+species34 1 seq44
+species35 1 seq45
+species36 1 seq46
+species37 1 seq47
+species38 1 seq48
+species39 1 seq49
+species40 1 seq50
+species41 1 seq51
+species42 1 seq52
+species43 1 seq53
+species44 1 seq54
+species45 1 seq55
+species46 1 seq56
+species47 1 seq57
+species48 1 seq58
+species49 1 seq59
+species50 1 seq60
+species51 1 seq61
+species52 1 seq62
+species53 1 seq63
+species54 1 seq64"
+
+
+for(i in 1:nsim)
+{
+	b<-floor(runif(1)*799736+1111)
+	a<-paste(treefile[i],b,"20 54",c ,"0",sep="\n")
+	write.table(a, file[i],row.names=F,col.names=F,quote=F)
+}
+
+#create run files  
+runfile<-paste("run",1:nsim,sep="")
+for(i in 1:nsim)
+{
+	a<-paste("./MPEST",file[i])
+	write.table(a,runfile[i], row.names=F,col.names=F,quote=F)
+}
+
+#create a file for submit all 1000 jobs, the commands for submitting jobs
+#may change across clusters. The command used on the odyssey cluster at Harvard
+#is bsub -q ....
+
+subfile<-"subfile"
+a<-paste("bsub -q normal_serial -o out ", "./run", 1:1000,sep="")
+write.table(a,subfile, row.names=F,col.names=F,quote=F)
+
+###############################################################################
+#      summarize trees
+#
+###############################################################################
+
+
+1. read in MPESTTrees from .MPESTOUT files.
+2. write MPEST Trees into a single file
+3. use phylip to construct a consensus tree
+
+
+
+
+
+
+
+
+
+

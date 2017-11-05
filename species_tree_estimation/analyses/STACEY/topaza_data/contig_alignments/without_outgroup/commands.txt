@@ -1,0 +1,26 @@
+# set up in BEAUTI2.4.4, using STACEY plugin
+# 150 most informative UCE loci from Topaza
+# entered substitution models from jModeltest (JC=JC69, K80=HKY85, SYM=GTR)
+# strict clock, fixed clock rate of 1.0 for UCE-142, all other loci estimated
+# Tree:Species = STACEY default, says 'Yule model' but means BirthDeathCollapse model, choosing collapse height=1.0E-5 (small collapse heights don't differ much among each other, only when choosing a very large value here, you will end up with only one cluster)
+# bdcGrowthRate = log normal, M=4.6, S=1.5
+# clock rate for each locus = log normal, M=0.0, S=1.0 (new method: set for one or a few loci, then replace in xml file:
+
+# <Uniform id="Uniform.
+# replace with:
+#<LogNormal id="LogNormalDistributionModel.99
+
+# name="distr" upper="Infinity"/>
+# replace with:
+# name="distr"> \n                    <parameter id="RealParameter.050" estimate="false" name="M">0.0</parameter>\n                    <parameter id="RealParameter.051" estimate="false" lower="0.0" name="S" upper="5.0">1.0</parameter>\n                 </LogNormal>
+
+# <LogNormal id="LogNormalDistributionModel.([0-9]*)" name="distr"> \n                    <parameter id="RealParameter.050" estimate="false" name="M">1.0</parameter>\n                    <parameter id="RealParameter.051" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+# replace with:
+# <LogNormal id="LogNormalDistributionModel.$1" name="distr"> \n                    <parameter id="RealParameter.$1" estimate="false" name="M">0.0</parameter>\n                    <parameter id="RealParameter.$11" estimate="false" lower="0.0" name="S" upper="5.0">1.0</parameter>
+
+
+
+# collapseWeight = Beta distribution, alpha=2, beta=2 (when small value=more inferred clusters, when large value=less inferred clusters)
+# popPriorScale = log normal, M=-7, S=2
+# relativeDeathRate = Beta distribution, alpha=1.0, beta=1.0 (default)
+# MCMC chain length=1,000,000,000, store every=20,000, tracelog=20,000, speciesTreeLogger=20,000, store each gene tree every 10,000,000 (manually set for one, then search and replace in the xml file for all others)

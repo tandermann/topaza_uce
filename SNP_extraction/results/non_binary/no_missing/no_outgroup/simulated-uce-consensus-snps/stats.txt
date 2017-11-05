@@ -1,0 +1,2482 @@
+
+
+
+ ____________________________________________________
+|Launching SNP extraction script...                  |
+|                                                    |
+|Written by Tobias Hofmann, inspired by Yann Bertrand|
+|Version 1.1, August 2015                            |
+|____________________________________________________|
+
+
+Script is treating data as unphased alignment (add flag --phased to command if your data is phased)
+
+
+
+Sequences with missing data are not considered during SNP extraction (add flag --missing to command for higher SNP yield, including missing data)
+
+
+__________________________________________________
+processing file: sim_consensus_alignment_1.fasta
+[26, 56, 61, 264, 269, 340, 497, 562, 691, 835, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_10.fasta
+[143, 485, 505, 703, 775, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_100.fasta
+[185, 484, 637, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_101.fasta
+[26, 93, 300, 371, 378, 420, 429, 565, 579, 626, 690, 739]
+__________________________________________________
+processing file: sim_consensus_alignment_102.fasta
+[183, 338, 399, 456, 459, 492, 530, 568, 597, 646, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_103.fasta
+[156, 162, 606, 610, 699, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_104.fasta
+[9, 103, 176, 362, 497, 550, 807, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_105.fasta
+[85, 358, 415, 437, 449, 485, 603, 715, 759, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_106.fasta
+[244, 389, 476, 533, 588, 691]
+__________________________________________________
+processing file: sim_consensus_alignment_107.fasta
+[300, 347, 376, 478, 505, 585]
+__________________________________________________
+processing file: sim_consensus_alignment_108.fasta
+[189, 296, 440, 665]
+__________________________________________________
+processing file: sim_consensus_alignment_109.fasta
+[153, 194, 217, 565, 629, 751, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_11.fasta
+[95, 252, 435, 532, 654, 661]
+__________________________________________________
+processing file: sim_consensus_alignment_110.fasta
+[30, 33, 156, 259, 264, 447, 564, 648, 657, 753, 808, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_111.fasta
+[66, 85, 147, 261, 376, 391, 615, 725]
+__________________________________________________
+processing file: sim_consensus_alignment_112.fasta
+[4, 88, 462, 634, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_113.fasta
+[52, 135, 260, 427, 561, 576, 760]
+__________________________________________________
+processing file: sim_consensus_alignment_114.fasta
+[136, 540, 749, 759, 793, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_115.fasta
+[316, 384, 403, 443, 621, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_116.fasta
+[61, 116, 544, 555, 570, 611]
+__________________________________________________
+processing file: sim_consensus_alignment_117.fasta
+[204, 313, 522]
+__________________________________________________
+processing file: sim_consensus_alignment_118.fasta
+[23, 148, 165, 253, 342, 617, 637, 772]
+__________________________________________________
+processing file: sim_consensus_alignment_119.fasta
+[15, 102, 193, 208, 222, 286]
+__________________________________________________
+processing file: sim_consensus_alignment_12.fasta
+[96, 314, 530, 540, 584, 665, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_120.fasta
+[56, 201, 353, 360, 416, 473, 512, 575, 712, 753, 812, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_121.fasta
+[126, 306, 353, 415, 645]
+__________________________________________________
+processing file: sim_consensus_alignment_122.fasta
+[50, 71, 221, 233, 276, 371, 395, 431, 478, 487, 525, 566, 628, 707]
+__________________________________________________
+processing file: sim_consensus_alignment_123.fasta
+[28, 145, 380, 478, 483, 589, 667, 755, 794]
+__________________________________________________
+processing file: sim_consensus_alignment_124.fasta
+[426, 493, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_125.fasta
+[236, 276, 441, 579, 624, 651, 754, 761, 810, 819, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_126.fasta
+[6, 22, 180, 191, 382, 444, 504, 544]
+__________________________________________________
+processing file: sim_consensus_alignment_127.fasta
+[9, 274, 346, 540, 711, 724]
+__________________________________________________
+processing file: sim_consensus_alignment_128.fasta
+[515, 543, 598, 667]
+__________________________________________________
+processing file: sim_consensus_alignment_129.fasta
+[531, 717]
+__________________________________________________
+processing file: sim_consensus_alignment_13.fasta
+[104, 142, 233, 236, 507, 568, 704, 748, 837]
+__________________________________________________
+processing file: sim_consensus_alignment_130.fasta
+[7, 68, 113, 124, 150, 172, 193, 325, 345]
+__________________________________________________
+processing file: sim_consensus_alignment_131.fasta
+[54, 180, 245, 367, 525, 670, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_132.fasta
+[24, 125, 163, 291, 717, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_133.fasta
+[39, 119, 543, 561, 692]
+__________________________________________________
+processing file: sim_consensus_alignment_134.fasta
+[119, 190, 232, 233, 257, 279, 325, 337, 376, 489, 658, 672, 749, 803, 807, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_135.fasta
+[24, 232, 338, 359, 378, 466, 585, 720, 772, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_136.fasta
+[210, 228, 291, 313, 511, 557, 628, 635, 658, 664]
+__________________________________________________
+processing file: sim_consensus_alignment_137.fasta
+[80, 591]
+__________________________________________________
+processing file: sim_consensus_alignment_138.fasta
+[234, 239, 328, 555, 655]
+__________________________________________________
+processing file: sim_consensus_alignment_139.fasta
+[164, 375]
+__________________________________________________
+processing file: sim_consensus_alignment_14.fasta
+[81, 118, 289, 290, 298, 351, 415, 435, 568, 828, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_140.fasta
+[93, 108, 116, 151, 222, 244, 372, 516, 528, 536, 656, 671]
+__________________________________________________
+processing file: sim_consensus_alignment_141.fasta
+[149, 185, 219, 224, 303, 347, 410, 450, 537, 797]
+__________________________________________________
+processing file: sim_consensus_alignment_142.fasta
+[39, 324, 364, 370, 533, 571]
+__________________________________________________
+processing file: sim_consensus_alignment_143.fasta
+[82, 446, 532, 736]
+__________________________________________________
+processing file: sim_consensus_alignment_144.fasta
+[41, 54, 144, 150, 167, 247, 269, 413, 418, 425, 460, 503, 523, 625, 666, 701]
+__________________________________________________
+processing file: sim_consensus_alignment_145.fasta
+[3, 131, 209, 296, 313, 316, 400, 481, 594, 624, 664, 676, 703, 746]
+__________________________________________________
+processing file: sim_consensus_alignment_146.fasta
+[593, 739]
+__________________________________________________
+processing file: sim_consensus_alignment_147.fasta
+[183, 224, 511, 516, 525, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_148.fasta
+[113, 219, 305, 667, 760]
+__________________________________________________
+processing file: sim_consensus_alignment_149.fasta
+[105, 261, 710, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_15.fasta
+[21, 48, 117, 163, 292, 505]
+__________________________________________________
+processing file: sim_consensus_alignment_150.fasta
+[219, 302, 335, 383, 424, 670]
+__________________________________________________
+processing file: sim_consensus_alignment_151.fasta
+[21, 89, 171, 354, 581]
+__________________________________________________
+processing file: sim_consensus_alignment_152.fasta
+[142, 241, 412, 575, 643, 766]
+__________________________________________________
+processing file: sim_consensus_alignment_153.fasta
+[19, 117, 160, 414, 594, 604, 684]
+__________________________________________________
+processing file: sim_consensus_alignment_154.fasta
+[127, 473, 478, 594, 639, 692]
+__________________________________________________
+processing file: sim_consensus_alignment_155.fasta
+[1, 24, 141, 147, 205, 333, 387, 541, 672, 771, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_156.fasta
+[122, 137, 217, 246, 378, 475, 771, 819, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_157.fasta
+[16, 47, 165, 398, 460, 716, 754]
+__________________________________________________
+processing file: sim_consensus_alignment_158.fasta
+[9, 34, 54, 223, 377, 396, 532, 569, 761]
+__________________________________________________
+processing file: sim_consensus_alignment_159.fasta
+[18, 38, 48, 220, 303, 488, 533, 566, 690]
+__________________________________________________
+processing file: sim_consensus_alignment_16.fasta
+[82, 285, 308, 362, 379, 398, 439, 555, 581, 586, 794, 826]
+__________________________________________________
+processing file: sim_consensus_alignment_160.fasta
+[112, 288, 447, 538, 684, 828]
+__________________________________________________
+processing file: sim_consensus_alignment_161.fasta
+[26, 86, 123, 271, 463, 603, 725, 830]
+__________________________________________________
+processing file: sim_consensus_alignment_162.fasta
+[48, 161, 304, 364, 636, 702]
+__________________________________________________
+processing file: sim_consensus_alignment_163.fasta
+[37, 122, 181, 237, 290, 479, 565, 647]
+__________________________________________________
+processing file: sim_consensus_alignment_164.fasta
+[17, 40, 155, 472, 576, 685, 693, 695, 732]
+__________________________________________________
+processing file: sim_consensus_alignment_165.fasta
+[70, 88, 156, 306, 350, 489, 561, 674, 786]
+__________________________________________________
+processing file: sim_consensus_alignment_166.fasta
+[91, 145, 188, 206, 293, 390, 471, 555, 601, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_167.fasta
+[236, 240, 285, 794]
+__________________________________________________
+processing file: sim_consensus_alignment_168.fasta
+[9, 71, 97, 125, 138, 184, 394, 395, 602, 726, 782]
+__________________________________________________
+processing file: sim_consensus_alignment_169.fasta
+[64, 152, 243, 246, 258, 259, 276, 288, 337, 360, 507, 523, 606, 609, 664, 772, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_17.fasta
+[328, 338, 730]
+__________________________________________________
+processing file: sim_consensus_alignment_170.fasta
+[20, 157, 247, 318, 321, 448, 573, 589, 708, 716, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_171.fasta
+[48, 263, 338, 529, 557, 580, 585, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_172.fasta
+[14, 96, 132, 422, 484, 533, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_173.fasta
+[43, 101, 161, 210, 332, 443, 460, 572, 575, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_174.fasta
+[121, 165, 446, 537, 685, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_175.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: sim_consensus_alignment_176.fasta
+[19, 123, 178, 260, 333, 339, 607, 704, 754, 788, 801]
+__________________________________________________
+processing file: sim_consensus_alignment_177.fasta
+[29, 32, 72, 172, 274, 334, 366, 395, 413, 423, 478, 518, 527, 568, 678, 724, 730, 735]
+__________________________________________________
+processing file: sim_consensus_alignment_178.fasta
+[215, 229, 310, 334, 561]
+__________________________________________________
+processing file: sim_consensus_alignment_179.fasta
+[1, 86, 279, 443, 480, 495, 707]
+__________________________________________________
+processing file: sim_consensus_alignment_18.fasta
+[42, 227, 584]
+__________________________________________________
+processing file: sim_consensus_alignment_180.fasta
+[111, 112, 171, 292, 382, 611, 648, 712, 719]
+__________________________________________________
+processing file: sim_consensus_alignment_181.fasta
+[135, 167, 190, 312, 333, 426, 431, 565, 791, 807]
+__________________________________________________
+processing file: sim_consensus_alignment_182.fasta
+[75, 440, 488, 491, 512, 565, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_183.fasta
+[15, 270, 645, 660, 719]
+__________________________________________________
+processing file: sim_consensus_alignment_184.fasta
+[120, 337, 546, 615, 655, 682]
+__________________________________________________
+processing file: sim_consensus_alignment_185.fasta
+[74, 135, 224, 257, 292, 313, 323, 333, 342, 380, 468, 499, 556, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_186.fasta
+[92, 137, 166, 195, 228, 285, 296, 340, 443, 456, 522, 557, 562, 663, 665, 670, 696, 750, 760, 786, 809, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_187.fasta
+[257, 660, 757, 789]
+__________________________________________________
+processing file: sim_consensus_alignment_188.fasta
+[80, 218, 227, 362, 491, 554, 577, 614, 822, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_189.fasta
+[100, 202, 238, 308, 341, 442, 452, 491, 575, 584, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_19.fasta
+[145, 159, 200, 439, 477, 602]
+__________________________________________________
+processing file: sim_consensus_alignment_190.fasta
+[133, 151, 390, 433, 520, 753, 797]
+__________________________________________________
+processing file: sim_consensus_alignment_191.fasta
+[37, 178, 188, 318, 396, 485, 493, 744]
+__________________________________________________
+processing file: sim_consensus_alignment_192.fasta
+[139, 266, 404, 504, 529, 623, 745]
+__________________________________________________
+processing file: sim_consensus_alignment_193.fasta
+[22, 39, 61, 147, 239, 396, 573, 766, 802]
+__________________________________________________
+processing file: sim_consensus_alignment_194.fasta
+[3, 90, 185, 281, 309, 604, 622, 655, 664, 675, 731, 746, 780, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_195.fasta
+[64, 162, 261, 312, 395, 429, 558, 630, 638, 729, 734, 737, 788, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_196.fasta
+[81, 128, 459, 635, 656, 664, 685, 807]
+__________________________________________________
+processing file: sim_consensus_alignment_197.fasta
+[6, 205, 243, 448, 466, 484, 589, 616, 636]
+__________________________________________________
+processing file: sim_consensus_alignment_198.fasta
+[28, 36, 180, 229, 401, 408, 499, 500, 541, 754]
+__________________________________________________
+processing file: sim_consensus_alignment_199.fasta
+[107, 606, 657, 669, 753, 757, 825]
+__________________________________________________
+processing file: sim_consensus_alignment_2.fasta
+[104, 170, 232, 311, 497, 506, 525, 634, 702, 704, 731]
+__________________________________________________
+processing file: sim_consensus_alignment_20.fasta
+[89, 104, 124, 217, 225, 305, 311, 395, 405, 588, 748]
+__________________________________________________
+processing file: sim_consensus_alignment_200.fasta
+[49, 184, 320, 482, 553, 591, 729, 770, 810, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_201.fasta
+[232, 253, 421, 477, 537]
+__________________________________________________
+processing file: sim_consensus_alignment_202.fasta
+[284, 302, 584, 805]
+__________________________________________________
+processing file: sim_consensus_alignment_203.fasta
+[101, 221, 250, 280, 291, 364, 400, 515, 563, 676, 705, 759, 764, 786, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_204.fasta
+[51, 70, 248, 407, 553, 567, 570, 612, 728, 789, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_205.fasta
+[59, 475, 691]
+__________________________________________________
+processing file: sim_consensus_alignment_206.fasta
+[90, 116, 240, 267, 550, 602, 710]
+__________________________________________________
+processing file: sim_consensus_alignment_207.fasta
+[115, 304, 590, 754]
+__________________________________________________
+processing file: sim_consensus_alignment_208.fasta
+[89, 94, 194, 572, 719, 788, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_209.fasta
+[201, 293, 421]
+__________________________________________________
+processing file: sim_consensus_alignment_21.fasta
+[112, 133, 147, 186, 315, 335, 515, 537, 541, 569, 572, 586, 601, 654, 708, 742]
+__________________________________________________
+processing file: sim_consensus_alignment_210.fasta
+[139, 185, 205, 257, 499, 540, 600]
+__________________________________________________
+processing file: sim_consensus_alignment_211.fasta
+[376, 481, 591, 607, 662, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_212.fasta
+[51, 107, 128, 169, 260, 378, 470, 660, 803]
+__________________________________________________
+processing file: sim_consensus_alignment_213.fasta
+[53, 68, 359, 394, 398, 548, 716]
+__________________________________________________
+processing file: sim_consensus_alignment_214.fasta
+[7, 15, 56, 156, 161, 453, 499, 637, 765, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_215.fasta
+[189, 217, 439, 493, 622, 758, 811, 828, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_216.fasta
+[111, 134, 189, 273, 323, 338, 358, 367, 424, 508, 764, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_217.fasta
+[175, 270, 289, 301, 521, 529, 554, 571, 678, 737, 750, 807]
+__________________________________________________
+processing file: sim_consensus_alignment_218.fasta
+[68, 177, 223, 292, 480, 729, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_219.fasta
+[99, 516, 560, 608, 677]
+__________________________________________________
+processing file: sim_consensus_alignment_22.fasta
+[112, 219, 274, 450, 623, 670]
+__________________________________________________
+processing file: sim_consensus_alignment_220.fasta
+[76, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_221.fasta
+[41, 107, 112, 140, 165, 178, 207, 309, 347, 588, 665, 773]
+__________________________________________________
+processing file: sim_consensus_alignment_222.fasta
+[114, 416, 433, 483, 592, 721, 761, 798]
+__________________________________________________
+processing file: sim_consensus_alignment_223.fasta
+[23, 197, 201, 550, 584, 596, 600, 698, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_224.fasta
+[167, 228, 229, 260, 281, 467, 500, 514, 534, 835, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_225.fasta
+[57, 72, 203, 394, 582, 597, 649, 687, 781, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_226.fasta
+[131, 165, 236, 349, 394, 414, 519, 543, 597]
+__________________________________________________
+processing file: sim_consensus_alignment_227.fasta
+[92, 306, 379, 396, 442, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_228.fasta
+[2, 31, 88, 160, 192, 193, 397, 400, 483, 508, 546]
+__________________________________________________
+processing file: sim_consensus_alignment_229.fasta
+[509, 569, 598, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_23.fasta
+[301, 332, 439, 457, 607, 644, 698, 712, 791]
+__________________________________________________
+processing file: sim_consensus_alignment_230.fasta
+[275, 474, 486, 545, 652, 815]
+__________________________________________________
+processing file: sim_consensus_alignment_231.fasta
+[86, 151, 206, 469, 480, 591, 667]
+__________________________________________________
+processing file: sim_consensus_alignment_232.fasta
+[436, 526, 626, 817]
+__________________________________________________
+processing file: sim_consensus_alignment_233.fasta
+[198, 410, 485, 788, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_234.fasta
+[144, 254, 312, 327, 463, 634, 747]
+__________________________________________________
+processing file: sim_consensus_alignment_235.fasta
+[45, 342, 415, 452, 552]
+__________________________________________________
+processing file: sim_consensus_alignment_236.fasta
+[168, 247, 298, 321, 329, 332, 372, 436, 573, 657, 762, 797]
+__________________________________________________
+processing file: sim_consensus_alignment_237.fasta
+[10, 89, 363, 386, 413, 531]
+__________________________________________________
+processing file: sim_consensus_alignment_238.fasta
+[98, 123, 276, 327, 330, 492, 788, 789]
+__________________________________________________
+processing file: sim_consensus_alignment_239.fasta
+[10, 173, 260, 303, 322, 388, 484, 550, 589, 642, 689, 782]
+__________________________________________________
+processing file: sim_consensus_alignment_24.fasta
+[23, 247, 323, 446, 452, 622, 766, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_240.fasta
+[306, 312, 363, 413, 618, 766]
+__________________________________________________
+processing file: sim_consensus_alignment_241.fasta
+[101, 805]
+__________________________________________________
+processing file: sim_consensus_alignment_242.fasta
+[86, 146, 164, 174, 211, 226, 262, 369, 381, 388, 390, 398, 482, 574, 583, 735]
+__________________________________________________
+processing file: sim_consensus_alignment_243.fasta
+[58, 199, 344, 411, 446, 569, 593]
+__________________________________________________
+processing file: sim_consensus_alignment_244.fasta
+[20, 147, 295, 352, 355, 372, 561]
+__________________________________________________
+processing file: sim_consensus_alignment_245.fasta
+[85, 95, 150, 332, 363, 420, 580, 660]
+__________________________________________________
+processing file: sim_consensus_alignment_246.fasta
+[33, 110, 210, 243, 341, 626, 664]
+__________________________________________________
+processing file: sim_consensus_alignment_247.fasta
+[154, 498, 585, 750, 797]
+__________________________________________________
+processing file: sim_consensus_alignment_248.fasta
+[131, 225, 230, 278, 425, 826]
+__________________________________________________
+processing file: sim_consensus_alignment_249.fasta
+[39, 75, 77, 433, 776]
+__________________________________________________
+processing file: sim_consensus_alignment_25.fasta
+[456, 739]
+__________________________________________________
+processing file: sim_consensus_alignment_250.fasta
+[69, 283, 390, 440, 651]
+__________________________________________________
+processing file: sim_consensus_alignment_251.fasta
+[83, 123, 544, 712, 727, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_252.fasta
+[87, 239, 329, 338, 364, 431, 531, 688]
+__________________________________________________
+processing file: sim_consensus_alignment_253.fasta
+[58, 111, 174]
+__________________________________________________
+processing file: sim_consensus_alignment_254.fasta
+[221, 321, 534, 575, 628, 707, 793, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_255.fasta
+[64, 81, 82, 117, 170, 265, 632, 649, 675]
+__________________________________________________
+processing file: sim_consensus_alignment_256.fasta
+[12, 216, 615, 700]
+__________________________________________________
+processing file: sim_consensus_alignment_257.fasta
+[29, 50, 154, 179, 200, 223, 236, 243, 300, 502, 557, 633, 640, 641, 677, 703, 708, 717, 730, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_258.fasta
+[314, 410, 450, 669, 706]
+__________________________________________________
+processing file: sim_consensus_alignment_259.fasta
+[235, 265, 282, 399, 489, 599, 667]
+__________________________________________________
+processing file: sim_consensus_alignment_26.fasta
+[75, 102, 181, 189, 193, 323, 420, 487, 563, 582, 608, 613]
+__________________________________________________
+processing file: sim_consensus_alignment_260.fasta
+[50, 188, 218, 320, 756]
+__________________________________________________
+processing file: sim_consensus_alignment_261.fasta
+[25, 185, 339, 456, 627]
+__________________________________________________
+processing file: sim_consensus_alignment_262.fasta
+[351, 511, 562, 791, 827, 829, 833]
+__________________________________________________
+processing file: sim_consensus_alignment_263.fasta
+[96, 98, 128, 232, 237, 356, 444, 502, 537, 693, 730, 827, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_264.fasta
+[11, 75, 194, 441, 470, 493, 573, 594, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_265.fasta
+[164, 331, 440, 444, 605, 773]
+__________________________________________________
+processing file: sim_consensus_alignment_266.fasta
+[145, 167, 175, 222, 351, 597]
+__________________________________________________
+processing file: sim_consensus_alignment_267.fasta
+[116, 126, 158, 241, 333, 373, 435, 567, 702, 730, 764]
+__________________________________________________
+processing file: sim_consensus_alignment_268.fasta
+[26, 29, 57, 406, 425, 572, 578, 596, 598, 599, 612, 671, 677, 773, 775]
+__________________________________________________
+processing file: sim_consensus_alignment_269.fasta
+[122, 165, 202, 330, 401, 524, 535, 780]
+__________________________________________________
+processing file: sim_consensus_alignment_27.fasta
+[238, 264, 591, 710, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_270.fasta
+[238, 243, 330, 372, 384, 537, 576, 599, 825, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_271.fasta
+[422, 544, 599, 604, 615, 701, 714]
+__________________________________________________
+processing file: sim_consensus_alignment_272.fasta
+[128, 401, 516]
+__________________________________________________
+processing file: sim_consensus_alignment_273.fasta
+[158, 302, 606, 635, 677]
+__________________________________________________
+processing file: sim_consensus_alignment_274.fasta
+[239, 392, 461, 469, 544, 773, 798, 800]
+__________________________________________________
+processing file: sim_consensus_alignment_275.fasta
+[132, 240, 277, 280, 419, 470, 700, 789, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_276.fasta
+[423, 436, 447, 578, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_277.fasta
+[64, 201, 287, 408, 448, 483, 568, 709, 722, 731, 740]
+__________________________________________________
+processing file: sim_consensus_alignment_278.fasta
+[173, 249, 470, 693, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_279.fasta
+[586, 605]
+__________________________________________________
+processing file: sim_consensus_alignment_28.fasta
+[207, 399, 613, 678]
+__________________________________________________
+processing file: sim_consensus_alignment_280.fasta
+[44, 57, 136, 182, 208, 213, 252, 360, 460, 477, 488, 537, 603, 618, 690, 747]
+__________________________________________________
+processing file: sim_consensus_alignment_281.fasta
+[103, 125, 402, 416, 420, 438, 476, 562, 588]
+__________________________________________________
+processing file: sim_consensus_alignment_282.fasta
+[409, 437, 622]
+__________________________________________________
+processing file: sim_consensus_alignment_283.fasta
+[48, 72, 87, 238, 409, 551, 620, 739, 763, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_284.fasta
+[44, 161, 288, 326, 472]
+__________________________________________________
+processing file: sim_consensus_alignment_285.fasta
+[118, 395, 458, 512, 602]
+__________________________________________________
+processing file: sim_consensus_alignment_286.fasta
+[226, 237, 337, 359, 442, 496, 720, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_287.fasta
+[33, 103, 222, 251, 252, 487, 523, 623, 651, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_288.fasta
+[188, 349, 361, 411, 425, 498, 548, 621, 650, 686, 712]
+__________________________________________________
+processing file: sim_consensus_alignment_289.fasta
+[178, 495]
+__________________________________________________
+processing file: sim_consensus_alignment_29.fasta
+[319, 668, 798]
+__________________________________________________
+processing file: sim_consensus_alignment_290.fasta
+[38, 137, 281, 501, 518, 625, 630, 789, 794, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_291.fasta
+[154, 292, 393, 480, 674, 743, 751, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_292.fasta
+[333, 465, 706, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_293.fasta
+[47, 63, 84, 245, 326, 439, 443, 719, 763]
+__________________________________________________
+processing file: sim_consensus_alignment_294.fasta
+[74, 361, 367]
+__________________________________________________
+processing file: sim_consensus_alignment_295.fasta
+[154, 177, 317, 447, 469, 519, 732, 789]
+__________________________________________________
+processing file: sim_consensus_alignment_296.fasta
+[8, 193, 431]
+__________________________________________________
+processing file: sim_consensus_alignment_297.fasta
+[423, 467, 615, 619, 687, 782]
+__________________________________________________
+processing file: sim_consensus_alignment_298.fasta
+[130, 187, 208, 268, 414, 529]
+__________________________________________________
+processing file: sim_consensus_alignment_299.fasta
+[123, 129, 201, 327, 352, 444, 537, 714]
+__________________________________________________
+processing file: sim_consensus_alignment_3.fasta
+[220, 664, 722, 827]
+__________________________________________________
+processing file: sim_consensus_alignment_30.fasta
+[68, 490, 541, 663, 667, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_300.fasta
+[27, 60, 103, 110, 137, 176, 334, 547, 805, 817]
+__________________________________________________
+processing file: sim_consensus_alignment_301.fasta
+[157, 347, 407, 540, 552, 645, 776]
+__________________________________________________
+processing file: sim_consensus_alignment_302.fasta
+[56, 170, 306, 351, 610, 680, 704, 749, 761, 839, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_303.fasta
+[11, 65, 109, 211, 243, 468, 610, 647, 687, 769, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_304.fasta
+[142, 212, 288, 312, 500, 696]
+__________________________________________________
+processing file: sim_consensus_alignment_305.fasta
+[42, 204, 257, 373, 458, 559, 591, 627, 680, 733, 746, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_306.fasta
+[58, 350, 386, 778, 799, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_307.fasta
+[254, 450, 634, 697, 762]
+__________________________________________________
+processing file: sim_consensus_alignment_308.fasta
+[152, 267, 305, 435, 768, 814, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_309.fasta
+[63, 143, 310, 373, 375, 508, 600, 630, 634, 654, 662, 747, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_31.fasta
+[12, 228, 234, 257, 286, 461, 521, 787, 843]
+__________________________________________________
+processing file: sim_consensus_alignment_310.fasta
+[95, 129, 176, 358, 403, 407, 568, 593, 631, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_311.fasta
+[4, 113, 122, 180, 265, 601, 769, 794]
+__________________________________________________
+processing file: sim_consensus_alignment_312.fasta
+[25, 130, 300, 377, 524, 547, 585, 667]
+__________________________________________________
+processing file: sim_consensus_alignment_313.fasta
+[131, 739, 773, 828]
+__________________________________________________
+processing file: sim_consensus_alignment_314.fasta
+[174, 321, 695]
+__________________________________________________
+processing file: sim_consensus_alignment_315.fasta
+[26, 38, 64, 186, 234, 320, 528, 659, 772, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_316.fasta
+[132, 133, 494, 564, 830, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_317.fasta
+[98, 166, 443, 612, 641]
+__________________________________________________
+processing file: sim_consensus_alignment_318.fasta
+[46, 113, 516, 660, 740, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_319.fasta
+[114, 504, 582, 656, 660, 707]
+__________________________________________________
+processing file: sim_consensus_alignment_32.fasta
+[224, 245, 283, 342, 430, 435, 441, 528, 663, 679, 687, 740, 792]
+__________________________________________________
+processing file: sim_consensus_alignment_320.fasta
+[51, 81, 250, 282, 358, 373, 397, 502, 624, 662]
+__________________________________________________
+processing file: sim_consensus_alignment_321.fasta
+[363, 400, 824, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_322.fasta
+[23, 116, 119, 133, 201, 208, 238, 245, 302, 336, 384, 434, 465, 478, 488, 535, 567, 590, 596, 680, 710, 789, 794]
+__________________________________________________
+processing file: sim_consensus_alignment_323.fasta
+[40, 105, 138, 239, 519, 558, 570, 571, 739]
+__________________________________________________
+processing file: sim_consensus_alignment_324.fasta
+[110, 227, 261, 563, 625, 646, 775, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_325.fasta
+[20, 34, 218, 272, 305, 371, 516, 560, 737, 759]
+__________________________________________________
+processing file: sim_consensus_alignment_326.fasta
+[174, 293, 376, 468, 576, 774]
+__________________________________________________
+processing file: sim_consensus_alignment_327.fasta
+[68, 284, 412, 521, 553]
+__________________________________________________
+processing file: sim_consensus_alignment_328.fasta
+[86, 261, 624, 770]
+__________________________________________________
+processing file: sim_consensus_alignment_329.fasta
+[17, 202, 223, 232, 419, 450, 501, 523, 606, 697, 755, 766, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_33.fasta
+[38, 174, 178, 253, 317, 356, 577, 592, 622, 685, 803, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_330.fasta
+[72, 362, 380, 409, 503, 540, 603]
+__________________________________________________
+processing file: sim_consensus_alignment_331.fasta
+[114, 145, 268, 534, 575, 583, 598]
+__________________________________________________
+processing file: sim_consensus_alignment_332.fasta
+[621, 651, 678]
+__________________________________________________
+processing file: sim_consensus_alignment_333.fasta
+[392, 438, 749, 791, 811, 814, 822, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_334.fasta
+[43, 211, 405, 639]
+__________________________________________________
+processing file: sim_consensus_alignment_335.fasta
+[135, 209, 359, 575, 681]
+__________________________________________________
+processing file: sim_consensus_alignment_336.fasta
+[5, 128, 131, 346, 366, 448, 573, 592, 667, 774, 844, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_337.fasta
+[11, 19, 22, 54, 68, 91, 111, 121, 129, 150, 155, 169, 251, 323, 528, 580, 583, 602, 618, 703, 818, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_338.fasta
+[22, 125, 198, 225, 445, 515, 659, 683, 712, 764]
+__________________________________________________
+processing file: sim_consensus_alignment_339.fasta
+[339, 509, 655, 688]
+__________________________________________________
+processing file: sim_consensus_alignment_34.fasta
+[172, 241, 305, 409, 468, 493, 711]
+__________________________________________________
+processing file: sim_consensus_alignment_340.fasta
+[190, 252, 254, 268, 432, 586, 637, 734]
+__________________________________________________
+processing file: sim_consensus_alignment_341.fasta
+[190, 414, 530, 690]
+__________________________________________________
+processing file: sim_consensus_alignment_342.fasta
+[32, 108, 347, 357, 608, 683, 707, 732, 791, 802]
+__________________________________________________
+processing file: sim_consensus_alignment_343.fasta
+[16, 401, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_344.fasta
+[15, 51, 56, 148, 226, 276, 294, 306, 658, 673, 709, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_345.fasta
+[125, 360, 381, 445, 457, 489, 651, 692]
+__________________________________________________
+processing file: sim_consensus_alignment_346.fasta
+[103, 303, 322, 484, 828, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_347.fasta
+[14, 105, 395, 456, 515, 524, 702, 726]
+__________________________________________________
+processing file: sim_consensus_alignment_348.fasta
+[105, 132, 166, 273, 494, 540, 621, 703, 738, 772, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_349.fasta
+[42, 188, 277, 453, 523, 534, 568, 772, 773, 798]
+__________________________________________________
+processing file: sim_consensus_alignment_35.fasta
+[74, 120, 319, 425, 494, 613, 618, 685]
+__________________________________________________
+processing file: sim_consensus_alignment_350.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: sim_consensus_alignment_351.fasta
+[133, 136, 195, 197, 247, 696, 833]
+__________________________________________________
+processing file: sim_consensus_alignment_352.fasta
+[23, 26, 29, 116, 146, 157, 184, 342, 390, 463, 474, 670, 727, 816, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_353.fasta
+[194, 318, 681, 760, 776]
+__________________________________________________
+processing file: sim_consensus_alignment_354.fasta
+[7, 665]
+__________________________________________________
+processing file: sim_consensus_alignment_355.fasta
+[13, 64, 246, 278, 340, 495, 516, 662]
+__________________________________________________
+processing file: sim_consensus_alignment_356.fasta
+[7, 112, 232, 244, 327, 567, 753, 766, 827]
+__________________________________________________
+processing file: sim_consensus_alignment_357.fasta
+[26, 43, 56, 188, 465, 685, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_358.fasta
+[20, 275, 316, 319, 381, 405, 485, 493, 501, 573, 700, 779]
+__________________________________________________
+processing file: sim_consensus_alignment_359.fasta
+[128, 324, 356, 406, 564, 603, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_36.fasta
+[7, 55, 63, 285, 404, 700]
+__________________________________________________
+processing file: sim_consensus_alignment_360.fasta
+[34, 136, 316, 406, 432]
+__________________________________________________
+processing file: sim_consensus_alignment_361.fasta
+[73, 228, 308, 623, 674, 739, 776, 805]
+__________________________________________________
+processing file: sim_consensus_alignment_362.fasta
+[66, 145, 286, 288, 390, 395, 501, 504, 529]
+__________________________________________________
+processing file: sim_consensus_alignment_363.fasta
+[91, 94, 135, 229, 352, 613, 721, 741, 745]
+__________________________________________________
+processing file: sim_consensus_alignment_364.fasta
+[21, 101, 237, 333, 427, 525, 580, 639, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_365.fasta
+[57, 195, 332, 551, 605, 785, 812, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_366.fasta
+[221, 280, 301, 530, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_367.fasta
+[76, 111, 241, 339, 433, 474]
+__________________________________________________
+processing file: sim_consensus_alignment_368.fasta
+[23, 304, 644, 697, 718, 825]
+__________________________________________________
+processing file: sim_consensus_alignment_369.fasta
+[59, 140, 157, 182, 262, 492, 511, 694, 748, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_37.fasta
+[68, 120, 132, 173, 217, 219, 296, 300, 315, 345, 404, 530, 545, 568, 648, 708, 738, 760, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_370.fasta
+[36, 235, 345, 346, 348, 410, 461, 585, 731, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_371.fasta
+[228, 283, 678, 802]
+__________________________________________________
+processing file: sim_consensus_alignment_372.fasta
+[12, 50, 165, 210, 241, 247, 294, 343, 422, 478, 538, 579, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_373.fasta
+[134, 266, 316, 426, 532, 561, 673, 750, 790, 800]
+__________________________________________________
+processing file: sim_consensus_alignment_374.fasta
+[36, 47, 156, 328, 340, 349, 538, 618, 786, 799, 833, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_375.fasta
+[108, 192, 458, 464, 582, 687, 709]
+__________________________________________________
+processing file: sim_consensus_alignment_376.fasta
+[497, 524, 552, 590, 730, 778, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_377.fasta
+[177, 341, 462, 500]
+__________________________________________________
+processing file: sim_consensus_alignment_378.fasta
+[79, 135, 167, 348, 356, 419, 433, 435, 456, 648, 733, 737, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_379.fasta
+[136, 183, 259, 306, 388, 604, 792, 806]
+__________________________________________________
+processing file: sim_consensus_alignment_38.fasta
+[4, 192, 198]
+__________________________________________________
+processing file: sim_consensus_alignment_380.fasta
+[9, 271, 280, 417, 501, 639, 664, 722, 763]
+__________________________________________________
+processing file: sim_consensus_alignment_381.fasta
+[57, 73, 109, 507, 528, 537, 539, 663, 702]
+__________________________________________________
+processing file: sim_consensus_alignment_382.fasta
+[442, 493, 718]
+__________________________________________________
+processing file: sim_consensus_alignment_383.fasta
+[1, 74, 577, 721, 765, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_384.fasta
+[64, 174, 184, 333, 759]
+__________________________________________________
+processing file: sim_consensus_alignment_385.fasta
+[204, 457, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_386.fasta
+[136, 245, 282, 290, 482, 503, 512, 646, 771, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_387.fasta
+[348, 442, 506, 554, 570, 752, 817, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_388.fasta
+[118, 187, 310, 361, 426]
+__________________________________________________
+processing file: sim_consensus_alignment_389.fasta
+[8, 18, 20, 403, 434, 459, 616, 684, 740, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_39.fasta
+[41, 75, 265, 267, 408, 554, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_390.fasta
+[120, 144, 301, 320, 447, 782]
+__________________________________________________
+processing file: sim_consensus_alignment_391.fasta
+[146, 152, 384, 427]
+__________________________________________________
+processing file: sim_consensus_alignment_392.fasta
+[202, 216, 220, 467, 647, 699, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_393.fasta
+[19, 86, 372, 466, 625]
+__________________________________________________
+processing file: sim_consensus_alignment_394.fasta
+[7, 85, 159, 310, 435, 449, 546, 755, 774]
+__________________________________________________
+processing file: sim_consensus_alignment_395.fasta
+[180, 439, 552, 563, 583, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_396.fasta
+[243, 292, 492, 620, 687]
+__________________________________________________
+processing file: sim_consensus_alignment_397.fasta
+[80, 180, 244, 273, 403, 502, 537, 609, 627, 662, 710, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_398.fasta
+[150, 199, 402, 645, 790]
+__________________________________________________
+processing file: sim_consensus_alignment_399.fasta
+[26, 42, 185, 199, 291, 303, 331]
+__________________________________________________
+processing file: sim_consensus_alignment_4.fasta
+[24, 50, 198, 252, 403, 579, 608, 768, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_40.fasta
+[10, 24, 257, 353, 354, 632, 672, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_400.fasta
+[51, 217, 236, 303, 314, 575, 682, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_401.fasta
+[4, 18, 228, 244, 478, 665, 768]
+__________________________________________________
+processing file: sim_consensus_alignment_402.fasta
+[33, 37, 69, 188, 306, 585, 715, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_403.fasta
+[47, 77, 548, 688]
+__________________________________________________
+processing file: sim_consensus_alignment_404.fasta
+[35, 198, 459, 562, 690, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_405.fasta
+[164, 407, 647]
+__________________________________________________
+processing file: sim_consensus_alignment_406.fasta
+[115, 292, 326, 342, 369, 388, 539]
+__________________________________________________
+processing file: sim_consensus_alignment_407.fasta
+[43, 60, 88, 340, 460, 461, 626]
+__________________________________________________
+processing file: sim_consensus_alignment_408.fasta
+[115, 134, 142, 159, 309, 339, 349, 489, 541, 616, 643, 689, 696]
+__________________________________________________
+processing file: sim_consensus_alignment_409.fasta
+[2, 147, 154, 410, 416, 449]
+__________________________________________________
+processing file: sim_consensus_alignment_41.fasta
+[64, 416, 486, 582]
+__________________________________________________
+processing file: sim_consensus_alignment_410.fasta
+[9, 137, 242, 254, 549]
+__________________________________________________
+processing file: sim_consensus_alignment_411.fasta
+[43, 72, 150, 504, 564, 641, 667, 692, 756, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_412.fasta
+[9, 245, 267, 392, 485, 500, 502, 513, 558, 584, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_413.fasta
+[104, 125, 236, 333, 334, 343, 354, 355, 434, 438, 445, 497, 541, 586, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_414.fasta
+[92, 311, 470, 553, 716, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_415.fasta
+[15, 74, 449, 492, 511, 518, 612, 710, 743, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_416.fasta
+[286, 335, 505, 585, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_417.fasta
+[9, 23, 33, 87, 106, 114, 125, 133, 136, 164, 166, 214, 242, 266, 309, 321, 356, 371, 388, 431, 446, 481, 531, 549, 615, 617, 669, 711, 736, 771, 804, 805, 824, 834, 838, 841, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_418.fasta
+[178, 215, 261, 543, 833]
+__________________________________________________
+processing file: sim_consensus_alignment_419.fasta
+[10, 81, 232, 345, 352, 378, 797, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_42.fasta
+[126, 343, 557, 561, 619, 637]
+__________________________________________________
+processing file: sim_consensus_alignment_420.fasta
+[17, 257, 289, 492, 503, 513, 589, 615, 675, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_421.fasta
+[72, 147, 743, 770]
+__________________________________________________
+processing file: sim_consensus_alignment_422.fasta
+[34, 64, 185, 228, 274, 411, 520, 726, 826]
+__________________________________________________
+processing file: sim_consensus_alignment_423.fasta
+[33, 44, 68, 84, 124, 142, 243, 406, 675, 716, 724, 733]
+__________________________________________________
+processing file: sim_consensus_alignment_424.fasta
+[516, 594, 700, 825]
+__________________________________________________
+processing file: sim_consensus_alignment_425.fasta
+[66, 91, 344, 373, 493, 643, 648, 662, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_426.fasta
+[19, 124, 296, 333, 495, 749]
+__________________________________________________
+processing file: sim_consensus_alignment_427.fasta
+[2, 209, 274, 298, 446, 571, 582, 690]
+__________________________________________________
+processing file: sim_consensus_alignment_428.fasta
+[32, 201, 369, 446, 567, 672, 717, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_429.fasta
+[129, 180, 257, 328, 457, 482, 565, 591, 638]
+__________________________________________________
+processing file: sim_consensus_alignment_43.fasta
+[89, 172, 179, 299, 528, 614, 622, 709]
+__________________________________________________
+processing file: sim_consensus_alignment_430.fasta
+[140, 414, 497, 567, 605, 609, 664, 718]
+__________________________________________________
+processing file: sim_consensus_alignment_431.fasta
+[49, 297, 535, 539, 732, 770]
+__________________________________________________
+processing file: sim_consensus_alignment_432.fasta
+[65, 68, 177, 184, 325, 435, 484, 486, 732, 765, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_433.fasta
+[170, 206, 309, 380, 480, 642, 703]
+__________________________________________________
+processing file: sim_consensus_alignment_434.fasta
+[55, 61, 189, 244, 273, 340, 488, 754, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_435.fasta
+[111, 222, 244, 273, 472]
+__________________________________________________
+processing file: sim_consensus_alignment_436.fasta
+[33, 204, 304, 310, 593, 671, 810]
+__________________________________________________
+processing file: sim_consensus_alignment_437.fasta
+[82, 117, 255, 326, 488, 744]
+__________________________________________________
+processing file: sim_consensus_alignment_438.fasta
+[227, 305, 380, 429, 485, 580, 732, 745]
+__________________________________________________
+processing file: sim_consensus_alignment_439.fasta
+[148, 210, 517]
+__________________________________________________
+processing file: sim_consensus_alignment_44.fasta
+[68, 133, 216, 223, 285, 333, 395, 524, 528, 671]
+__________________________________________________
+processing file: sim_consensus_alignment_440.fasta
+[73, 85, 144, 321, 478, 527, 569, 579, 638, 700, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_441.fasta
+[53, 277, 781, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_442.fasta
+[69, 218, 409, 442]
+__________________________________________________
+processing file: sim_consensus_alignment_443.fasta
+[198, 408, 410, 516, 607, 669, 717, 789, 815]
+__________________________________________________
+processing file: sim_consensus_alignment_444.fasta
+[70, 128, 354, 357, 529]
+__________________________________________________
+processing file: sim_consensus_alignment_445.fasta
+[192]
+__________________________________________________
+processing file: sim_consensus_alignment_446.fasta
+[14, 78, 185, 218, 265, 552, 615, 627, 666, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_447.fasta
+[69, 80, 267, 309, 513, 516, 567, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_448.fasta
+[41, 101, 238, 274, 362, 392, 402, 547, 564, 579, 603, 661, 720, 774, 808]
+__________________________________________________
+processing file: sim_consensus_alignment_449.fasta
+[66, 297, 310, 482, 536]
+__________________________________________________
+processing file: sim_consensus_alignment_45.fasta
+[213, 608, 769, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_450.fasta
+[166, 300, 455]
+__________________________________________________
+processing file: sim_consensus_alignment_451.fasta
+[118, 160, 166, 282, 354, 397, 510, 750, 759, 772]
+__________________________________________________
+processing file: sim_consensus_alignment_452.fasta
+[172, 200, 249, 340, 426, 482, 496, 575, 611, 791, 817]
+__________________________________________________
+processing file: sim_consensus_alignment_453.fasta
+[140, 469, 472, 498, 694, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_454.fasta
+[23, 197, 359, 477, 556, 615, 669, 768]
+__________________________________________________
+processing file: sim_consensus_alignment_455.fasta
+[79, 288, 294, 356, 462, 579, 595, 721]
+__________________________________________________
+processing file: sim_consensus_alignment_456.fasta
+[33, 47, 192, 294, 301, 458, 499, 621, 784]
+__________________________________________________
+processing file: sim_consensus_alignment_457.fasta
+[197, 256, 638, 686]
+__________________________________________________
+processing file: sim_consensus_alignment_458.fasta
+[5, 71, 200, 308, 374, 466, 618, 627, 703, 734, 769]
+__________________________________________________
+processing file: sim_consensus_alignment_459.fasta
+[271, 393, 683]
+__________________________________________________
+processing file: sim_consensus_alignment_46.fasta
+[268, 303, 393]
+__________________________________________________
+processing file: sim_consensus_alignment_460.fasta
+[185, 236, 304, 466, 771, 828]
+__________________________________________________
+processing file: sim_consensus_alignment_461.fasta
+[3, 398, 416, 521, 552]
+__________________________________________________
+processing file: sim_consensus_alignment_462.fasta
+[79, 196, 224, 575, 700, 716, 743, 778]
+__________________________________________________
+processing file: sim_consensus_alignment_463.fasta
+[146, 352, 390, 471, 680, 773, 787, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_464.fasta
+[162, 345, 559, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_465.fasta
+[56, 75, 162, 200, 288, 417, 500, 528]
+__________________________________________________
+processing file: sim_consensus_alignment_466.fasta
+[61, 152, 181, 248, 472, 497, 541, 626, 789, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_467.fasta
+[219, 464, 534]
+__________________________________________________
+processing file: sim_consensus_alignment_468.fasta
+[4, 218, 314, 316, 450, 774, 780, 787]
+__________________________________________________
+processing file: sim_consensus_alignment_469.fasta
+[1, 619, 667, 673, 737, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_47.fasta
+[13, 140, 208, 244, 311, 582, 702]
+__________________________________________________
+processing file: sim_consensus_alignment_470.fasta
+[88, 97, 135, 142, 153, 199, 307, 326, 351, 397, 508, 759, 782, 783, 808]
+__________________________________________________
+processing file: sim_consensus_alignment_471.fasta
+[67, 78, 167, 260, 316, 350, 405, 461, 580, 619]
+__________________________________________________
+processing file: sim_consensus_alignment_472.fasta
+[35, 139, 149, 275, 298, 464, 497, 638, 661, 675, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_473.fasta
+[81, 116, 524, 552]
+__________________________________________________
+processing file: sim_consensus_alignment_474.fasta
+[251, 430, 744, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_475.fasta
+[20, 85, 126, 158, 187, 470, 601, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_476.fasta
+[200, 412, 463, 501, 595, 605, 616, 683, 735, 760]
+__________________________________________________
+processing file: sim_consensus_alignment_477.fasta
+[219, 227, 336, 344, 381, 382, 490, 590, 682, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_478.fasta
+[34, 81, 129, 239, 406, 576, 681, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_479.fasta
+[161, 544, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_48.fasta
+[126, 130, 320, 504, 550, 612, 702, 756, 777, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_480.fasta
+[131, 146, 259, 288, 299, 665]
+__________________________________________________
+processing file: sim_consensus_alignment_481.fasta
+[262, 475, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_482.fasta
+[15, 44, 112, 246, 326, 330, 395, 480, 819, 837]
+__________________________________________________
+processing file: sim_consensus_alignment_483.fasta
+[108, 301, 374, 458, 695, 718]
+__________________________________________________
+processing file: sim_consensus_alignment_484.fasta
+[18, 247, 543, 626, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_485.fasta
+[61, 319, 428, 561, 581, 630]
+__________________________________________________
+processing file: sim_consensus_alignment_486.fasta
+[1, 26, 64, 80, 169, 171, 203, 208, 281, 296, 444, 587, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_487.fasta
+[80, 270, 335, 563, 568, 612, 615, 779]
+__________________________________________________
+processing file: sim_consensus_alignment_488.fasta
+[77, 133, 341, 360, 366, 484, 749, 750, 799]
+__________________________________________________
+processing file: sim_consensus_alignment_489.fasta
+[101, 648, 651, 743, 752]
+__________________________________________________
+processing file: sim_consensus_alignment_49.fasta
+[102, 126, 262, 327, 376, 385, 394, 401, 426, 467]
+__________________________________________________
+processing file: sim_consensus_alignment_490.fasta
+[54, 248, 275, 303, 349, 362, 388, 676]
+__________________________________________________
+processing file: sim_consensus_alignment_491.fasta
+[40, 470, 649]
+__________________________________________________
+processing file: sim_consensus_alignment_492.fasta
+[107, 214, 390]
+__________________________________________________
+processing file: sim_consensus_alignment_493.fasta
+[107, 376, 530, 541, 671, 776, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_494.fasta
+[34, 62, 280, 556, 632]
+__________________________________________________
+processing file: sim_consensus_alignment_495.fasta
+[701, 736, 770]
+__________________________________________________
+processing file: sim_consensus_alignment_496.fasta
+[81, 216, 288, 446, 767]
+__________________________________________________
+processing file: sim_consensus_alignment_497.fasta
+[56, 81, 275, 312, 567, 570, 763, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_498.fasta
+[218, 595, 685]
+__________________________________________________
+processing file: sim_consensus_alignment_499.fasta
+[98, 285, 316, 331, 394, 501, 617, 699, 720, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_5.fasta
+[151, 214, 243, 381, 399, 484, 513, 561, 611, 649]
+__________________________________________________
+processing file: sim_consensus_alignment_50.fasta
+[32, 121, 138, 328, 521, 533, 649, 719, 776, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_500.fasta
+[161, 295, 459, 474, 739, 773]
+__________________________________________________
+processing file: sim_consensus_alignment_501.fasta
+[33, 43, 307, 405, 449, 580, 678]
+__________________________________________________
+processing file: sim_consensus_alignment_502.fasta
+[36, 129, 181, 262, 274, 287, 400, 416, 605, 664, 767, 780, 799]
+__________________________________________________
+processing file: sim_consensus_alignment_503.fasta
+[205, 326, 551, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_504.fasta
+[82, 457, 619, 827, 830]
+__________________________________________________
+processing file: sim_consensus_alignment_505.fasta
+[79, 118, 128, 174, 652, 657, 713, 837]
+__________________________________________________
+processing file: sim_consensus_alignment_506.fasta
+[38, 169, 307, 421, 428, 502, 571, 737]
+__________________________________________________
+processing file: sim_consensus_alignment_507.fasta
+[187, 307, 436, 673, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_508.fasta
+[23, 273, 353, 455, 532, 570, 585, 618, 648, 652, 747]
+__________________________________________________
+processing file: sim_consensus_alignment_509.fasta
+[165, 403, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_51.fasta
+[303, 323, 498, 583, 685, 790, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_510.fasta
+[306, 422, 470, 802]
+__________________________________________________
+processing file: sim_consensus_alignment_511.fasta
+[306, 312, 432]
+__________________________________________________
+processing file: sim_consensus_alignment_512.fasta
+[82, 121, 143, 161, 168, 274, 487, 558, 564, 618, 761]
+__________________________________________________
+processing file: sim_consensus_alignment_513.fasta
+[20, 40, 105, 174, 181, 185, 205, 213, 283, 406, 471, 472, 555, 733]
+__________________________________________________
+processing file: sim_consensus_alignment_514.fasta
+[72, 386, 498, 826]
+__________________________________________________
+processing file: sim_consensus_alignment_515.fasta
+[151, 256, 440, 593, 703, 706, 790]
+__________________________________________________
+processing file: sim_consensus_alignment_516.fasta
+[104, 283, 453, 462, 566, 662, 732]
+__________________________________________________
+processing file: sim_consensus_alignment_517.fasta
+[167, 187, 325, 466, 473, 539, 656, 669]
+__________________________________________________
+processing file: sim_consensus_alignment_518.fasta
+[284, 660, 666, 792, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_519.fasta
+[89, 146, 415, 546, 612, 657, 752]
+__________________________________________________
+processing file: sim_consensus_alignment_52.fasta
+[274, 403, 830]
+__________________________________________________
+processing file: sim_consensus_alignment_520.fasta
+[58, 183, 225, 296, 438, 485, 493, 598, 614, 673, 837, 843]
+__________________________________________________
+processing file: sim_consensus_alignment_521.fasta
+[6, 145, 465, 485, 695, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_522.fasta
+[5, 27, 68, 135, 239, 361, 445, 476, 495, 529, 607]
+__________________________________________________
+processing file: sim_consensus_alignment_523.fasta
+[35, 155, 347, 392, 580, 661]
+__________________________________________________
+processing file: sim_consensus_alignment_524.fasta
+[8, 54, 67, 119, 269, 348, 773]
+__________________________________________________
+processing file: sim_consensus_alignment_525.fasta
+[175, 407, 628, 733]
+__________________________________________________
+processing file: sim_consensus_alignment_526.fasta
+[84, 107, 117, 233, 255, 305, 334, 403, 422, 490, 720]
+__________________________________________________
+processing file: sim_consensus_alignment_527.fasta
+[94, 153, 162, 398, 404, 498, 554, 599]
+__________________________________________________
+processing file: sim_consensus_alignment_528.fasta
+[93, 105, 133, 270, 421, 423, 514, 594]
+__________________________________________________
+processing file: sim_consensus_alignment_529.fasta
+[89, 171, 176, 196, 198, 427, 579, 665, 756]
+__________________________________________________
+processing file: sim_consensus_alignment_53.fasta
+[569, 670]
+__________________________________________________
+processing file: sim_consensus_alignment_530.fasta
+[27, 101, 229, 361, 469, 504, 678, 699]
+__________________________________________________
+processing file: sim_consensus_alignment_531.fasta
+[64, 100, 105, 375, 448, 529, 537, 616, 755, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_532.fasta
+[9, 11, 155, 158, 238, 505, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_533.fasta
+[216, 386, 628]
+__________________________________________________
+processing file: sim_consensus_alignment_534.fasta
+[7, 220, 267, 404, 623, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_535.fasta
+[14, 185, 272, 429, 475, 507, 692, 733, 799]
+__________________________________________________
+processing file: sim_consensus_alignment_536.fasta
+[66, 103, 122, 129, 254, 277, 303, 336, 401, 487, 566, 585, 631, 647, 758]
+__________________________________________________
+processing file: sim_consensus_alignment_537.fasta
+[18, 224, 603, 650, 710, 730, 764, 806, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_538.fasta
+[513, 537, 587, 739]
+__________________________________________________
+processing file: sim_consensus_alignment_539.fasta
+[226, 236, 241, 254, 307, 418, 581, 632]
+__________________________________________________
+processing file: sim_consensus_alignment_54.fasta
+[30, 105, 199, 293, 353, 375, 417, 456, 629, 730]
+__________________________________________________
+processing file: sim_consensus_alignment_540.fasta
+[140, 369, 607, 678, 804, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_541.fasta
+[593]
+__________________________________________________
+processing file: sim_consensus_alignment_542.fasta
+[106, 144, 375, 440, 741, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_543.fasta
+[26, 34, 42, 59, 93, 114, 147, 173, 192, 205, 286, 362, 414, 544, 566, 572, 657, 659, 690, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_544.fasta
+[18, 58, 385, 815]
+__________________________________________________
+processing file: sim_consensus_alignment_545.fasta
+[101, 158, 219, 405, 577, 784, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_546.fasta
+[116, 357, 664, 726, 756]
+__________________________________________________
+processing file: sim_consensus_alignment_547.fasta
+[58, 70, 281, 299, 340, 383, 555, 681, 728, 751, 789]
+__________________________________________________
+processing file: sim_consensus_alignment_548.fasta
+[127, 188, 303, 446, 463, 683, 754]
+__________________________________________________
+processing file: sim_consensus_alignment_549.fasta
+[28, 40, 168, 183, 184, 306, 347, 377, 401, 462, 493, 564, 795, 809, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_55.fasta
+[72, 216, 251, 272, 348, 391, 449, 646, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_550.fasta
+[59, 94, 166, 333, 371, 431, 492, 497]
+__________________________________________________
+processing file: sim_consensus_alignment_551.fasta
+[71, 265, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_552.fasta
+[255, 281, 350, 673]
+__________________________________________________
+processing file: sim_consensus_alignment_553.fasta
+[83, 108, 135, 159, 307, 355, 529, 548, 579, 587, 705, 713, 731, 748, 801]
+__________________________________________________
+processing file: sim_consensus_alignment_554.fasta
+[20, 25, 96, 114, 129, 192, 272, 283, 317, 325, 326, 378, 393, 425, 505, 533, 708, 724, 774, 806, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_555.fasta
+[1, 122, 200, 283, 492, 637, 659, 815]
+__________________________________________________
+processing file: sim_consensus_alignment_556.fasta
+[215, 271, 272, 474, 492, 519, 521, 616, 638, 740]
+__________________________________________________
+processing file: sim_consensus_alignment_557.fasta
+[114, 162, 357, 409, 578, 764]
+__________________________________________________
+processing file: sim_consensus_alignment_558.fasta
+[84, 136, 261, 319, 341, 348, 359, 368, 562, 622, 745, 817, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_559.fasta
+[57, 152, 193, 317, 632]
+__________________________________________________
+processing file: sim_consensus_alignment_56.fasta
+[200, 255, 314, 498, 509, 540, 550, 702, 764]
+__________________________________________________
+processing file: sim_consensus_alignment_560.fasta
+[171, 647, 676, 792, 803, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_561.fasta
+[263, 413, 537, 582]
+__________________________________________________
+processing file: sim_consensus_alignment_562.fasta
+[382, 587, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_563.fasta
+[157, 209, 279, 332, 438, 445, 510, 526, 538, 541, 551, 560, 720, 799, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_564.fasta
+[216, 274, 405, 606]
+__________________________________________________
+processing file: sim_consensus_alignment_565.fasta
+[22, 282, 290, 305, 402, 629, 657, 750]
+__________________________________________________
+processing file: sim_consensus_alignment_566.fasta
+[161, 383, 573, 612, 618, 684]
+__________________________________________________
+processing file: sim_consensus_alignment_567.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: sim_consensus_alignment_568.fasta
+[22, 87, 189, 280, 328, 367, 406, 441, 457, 488, 748]
+__________________________________________________
+processing file: sim_consensus_alignment_569.fasta
+[113, 173, 276, 388, 392, 447, 808, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_57.fasta
+[335, 374, 419, 717, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_570.fasta
+[5, 90, 255, 342, 566]
+__________________________________________________
+processing file: sim_consensus_alignment_571.fasta
+[5, 102, 110, 159, 409, 440, 470, 513, 561]
+__________________________________________________
+processing file: sim_consensus_alignment_572.fasta
+[47, 107, 130, 319, 352, 476, 509, 725, 757, 789]
+__________________________________________________
+processing file: sim_consensus_alignment_573.fasta
+[181, 199, 541, 543, 573]
+__________________________________________________
+processing file: sim_consensus_alignment_574.fasta
+[180, 433, 680]
+__________________________________________________
+processing file: sim_consensus_alignment_575.fasta
+[80, 152, 283, 319, 335, 385, 545, 608, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_576.fasta
+[23, 59, 84, 145, 176, 199, 223, 236, 271, 302, 486, 507, 518, 529, 562, 612, 620, 634, 636, 646, 664, 702, 722, 728, 759, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_577.fasta
+[10, 227, 234, 354, 434, 630, 653, 661]
+__________________________________________________
+processing file: sim_consensus_alignment_578.fasta
+[166, 178, 305, 313, 446, 514, 547, 684, 757, 789, 837]
+__________________________________________________
+processing file: sim_consensus_alignment_579.fasta
+[317, 491, 499, 537, 660]
+__________________________________________________
+processing file: sim_consensus_alignment_58.fasta
+[84, 193, 304, 483, 711, 777, 809, 815, 825, 834, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_580.fasta
+[163, 229, 231, 397, 479, 609, 616, 673, 678, 700]
+__________________________________________________
+processing file: sim_consensus_alignment_581.fasta
+[128, 278, 344, 435, 516, 639]
+__________________________________________________
+processing file: sim_consensus_alignment_582.fasta
+[65, 211, 325, 427, 451]
+__________________________________________________
+processing file: sim_consensus_alignment_583.fasta
+[81, 363, 559, 658, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_584.fasta
+[136, 341, 509, 511, 590, 597]
+__________________________________________________
+processing file: sim_consensus_alignment_585.fasta
+[42, 136, 156, 372, 402, 483, 484, 543, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_586.fasta
+[111, 139, 198, 364, 414, 416, 426, 462, 758, 780, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_587.fasta
+[142, 184, 375, 492, 583, 728, 746, 754]
+__________________________________________________
+processing file: sim_consensus_alignment_588.fasta
+[197, 214, 229, 269, 470, 653, 697, 788]
+__________________________________________________
+processing file: sim_consensus_alignment_589.fasta
+[160, 283, 447, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_59.fasta
+[176, 182, 320, 433, 749]
+__________________________________________________
+processing file: sim_consensus_alignment_590.fasta
+[17, 82, 371, 663, 779, 792]
+__________________________________________________
+processing file: sim_consensus_alignment_591.fasta
+[180, 224, 363, 453]
+__________________________________________________
+processing file: sim_consensus_alignment_592.fasta
+[46, 120, 202, 205, 281, 542, 551, 574]
+__________________________________________________
+processing file: sim_consensus_alignment_593.fasta
+[404, 565, 753, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_594.fasta
+[30, 300, 469, 490, 560, 568, 618, 690, 787]
+__________________________________________________
+processing file: sim_consensus_alignment_595.fasta
+[66, 68, 98, 129, 241, 361]
+__________________________________________________
+processing file: sim_consensus_alignment_596.fasta
+[20, 26, 177, 244, 500, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_597.fasta
+[9, 124, 700, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_598.fasta
+[262, 411, 705]
+__________________________________________________
+processing file: sim_consensus_alignment_599.fasta
+[60, 354, 381, 464, 469, 626, 679]
+__________________________________________________
+processing file: sim_consensus_alignment_6.fasta
+[125, 209, 530, 574, 639, 740, 774]
+__________________________________________________
+processing file: sim_consensus_alignment_60.fasta
+[71, 79, 223, 265, 283, 329, 497, 578, 604]
+__________________________________________________
+processing file: sim_consensus_alignment_600.fasta
+[129, 350, 354, 382, 445, 505, 524, 751, 794]
+__________________________________________________
+processing file: sim_consensus_alignment_601.fasta
+[174, 203, 370, 602, 735, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_602.fasta
+[35, 74, 76, 146, 445, 556, 645, 659, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_603.fasta
+[109, 222, 622, 670, 808]
+__________________________________________________
+processing file: sim_consensus_alignment_604.fasta
+[116, 275, 288, 738, 780]
+__________________________________________________
+processing file: sim_consensus_alignment_605.fasta
+[12, 145, 147, 170, 221, 377, 505, 659, 721, 725, 754, 775, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_606.fasta
+[374, 511, 685, 714]
+__________________________________________________
+processing file: sim_consensus_alignment_607.fasta
+[435, 501]
+__________________________________________________
+processing file: sim_consensus_alignment_608.fasta
+[31, 355, 365, 375, 401, 434, 454, 578, 669, 810]
+__________________________________________________
+processing file: sim_consensus_alignment_609.fasta
+[197, 248, 289, 330, 442, 486, 745, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_61.fasta
+[150, 162, 240, 480, 502, 651]
+__________________________________________________
+processing file: sim_consensus_alignment_610.fasta
+[179, 183, 185, 500, 553, 745]
+__________________________________________________
+processing file: sim_consensus_alignment_611.fasta
+[21, 32, 37, 51, 108, 116, 236, 425, 708, 765]
+__________________________________________________
+processing file: sim_consensus_alignment_612.fasta
+[70, 79, 114, 138, 245, 358, 403, 507, 566, 588, 723]
+__________________________________________________
+processing file: sim_consensus_alignment_613.fasta
+[206, 261, 374, 399, 428, 760, 767]
+__________________________________________________
+processing file: sim_consensus_alignment_614.fasta
+[62, 143, 191, 199, 392, 489, 559, 707]
+__________________________________________________
+processing file: sim_consensus_alignment_615.fasta
+[61, 146, 415, 757, 802]
+__________________________________________________
+processing file: sim_consensus_alignment_616.fasta
+[28, 43, 213, 359, 591]
+__________________________________________________
+processing file: sim_consensus_alignment_617.fasta
+[31, 164, 415, 778, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_618.fasta
+[115, 119, 453, 578, 630, 690, 698]
+__________________________________________________
+processing file: sim_consensus_alignment_619.fasta
+[114, 121, 604, 714]
+__________________________________________________
+processing file: sim_consensus_alignment_62.fasta
+[152, 234, 330, 492, 553, 560, 745, 759]
+__________________________________________________
+processing file: sim_consensus_alignment_620.fasta
+[64, 532, 697, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_621.fasta
+[172, 285, 504, 547, 562, 704, 751, 819]
+__________________________________________________
+processing file: sim_consensus_alignment_622.fasta
+[39, 194, 344, 384, 388]
+__________________________________________________
+processing file: sim_consensus_alignment_623.fasta
+[10, 109, 148, 181, 291, 535, 549, 723, 779]
+__________________________________________________
+processing file: sim_consensus_alignment_624.fasta
+[35, 348, 375, 397, 530, 670]
+__________________________________________________
+processing file: sim_consensus_alignment_625.fasta
+[329, 373, 390, 431, 594, 720, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_626.fasta
+[247, 377, 380, 631, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_627.fasta
+[110, 147, 302, 398, 638, 688]
+__________________________________________________
+processing file: sim_consensus_alignment_628.fasta
+[147, 210, 278, 456, 498, 500, 694, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_629.fasta
+[520, 525, 795, 807, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_63.fasta
+[69, 395, 556, 595, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_630.fasta
+[140, 339, 346, 584, 641, 683, 706, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_631.fasta
+[286, 611, 643, 655, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_632.fasta
+[0, 428, 539, 649, 724, 760]
+__________________________________________________
+processing file: sim_consensus_alignment_633.fasta
+[399, 465, 671]
+__________________________________________________
+processing file: sim_consensus_alignment_634.fasta
+[23, 27, 138, 158, 181, 234, 257, 421, 422, 471, 492, 513, 703]
+__________________________________________________
+processing file: sim_consensus_alignment_635.fasta
+[99, 219, 232, 489, 562, 571, 791, 805]
+__________________________________________________
+processing file: sim_consensus_alignment_636.fasta
+[168, 364, 366, 660]
+__________________________________________________
+processing file: sim_consensus_alignment_637.fasta
+[18, 20, 308, 321, 420, 460, 628, 736]
+__________________________________________________
+processing file: sim_consensus_alignment_638.fasta
+[208]
+__________________________________________________
+processing file: sim_consensus_alignment_639.fasta
+[15, 59, 76, 223, 260, 499, 536, 570, 571, 620]
+__________________________________________________
+processing file: sim_consensus_alignment_64.fasta
+[66, 105, 209, 230, 335, 362, 390, 453, 540, 541, 560]
+__________________________________________________
+processing file: sim_consensus_alignment_640.fasta
+[46, 92, 104, 477]
+__________________________________________________
+processing file: sim_consensus_alignment_641.fasta
+[81, 105, 223, 225, 226, 254, 275, 405, 522, 527, 559, 840, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_642.fasta
+[6, 43, 86, 343, 435, 555, 608, 682, 707, 844]
+__________________________________________________
+processing file: sim_consensus_alignment_643.fasta
+[26, 50, 94, 144, 298, 382, 613, 770, 838]
+__________________________________________________
+processing file: sim_consensus_alignment_644.fasta
+[22, 144, 157, 231, 244, 270, 483, 651, 710]
+__________________________________________________
+processing file: sim_consensus_alignment_645.fasta
+[248, 440, 484, 590, 657, 670, 754, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_646.fasta
+[33, 91, 176, 208, 327, 329, 722, 754, 794, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_647.fasta
+[3, 201, 430, 516, 582, 585]
+__________________________________________________
+processing file: sim_consensus_alignment_648.fasta
+[36, 76, 565]
+__________________________________________________
+processing file: sim_consensus_alignment_649.fasta
+[11, 42, 84, 125, 202, 281, 489, 665, 759, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_65.fasta
+[16, 136, 196, 340, 378, 410]
+__________________________________________________
+processing file: sim_consensus_alignment_650.fasta
+[40, 131, 407, 501, 525, 600, 775]
+__________________________________________________
+processing file: sim_consensus_alignment_651.fasta
+[21, 151, 197, 222, 256, 283, 385, 505, 671, 777]
+__________________________________________________
+processing file: sim_consensus_alignment_652.fasta
+[124, 135, 246, 283, 706, 722, 826, 836]
+__________________________________________________
+processing file: sim_consensus_alignment_653.fasta
+[245, 284, 469, 535, 566]
+__________________________________________________
+processing file: sim_consensus_alignment_654.fasta
+[65, 240, 254, 359, 495, 530, 568, 591]
+__________________________________________________
+processing file: sim_consensus_alignment_655.fasta
+[0, 515, 544, 562, 734, 772, 803]
+__________________________________________________
+processing file: sim_consensus_alignment_656.fasta
+[538, 557, 571, 730]
+__________________________________________________
+processing file: sim_consensus_alignment_657.fasta
+[3, 37, 195, 700, 779, 807]
+__________________________________________________
+processing file: sim_consensus_alignment_658.fasta
+[6, 65, 316, 348, 487, 523, 579]
+__________________________________________________
+processing file: sim_consensus_alignment_659.fasta
+[125, 126, 188, 532, 598, 657, 706]
+__________________________________________________
+processing file: sim_consensus_alignment_66.fasta
+[27, 63, 261, 283, 296, 346, 455, 528]
+__________________________________________________
+processing file: sim_consensus_alignment_660.fasta
+[87, 124, 477, 621, 676, 792]
+__________________________________________________
+processing file: sim_consensus_alignment_661.fasta
+[158, 164, 327, 647, 664, 681]
+__________________________________________________
+processing file: sim_consensus_alignment_662.fasta
+[533, 681, 713]
+__________________________________________________
+processing file: sim_consensus_alignment_663.fasta
+[75, 184, 258, 600]
+__________________________________________________
+processing file: sim_consensus_alignment_664.fasta
+[76, 129, 142, 224, 287, 348, 456]
+__________________________________________________
+processing file: sim_consensus_alignment_665.fasta
+[262, 279, 378, 402, 520]
+__________________________________________________
+processing file: sim_consensus_alignment_666.fasta
+[5, 148, 737]
+__________________________________________________
+processing file: sim_consensus_alignment_667.fasta
+[208, 311, 374, 646]
+__________________________________________________
+processing file: sim_consensus_alignment_668.fasta
+[62, 74, 270, 394, 408, 466, 546, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_669.fasta
+[10, 91, 96, 400, 494, 539, 592, 633, 662]
+__________________________________________________
+processing file: sim_consensus_alignment_67.fasta
+[10, 33, 298, 334]
+__________________________________________________
+processing file: sim_consensus_alignment_670.fasta
+[12, 141, 413, 414, 486, 733]
+__________________________________________________
+processing file: sim_consensus_alignment_671.fasta
+[138, 414, 419, 440, 498]
+__________________________________________________
+processing file: sim_consensus_alignment_672.fasta
+[88, 236, 259, 350, 485, 492, 526, 527, 540, 585, 594, 672, 700, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_673.fasta
+[2, 80, 118, 262, 284, 663, 759, 835, 839]
+__________________________________________________
+processing file: sim_consensus_alignment_674.fasta
+[487, 501, 536, 601, 737, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_675.fasta
+[125, 194, 346, 453, 466, 502, 560, 787, 798, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_676.fasta
+[219, 329, 415]
+__________________________________________________
+processing file: sim_consensus_alignment_677.fasta
+[0, 436, 586, 653, 772, 775]
+__________________________________________________
+processing file: sim_consensus_alignment_678.fasta
+[166, 318, 684]
+__________________________________________________
+processing file: sim_consensus_alignment_679.fasta
+[12, 30, 189, 478, 753]
+__________________________________________________
+processing file: sim_consensus_alignment_68.fasta
+[143, 167, 246, 263, 284, 461, 473, 619, 713, 738, 741, 800, 822, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_680.fasta
+[38, 195, 219, 252, 271, 377, 554, 595, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_681.fasta
+[65, 292, 525, 529, 731]
+__________________________________________________
+processing file: sim_consensus_alignment_682.fasta
+[208, 304, 356, 679]
+__________________________________________________
+processing file: sim_consensus_alignment_683.fasta
+[100, 110, 162, 263, 292, 572, 677, 705, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_684.fasta
+[152, 255]
+__________________________________________________
+processing file: sim_consensus_alignment_685.fasta
+[147, 330, 341, 505, 510, 530]
+__________________________________________________
+processing file: sim_consensus_alignment_686.fasta
+[64, 164, 292, 321, 342, 707, 772]
+__________________________________________________
+processing file: sim_consensus_alignment_687.fasta
+[1, 232, 293, 425, 638, 689]
+__________________________________________________
+processing file: sim_consensus_alignment_688.fasta
+[81, 90, 128, 141, 201, 238, 261, 277, 330, 387, 446, 633, 700, 724, 833]
+__________________________________________________
+processing file: sim_consensus_alignment_689.fasta
+[15, 269, 340, 547, 708]
+__________________________________________________
+processing file: sim_consensus_alignment_69.fasta
+[98, 123, 191, 274, 614, 696, 712, 770]
+__________________________________________________
+processing file: sim_consensus_alignment_690.fasta
+[47, 317, 328, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_691.fasta
+[22, 237, 261, 294, 428, 433, 594, 720]
+__________________________________________________
+processing file: sim_consensus_alignment_692.fasta
+[60, 323, 334, 593, 722, 777, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_693.fasta
+[40]
+__________________________________________________
+processing file: sim_consensus_alignment_694.fasta
+[13, 45, 192, 336, 487, 561, 583, 600, 668, 674, 721, 834, 847]
+__________________________________________________
+processing file: sim_consensus_alignment_695.fasta
+[33, 38, 88, 200, 236, 305, 472, 483, 489, 736, 738, 804]
+__________________________________________________
+processing file: sim_consensus_alignment_696.fasta
+[32, 131, 184, 526, 721]
+__________________________________________________
+processing file: sim_consensus_alignment_697.fasta
+[10, 137, 180, 234, 417, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_698.fasta
+[274, 364, 703, 735]
+__________________________________________________
+processing file: sim_consensus_alignment_699.fasta
+[220, 326, 347, 414, 479, 628, 739, 760]
+__________________________________________________
+processing file: sim_consensus_alignment_7.fasta
+[114, 179, 356, 622, 653]
+__________________________________________________
+processing file: sim_consensus_alignment_70.fasta
+[8, 29, 312, 383, 410, 435, 493, 518, 667]
+__________________________________________________
+processing file: sim_consensus_alignment_700.fasta
+[52, 244, 252, 305, 373, 547, 551, 698, 754, 788, 809]
+__________________________________________________
+processing file: sim_consensus_alignment_701.fasta
+[22, 187, 191, 238, 389, 512, 606, 640]
+__________________________________________________
+processing file: sim_consensus_alignment_702.fasta
+[261, 573, 633]
+__________________________________________________
+processing file: sim_consensus_alignment_703.fasta
+[232, 289, 302, 311, 717, 787]
+__________________________________________________
+processing file: sim_consensus_alignment_704.fasta
+[372, 597, 600, 662, 702, 748, 749]
+__________________________________________________
+processing file: sim_consensus_alignment_705.fasta
+[62, 217, 230, 294, 331, 354, 488, 566, 837]
+__________________________________________________
+processing file: sim_consensus_alignment_706.fasta
+[127, 270, 320, 377, 507, 653, 654, 693, 721, 727, 814, 824, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_707.fasta
+[122, 161, 176, 248, 374, 540, 664, 817, 827, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_708.fasta
+[106, 292, 311, 450, 694, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_709.fasta
+[99, 398, 407, 451, 495, 653]
+__________________________________________________
+processing file: sim_consensus_alignment_71.fasta
+[174, 447, 507, 749]
+__________________________________________________
+processing file: sim_consensus_alignment_710.fasta
+[30, 409, 470, 613, 717, 740]
+__________________________________________________
+processing file: sim_consensus_alignment_711.fasta
+[149, 211, 368, 649]
+__________________________________________________
+processing file: sim_consensus_alignment_712.fasta
+[10, 129, 440, 465, 518, 695, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_713.fasta
+[100, 219, 237, 305, 349, 461, 494, 504]
+__________________________________________________
+processing file: sim_consensus_alignment_714.fasta
+[6, 74, 79, 86, 279, 710, 736, 751, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_715.fasta
+[11, 47, 54, 102, 221, 224, 308, 412, 458]
+__________________________________________________
+processing file: sim_consensus_alignment_716.fasta
+[339, 392, 605, 652, 688, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_717.fasta
+[8, 365, 563, 707]
+__________________________________________________
+processing file: sim_consensus_alignment_718.fasta
+[109, 262, 306, 355, 623]
+__________________________________________________
+processing file: sim_consensus_alignment_719.fasta
+[48, 72, 354, 477, 662, 715, 728, 831]
+__________________________________________________
+processing file: sim_consensus_alignment_72.fasta
+[82, 124, 137, 217, 229, 483, 592, 599, 633, 688, 719, 728, 781, 825]
+__________________________________________________
+processing file: sim_consensus_alignment_720.fasta
+[97, 115, 194, 641, 706, 748, 761]
+__________________________________________________
+processing file: sim_consensus_alignment_721.fasta
+[52, 102, 126, 160, 269, 357, 441, 465, 530, 708, 722, 738, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_722.fasta
+[67, 275, 478, 526, 560, 562]
+__________________________________________________
+processing file: sim_consensus_alignment_723.fasta
+[230, 668, 670, 698]
+__________________________________________________
+processing file: sim_consensus_alignment_724.fasta
+[42, 236, 595, 774, 811, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_725.fasta
+[52, 82, 163, 326, 335, 398, 735, 799]
+__________________________________________________
+processing file: sim_consensus_alignment_726.fasta
+[212, 293, 308, 344, 450, 506, 789, 798]
+__________________________________________________
+processing file: sim_consensus_alignment_727.fasta
+[130, 226, 240, 368, 376, 442, 550]
+__________________________________________________
+processing file: sim_consensus_alignment_728.fasta
+[33, 143, 155, 184, 460, 598, 611, 734]
+__________________________________________________
+processing file: sim_consensus_alignment_729.fasta
+[224, 281, 350, 451, 683]
+__________________________________________________
+processing file: sim_consensus_alignment_73.fasta
+[80, 206, 234, 245, 285, 393, 439, 476, 483, 559, 564, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_730.fasta
+[136, 214, 418, 474, 477, 518, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_731.fasta
+[25, 128, 164, 203, 254, 269, 292, 555, 709, 827]
+__________________________________________________
+processing file: sim_consensus_alignment_732.fasta
+[129, 405, 613, 637, 788, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_733.fasta
+[17, 69, 272]
+__________________________________________________
+processing file: sim_consensus_alignment_734.fasta
+[96, 152, 203, 407, 488, 519, 651, 681, 709]
+__________________________________________________
+processing file: sim_consensus_alignment_735.fasta
+[120, 210, 430, 757]
+__________________________________________________
+processing file: sim_consensus_alignment_736.fasta
+[326, 420, 730, 743]
+__________________________________________________
+processing file: sim_consensus_alignment_737.fasta
+[187, 482, 546, 607, 653, 752, 779, 822]
+__________________________________________________
+processing file: sim_consensus_alignment_738.fasta
+[73, 272, 288, 551, 607, 747, 751]
+__________________________________________________
+processing file: sim_consensus_alignment_739.fasta
+[10, 150, 238, 268, 269, 574, 612, 723]
+__________________________________________________
+processing file: sim_consensus_alignment_74.fasta
+[308, 330, 487, 557, 630, 639, 803, 815, 835]
+__________________________________________________
+processing file: sim_consensus_alignment_740.fasta
+[9, 94, 221, 618]
+__________________________________________________
+processing file: sim_consensus_alignment_741.fasta
+[52, 90, 185, 290, 291, 295, 499, 806]
+__________________________________________________
+processing file: sim_consensus_alignment_742.fasta
+[135, 148, 160, 258, 384, 555, 556, 557, 590, 632]
+__________________________________________________
+processing file: sim_consensus_alignment_743.fasta
+[125, 198, 613, 805, 818]
+__________________________________________________
+processing file: sim_consensus_alignment_744.fasta
+[244, 299, 547, 589, 735]
+__________________________________________________
+processing file: sim_consensus_alignment_745.fasta
+[94, 177, 223, 453, 511, 548, 655, 725, 746]
+__________________________________________________
+processing file: sim_consensus_alignment_746.fasta
+[41, 52, 86, 342, 594]
+__________________________________________________
+processing file: sim_consensus_alignment_747.fasta
+[51, 184, 200, 210, 212, 364, 595]
+__________________________________________________
+processing file: sim_consensus_alignment_748.fasta
+[115, 171, 653, 791, 796]
+__________________________________________________
+processing file: sim_consensus_alignment_749.fasta
+[86, 147, 179, 213, 259, 285, 297, 419, 529, 702, 723, 748]
+__________________________________________________
+processing file: sim_consensus_alignment_75.fasta
+[94, 109, 340, 389, 778, 807, 832]
+__________________________________________________
+processing file: sim_consensus_alignment_750.fasta
+[60, 137, 525, 645, 810, 821]
+__________________________________________________
+processing file: sim_consensus_alignment_751.fasta
+[18, 54, 112, 251, 313, 553, 555, 616, 638, 661, 792]
+__________________________________________________
+processing file: sim_consensus_alignment_752.fasta
+[52, 71, 164, 177, 244, 263, 323, 409, 628, 699, 714]
+__________________________________________________
+processing file: sim_consensus_alignment_753.fasta
+[140, 266, 389, 398, 552, 617, 654, 780, 816]
+__________________________________________________
+processing file: sim_consensus_alignment_754.fasta
+[10, 71, 516, 583, 673, 691]
+__________________________________________________
+processing file: sim_consensus_alignment_755.fasta
+[42, 304, 459, 489, 551, 616, 725, 731]
+__________________________________________________
+processing file: sim_consensus_alignment_756.fasta
+[193, 430, 442, 586, 603, 762]
+__________________________________________________
+processing file: sim_consensus_alignment_757.fasta
+[213, 227, 301, 451, 488, 678, 713]
+__________________________________________________
+processing file: sim_consensus_alignment_758.fasta
+[501, 773, 806, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_759.fasta
+[7, 46, 247, 550]
+__________________________________________________
+processing file: sim_consensus_alignment_76.fasta
+[27, 203, 769]
+__________________________________________________
+processing file: sim_consensus_alignment_760.fasta
+[120, 235, 386, 534, 682, 712]
+__________________________________________________
+processing file: sim_consensus_alignment_761.fasta
+[377, 563, 814]
+__________________________________________________
+processing file: sim_consensus_alignment_762.fasta
+[49, 51, 70, 106, 138, 277, 286, 295, 400, 422, 455, 607, 653]
+__________________________________________________
+processing file: sim_consensus_alignment_763.fasta
+[1, 118, 119, 197, 336, 444, 596, 710, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_764.fasta
+[98, 223, 303, 319, 334, 372, 547, 687, 755, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_765.fasta
+[45, 362, 413, 518, 590, 636, 653]
+__________________________________________________
+processing file: sim_consensus_alignment_766.fasta
+[155, 240, 371, 411]
+__________________________________________________
+processing file: sim_consensus_alignment_767.fasta
+[156, 158, 348, 602, 676, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_768.fasta
+[150, 354, 514, 537, 788, 813]
+__________________________________________________
+processing file: sim_consensus_alignment_769.fasta
+[359, 473, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_77.fasta
+[1, 125, 162, 494, 546, 646, 703, 712, 785, 793]
+__________________________________________________
+processing file: sim_consensus_alignment_770.fasta
+[85, 243, 281, 390, 621]
+__________________________________________________
+processing file: sim_consensus_alignment_771.fasta
+[14, 57, 102, 296, 308, 569, 577, 602, 731, 749, 811, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_772.fasta
+[173, 208, 754, 829]
+__________________________________________________
+processing file: sim_consensus_alignment_773.fasta
+[104, 458]
+__________________________________________________
+processing file: sim_consensus_alignment_774.fasta
+[70, 329, 511, 582, 626, 629, 693, 733]
+__________________________________________________
+processing file: sim_consensus_alignment_775.fasta
+[120, 166, 179, 191, 381, 587, 605, 796]
+__________________________________________________
+processing file: sim_consensus_alignment_776.fasta
+[0, 57, 286, 316, 344, 484, 585, 594]
+__________________________________________________
+processing file: sim_consensus_alignment_777.fasta
+[79, 150, 477, 609]
+__________________________________________________
+processing file: sim_consensus_alignment_778.fasta
+[157, 361, 434, 498, 611]
+__________________________________________________
+processing file: sim_consensus_alignment_779.fasta
+[183, 367, 569, 688, 722, 750, 798]
+__________________________________________________
+processing file: sim_consensus_alignment_78.fasta
+[9, 67, 111, 148, 193, 260, 330, 408, 578]
+__________________________________________________
+processing file: sim_consensus_alignment_780.fasta
+[117, 178, 195, 313, 362, 415, 536, 585, 754, 769, 783]
+__________________________________________________
+processing file: sim_consensus_alignment_781.fasta
+[105, 149, 352, 454, 591, 671, 687, 780]
+__________________________________________________
+processing file: sim_consensus_alignment_782.fasta
+[4, 34, 195, 284, 595, 669, 768, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_783.fasta
+[386, 751]
+__________________________________________________
+processing file: sim_consensus_alignment_784.fasta
+[2, 136, 244, 314, 331, 449, 489, 545, 614, 818, 824]
+__________________________________________________
+processing file: sim_consensus_alignment_785.fasta
+[8, 25, 193, 205, 490, 494, 667, 826]
+__________________________________________________
+processing file: sim_consensus_alignment_786.fasta
+[162, 228, 764]
+__________________________________________________
+processing file: sim_consensus_alignment_787.fasta
+[503, 545, 659, 790, 840]
+__________________________________________________
+processing file: sim_consensus_alignment_788.fasta
+[319, 383, 499]
+__________________________________________________
+processing file: sim_consensus_alignment_789.fasta
+[6, 89, 116, 186, 239, 297, 300, 301, 350, 372, 389, 412, 416, 488, 494, 521, 550, 564, 583, 704, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_79.fasta
+[31, 62]
+__________________________________________________
+processing file: sim_consensus_alignment_790.fasta
+[71, 167, 285, 575, 743, 787]
+__________________________________________________
+processing file: sim_consensus_alignment_791.fasta
+[188, 225, 324, 334, 366, 481, 624, 780, 823]
+__________________________________________________
+processing file: sim_consensus_alignment_792.fasta
+[33, 146, 151, 285, 287, 420, 561, 610, 664, 771]
+__________________________________________________
+processing file: sim_consensus_alignment_793.fasta
+[8, 38, 540, 616]
+__________________________________________________
+processing file: sim_consensus_alignment_794.fasta
+[19, 48, 70, 239, 241, 327, 384, 550, 588, 696]
+__________________________________________________
+processing file: sim_consensus_alignment_795.fasta
+[9, 42, 225, 467, 557, 568, 765, 784]
+__________________________________________________
+processing file: sim_consensus_alignment_796.fasta
+[125, 135, 140, 202, 701, 812, 842]
+__________________________________________________
+processing file: sim_consensus_alignment_797.fasta
+[72, 75, 257, 272, 306, 562, 746, 846]
+__________________________________________________
+processing file: sim_consensus_alignment_798.fasta
+[116, 187, 299, 346, 472, 736, 745, 774, 841]
+__________________________________________________
+processing file: sim_consensus_alignment_799.fasta
+[305, 418, 647, 756]
+__________________________________________________
+processing file: sim_consensus_alignment_8.fasta
+[74, 110, 146, 222, 259, 591, 650, 710, 715]
+__________________________________________________
+processing file: sim_consensus_alignment_80.fasta
+[120, 310, 326, 377, 508, 555, 578, 621, 665, 755]
+__________________________________________________
+processing file: sim_consensus_alignment_800.fasta
+[78, 221, 238, 287, 730, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_801.fasta
+[47, 167, 304, 335, 469, 584, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_802.fasta
+[132, 207, 226, 347, 469, 507]
+__________________________________________________
+processing file: sim_consensus_alignment_803.fasta
+[66, 170, 267, 383, 442, 475, 510, 541, 719]
+__________________________________________________
+processing file: sim_consensus_alignment_804.fasta
+[297, 466, 659]
+__________________________________________________
+processing file: sim_consensus_alignment_805.fasta
+[70, 378, 440, 562, 659, 703, 745]
+__________________________________________________
+processing file: sim_consensus_alignment_806.fasta
+[3, 48, 74, 117, 132, 158, 236, 243, 522, 602, 764, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_807.fasta
+[224, 288, 323, 592]
+__________________________________________________
+processing file: sim_consensus_alignment_808.fasta
+[98, 309, 437, 640, 687]
+__________________________________________________
+processing file: sim_consensus_alignment_809.fasta
+[795]
+__________________________________________________
+processing file: sim_consensus_alignment_81.fasta
+[72, 194, 301, 402, 433, 449, 450, 464, 514, 760, 768]
+__________________________________________________
+processing file: sim_consensus_alignment_810.fasta
+[84, 695, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_811.fasta
+[37, 138, 341, 353, 709, 845]
+__________________________________________________
+processing file: sim_consensus_alignment_812.fasta
+[154, 166, 328, 374, 620, 642, 729, 737]
+__________________________________________________
+processing file: sim_consensus_alignment_813.fasta
+[9, 40, 62, 76, 178, 249, 298, 320, 413, 457, 756]
+__________________________________________________
+processing file: sim_consensus_alignment_814.fasta
+[81, 184, 263, 279, 408, 469, 502, 691, 698, 735]
+__________________________________________________
+processing file: sim_consensus_alignment_815.fasta
+[23, 104, 172, 233, 303, 371, 519, 589, 592]
+__________________________________________________
+processing file: sim_consensus_alignment_816.fasta
+[95, 182, 183, 286, 298, 383, 473, 597, 721, 725]
+__________________________________________________
+processing file: sim_consensus_alignment_817.fasta
+[257, 270, 410, 520, 678, 784]
+__________________________________________________
+processing file: sim_consensus_alignment_818.fasta
+[9, 12, 30, 60, 119, 120, 148, 150, 163, 181, 211, 213, 216, 246, 249, 273, 283, 295, 306, 317, 357, 364, 367, 382, 383, 426, 428, 441, 469, 493, 500, 501, 513, 514, 533, 544, 564, 586, 614, 625, 642, 660, 669, 678, 688, 713, 717, 756, 771, 780, 791]
+__________________________________________________
+processing file: sim_consensus_alignment_819.fasta
+[25, 262, 612, 685]
+__________________________________________________
+processing file: sim_consensus_alignment_82.fasta
+[72, 174, 188, 294, 295, 379, 410, 494, 511, 599]
+__________________________________________________
+processing file: sim_consensus_alignment_820.fasta
+[110, 267, 323, 582, 803]
+__________________________________________________
+processing file: sim_consensus_alignment_83.fasta
+[146, 587, 642, 723, 812]
+__________________________________________________
+processing file: sim_consensus_alignment_84.fasta
+[7, 80, 157, 161, 175, 401, 548, 576, 602, 713, 811]
+__________________________________________________
+processing file: sim_consensus_alignment_85.fasta
+[177, 334]
+__________________________________________________
+processing file: sim_consensus_alignment_86.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: sim_consensus_alignment_87.fasta
+[155, 236, 265, 318, 710]
+__________________________________________________
+processing file: sim_consensus_alignment_88.fasta
+[14, 134, 143, 223, 431, 534, 683]
+__________________________________________________
+processing file: sim_consensus_alignment_89.fasta
+[67, 213, 255, 305, 397, 412, 414, 820]
+__________________________________________________
+processing file: sim_consensus_alignment_9.fasta
+[244, 357, 545, 578, 588]
+__________________________________________________
+processing file: sim_consensus_alignment_90.fasta
+[231, 316]
+__________________________________________________
+processing file: sim_consensus_alignment_91.fasta
+[24, 33, 90, 137, 173, 202, 249, 260, 337, 395, 399, 426, 661, 672]
+__________________________________________________
+processing file: sim_consensus_alignment_92.fasta
+[92, 165, 223, 272, 345, 360, 371, 388, 393, 523, 574, 700, 768, 795]
+__________________________________________________
+processing file: sim_consensus_alignment_93.fasta
+[36, 132, 242, 269, 291, 320, 371, 386, 516, 613, 627, 657, 683, 691, 715, 725, 771, 789, 834]
+__________________________________________________
+processing file: sim_consensus_alignment_94.fasta
+[14, 61, 498, 577]
+__________________________________________________
+processing file: sim_consensus_alignment_95.fasta
+[59, 158, 195, 211, 395, 618, 630, 797]
+__________________________________________________
+processing file: sim_consensus_alignment_96.fasta
+[20, 140, 258, 480, 504, 552]
+__________________________________________________
+processing file: sim_consensus_alignment_97.fasta
+[143, 399, 524, 561, 566, 627]
+__________________________________________________
+processing file: sim_consensus_alignment_98.fasta
+[50, 91, 167, 174, 213, 224, 300, 307, 477, 479, 711, 722, 724]
+__________________________________________________
+processing file: sim_consensus_alignment_99.fasta
+[56, 97, 165, 199, 260, 413, 618, 619, 815]

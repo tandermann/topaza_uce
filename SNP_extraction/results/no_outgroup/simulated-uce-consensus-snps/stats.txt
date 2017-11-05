@@ -1,0 +1,18 @@
+
+
+
+ ____________________________________________________
+|Launching SNP extraction script...                  |
+|                                                    |
+|Written by Tobias Hofmann, inspired by Yann Bertrand|
+|Version 1.1, August 2015                            |
+|____________________________________________________|
+
+
+Script is treating data as unphased alignment (add flag --phased to command if your data is phased)
+
+
+
+Sequences with missing data are not considered during SNP extraction (add flag --missing to command for higher SNP yield, including missing data)
+
+

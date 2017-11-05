@@ -1,0 +1,3298 @@
+
+
+
+ ____________________________________________________
+|Launching SNP extraction script...                  |
+|                                                    |
+|Written by Tobias Hofmann, inspired by Yann Bertrand|
+|Version 1.1, August 2015                            |
+|____________________________________________________|
+
+
+Script is treating data as unphased alignment (add flag --phased to command if your data is phased)
+
+
+
+Sequences with missing data are not considered during SNP extraction (add flag --missing to command for higher SNP yield, including missing data)
+
+
+__________________________________________________
+processing file: uce-101.fasta
+[778, 783, 874]
+sampling position 783
+__________________________________________________
+processing file: uce-103.fasta
+[52, 53, 224]
+sampling position 224
+__________________________________________________
+processing file: uce-1035.fasta
+[166, 333, 553]
+sampling position 553
+__________________________________________________
+processing file: uce-1038.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1043.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1055.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1061.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1064.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1068.fasta
+[203, 451, 528, 840]
+sampling position 451
+__________________________________________________
+processing file: uce-1069.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-11.fasta
+[737, 879]
+sampling position 879
+__________________________________________________
+processing file: uce-1100.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1148.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1162.fasta
+[110, 765, 781, 867]
+sampling position 110
+__________________________________________________
+processing file: uce-117.fasta
+[800]
+sampling position 800
+__________________________________________________
+processing file: uce-1170.fasta
+[16, 128, 138, 213, 239, 292, 689]
+sampling position 689
+__________________________________________________
+processing file: uce-1177.fasta
+[63, 91, 101, 118, 164, 277]
+sampling position 91
+__________________________________________________
+processing file: uce-1185.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1187.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1252.fasta
+[158, 271]
+sampling position 271
+__________________________________________________
+processing file: uce-1253.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1271.fasta
+[549, 606]
+sampling position 549
+__________________________________________________
+processing file: uce-1286.fasta
+[281]
+sampling position 281
+__________________________________________________
+processing file: uce-1288.fasta
+[440, 603]
+sampling position 440
+__________________________________________________
+processing file: uce-129.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1297.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1305.fasta
+[118, 220, 343, 348, 355, 434, 631]
+sampling position 631
+__________________________________________________
+processing file: uce-1323.fasta
+[254, 697, 699, 707, 708]
+sampling position 699
+__________________________________________________
+processing file: uce-1333.fasta
+[328, 635, 676, 685, 692]
+sampling position 635
+__________________________________________________
+processing file: uce-1354.fasta
+[117, 390]
+sampling position 390
+__________________________________________________
+processing file: uce-1361.fasta
+[132, 200, 259, 281, 353, 385, 401, 484]
+sampling position 281
+__________________________________________________
+processing file: uce-1362.fasta
+[200]
+sampling position 200
+__________________________________________________
+processing file: uce-1367.fasta
+[154, 158, 196, 252, 870]
+sampling position 158
+__________________________________________________
+processing file: uce-1389.fasta
+[795]
+sampling position 795
+__________________________________________________
+processing file: uce-1393.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1395.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1396.fasta
+[7]
+sampling position 7
+__________________________________________________
+processing file: uce-1410.fasta
+[92, 174, 352]
+sampling position 352
+__________________________________________________
+processing file: uce-1415.fasta
+[782]
+sampling position 782
+__________________________________________________
+processing file: uce-1417.fasta
+[144, 329, 635]
+sampling position 329
+__________________________________________________
+processing file: uce-142.fasta
+[112, 173, 256, 272, 275, 328, 414, 415, 590, 758, 771, 858]
+sampling position 415
+__________________________________________________
+processing file: uce-1430.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1446.fasta
+[256, 337, 369, 477, 888, 954]
+sampling position 954
+__________________________________________________
+processing file: uce-1454.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1471.fasta
+[245]
+sampling position 245
+__________________________________________________
+processing file: uce-149.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1497.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1506.fasta
+[277]
+sampling position 277
+__________________________________________________
+processing file: uce-1520.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1533.fasta
+[713]
+sampling position 713
+__________________________________________________
+processing file: uce-1540.fasta
+[106, 116, 176, 197, 432]
+sampling position 197
+__________________________________________________
+processing file: uce-1544.fasta
+[106, 156, 194, 200, 247, 249, 258, 283, 683]
+sampling position 247
+__________________________________________________
+processing file: uce-1555.fasta
+[649]
+sampling position 649
+__________________________________________________
+processing file: uce-1558.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1560.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1561.fasta
+[136, 252, 528, 663, 772, 811, 921, 962]
+sampling position 962
+__________________________________________________
+processing file: uce-1565.fasta
+[491]
+sampling position 491
+__________________________________________________
+processing file: uce-1568.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1570.fasta
+[51, 54, 98, 239, 313, 336]
+sampling position 51
+__________________________________________________
+processing file: uce-1600.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1601.fasta
+[385]
+sampling position 385
+__________________________________________________
+processing file: uce-1610.fasta
+[323, 341]
+sampling position 341
+__________________________________________________
+processing file: uce-1614.fasta
+[45, 100]
+sampling position 100
+__________________________________________________
+processing file: uce-1618.fasta
+[348]
+sampling position 348
+__________________________________________________
+processing file: uce-1622.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1629.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1630.fasta
+[80, 120, 210]
+sampling position 120
+__________________________________________________
+processing file: uce-1643.fasta
+[260, 758]
+sampling position 758
+__________________________________________________
+processing file: uce-1652.fasta
+[74, 76, 220, 221, 436, 437, 439, 441, 442, 443, 623]
+sampling position 442
+__________________________________________________
+processing file: uce-1675.fasta
+[220, 553, 758, 812, 816, 867]
+sampling position 867
+__________________________________________________
+processing file: uce-1677.fasta
+[441, 455, 489]
+sampling position 441
+__________________________________________________
+processing file: uce-1680.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-169.fasta
+[747]
+sampling position 747
+__________________________________________________
+processing file: uce-1702.fasta
+[149, 520, 545, 585, 597, 600, 670, 794, 799]
+sampling position 545
+__________________________________________________
+processing file: uce-1708.fasta
+[62, 69, 236, 804]
+sampling position 62
+__________________________________________________
+processing file: uce-1718.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-172.fasta
+[658, 780, 782]
+sampling position 658
+__________________________________________________
+processing file: uce-1723.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1749.fasta
+[123, 169, 268]
+sampling position 169
+__________________________________________________
+processing file: uce-1753.fasta
+[398, 416, 442]
+sampling position 398
+__________________________________________________
+processing file: uce-1765.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1770.fasta
+[112, 305]
+sampling position 112
+__________________________________________________
+processing file: uce-1781.fasta
+[120, 179, 294, 332, 359, 513]
+sampling position 513
+__________________________________________________
+processing file: uce-1783.fasta
+[186, 197, 245, 277]
+sampling position 245
+__________________________________________________
+processing file: uce-180.fasta
+[735, 895]
+sampling position 895
+__________________________________________________
+processing file: uce-1802.fasta
+[136, 176, 188, 209, 210, 602]
+sampling position 210
+__________________________________________________
+processing file: uce-1804.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-181.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1834.fasta
+[39, 55, 76]
+sampling position 55
+__________________________________________________
+processing file: uce-1835.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1850.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1858.fasta
+[221, 426]
+sampling position 426
+__________________________________________________
+processing file: uce-1859.fasta
+[335, 356]
+sampling position 356
+__________________________________________________
+processing file: uce-1884.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1888.fasta
+[156]
+sampling position 156
+__________________________________________________
+processing file: uce-1896.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1899.fasta
+[290]
+sampling position 290
+__________________________________________________
+processing file: uce-19.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1908.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1915.fasta
+[113, 160, 189, 202, 247, 248, 312, 363, 694, 813, 822]
+sampling position 312
+__________________________________________________
+processing file: uce-1917.fasta
+[474]
+sampling position 474
+__________________________________________________
+processing file: uce-1956.fasta
+[316]
+sampling position 316
+__________________________________________________
+processing file: uce-1985.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1998.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-200.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-201.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2016.fasta
+[132, 174, 216, 217]
+sampling position 132
+__________________________________________________
+processing file: uce-2021.fasta
+[210]
+sampling position 210
+__________________________________________________
+processing file: uce-2023.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2036.fasta
+[482]
+sampling position 482
+__________________________________________________
+processing file: uce-2043.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2045.fasta
+[298, 318, 335]
+sampling position 298
+__________________________________________________
+processing file: uce-2048.fasta
+[161, 804]
+sampling position 161
+__________________________________________________
+processing file: uce-2051.fasta
+[671, 780]
+sampling position 780
+__________________________________________________
+processing file: uce-2052.fasta
+[52, 277, 699]
+sampling position 699
+__________________________________________________
+processing file: uce-2053.fasta
+[125, 140]
+sampling position 140
+__________________________________________________
+processing file: uce-2055.fasta
+[610]
+sampling position 610
+__________________________________________________
+processing file: uce-2075.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2114.fasta
+[386]
+sampling position 386
+__________________________________________________
+processing file: uce-2116.fasta
+[116]
+sampling position 116
+__________________________________________________
+processing file: uce-2126.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2138.fasta
+[110, 755]
+sampling position 110
+__________________________________________________
+processing file: uce-2146.fasta
+[275, 600, 610, 650, 665, 675, 683, 725, 735, 747, 770]
+sampling position 735
+__________________________________________________
+processing file: uce-2160.fasta
+[89, 128, 475]
+sampling position 89
+__________________________________________________
+processing file: uce-2169.fasta
+[256, 305, 344]
+sampling position 256
+__________________________________________________
+processing file: uce-2190.fasta
+[581, 582, 844]
+sampling position 844
+__________________________________________________
+processing file: uce-2202.fasta
+[77]
+sampling position 77
+__________________________________________________
+processing file: uce-2209.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2219.fasta
+[766, 844, 849, 856]
+sampling position 844
+__________________________________________________
+processing file: uce-2223.fasta
+[706]
+sampling position 706
+__________________________________________________
+processing file: uce-2235.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2246.fasta
+[724, 730]
+sampling position 724
+__________________________________________________
+processing file: uce-2252.fasta
+[744]
+sampling position 744
+__________________________________________________
+processing file: uce-2259.fasta
+[76, 92, 287, 943]
+sampling position 92
+__________________________________________________
+processing file: uce-2261.fasta
+[167, 171, 179, 219, 368]
+sampling position 171
+__________________________________________________
+processing file: uce-2262.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2274.fasta
+[74, 153, 233, 271, 661]
+sampling position 271
+__________________________________________________
+processing file: uce-2328.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2334.fasta
+[487, 634, 869, 922]
+sampling position 487
+__________________________________________________
+processing file: uce-2335.fasta
+[224, 788, 804, 815, 825, 886]
+sampling position 224
+__________________________________________________
+processing file: uce-2336.fasta
+[156, 272, 292, 414]
+sampling position 156
+__________________________________________________
+processing file: uce-234.fasta
+[211, 258, 357]
+sampling position 211
+__________________________________________________
+processing file: uce-2340.fasta
+[306, 664]
+sampling position 664
+__________________________________________________
+processing file: uce-2349.fasta
+[110, 275, 313]
+sampling position 313
+__________________________________________________
+processing file: uce-2353.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2378.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2379.fasta
+[452]
+sampling position 452
+__________________________________________________
+processing file: uce-2383.fasta
+[115, 140, 204, 217, 290]
+sampling position 217
+__________________________________________________
+processing file: uce-2387.fasta
+[497, 819, 852, 897, 921]
+sampling position 921
+__________________________________________________
+processing file: uce-2397.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-24.fasta
+[169, 203, 251, 301]
+sampling position 203
+__________________________________________________
+processing file: uce-2435.fasta
+[115, 348]
+sampling position 348
+__________________________________________________
+processing file: uce-2444.fasta
+[610, 612, 648]
+sampling position 612
+__________________________________________________
+processing file: uce-2445.fasta
+[362, 755, 918, 957, 970]
+sampling position 970
+__________________________________________________
+processing file: uce-2456.fasta
+[134, 576]
+sampling position 576
+__________________________________________________
+processing file: uce-2465.fasta
+[400]
+sampling position 400
+__________________________________________________
+processing file: uce-2468.fasta
+[664, 691, 692, 693, 695, 696, 698, 721, 722, 744, 821, 843]
+sampling position 843
+__________________________________________________
+processing file: uce-2487.fasta
+[458]
+sampling position 458
+__________________________________________________
+processing file: uce-2538.fasta
+[158, 159, 384]
+sampling position 384
+__________________________________________________
+processing file: uce-2541.fasta
+[522, 608, 731]
+sampling position 608
+__________________________________________________
+processing file: uce-2552.fasta
+[61, 83, 193, 239]
+sampling position 83
+__________________________________________________
+processing file: uce-256.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2578.fasta
+[436]
+sampling position 436
+__________________________________________________
+processing file: uce-2592.fasta
+[73, 197, 204, 764, 799, 876]
+sampling position 876
+__________________________________________________
+processing file: uce-2598.fasta
+[751]
+sampling position 751
+__________________________________________________
+processing file: uce-261.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2613.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2625.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2647.fasta
+[179, 334]
+sampling position 179
+__________________________________________________
+processing file: uce-2666.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2701.fasta
+[257, 383, 519, 615]
+sampling position 519
+__________________________________________________
+processing file: uce-2713.fasta
+[131, 163, 204, 613, 725]
+sampling position 613
+__________________________________________________
+processing file: uce-2735.fasta
+[134, 168, 183, 272, 703, 704]
+sampling position 272
+__________________________________________________
+processing file: uce-2771.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2777.fasta
+[135, 162, 217]
+sampling position 135
+__________________________________________________
+processing file: uce-2780.fasta
+[98, 252, 576, 577]
+sampling position 252
+__________________________________________________
+processing file: uce-2797.fasta
+[778]
+sampling position 778
+__________________________________________________
+processing file: uce-2828.fasta
+[739, 796, 843]
+sampling position 796
+__________________________________________________
+processing file: uce-2842.fasta
+[412, 413, 624, 627]
+sampling position 413
+__________________________________________________
+processing file: uce-285.fasta
+[162, 181, 262, 277, 701, 702, 708, 777]
+sampling position 162
+__________________________________________________
+processing file: uce-2851.fasta
+[503]
+sampling position 503
+__________________________________________________
+processing file: uce-2853.fasta
+[117, 564, 734, 771, 777, 917]
+sampling position 117
+__________________________________________________
+processing file: uce-286.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2874.fasta
+[444]
+sampling position 444
+__________________________________________________
+processing file: uce-2897.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2899.fasta
+[101, 130, 244, 285, 287, 288, 289, 309]
+sampling position 309
+__________________________________________________
+processing file: uce-290.fasta
+[120, 181, 271]
+sampling position 181
+__________________________________________________
+processing file: uce-2908.fasta
+[730]
+sampling position 730
+__________________________________________________
+processing file: uce-2910.fasta
+[60, 77, 128, 544]
+sampling position 544
+__________________________________________________
+processing file: uce-2915.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2933.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2936.fasta
+[277, 304]
+sampling position 277
+__________________________________________________
+processing file: uce-294.fasta
+[302, 500]
+sampling position 302
+__________________________________________________
+processing file: uce-2943.fasta
+[104, 150, 154, 164, 165, 256, 383]
+sampling position 164
+__________________________________________________
+processing file: uce-2950.fasta
+[499, 500, 618, 638, 818]
+sampling position 818
+__________________________________________________
+processing file: uce-2965.fasta
+[411]
+sampling position 411
+__________________________________________________
+processing file: uce-2968.fasta
+[363, 487, 507, 521, 527]
+sampling position 527
+__________________________________________________
+processing file: uce-2978.fasta
+[202, 222, 269]
+sampling position 222
+__________________________________________________
+processing file: uce-2992.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2994.fasta
+[557, 631, 680, 682]
+sampling position 631
+__________________________________________________
+processing file: uce-2998.fasta
+[449, 481]
+sampling position 481
+__________________________________________________
+processing file: uce-3014.fasta
+[330, 430, 685, 701, 817]
+sampling position 330
+__________________________________________________
+processing file: uce-3024.fasta
+[55, 67, 68, 123, 552, 621]
+sampling position 123
+__________________________________________________
+processing file: uce-3026.fasta
+[169, 195, 249]
+sampling position 169
+__________________________________________________
+processing file: uce-3030.fasta
+[520, 525, 602, 604, 637, 751]
+sampling position 604
+__________________________________________________
+processing file: uce-3046.fasta
+[33, 42]
+sampling position 42
+__________________________________________________
+processing file: uce-3054.fasta
+[593, 602, 738, 757]
+sampling position 757
+__________________________________________________
+processing file: uce-3067.fasta
+[92, 110]
+sampling position 110
+__________________________________________________
+processing file: uce-3079.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-309.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3096.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3097.fasta
+[89, 729]
+sampling position 729
+__________________________________________________
+processing file: uce-3101.fasta
+[331, 342]
+sampling position 331
+__________________________________________________
+processing file: uce-3114.fasta
+[191, 304]
+sampling position 304
+__________________________________________________
+processing file: uce-3116.fasta
+[158, 272]
+sampling position 158
+__________________________________________________
+processing file: uce-3117.fasta
+[382]
+sampling position 382
+__________________________________________________
+processing file: uce-3121.fasta
+[406, 408, 409, 428, 431, 432, 433, 434, 440, 441, 442, 443, 449, 455, 458, 461, 471, 473, 476, 479, 482, 494, 500, 506, 511, 512, 518, 524, 536, 546]
+sampling position 524
+__________________________________________________
+processing file: uce-3129.fasta
+[364]
+sampling position 364
+__________________________________________________
+processing file: uce-3130.fasta
+[205, 213, 225]
+sampling position 225
+__________________________________________________
+processing file: uce-3141.fasta
+[35]
+sampling position 35
+__________________________________________________
+processing file: uce-3152.fasta
+[145, 333, 631]
+sampling position 145
+__________________________________________________
+processing file: uce-3163.fasta
+[275, 301, 311, 331, 433, 548]
+sampling position 548
+__________________________________________________
+processing file: uce-3181.fasta
+[67, 87, 98, 386, 551, 554, 625, 700, 762, 790]
+sampling position 551
+__________________________________________________
+processing file: uce-3188.fasta
+[477]
+sampling position 477
+__________________________________________________
+processing file: uce-319.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3224.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3235.fasta
+[175, 214, 269, 385, 423, 653, 857, 871]
+sampling position 857
+__________________________________________________
+processing file: uce-3248.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3258.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3260.fasta
+[433, 658, 659]
+sampling position 658
+__________________________________________________
+processing file: uce-3263.fasta
+[368]
+sampling position 368
+__________________________________________________
+processing file: uce-3277.fasta
+[123, 215, 868]
+sampling position 123
+__________________________________________________
+processing file: uce-3279.fasta
+[219, 265, 301, 370]
+sampling position 370
+__________________________________________________
+processing file: uce-3280.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3287.fasta
+[505, 559]
+sampling position 559
+__________________________________________________
+processing file: uce-3314.fasta
+[415, 455]
+sampling position 455
+__________________________________________________
+processing file: uce-3318.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3323.fasta
+[642]
+sampling position 642
+__________________________________________________
+processing file: uce-3326.fasta
+[135, 231, 516, 657]
+sampling position 516
+__________________________________________________
+processing file: uce-3329.fasta
+[153, 164, 174, 385]
+sampling position 174
+__________________________________________________
+processing file: uce-3334.fasta
+[239, 464, 593, 619]
+sampling position 239
+__________________________________________________
+processing file: uce-3337.fasta
+[537, 561, 597, 693, 732, 746, 786]
+sampling position 537
+__________________________________________________
+processing file: uce-3338.fasta
+[406]
+sampling position 406
+__________________________________________________
+processing file: uce-3368.fasta
+[437, 627, 639]
+sampling position 639
+__________________________________________________
+processing file: uce-3381.fasta
+[678, 681, 687, 751, 816, 833, 846, 875, 904, 912, 947]
+sampling position 947
+__________________________________________________
+processing file: uce-3384.fasta
+[128, 194]
+sampling position 194
+__________________________________________________
+processing file: uce-34.fasta
+[88, 121, 167, 171, 300, 371]
+sampling position 371
+__________________________________________________
+processing file: uce-3400.fasta
+[483]
+sampling position 483
+__________________________________________________
+processing file: uce-3406.fasta
+[119, 619]
+sampling position 119
+__________________________________________________
+processing file: uce-3421.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3429.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3430.fasta
+[439]
+sampling position 439
+__________________________________________________
+processing file: uce-3441.fasta
+[101, 132, 159, 273, 528, 538, 557, 589, 646, 654]
+sampling position 273
+__________________________________________________
+processing file: uce-3442.fasta
+[84]
+sampling position 84
+__________________________________________________
+processing file: uce-3443.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3451.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3462.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3469.fasta
+[633, 765, 793, 853]
+sampling position 765
+__________________________________________________
+processing file: uce-3472.fasta
+[161, 181, 221, 238, 248, 278, 505, 547, 631, 633, 638, 675, 752, 761, 768, 839, 846]
+sampling position 181
+__________________________________________________
+processing file: uce-3479.fasta
+[161, 793, 816, 852, 907, 910]
+sampling position 161
+__________________________________________________
+processing file: uce-3483.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3486.fasta
+[178, 231, 289, 662, 696]
+sampling position 231
+__________________________________________________
+processing file: uce-3493.fasta
+[193, 247, 311]
+sampling position 247
+__________________________________________________
+processing file: uce-350.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3501.fasta
+[502, 563, 572, 585, 696, 705]
+sampling position 572
+__________________________________________________
+processing file: uce-3504.fasta
+[906, 968]
+sampling position 906
+__________________________________________________
+processing file: uce-351.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3517.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3528.fasta
+[359]
+sampling position 359
+__________________________________________________
+processing file: uce-353.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3546.fasta
+[128, 147, 268, 571, 620]
+sampling position 268
+__________________________________________________
+processing file: uce-3554.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3555.fasta
+[205, 306]
+sampling position 306
+__________________________________________________
+processing file: uce-3560.fasta
+[116, 207, 220]
+sampling position 116
+__________________________________________________
+processing file: uce-3569.fasta
+[131, 550, 653]
+sampling position 653
+__________________________________________________
+processing file: uce-3583.fasta
+[120, 134, 163, 247]
+sampling position 163
+__________________________________________________
+processing file: uce-3586.fasta
+[470, 489, 731, 873]
+sampling position 489
+__________________________________________________
+processing file: uce-3589.fasta
+[565]
+sampling position 565
+__________________________________________________
+processing file: uce-360.fasta
+[612, 662, 881, 882, 915, 992]
+sampling position 612
+__________________________________________________
+processing file: uce-3601.fasta
+[630]
+sampling position 630
+__________________________________________________
+processing file: uce-3606.fasta
+[203, 227, 246, 276, 277, 319, 320, 321, 723, 773, 781, 905]
+sampling position 203
+__________________________________________________
+processing file: uce-3638.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3644.fasta
+[57, 132, 169, 241, 371, 598, 714, 783, 821]
+sampling position 714
+__________________________________________________
+processing file: uce-3647.fasta
+[136, 229, 275, 278, 299, 712]
+sampling position 229
+__________________________________________________
+processing file: uce-3656.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3661.fasta
+[535, 543, 607]
+sampling position 543
+__________________________________________________
+processing file: uce-3664.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3667.fasta
+[55]
+sampling position 55
+__________________________________________________
+processing file: uce-3668.fasta
+[344]
+sampling position 344
+__________________________________________________
+processing file: uce-3669.fasta
+[242, 309, 352, 370]
+sampling position 370
+__________________________________________________
+processing file: uce-3670.fasta
+[163, 355, 716, 795]
+sampling position 795
+__________________________________________________
+processing file: uce-3671.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3675.fasta
+[138, 185, 274, 407, 473, 475]
+sampling position 274
+__________________________________________________
+processing file: uce-3681.fasta
+[88, 153, 313, 314, 315]
+sampling position 153
+__________________________________________________
+processing file: uce-3682.fasta
+[317, 553, 775, 909, 923]
+sampling position 909
+__________________________________________________
+processing file: uce-3683.fasta
+[598, 600, 668, 719, 728, 782, 814, 848, 869, 870, 883]
+sampling position 869
+__________________________________________________
+processing file: uce-3689.fasta
+[430, 469]
+sampling position 430
+__________________________________________________
+processing file: uce-3692.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3693.fasta
+[557, 646, 656, 691, 747, 754, 789, 790]
+sampling position 646
+__________________________________________________
+processing file: uce-3694.fasta
+[253]
+sampling position 253
+__________________________________________________
+processing file: uce-3697.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3698.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3714.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3720.fasta
+[262]
+sampling position 262
+__________________________________________________
+processing file: uce-3725.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3731.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3734.fasta
+[404, 430]
+sampling position 404
+__________________________________________________
+processing file: uce-3742.fasta
+[398, 407, 435]
+sampling position 407
+__________________________________________________
+processing file: uce-3743.fasta
+[372]
+sampling position 372
+__________________________________________________
+processing file: uce-3770.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3771.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3772.fasta
+[118, 135, 168, 285, 296, 658, 675]
+sampling position 658
+__________________________________________________
+processing file: uce-3788.fasta
+[157, 242, 483]
+sampling position 483
+__________________________________________________
+processing file: uce-3792.fasta
+[130]
+sampling position 130
+__________________________________________________
+processing file: uce-3798.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3814.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3824.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3831.fasta
+[268, 309, 375, 390]
+sampling position 390
+__________________________________________________
+processing file: uce-3835.fasta
+[733, 735, 760, 940]
+sampling position 733
+__________________________________________________
+processing file: uce-385.fasta
+[563]
+sampling position 563
+__________________________________________________
+processing file: uce-3851.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3860.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3862.fasta
+[799, 907]
+sampling position 799
+__________________________________________________
+processing file: uce-3864.fasta
+[128, 309, 315, 398, 547, 554, 667]
+sampling position 554
+__________________________________________________
+processing file: uce-3871.fasta
+[459, 472]
+sampling position 459
+__________________________________________________
+processing file: uce-3874.fasta
+[128, 246, 266, 364, 654, 662, 680, 720, 776]
+sampling position 680
+__________________________________________________
+processing file: uce-3890.fasta
+[58, 74, 213, 679, 762]
+sampling position 58
+__________________________________________________
+processing file: uce-39.fasta
+[153, 222, 299, 411]
+sampling position 299
+__________________________________________________
+processing file: uce-3901.fasta
+[71, 235, 428, 497, 522]
+sampling position 428
+__________________________________________________
+processing file: uce-3903.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3905.fasta
+[453, 861]
+sampling position 861
+__________________________________________________
+processing file: uce-3907.fasta
+[146]
+sampling position 146
+__________________________________________________
+processing file: uce-3911.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3917.fasta
+[303, 346, 377]
+sampling position 377
+__________________________________________________
+processing file: uce-3929.fasta
+[580, 706, 713, 796, 800, 829, 928]
+sampling position 800
+__________________________________________________
+processing file: uce-3937.fasta
+[488, 611]
+sampling position 488
+__________________________________________________
+processing file: uce-3939.fasta
+[172, 183, 224, 432, 466, 705]
+sampling position 224
+__________________________________________________
+processing file: uce-3957.fasta
+[104, 139, 246, 340, 589, 623]
+sampling position 623
+__________________________________________________
+processing file: uce-3973.fasta
+[133, 232, 249, 504, 553, 560, 625, 639, 644, 740, 759]
+sampling position 504
+__________________________________________________
+processing file: uce-3976.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3982.fasta
+[250]
+sampling position 250
+__________________________________________________
+processing file: uce-3989.fasta
+[769, 770, 818, 824, 879, 901, 916, 935]
+sampling position 935
+__________________________________________________
+processing file: uce-4023.fasta
+[117, 118, 602]
+sampling position 117
+__________________________________________________
+processing file: uce-4026.fasta
+[534, 644, 687, 718, 772, 887]
+sampling position 772
+__________________________________________________
+processing file: uce-4035.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4045.fasta
+[191, 683, 772]
+sampling position 683
+__________________________________________________
+processing file: uce-4050.fasta
+[77, 100, 142, 153, 257, 278, 326, 331, 700, 705]
+sampling position 700
+__________________________________________________
+processing file: uce-4066.fasta
+[111, 134, 213, 248, 705, 782, 823]
+sampling position 782
+__________________________________________________
+processing file: uce-4075.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4078.fasta
+[151, 254]
+sampling position 151
+__________________________________________________
+processing file: uce-4080.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4091.fasta
+[585, 601, 611, 645, 819]
+sampling position 601
+__________________________________________________
+processing file: uce-41.fasta
+[221, 277, 364, 452]
+sampling position 452
+__________________________________________________
+processing file: uce-4110.fasta
+[234, 236, 264, 295, 310]
+sampling position 310
+__________________________________________________
+processing file: uce-4114.fasta
+[254, 293, 788, 885, 887, 934]
+sampling position 254
+__________________________________________________
+processing file: uce-4124.fasta
+[109, 123, 556, 563]
+sampling position 123
+__________________________________________________
+processing file: uce-4143.fasta
+[63, 90, 139, 167, 225, 235, 498, 510, 577, 583, 645]
+sampling position 167
+__________________________________________________
+processing file: uce-4151.fasta
+[211]
+sampling position 211
+__________________________________________________
+processing file: uce-4155.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4166.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4173.fasta
+[591, 638, 702]
+sampling position 591
+__________________________________________________
+processing file: uce-4175.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4176.fasta
+[303, 361, 699]
+sampling position 303
+__________________________________________________
+processing file: uce-4181.fasta
+[627, 633, 724]
+sampling position 633
+__________________________________________________
+processing file: uce-4184.fasta
+[236, 346, 683, 756, 768, 818]
+sampling position 346
+__________________________________________________
+processing file: uce-4189.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-42.fasta
+[705, 796, 888, 926]
+sampling position 796
+__________________________________________________
+processing file: uce-4205.fasta
+[163, 254, 327]
+sampling position 163
+__________________________________________________
+processing file: uce-4207.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4208.fasta
+[322, 387, 591, 626, 797, 868]
+sampling position 591
+__________________________________________________
+processing file: uce-421.fasta
+[43, 99, 116, 193, 869]
+sampling position 99
+__________________________________________________
+processing file: uce-4215.fasta
+[188, 337, 563]
+sampling position 337
+__________________________________________________
+processing file: uce-4217.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4232.fasta
+[322, 612, 658, 736, 809, 815]
+sampling position 815
+__________________________________________________
+processing file: uce-4237.fasta
+[112, 182, 314]
+sampling position 112
+__________________________________________________
+processing file: uce-4261.fasta
+[181, 183, 206, 222, 260, 299, 338, 598]
+sampling position 598
+__________________________________________________
+processing file: uce-4274.fasta
+[241, 319, 636]
+sampling position 241
+__________________________________________________
+processing file: uce-4279.fasta
+[579, 595]
+sampling position 579
+__________________________________________________
+processing file: uce-4284.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4285.fasta
+[205, 275, 293, 554, 566, 569, 583, 587, 592, 684, 720]
+sampling position 720
+__________________________________________________
+processing file: uce-4300.fasta
+[336]
+sampling position 336
+__________________________________________________
+processing file: uce-4308.fasta
+[22, 79, 172, 330, 676]
+sampling position 79
+__________________________________________________
+processing file: uce-4311.fasta
+[216, 257, 551, 552, 554, 556, 650, 807]
+sampling position 216
+__________________________________________________
+processing file: uce-4312.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4338.fasta
+[78, 85, 115, 155, 184, 239, 240, 402, 478, 618, 692, 765, 787, 804, 828, 841, 881, 940, 941]
+sampling position 240
+__________________________________________________
+processing file: uce-4342.fasta
+[188, 281, 294, 685]
+sampling position 294
+__________________________________________________
+processing file: uce-4343.fasta
+[255, 338, 370, 682, 775]
+sampling position 338
+__________________________________________________
+processing file: uce-4347.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4349.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4356.fasta
+[209, 262, 582, 721, 798]
+sampling position 798
+__________________________________________________
+processing file: uce-4363.fasta
+[65, 102, 131, 136, 158, 162, 544, 794]
+sampling position 544
+__________________________________________________
+processing file: uce-4371.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4389.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4400.fasta
+[297]
+sampling position 297
+__________________________________________________
+processing file: uce-4402.fasta
+[157, 182, 287, 304, 315, 319, 343, 530]
+sampling position 315
+__________________________________________________
+processing file: uce-4403.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4416.fasta
+[105, 125, 161, 235, 243, 331, 350]
+sampling position 235
+__________________________________________________
+processing file: uce-443.fasta
+[443]
+sampling position 443
+__________________________________________________
+processing file: uce-4434.fasta
+[183]
+sampling position 183
+__________________________________________________
+processing file: uce-4445.fasta
+[154, 174, 234, 235, 247, 374, 382, 400, 441, 675, 824]
+sampling position 247
+__________________________________________________
+processing file: uce-4465.fasta
+[103, 104, 207, 251, 258, 268, 439]
+sampling position 258
+__________________________________________________
+processing file: uce-4466.fasta
+[145]
+sampling position 145
+__________________________________________________
+processing file: uce-4473.fasta
+[214, 300, 349]
+sampling position 349
+__________________________________________________
+processing file: uce-4482.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4486.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4500.fasta
+[231, 363]
+sampling position 363
+__________________________________________________
+processing file: uce-4509.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4516.fasta
+[203, 243, 332, 679, 708, 768, 786, 853]
+sampling position 203
+__________________________________________________
+processing file: uce-453.fasta
+[244, 585]
+sampling position 244
+__________________________________________________
+processing file: uce-4531.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4534.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4535.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4536.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4570.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4580.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4588.fasta
+[406, 718, 736, 744, 754, 755]
+sampling position 736
+__________________________________________________
+processing file: uce-4606.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4612.fasta
+[144, 148, 151, 152, 181, 182, 195, 217, 225, 230, 237, 272, 462]
+sampling position 272
+__________________________________________________
+processing file: uce-4618.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-463.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4638.fasta
+[123, 138, 145]
+sampling position 145
+__________________________________________________
+processing file: uce-4640.fasta
+[79, 149, 154, 189, 226, 251, 550, 646]
+sampling position 226
+__________________________________________________
+processing file: uce-4673.fasta
+[210, 717]
+sampling position 210
+__________________________________________________
+processing file: uce-4679.fasta
+[416, 700, 744, 810, 822, 853]
+sampling position 744
+__________________________________________________
+processing file: uce-4690.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4699.fasta
+[17, 20, 42, 46, 76]
+sampling position 17
+__________________________________________________
+processing file: uce-4707.fasta
+[123]
+sampling position 123
+__________________________________________________
+processing file: uce-4711.fasta
+[83, 241]
+sampling position 241
+__________________________________________________
+processing file: uce-4713.fasta
+[70, 140, 141, 142, 171, 374]
+sampling position 374
+__________________________________________________
+processing file: uce-4723.fasta
+[38, 298, 333, 631, 705, 772, 801]
+sampling position 298
+__________________________________________________
+processing file: uce-4725.fasta
+[540]
+sampling position 540
+__________________________________________________
+processing file: uce-4732.fasta
+[172, 183]
+sampling position 183
+__________________________________________________
+processing file: uce-4744.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4751.fasta
+[222, 336]
+sampling position 222
+__________________________________________________
+processing file: uce-4752.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4757.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4760.fasta
+[477, 578, 617]
+sampling position 617
+__________________________________________________
+processing file: uce-4764.fasta
+[418]
+sampling position 418
+__________________________________________________
+processing file: uce-4766.fasta
+[118]
+sampling position 118
+__________________________________________________
+processing file: uce-4770.fasta
+[109, 193]
+sampling position 109
+__________________________________________________
+processing file: uce-4798.fasta
+[489, 497, 527]
+sampling position 497
+__________________________________________________
+processing file: uce-4819.fasta
+[239, 422, 614, 615, 726, 742, 744]
+sampling position 614
+__________________________________________________
+processing file: uce-4820.fasta
+[113]
+sampling position 113
+__________________________________________________
+processing file: uce-4829.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4837.fasta
+[113, 142, 407]
+sampling position 113
+__________________________________________________
+processing file: uce-4846.fasta
+[193, 352, 609]
+sampling position 609
+__________________________________________________
+processing file: uce-4853.fasta
+[112, 122, 151, 250, 252, 274, 280, 326, 846, 851, 895]
+sampling position 252
+__________________________________________________
+processing file: uce-486.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4865.fasta
+[469, 506, 510]
+sampling position 506
+__________________________________________________
+processing file: uce-4871.fasta
+[217, 218, 228, 259]
+sampling position 217
+__________________________________________________
+processing file: uce-4878.fasta
+[588, 628]
+sampling position 588
+__________________________________________________
+processing file: uce-4881.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4884.fasta
+[260, 275, 422]
+sampling position 260
+__________________________________________________
+processing file: uce-4889.fasta
+[173, 208, 254, 470]
+sampling position 208
+__________________________________________________
+processing file: uce-4904.fasta
+[448, 690]
+sampling position 448
+__________________________________________________
+processing file: uce-491.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4919.fasta
+[170, 600, 639, 678, 713, 753]
+sampling position 600
+__________________________________________________
+processing file: uce-4927.fasta
+[50, 165, 183]
+sampling position 50
+__________________________________________________
+processing file: uce-4930.fasta
+[58, 71]
+sampling position 71
+__________________________________________________
+processing file: uce-4964.fasta
+[199]
+sampling position 199
+__________________________________________________
+processing file: uce-4976.fasta
+[140, 158]
+sampling position 140
+__________________________________________________
+processing file: uce-4978.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4981.fasta
+[351]
+sampling position 351
+__________________________________________________
+processing file: uce-4986.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5005.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5007.fasta
+[505, 746]
+sampling position 505
+__________________________________________________
+processing file: uce-5016.fasta
+[167]
+sampling position 167
+__________________________________________________
+processing file: uce-5051.fasta
+[571]
+sampling position 571
+__________________________________________________
+processing file: uce-5062.fasta
+[619]
+sampling position 619
+__________________________________________________
+processing file: uce-5077.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5084.fasta
+[363, 375, 405]
+sampling position 405
+__________________________________________________
+processing file: uce-5098.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5101.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5113.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5116.fasta
+[640, 674, 704, 732, 792, 867]
+sampling position 674
+__________________________________________________
+processing file: uce-512.fasta
+[92, 147, 218, 303, 318, 327, 377]
+sampling position 303
+__________________________________________________
+processing file: uce-5136.fasta
+[76, 164, 202, 262, 349, 351, 440, 472]
+sampling position 76
+__________________________________________________
+processing file: uce-5147.fasta
+[69, 315]
+sampling position 315
+__________________________________________________
+processing file: uce-5153.fasta
+[249, 279, 295, 308, 359, 587]
+sampling position 295
+__________________________________________________
+processing file: uce-5155.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5158.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5167.fasta
+[157, 213, 246]
+sampling position 157
+__________________________________________________
+processing file: uce-5181.fasta
+[687, 764, 767, 839, 859]
+sampling position 859
+__________________________________________________
+processing file: uce-5185.fasta
+[1, 2, 17, 24, 25, 76, 126]
+sampling position 25
+__________________________________________________
+processing file: uce-5186.fasta
+[444, 484, 583]
+sampling position 583
+__________________________________________________
+processing file: uce-519.fasta
+[302]
+sampling position 302
+__________________________________________________
+processing file: uce-52.fasta
+[70, 157, 172, 292, 573, 749]
+sampling position 573
+__________________________________________________
+processing file: uce-5202.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5204.fasta
+[67]
+sampling position 67
+__________________________________________________
+processing file: uce-5208.fasta
+[97, 141, 190, 220, 263, 282, 327, 341, 745, 869, 925, 927]
+sampling position 327
+__________________________________________________
+processing file: uce-5218.fasta
+[129, 148, 149, 229, 295, 569, 585, 687, 723, 874]
+sampling position 129
+__________________________________________________
+processing file: uce-5221.fasta
+[362, 371]
+sampling position 362
+__________________________________________________
+processing file: uce-5224.fasta
+[504]
+sampling position 504
+__________________________________________________
+processing file: uce-5227.fasta
+[75, 141, 264, 272, 299, 792]
+sampling position 299
+__________________________________________________
+processing file: uce-5240.fasta
+[170, 237, 279, 783]
+sampling position 279
+__________________________________________________
+processing file: uce-5258.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5268.fasta
+[117, 256, 455]
+sampling position 256
+__________________________________________________
+processing file: uce-527.fasta
+[745]
+sampling position 745
+__________________________________________________
+processing file: uce-5295.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5314.fasta
+[282, 311]
+sampling position 282
+__________________________________________________
+processing file: uce-534.fasta
+[308]
+sampling position 308
+__________________________________________________
+processing file: uce-5347.fasta
+[102, 156, 167]
+sampling position 156
+__________________________________________________
+processing file: uce-5356.fasta
+[277, 465, 467, 484, 545]
+sampling position 277
+__________________________________________________
+processing file: uce-5361.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5379.fasta
+[137, 199, 201]
+sampling position 137
+__________________________________________________
+processing file: uce-5383.fasta
+[783, 784]
+sampling position 784
+__________________________________________________
+processing file: uce-5387.fasta
+[420, 553]
+sampling position 420
+__________________________________________________
+processing file: uce-5396.fasta
+[948, 950, 954]
+sampling position 954
+__________________________________________________
+processing file: uce-5416.fasta
+[69, 125, 126]
+sampling position 125
+__________________________________________________
+processing file: uce-5440.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5441.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5445.fasta
+[291, 362]
+sampling position 362
+__________________________________________________
+processing file: uce-5469.fasta
+[116, 125, 143, 145, 155, 455]
+sampling position 455
+__________________________________________________
+processing file: uce-547.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5490.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5494.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5497.fasta
+[113, 125, 128, 144, 175, 176, 192, 207, 224, 295]
+sampling position 175
+__________________________________________________
+processing file: uce-550.fasta
+[108, 110, 112, 156, 168, 192, 265, 313, 322]
+sampling position 168
+__________________________________________________
+processing file: uce-5510.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5524.fasta
+[414]
+sampling position 414
+__________________________________________________
+processing file: uce-553.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5542.fasta
+[154, 350]
+sampling position 154
+__________________________________________________
+processing file: uce-5586.fasta
+[160]
+sampling position 160
+__________________________________________________
+processing file: uce-5589.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5609.fasta
+[252, 253, 758]
+sampling position 758
+__________________________________________________
+processing file: uce-5645.fasta
+[241, 271, 290, 652, 678, 824]
+sampling position 824
+__________________________________________________
+processing file: uce-5649.fasta
+[513, 585, 650, 688]
+sampling position 650
+__________________________________________________
+processing file: uce-5661.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5671.fasta
+[426, 695]
+sampling position 695
+__________________________________________________
+processing file: uce-5676.fasta
+[548]
+sampling position 548
+__________________________________________________
+processing file: uce-5679.fasta
+[768]
+sampling position 768
+__________________________________________________
+processing file: uce-5684.fasta
+[78, 103, 148, 204, 334, 335, 611, 672, 700, 705]
+sampling position 103
+__________________________________________________
+processing file: uce-5694.fasta
+[677]
+sampling position 677
+__________________________________________________
+processing file: uce-5699.fasta
+[222, 377, 614, 654]
+sampling position 222
+__________________________________________________
+processing file: uce-570.fasta
+[57, 183, 298, 604]
+sampling position 604
+__________________________________________________
+processing file: uce-5713.fasta
+[179, 306, 338]
+sampling position 179
+__________________________________________________
+processing file: uce-5722.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5730.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5733.fasta
+[79, 97, 110, 140, 239, 268, 289, 797, 812]
+sampling position 268
+__________________________________________________
+processing file: uce-5751.fasta
+[358]
+sampling position 358
+__________________________________________________
+processing file: uce-5755.fasta
+[121, 556]
+sampling position 121
+__________________________________________________
+processing file: uce-5759.fasta
+[195, 408, 599, 646]
+sampling position 599
+__________________________________________________
+processing file: uce-5761.fasta
+[86, 107]
+sampling position 86
+__________________________________________________
+processing file: uce-5766.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5772.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5774.fasta
+[158, 250, 261, 265, 737]
+sampling position 261
+__________________________________________________
+processing file: uce-5797.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5799.fasta
+[147, 248]
+sampling position 248
+__________________________________________________
+processing file: uce-5810.fasta
+[120, 156]
+sampling position 156
+__________________________________________________
+processing file: uce-5822.fasta
+[201, 214]
+sampling position 214
+__________________________________________________
+processing file: uce-584.fasta
+[282]
+sampling position 282
+__________________________________________________
+processing file: uce-5846.fasta
+[10, 202, 476, 490, 552]
+sampling position 552
+__________________________________________________
+processing file: uce-5849.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5874.fasta
+[817]
+sampling position 817
+__________________________________________________
+processing file: uce-5880.fasta
+[824]
+sampling position 824
+__________________________________________________
+processing file: uce-5898.fasta
+[232, 301]
+sampling position 232
+__________________________________________________
+processing file: uce-5899.fasta
+[170, 654, 689, 710, 728, 855]
+sampling position 689
+__________________________________________________
+processing file: uce-590.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5908.fasta
+[578, 627]
+sampling position 627
+__________________________________________________
+processing file: uce-5925.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5930.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5932.fasta
+[799]
+sampling position 799
+__________________________________________________
+processing file: uce-5943.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-596.fasta
+[214, 250]
+sampling position 250
+__________________________________________________
+processing file: uce-5961.fasta
+[104, 127, 143, 164, 245, 262, 373]
+sampling position 245
+__________________________________________________
+processing file: uce-5968.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5969.fasta
+[440]
+sampling position 440
+__________________________________________________
+processing file: uce-5971.fasta
+[130, 162, 203, 320, 329, 377, 400, 404, 698, 763]
+sampling position 404
+__________________________________________________
+processing file: uce-5972.fasta
+[693, 702]
+sampling position 702
+__________________________________________________
+processing file: uce-5975.fasta
+[117, 243, 808]
+sampling position 808
+__________________________________________________
+processing file: uce-5978.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5980.fasta
+[115, 282, 797, 871]
+sampling position 115
+__________________________________________________
+processing file: uce-5987.fasta
+[103, 214, 246, 288, 354, 774]
+sampling position 288
+__________________________________________________
+processing file: uce-5996.fasta
+[287, 331]
+sampling position 331
+__________________________________________________
+processing file: uce-6012.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6017.fasta
+[144, 170, 186, 217, 238, 285]
+sampling position 186
+__________________________________________________
+processing file: uce-6068.fasta
+[173, 430, 500, 523]
+sampling position 430
+__________________________________________________
+processing file: uce-607.fasta
+[136, 251]
+sampling position 251
+__________________________________________________
+processing file: uce-6085.fasta
+[334]
+sampling position 334
+__________________________________________________
+processing file: uce-6100.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6101.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6121.fasta
+[620, 697, 712]
+sampling position 697
+__________________________________________________
+processing file: uce-6126.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6131.fasta
+[107]
+sampling position 107
+__________________________________________________
+processing file: uce-6154.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6157.fasta
+[150, 170, 212, 234, 235, 295, 401, 623, 717]
+sampling position 212
+__________________________________________________
+processing file: uce-616.fasta
+[282]
+sampling position 282
+__________________________________________________
+processing file: uce-6167.fasta
+[141, 203, 254, 283, 316, 327, 757, 807]
+sampling position 807
+__________________________________________________
+processing file: uce-6187.fasta
+[634, 664]
+sampling position 634
+__________________________________________________
+processing file: uce-6195.fasta
+[168, 185, 547]
+sampling position 185
+__________________________________________________
+processing file: uce-62.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6221.fasta
+[122, 129, 677, 678, 679, 683, 684]
+sampling position 683
+__________________________________________________
+processing file: uce-6237.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6238.fasta
+[96, 169, 351, 522]
+sampling position 351
+__________________________________________________
+processing file: uce-6242.fasta
+[50, 83, 203, 229]
+sampling position 83
+__________________________________________________
+processing file: uce-6243.fasta
+[463]
+sampling position 463
+__________________________________________________
+processing file: uce-6245.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6260.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6264.fasta
+[107, 190, 204, 429, 695, 777, 807, 853]
+sampling position 777
+__________________________________________________
+processing file: uce-627.fasta
+[61, 101, 134, 147, 213, 335, 337, 367, 707]
+sampling position 337
+__________________________________________________
+processing file: uce-6284.fasta
+[21, 392, 461, 519, 520, 530, 550]
+sampling position 520
+__________________________________________________
+processing file: uce-6287.fasta
+[182]
+sampling position 182
+__________________________________________________
+processing file: uce-6290.fasta
+[185, 515]
+sampling position 515
+__________________________________________________
+processing file: uce-6316.fasta
+[94, 163, 174, 186, 191, 203, 626, 872]
+sampling position 186
+__________________________________________________
+processing file: uce-6335.fasta
+[788]
+sampling position 788
+__________________________________________________
+processing file: uce-6346.fasta
+[546, 565, 655]
+sampling position 546
+__________________________________________________
+processing file: uce-636.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6362.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6381.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6418.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-642.fasta
+[52, 495, 879, 911, 914, 915]
+sampling position 495
+__________________________________________________
+processing file: uce-6444.fasta
+[171, 235, 304, 314]
+sampling position 171
+__________________________________________________
+processing file: uce-6448.fasta
+[113, 148, 234, 256, 754, 774]
+sampling position 234
+__________________________________________________
+processing file: uce-645.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6451.fasta
+[694, 760]
+sampling position 694
+__________________________________________________
+processing file: uce-6457.fasta
+[540, 565, 569, 583, 589]
+sampling position 569
+__________________________________________________
+processing file: uce-6478.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6496.fasta
+[207, 434, 519, 685, 846, 972]
+sampling position 685
+__________________________________________________
+processing file: uce-6520.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6521.fasta
+[623, 709, 977]
+sampling position 623
+__________________________________________________
+processing file: uce-6527.fasta
+[97, 154, 176, 216, 518, 547, 657]
+sampling position 154
+__________________________________________________
+processing file: uce-6532.fasta
+[640]
+sampling position 640
+__________________________________________________
+processing file: uce-6535.fasta
+[347, 348, 926]
+sampling position 926
+__________________________________________________
+processing file: uce-6554.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6555.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6574.fasta
+[164, 313, 367, 515, 568]
+sampling position 515
+__________________________________________________
+processing file: uce-658.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6580.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6587.fasta
+[147, 177, 216, 218, 235, 332, 744, 828]
+sampling position 235
+__________________________________________________
+processing file: uce-6598.fasta
+[123, 369, 514, 750]
+sampling position 123
+__________________________________________________
+processing file: uce-6603.fasta
+[178, 613]
+sampling position 178
+__________________________________________________
+processing file: uce-6614.fasta
+[162]
+sampling position 162
+__________________________________________________
+processing file: uce-6625.fasta
+[836]
+sampling position 836
+__________________________________________________
+processing file: uce-6627.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6635.fasta
+[314]
+sampling position 314
+__________________________________________________
+processing file: uce-6654.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6657.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6702.fasta
+[507, 606]
+sampling position 606
+__________________________________________________
+processing file: uce-6707.fasta
+[448, 489]
+sampling position 448
+__________________________________________________
+processing file: uce-6714.fasta
+[132]
+sampling position 132
+__________________________________________________
+processing file: uce-6724.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6725.fasta
+[179, 616, 636]
+sampling position 636
+__________________________________________________
+processing file: uce-6726.fasta
+[162, 181, 193, 871]
+sampling position 193
+__________________________________________________
+processing file: uce-6778.fasta
+[61, 227, 742]
+sampling position 742
+__________________________________________________
+processing file: uce-678.fasta
+[222, 353, 678, 682, 920, 978]
+sampling position 678
+__________________________________________________
+processing file: uce-6796.fasta
+[549]
+sampling position 549
+__________________________________________________
+processing file: uce-6797.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6805.fasta
+[193, 665, 682, 685, 727, 817, 848]
+sampling position 685
+__________________________________________________
+processing file: uce-681.fasta
+[830, 869, 872]
+sampling position 872
+__________________________________________________
+processing file: uce-6812.fasta
+[178, 188, 493]
+sampling position 188
+__________________________________________________
+processing file: uce-6823.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6827.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-683.fasta
+[138, 355, 511]
+sampling position 511
+__________________________________________________
+processing file: uce-6838.fasta
+[599, 725, 788]
+sampling position 788
+__________________________________________________
+processing file: uce-6842.fasta
+[151, 347, 349, 642, 730]
+sampling position 730
+__________________________________________________
+processing file: uce-6844.fasta
+[738, 907, 925, 927]
+sampling position 738
+__________________________________________________
+processing file: uce-6871.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6887.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6906.fasta
+[291]
+sampling position 291
+__________________________________________________
+processing file: uce-6910.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6913.fasta
+[177, 207, 268, 338]
+sampling position 338
+__________________________________________________
+processing file: uce-6922.fasta
+[40, 71]
+sampling position 40
+__________________________________________________
+processing file: uce-6932.fasta
+[146, 272, 672]
+sampling position 672
+__________________________________________________
+processing file: uce-6933.fasta
+[83, 93, 176, 177, 192, 283, 798]
+sampling position 176
+__________________________________________________
+processing file: uce-6934.fasta
+[18, 107, 171, 225, 256, 290, 303, 305, 725, 778, 832, 919, 944, 947]
+sampling position 305
+__________________________________________________
+processing file: uce-6940.fasta
+[90, 522, 891]
+sampling position 522
+__________________________________________________
+processing file: uce-6945.fasta
+[124, 161, 206, 545, 664, 725, 799]
+sampling position 124
+__________________________________________________
+processing file: uce-696.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6969.fasta
+[147, 478, 552, 583, 716, 753, 756, 762, 783, 855, 869]
+sampling position 756
+__________________________________________________
+processing file: uce-6973.fasta
+[353, 514, 655, 708, 741, 807]
+sampling position 741
+__________________________________________________
+processing file: uce-6975.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6983.fasta
+[209, 238, 392, 635, 723]
+sampling position 635
+__________________________________________________
+processing file: uce-6986.fasta
+[229, 235]
+sampling position 229
+__________________________________________________
+processing file: uce-6990.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6991.fasta
+[157, 158, 160, 162, 396]
+sampling position 396
+__________________________________________________
+processing file: uce-6998.fasta
+[360, 370, 600, 603, 614, 654, 696, 697, 846, 935]
+sampling position 614
+__________________________________________________
+processing file: uce-7003.fasta
+[87, 228, 283, 442, 625, 626]
+sampling position 442
+__________________________________________________
+processing file: uce-7008.fasta
+[175, 182, 220, 362]
+sampling position 362
+__________________________________________________
+processing file: uce-7016.fasta
+[100, 106, 208, 220, 382]
+sampling position 220
+__________________________________________________
+processing file: uce-7019.fasta
+[55, 91, 200]
+sampling position 91
+__________________________________________________
+processing file: uce-7028.fasta
+[737, 799]
+sampling position 799
+__________________________________________________
+processing file: uce-7035.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7036.fasta
+[226, 232, 453, 454, 501, 576]
+sampling position 453
+__________________________________________________
+processing file: uce-7044.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7051.fasta
+[193, 210, 216, 628, 746, 782, 812]
+sampling position 193
+__________________________________________________
+processing file: uce-706.fasta
+[74, 124, 303, 365, 556, 574]
+sampling position 365
+__________________________________________________
+processing file: uce-7064.fasta
+[748, 749, 792, 831]
+sampling position 792
+__________________________________________________
+processing file: uce-7077.fasta
+[153, 555, 568, 597, 608, 647, 693, 700, 714]
+sampling position 608
+__________________________________________________
+processing file: uce-7078.fasta
+[98, 158, 239]
+sampling position 239
+__________________________________________________
+processing file: uce-7081.fasta
+[312, 570]
+sampling position 570
+__________________________________________________
+processing file: uce-7098.fasta
+[146, 212, 301, 583, 632, 763]
+sampling position 632
+__________________________________________________
+processing file: uce-710.fasta
+[457]
+sampling position 457
+__________________________________________________
+processing file: uce-7102.fasta
+[496, 529]
+sampling position 496
+__________________________________________________
+processing file: uce-7107.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7118.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7129.fasta
+[111, 244, 260, 522, 629, 646, 703]
+sampling position 244
+__________________________________________________
+processing file: uce-7133.fasta
+[237, 500, 588, 611]
+sampling position 588
+__________________________________________________
+processing file: uce-7167.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-717.fasta
+[286]
+sampling position 286
+__________________________________________________
+processing file: uce-7173.fasta
+[137, 453, 488, 490]
+sampling position 453
+__________________________________________________
+processing file: uce-7190.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7192.fasta
+[126]
+sampling position 126
+__________________________________________________
+processing file: uce-7195.fasta
+[370, 611]
+sampling position 370
+__________________________________________________
+processing file: uce-7200.fasta
+[127, 310, 389, 428, 583]
+sampling position 389
+__________________________________________________
+processing file: uce-7205.fasta
+[96, 98, 568]
+sampling position 98
+__________________________________________________
+processing file: uce-7248.fasta
+[38, 75, 77, 99, 132, 166, 186, 228, 252, 291, 292, 375, 591]
+sampling position 75
+__________________________________________________
+processing file: uce-7257.fasta
+[147, 162, 183, 259, 289, 291, 292, 294, 382]
+sampling position 183
+__________________________________________________
+processing file: uce-7263.fasta
+[181, 250, 410, 796]
+sampling position 181
+__________________________________________________
+processing file: uce-7283.fasta
+[91, 93, 116, 122, 571, 639]
+sampling position 93
+__________________________________________________
+processing file: uce-7292.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7295.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7303.fasta
+[469]
+sampling position 469
+__________________________________________________
+processing file: uce-7319.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7347.fasta
+[233, 393, 408, 419]
+sampling position 419
+__________________________________________________
+processing file: uce-7349.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-735.fasta
+[674]
+sampling position 674
+__________________________________________________
+processing file: uce-7350.fasta
+[163]
+sampling position 163
+__________________________________________________
+processing file: uce-7364.fasta
+[366, 785, 799, 813, 829]
+sampling position 799
+__________________________________________________
+processing file: uce-7369.fasta
+[102, 210, 401, 417]
+sampling position 102
+__________________________________________________
+processing file: uce-7384.fasta
+[223, 397, 451, 735]
+sampling position 223
+__________________________________________________
+processing file: uce-7393.fasta
+[297]
+sampling position 297
+__________________________________________________
+processing file: uce-7395.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7410.fasta
+[183, 272]
+sampling position 272
+__________________________________________________
+processing file: uce-7417.fasta
+[548]
+sampling position 548
+__________________________________________________
+processing file: uce-7419.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-746.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7461.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7473.fasta
+[681]
+sampling position 681
+__________________________________________________
+processing file: uce-7483.fasta
+[376]
+sampling position 376
+__________________________________________________
+processing file: uce-7491.fasta
+[140, 162]
+sampling position 140
+__________________________________________________
+processing file: uce-7495.fasta
+[624, 690, 763]
+sampling position 624
+__________________________________________________
+processing file: uce-7496.fasta
+[69, 157, 159, 189, 332, 660, 668, 685, 728]
+sampling position 728
+__________________________________________________
+processing file: uce-7499.fasta
+[631]
+sampling position 631
+__________________________________________________
+processing file: uce-7503.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7504.fasta
+[799]
+sampling position 799
+__________________________________________________
+processing file: uce-7511.fasta
+[247, 615]
+sampling position 615
+__________________________________________________
+processing file: uce-7521.fasta
+[851]
+sampling position 851
+__________________________________________________
+processing file: uce-7538.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-754.fasta
+[82, 107, 124, 232, 414, 790]
+sampling position 790
+__________________________________________________
+processing file: uce-7552.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7553.fasta
+[183, 190]
+sampling position 183
+__________________________________________________
+processing file: uce-7558.fasta
+[196, 412, 734, 785, 793]
+sampling position 793
+__________________________________________________
+processing file: uce-7574.fasta
+[504]
+sampling position 504
+__________________________________________________
+processing file: uce-7587.fasta
+[104, 115, 157, 434, 559, 596]
+sampling position 104
+__________________________________________________
+processing file: uce-7588.fasta
+[171, 174, 192, 311, 518, 633, 651, 662]
+sampling position 518
+__________________________________________________
+processing file: uce-7595.fasta
+[138, 225]
+sampling position 225
+__________________________________________________
+processing file: uce-7599.fasta
+[207, 509]
+sampling position 207
+__________________________________________________
+processing file: uce-760.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7609.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-761.fasta
+[58, 166, 168, 212, 906]
+sampling position 166
+__________________________________________________
+processing file: uce-7613.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7616.fasta
+[411]
+sampling position 411
+__________________________________________________
+processing file: uce-762.fasta
+[130, 479]
+sampling position 479
+__________________________________________________
+processing file: uce-7621.fasta
+[115, 151, 188, 210, 298]
+sampling position 151
+__________________________________________________
+processing file: uce-7632.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7636.fasta
+[116, 172, 174, 212, 412, 520]
+sampling position 172
+__________________________________________________
+processing file: uce-7648.fasta
+[9, 75, 94, 597, 615, 643, 667]
+sampling position 9
+__________________________________________________
+processing file: uce-7662.fasta
+[576, 638, 700, 728, 784, 791, 800]
+sampling position 728
+__________________________________________________
+processing file: uce-7686.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7703.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7706.fasta
+[624, 627, 711, 748, 805, 807, 810]
+sampling position 807
+__________________________________________________
+processing file: uce-7708.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7715.fasta
+[232, 460, 492, 566]
+sampling position 492
+__________________________________________________
+processing file: uce-7726.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7747.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7748.fasta
+[884, 890]
+sampling position 884
+__________________________________________________
+processing file: uce-7752.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7753.fasta
+[116, 131, 272, 296, 329, 340, 347, 373, 529, 649]
+sampling position 347
+__________________________________________________
+processing file: uce-7768.fasta
+[179, 774, 778]
+sampling position 778
+__________________________________________________
+processing file: uce-7769.fasta
+[70, 114, 268, 280, 321, 458, 543, 614]
+sampling position 268
+__________________________________________________
+processing file: uce-7776.fasta
+[306]
+sampling position 306
+__________________________________________________
+processing file: uce-7790.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7797.fasta
+[198]
+sampling position 198
+__________________________________________________
+processing file: uce-7806.fasta
+[604, 665, 667]
+sampling position 604
+__________________________________________________
+processing file: uce-7811.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7819.fasta
+[59, 144, 607]
+sampling position 144
+__________________________________________________
+processing file: uce-7823.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7841.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7843.fasta
+[264, 292, 527, 626]
+sampling position 264
+__________________________________________________
+processing file: uce-7865.fasta
+[296, 335, 506, 528, 620, 662, 781]
+sampling position 506
+__________________________________________________
+processing file: uce-7869.fasta
+[520, 713, 739]
+sampling position 713
+__________________________________________________
+processing file: uce-7884.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7889.fasta
+[590]
+sampling position 590
+__________________________________________________
+processing file: uce-7898.fasta
+[120, 170, 175, 176, 177, 210, 215, 230, 258, 669, 705, 714, 721, 765, 786, 800, 804, 812, 875]
+sampling position 765
+__________________________________________________
+processing file: uce-7904.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7906.fasta
+[139, 157, 170, 220, 242, 291, 403]
+sampling position 139
+__________________________________________________
+processing file: uce-7928.fasta
+[151, 163, 197, 249, 286]
+sampling position 197
+__________________________________________________
+processing file: uce-7940.fasta
+[126, 201, 287, 289, 747]
+sampling position 747
+__________________________________________________
+processing file: uce-7960.fasta
+[31, 63, 69, 215, 254, 464, 604, 658, 770, 775, 789, 945]
+sampling position 69
+__________________________________________________
+processing file: uce-7963.fasta
+[80, 82, 309, 333]
+sampling position 309
+__________________________________________________
+processing file: uce-7969.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7981.fasta
+[859, 880]
+sampling position 880
+__________________________________________________
+processing file: uce-7983.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-802.fasta
+[905, 953, 995]
+sampling position 905
+__________________________________________________
+processing file: uce-8029.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-8035.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-81.fasta
+[159, 271, 300, 921]
+sampling position 921
+__________________________________________________
+processing file: uce-810.fasta
+[276]
+sampling position 276
+__________________________________________________
+processing file: uce-831.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-833.fasta
+[205, 336]
+sampling position 336
+__________________________________________________
+processing file: uce-837.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-841.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-843.fasta
+[95, 206]
+sampling position 95
+__________________________________________________
+processing file: uce-853.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-859.fasta
+[150, 182]
+sampling position 150
+__________________________________________________
+processing file: uce-864.fasta
+[100, 313, 367, 562]
+sampling position 313
+__________________________________________________
+processing file: uce-866.fasta
+[79, 133, 586, 794, 795, 918]
+sampling position 586
+__________________________________________________
+processing file: uce-868.fasta
+[295, 637]
+sampling position 295
+__________________________________________________
+processing file: uce-869.fasta
+[126, 378]
+sampling position 378
+__________________________________________________
+processing file: uce-872.fasta
+[247, 254]
+sampling position 247
+__________________________________________________
+processing file: uce-885.fasta
+[140, 193, 244, 274, 315, 385]
+sampling position 385
+__________________________________________________
+processing file: uce-90.fasta
+[398, 605]
+sampling position 605
+__________________________________________________
+processing file: uce-913.fasta
+[723]
+sampling position 723
+__________________________________________________
+processing file: uce-915.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-931.fasta
+[28, 97, 104, 176]
+sampling position 104
+__________________________________________________
+processing file: uce-951.fasta
+[451, 484, 551]
+sampling position 484
+__________________________________________________
+processing file: uce-967.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-97.fasta
+[86, 209, 432, 596]
+sampling position 209
+__________________________________________________
+processing file: uce-985.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-990.fasta
+[]
+no snp extraction performed due too a lack of polymorphic sites

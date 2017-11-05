@@ -1,0 +1,411 @@
+##run on MacBook 2015, macOS Sierra, January 2017, author: Tobias Hofmann (tobias.hofmann@bioenv.gu.se)
+
+#gather data and edit and root the trees
+
+# the perfect command for removing branch lengths should be somethign like this (worked on Angelas data)
+# cat 100-bootreps.tree | sed -e ‘s/:[0-9]*\.[0-9]*//g’ | sed -e ‘s/)[0-9]*\.[0-9]*/)/g’ | sed ‘s/“//g’ | sed -e ‘s/^[0-9]*[[:space:]]*//g’ > bootstrap_tree_no_brlens.tree
+
+
+mkdir data
+mkdir data/topaza_allele_bootstrap
+cp ../genetree_bootstraps/results/genetrees/topaza_allele_genetrees/bootstrap_data/1000-bootreps.tree data/topaza_allele_bootstrap
+cd data/topaza_allele_bootstrap
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/Flor_0[0-9]*/Flor_0/g' 1000-bootreps.tree
+sed -i -e 's/Flor_1[0-9]*/Flor_1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../bin/root_trees.r -o Flor_0 -r Flor_1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+T_pyra1 2 T_pyra1_0 T_pyra1_1 \
+T_pyra2 2 T_pyra2_0 T_pyra2_1 \
+T_pyra3 2 T_pyra3_0 T_pyra3_1 \
+T_pyra4 2 T_pyra4_0 T_pyra4_1 \
+T_pella5 2 T_pella5_0 T_pella5_1 \
+T_pella6 2 T_pella6_0 T_pella6_1 \
+T_pella7 2 T_pella7_0 T_pella7_1 \
+T_pella8 2 T_pella8_0 T_pella8_1 \
+T_pella9 2 T_pella9_0 T_pella9_1 \
+Florisuga 1 Flor_0 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../..
+
+
+mkdir data/topaza_consensus_bootstrap
+cp ../genetree_bootstraps/results/genetrees/topaza_consensus_genetrees/bootstrap_data/1000-bootreps.tree data/topaza_consensus_bootstrap
+cd data/topaza_consensus_bootstrap
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/Florisuga[0-9]*/Florisuga/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../bin/root_trees.r -o Florisuga 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+T_pyra1 1 T_pyra1 \
+T_pyra2 1 T_pyra2 \
+T_pyra3 1 T_pyra3 \
+T_pyra4 1 T_pyra4 \
+T_pella5 1 T_pella5 \
+T_pella6 1 T_pella6 \
+T_pella7 1 T_pella7 \
+T_pella8 1 T_pella8 \
+T_pella9 1 T_pella9 \
+Florisuga 1 Florisuga \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../..
+
+
+mkdir data/simulated_allele_bootstrap
+for rep in ../genetree_bootstraps/results/genetrees/simulated_allele_genetrees/rep*;
+do mkdir data/simulated_allele_bootstrap/$(basename $rep);
+cp $rep/bootstrap_data/1000-bootreps.tree data/simulated_allele_bootstrap/$(basename $rep)
+cd data/simulated_allele_bootstrap/$(basename $rep)
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/F1_0[0-9]*/F1_0/g' 1000-bootreps.tree
+sed -i -e 's/F1_1[0-9]*/F1_1/g' 1000-bootreps.tree
+sed -i -e 's/\([D,E,X,Y,Z][0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\([D,E,X,Y,Z][0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\([D,E,X,Y,Z][0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\([D,E,X,Y,Z][0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../../bin/root_trees.r -o F1_0 -r F1_1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+D1 2 D1_0 D1_1 \
+D2 2 D2_0 D2_1 \
+E1 2 E1_0 E1_1 \
+E2 2 E2_0 E2_1 \
+X1 2 X1_0 X1_1 \
+X2 2 X2_0 X2_1 \
+Y1 2 Y1_0 Y1_1 \
+Z1 2 Z1_0 Z1_1 \
+Z2 2 Z2_0 Z2_1 \
+F1 1 F1_0 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../../..
+done
+
+
+mkdir data/simulated_contig_bootstrap
+for rep in ../genetree_bootstraps/results/genetrees/simulated_consensus_genetrees/rep*;
+do mkdir data/simulated_contig_bootstrap/$(basename $rep);
+cp $rep/bootstrap_data/1000-bootreps.tree data/simulated_contig_bootstrap/$(basename $rep)
+cd data/simulated_contig_bootstrap/$(basename $rep)
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/F1[0-9]*/F1/g' 1000-bootreps.tree
+sed -i -e 's/\([D,E,X,Y,Z][0-9]\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../../bin/root_trees.r -o F1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+D1 1 D1 \
+D2 1 D2 \
+E1 1 E1 \
+E2 1 E2 \
+X1 1 X1 \
+X2 1 X2 \
+Y1 1 Y1 \
+Z1 1 Z1 \
+Z2 1 Z2 \
+F1 1 F1 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../../..
+done
+
+
+mkdir data/selections
+mkdir data/selections/top_150_topaza_allele_genetrees
+cp ../genetree_bootstraps/results/genetrees/selections/topaza/top_150_topaza_allele_genetrees/bootstrap_data/1000-bootreps.tree data/selections/top_150_topaza_allele_genetrees
+cd data/selections/top_150_topaza_allele_genetrees
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/Flor_0[0-9]*/Flor_0/g' 1000-bootreps.tree
+sed -i -e 's/Flor_1[0-9]*/Flor_1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../../bin/root_trees.r -o Flor_0 -r Flor_1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+T_pyra1 2 T_pyra1_0 T_pyra1_1 \
+T_pyra2 2 T_pyra2_0 T_pyra2_1 \
+T_pyra3 2 T_pyra3_0 T_pyra3_1 \
+T_pyra4 2 T_pyra4_0 T_pyra4_1 \
+T_pella5 2 T_pella5_0 T_pella5_1 \
+T_pella6 2 T_pella6_0 T_pella6_1 \
+T_pella7 2 T_pella7_0 T_pella7_1 \
+T_pella8 2 T_pella8_0 T_pella8_1 \
+T_pella9 2 T_pella9_0 T_pella9_1 \
+Florisuga 1 Flor_0 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../../..
+
+
+mkdir data/selections/random_150_topaza_allele_genetrees
+cp ../genetree_bootstraps/results/genetrees/selections/topaza/random_150_topaza_allele_genetrees/bootstrap_data/1000-bootreps.tree data/selections/random_150_topaza_allele_genetrees
+cd data/selections/random_150_topaza_allele_genetrees
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/Flor_0[0-9]*/Flor_0/g' 1000-bootreps.tree
+sed -i -e 's/Flor_1[0-9]*/Flor_1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../../bin/root_trees.r -o Flor_0 -r Flor_1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+T_pyra1 2 T_pyra1_0 T_pyra1_1 \
+T_pyra2 2 T_pyra2_0 T_pyra2_1 \
+T_pyra3 2 T_pyra3_0 T_pyra3_1 \
+T_pyra4 2 T_pyra4_0 T_pyra4_1 \
+T_pella5 2 T_pella5_0 T_pella5_1 \
+T_pella6 2 T_pella6_0 T_pella6_1 \
+T_pella7 2 T_pella7_0 T_pella7_1 \
+T_pella8 2 T_pella8_0 T_pella8_1 \
+T_pella9 2 T_pella9_0 T_pella9_1 \
+Florisuga 1 Flor_0 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../../..
+
+
+mkdir data/selections/bottom_150_topaza_allele_genetrees
+cp ../genetree_bootstraps/results/genetrees/selections/topaza/bottom_150_topaza_allele_genetrees/bootstrap_data/1000-bootreps.tree data/selections/bottom_150_topaza_allele_genetrees
+cd data/selections/bottom_150_topaza_allele_genetrees
+sed -i -e 's/^[0-9]*[[:space:]]*//g' 1000-bootreps.tree
+sed -i -e 's/"//g' 1000-bootreps.tree
+sed -i -e 's/[0-9]\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\.[0-9]*//g' 1000-bootreps.tree
+sed -i -e 's/\://g' 1000-bootreps.tree
+sed -i -e 's/Flor_0[0-9]*/Flor_0/g' 1000-bootreps.tree
+sed -i -e 's/Flor_1[0-9]*/Flor_1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pyra[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_0\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/\(T_pella[0-9]_1\)[0-9]*/\1/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*,/),/g' 1000-bootreps.tree
+sed -i -e 's/)[0-9]*)/))/g' 1000-bootreps.tree
+rm 1000-bootreps.tree-e
+Rscript ../../../bin/root_trees.r -o Flor_0 -r Flor_1 1000-bootreps.tree
+
+#-------------------set-up-mpest----------------------------------------
+mkdir split
+split -a 3 -l 820 1000-bootreps-rooted.tree split/bootstrap_
+for i in split/bootstrap*; do mv $i $i.tree; done
+ls split > control_file_block.txt
+
+sed -i -e '/.tree/a \
+0 \
+6950387 \
+820 10 \
+T_pyra1 2 T_pyra1_0 T_pyra1_1 \
+T_pyra2 2 T_pyra2_0 T_pyra2_1 \
+T_pyra3 2 T_pyra3_0 T_pyra3_1 \
+T_pyra4 2 T_pyra4_0 T_pyra4_1 \
+T_pella5 2 T_pella5_0 T_pella5_1 \
+T_pella6 2 T_pella6_0 T_pella6_1 \
+T_pella7 2 T_pella7_0 T_pella7_1 \
+T_pella8 2 T_pella8_0 T_pella8_1 \
+T_pella9 2 T_pella9_0 T_pella9_1 \
+Florisuga 1 Flor_0 \
+0 \
+' control_file_block.txt
+
+rm control_file_block.txt-e
+split -a 3 -l 15 control_file_block.txt split/control_
+cd split
+for i in control*; do ../../../../bin/mpest_1.4/mac/mpest $i; done
+cd ..
+#------------------------------------------------------------------------
+
+cd ../../..
+
+
+mkdir results
+mkdir results/bootstraps
+
+touch results/bootstraps/topaza_allele_bootstrap_mpest.tree
+cd data/topaza_allele_bootstrap/split
+for tree in *tree.tre;
+do tail -n 4 $tree | head -n 1 | sed -e 's/  tree mpest \[.*\] = //g' >> ../../../results/bootstraps/topaza_allele_bootstrap_mpest.tree
+done
+cd ../../..
+sumtrees.py results/bootstraps/topaza_allele_bootstrap_mpest.tree > results/topaza_allele_bootstrap_mpest_summarized.tre
+
+touch results/bootstraps/topaza_consensus_bootstrap_mpest.tree
+cd data/topaza_consensus_bootstrap/split
+for tree in *tree.tre;
+do tail -n 4 $tree | head -n 1 | sed -e 's/  tree mpest \[.*\] = //g' >> ../../../results/bootstraps/topaza_consensus_bootstrap_mpest.tree
+done
+cd ../../..
+sumtrees.py results/bootstraps/topaza_consensus_bootstrap_mpest.tree > results/topaza_consensus_bootstrap_mpest_summarized.tre
+
+for rep in data/simulated_allele_bootstrap/rep*;
+do touch results/bootstraps/simulated_allele_bootstrap_$(basename $rep)_mpest.tree;
+cd $rep/split
+for tree in *tree.tre;
+do tail -n 4 $tree | head -n 1 | sed -e 's/  tree mpest \[.*\] = //g' >> ../../../../results/bootstraps/simulated_allele_bootstrap_$(basename $rep)_mpest.tree
+done
+cd ../../../..
+sumtrees.py results/bootstraps/simulated_allele_bootstrap_$(basename $rep)_mpest.tree > results/simulated_allele_bootstrap_$(basename $rep)_mpest_summarized.tre
+done
+
+for rep in data/simulated_contig_bootstrap/rep*;
+do touch results/bootstraps/simulated_contig_bootstrap_$(basename $rep)_mpest.tree;
+cd $rep/split
+for tree in *tree.tre;
+do tail -n 4 $tree | head -n 1 | sed -e 's/  tree mpest \[.*\] = //g' >> ../../../../results/bootstraps/simulated_contig_bootstrap_$(basename $rep)_mpest.tree
+done
+cd ../../../..
+sumtrees.py results/bootstraps/simulated_contig_bootstrap_$(basename $rep)_mpest.tree > results/simulated_contig_bootstrap_$(basename $rep)_mpest_summarized.tre
+done

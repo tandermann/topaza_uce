@@ -1,0 +1,178 @@
+####run on MacBook 2015, macOS Sierra, December 2016, author: Tobias Hofmann (tobias.hofmann@bioenv.gu.se)
+#mkdir data
+#
+##get the empirical data
+#cp -r ../simulations_bpp/data/temp/topaza-uce-allele-alignments-fasta/ data/topaza-uce-allele-alignments
+#cp -r ../simulations_bpp/data/temp/topaza-uce-consensus-alignments-fasta/ data/topaza-uce-consensus-alignments
+#
+#
+##get all replicates of the simulated data
+#
+#mkdir data/simulated-uce-allele-alignments
+#for rep in ../simulations_bpp/results/simulated_uce_allele_alignments/simulated_allele_alignments/rep*;
+#do cp -r $rep/fasta data/simulated-uce-allele-alignments/$(basename $rep);
+#done
+#
+#mkdir data/simulated-uce-consensus-alignments
+#for rep in ../simulations_bpp/results/simulated_uce_consensus_alignments/simulated_consensus_alignments/rep*;
+#do cp -r $rep/fasta data/simulated-uce-consensus-alignments/$(basename $rep);
+#done
+#
+#
+#mkdir data/topaza-uce-consensus-alignments/selection
+#
+## first amke sure that all datasets have the same number of loci
+## The simulated datasets have 820 loci each, the topaza uce allele dataset has 821 and the consensus has 824
+#rm data/topaza-uce-allele-alignments/uce-8041_phased.fasta
+#for uce in data/topaza-uce-allele-alignments/*.fasta; do cp data/topaza-uce-consensus-alignments/$(basename $uce| sed 's/_phased//g') data/topaza-uce-consensus-alignments/selection/; done
+#rm data/topaza-uce-consensus-alignments/*.fasta
+#mv data/topaza-uce-consensus-alignments/selection/* data/topaza-uce-consensus-alignments/
+#rm -r data/topaza-uce-consensus-alignments/selection/
+#
+#mkdir config
+#
+#echo f1^F:F1_0 > config/name_change_sim_alleles.conf
+#echo f2^F:F1_1 >> config/name_change_sim_alleles.conf
+#echo d1^D:D1_0 >> config/name_change_sim_alleles.conf
+#echo d2^D:D1_1 >> config/name_change_sim_alleles.conf
+#echo d3^D:D2_0 >> config/name_change_sim_alleles.conf
+#echo d4^D:D2_1 >> config/name_change_sim_alleles.conf
+#echo e1^E:E1_0 >> config/name_change_sim_alleles.conf
+#echo e2^E:E1_1 >> config/name_change_sim_alleles.conf
+#echo e3^E:E2_0 >> config/name_change_sim_alleles.conf
+#echo e4^E:E2_1 >> config/name_change_sim_alleles.conf
+#echo x1^X:X1_0 >> config/name_change_sim_alleles.conf
+#echo x2^X:X1_1 >> config/name_change_sim_alleles.conf
+#echo x3^X:X2_0 >> config/name_change_sim_alleles.conf
+#echo x4^X:X2_1 >> config/name_change_sim_alleles.conf
+#echo y1^Y:Y1_0 >> config/name_change_sim_alleles.conf
+#echo y2^Y:Y1_1 >> config/name_change_sim_alleles.conf
+#echo z1^Z:Z1_0 >> config/name_change_sim_alleles.conf
+#echo z2^Z:Z1_1 >> config/name_change_sim_alleles.conf
+#echo z3^Z:Z2_0 >> config/name_change_sim_alleles.conf
+#echo z4^Z:Z2_1 >> config/name_change_sim_alleles.conf
+#
+## TAKES A FEW MINUTES: this is a loop to change the taxon names in the simulated allele alignments according to the conf-file just created
+#for rep in data/simulated-uce-allele-alignments/rep*;
+#do echo $rep;
+#outer=1; for alignment in $rep/*.fasta; do inner=1 && for line in $(cat config/name_change_sim_alleles.conf); do old=$(echo $line | tr ":" "\n"| head -n 1) && new=$(echo $line | tr ":" "\n"| tail -n 1) && sed -i -e "s/$old/$new/g" $alignment && let "inner+=1"; done && let "outer+=1"; done
+#rm $rep/*-e
+#done;
+#
+#mkdir config/with_outgroup
+#for folder in ./data/simulated*; do for rep in $folder/*; do file=$(find $rep -type f | head -n 1) && grep ">" $file | sed 's/>//g' > config/with_outgroup/$(basename $folder| sed 's/alignments/snps/g').conf; done ;done
+#for folder in ./data/topaza*; do file=$(find $folder -type f | head -n 1) && grep ">" $file | sed 's/>//g' > config/with_outgroup/$(basename $folder| sed 's/alignments/snps/g').conf; done
+#
+#mkdir config/no_outgroup
+#for folder in ./data/simulated*; do for rep in $folder/*; do file=$(find $rep -type f | head -n 1) && grep ">" $file | sed 's/>//g' | sed '/F/d' > config/no_outgroup/$(basename $folder| sed 's/alignments/snps/g')_no_outgroup.conf; done ;done
+#for folder in ./data/topaza*; do file=$(find $folder -type f | head -n 1) && grep ">" $file | sed 's/>//g' | sed '/F/d' > config/no_outgroup/$(basename $folder| sed 's/alignments/snps/g')_no_outgroup.conf; done
+#
+## we need to eliminate all '?' for the SNP extraction script to work properly
+#for uce in data/topaza-uce-consensus-alignments/*; do sed -i '' 's/?/N/g' $uce; done
+#
+#
+##now extract the SNPs
+#
+##we only need the 10 reps for the phased data, for all other datasets, only extract one rep
+#
+#for rep in data/simulated-uce-allele-alignments/*;
+#do echo $rep;
+#python bin/snps_from_uce_alignments.py --input $rep --config config/with_outgroup/simulated-uce-allele-snps.conf --phased --output results/with_outgroup/simulated-uce-allele-snps/$(basename $rep) > stats.txt;
+#mv stats.txt results/with_outgroup/simulated-uce-allele-snps/$(basename $rep)
+#done
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/ --config config/with_outgroup/simulated-uce-consensus-snps.conf --output results/with_outgroup/simulated-uce-consensus-snps > stats.txt
+#mv stats.txt results/with_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/with_outgroup/topaza-uce-allele-snps.conf --phased --output results/with_outgroup/topaza-uce-allele-snps > stats.txt
+#mv stats.txt results/with_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/with_outgroup/topaza-uce-consensus-snps.conf --output results/with_outgroup/topaza-uce-consensus-snps > stats.txt
+#mv stats.txt results/with_outgroup/topaza-uce-consensus-snps
+#
+##do the same again to only extract SNPs that are polymorphic within Topaza (without outgroup)
+#for rep in data/simulated-uce-allele-alignments/*;
+#do echo $rep;
+#python bin/snps_from_uce_alignments.py --input $rep --config config/no_outgroup/simulated-uce-allele-snps_no_outgroup.conf --phased --output results/no_outgroup/simulated-uce-allele-snps/$(basename $rep) > stats.txt;
+#mv stats.txt results/no_outgroup/simulated-uce-allele-snps/$(basename $rep)
+#done
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/ --config config/no_outgroup/simulated-uce-consensus-snps_no_outgroup.conf --output results/no_outgroup/simulated-uce-consensus-snps > stats.txt
+#mv stats.txt results/no_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/no_outgroup/topaza-uce-allele-snps_no_outgroup.conf --phased --output results/no_outgroup/topaza-uce-allele-snps > stats.txt
+#mv stats.txt results/no_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/no_outgroup/topaza-uce-consensus-snps_no_outgroup.conf --output results/no_outgroup/topaza-uce-consensus-snps > stats.txt
+#mv stats.txt results/no_outgroup/topaza-uce-consensus-snps
+#
+#
+#
+## extractign all variable sites within Topaza
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-allele-alignments/rep1/ --config config/no_outgroup/simulated-uce-allele-snps_no_outgroup.conf --phased --output results/all_snps/incl_missing_no_outgroup/simulated-uce-allele-snps --missing --snps all > stats.txt
+#mv stats.txt results/all_snps/incl_missing_no_outgroup/simulated-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/rep1/ --config config/no_outgroup/simulated-uce-consensus-snps_no_outgroup.conf --output results/all_snps/incl_missing_no_outgroup/simulated-uce-consensus-snps --missing --snps all > stats.txt
+#mv stats.txt results/all_snps/incl_missing_no_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/no_outgroup/topaza-uce-allele-snps_no_outgroup.conf --phased --output results/all_snps/incl_missing_no_outgroup/topaza-uce-allele-snps --missing --snps all > stats.txt
+#mv stats.txt results/all_snps/incl_missing_no_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/no_outgroup/topaza-uce-consensus-snps_no_outgroup.conf --output results/all_snps/incl_missing_no_outgroup/topaza-uce-consensus-snps --missing --snps all > stats.txt
+#mv stats.txt results/all_snps/incl_missing_no_outgroup/topaza-uce-consensus-snps
+#
+#
+#
+# The section below was executed using an older version of the snps_from_uce_alignments.py script (last update of version 1.1.)
+#
+################################SNPS for BEAST (sequence-based)##############################
+#
+##Under exclusion of all posiitons that contain ambiguities or missing data
+#
+## with outgroup
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-allele-alignments/rep1/ --config config/with_outgroup/simulated-uce-allele-snps.conf --phased --output results/non_binary/no_missing/with_outgroup/simulated-uce-allele-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/with_outgroup/simulated-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/rep1/ --config config/with_outgroup/simulated-uce-consensus-snps.conf --output results/non_binary/no_missing/with_outgroup/simulated-uce-consensus-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/with_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/with_outgroup/topaza-uce-allele-snps.conf --phased --output results/non_binary/no_missing/with_outgroup/topaza-uce-allele-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/with_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/with_outgroup/topaza-uce-consensus-snps.conf --output results/non_binary/no_missing/with_outgroup/topaza-uce-consensus-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/with_outgroup/topaza-uce-consensus-snps
+#
+## only variable sites within Topaza
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-allele-alignments/rep1/ --config config/no_outgroup/simulated-uce-allele-snps_no_outgroup.conf --phased --output results/non_binary/no_missing/no_outgroup/simulated-uce-allele-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/no_outgroup/simulated-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/rep1/ --config config/no_outgroup/simulated-uce-consensus-snps_no_outgroup.conf --output results/non_binary/no_missing/no_outgroup/simulated-uce-consensus-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/no_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/no_outgroup/topaza-uce-allele-snps_no_outgroup.conf --phased --output results/non_binary/no_missing/no_outgroup/topaza-uce-allele-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/no_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/no_outgroup/topaza-uce-consensus-snps_no_outgroup.conf --output results/non_binary/no_missing/no_outgroup/topaza-uce-consensus-snps --base_export > stats.txt
+#mv stats.txt results/non_binary/no_missing/no_outgroup/topaza-uce-consensus-snps
+#
+#
+##The same with missing data/ambiguities included (does not make a difference for simulated data, since it is gap-/ambiguity-less)
+#
+## with outgroup
+##python bin/snps_from_uce_alignments.py --input data/simulated-uce-allele-alignments/rep1/ --config config/with_outgroup/simulated-uce-allele-snps.conf --phased --output results/non_binary/with_missing/with_outgroup/simulated-uce-allele-snps --base_export --missing > stats.txt
+##mv stats.txt results/non_binary/with_missing/with_outgroup/simulated-uce-allele-snps
+##python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/rep1/ --config config/with_outgroup/simulated-uce-consensus-snps.conf --output results/non_binary/with_missing/with_outgroup/simulated-uce-consensus-snps --base_export --missing > stats.txt
+##mv stats.txt results/non_binary/with_missing/with_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/with_outgroup/topaza-uce-allele-snps.conf --phased --output results/non_binary/with_missing/with_outgroup/topaza-uce-allele-snps --base_export --missing > stats.txt
+#mv stats.txt results/non_binary/with_missing/with_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/with_outgroup/topaza-uce-consensus-snps.conf --output results/non_binary/with_missing/with_outgroup/topaza-uce-consensus-snps --base_export --missing > stats.txt
+#mv stats.txt results/non_binary/with_missing/with_outgroup/topaza-uce-consensus-snps
+#
+## only variable sites within Topaza
+##python bin/snps_from_uce_alignments.py --input data/simulated-uce-allele-alignments/rep1/ --config config/no_outgroup/simulated-uce-allele-snps_no_outgroup.conf --phased --output results/non_binary/with_missing/no_outgroup/simulated-uce-allele-snps --base_export --missing > stats.txt
+##mv stats.txt results/non_binary/with_missing/no_outgroup/simulated-uce-allele-snps
+##python bin/snps_from_uce_alignments.py --input data/simulated-uce-consensus-alignments/rep1/ --config config/no_outgroup/simulated-uce-consensus-snps_no_outgroup.conf --output results/non_binary/with_missing/no_outgroup/simulated-uce-consensus-snps --base_export --missing > stats.txt
+##mv stats.txt results/non_binary/with_missing/no_outgroup/simulated-uce-consensus-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-allele-alignments/ --config config/no_outgroup/topaza-uce-allele-snps_no_outgroup.conf --phased --output results/non_binary/with_missing/no_outgroup/topaza-uce-allele-snps --base_export --missing > stats.txt
+#mv stats.txt results/non_binary/with_missing/no_outgroup/topaza-uce-allele-snps
+#python bin/snps_from_uce_alignments.py --input data/topaza-uce-consensus-alignments/ --config config/no_outgroup/topaza-uce-consensus-snps_no_outgroup.conf --output results/non_binary/with_missing/no_outgroup/topaza-uce-consensus-snps --base_export --missing > stats.txt
+#mv stats.txt results/non_binary/with_missing/no_outgroup/topaza-uce-consensus-snps
+
+#extract SNPs for the 150 selected alignments
+mkdir data/selections
+mkdir data/selections/simulated
+cp -r ../select_UCE_alignments/results/simulated_allele_alignments_selections/top_150 data/selections/simulated
+rm data/selections/simulated/top_150/substitution_models.txt
+phyluce_align_convert_one_align_to_another --alignments data/selections/simulated/top_150/ --input-format nexus --output data/selections/simulated/top_150/temp --output-format fasta
+rm data/selections/simulated/top_150/*.nexus
+mv data/selections/simulated/top_150/temp/*.fasta data/selections/simulated/top_150/
+rm -r data/selections/simulated/top_150/temp/
+for alignment in data/selections/simulated/top_150/*.fasta; do for line in $(cat config/name_change_sim_alleles.conf); do old=$(echo $line | tr ":" "\n"| head -n 1) && new=$(echo $line | tr ":" "\n"| tail -n 1) && sed -i -e "s/$old/$new/g" $alignment; done; done
+rm data/selections/simulated/top_150/*.fasta-e
+python bin/snps_from_uce_alignments.py --input data/selections/simulated/top_150/ --config config/no_outgroup/simulated-uce-allele-snps_no_outgroup.conf --phased --output results/no_outgroup/selections/simulated/top_150 --missing
+rm phyluce_align_convert_one_align_to_another.log

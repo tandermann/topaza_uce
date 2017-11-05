@@ -1,0 +1,14 @@
+#mkdir config
+#for alignment in ../../SNP_extraction/data/topaza-uce-allele-alignments/*;
+#do echo $(basename $alignment);
+#fp.py --length $alignment | tail -n 1;
+#done > config/topaza_allele_alignments_length.txt
+#
+#for folder in ../../SNP_extraction/data/simulated-uce-allele-alignments/rep*;
+#do for alignment in $folder/*;
+#do echo $(basename $alignment) && fp.py --length $alignment | tail -n 1;
+#done > config/simulated_allele_alignments_length_$(basename $folder).txt
+#done
+#
+
+python bin/get_snp_stats.py --logfile ../../SNP_extraction/results/no_outgroup/topaza-uce-allele-snps/stats.txt --length_info config/topaza_allele_alignments_length.txt --output .

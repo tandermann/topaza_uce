@@ -1,0 +1,21 @@
+1 Sp
+2 A
+3 B
+4 C
+5 D
+6 E
+7 F
+
+
+//end of file
+
+individual  species
+   1           A
+   2           A
+  ...
+
+This file maps individual IDs (1, 2, ...) to "species" names on the
+species guide tree.  The individual IDs are specified at the end of
+each sequence name in the sequence alignment file.  The species names
+are used in the species tree specified in the control file bpp.ctl.
+

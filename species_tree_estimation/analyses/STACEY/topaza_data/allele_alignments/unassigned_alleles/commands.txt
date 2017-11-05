@@ -1,0 +1,60 @@
+# set up in BEAUTI2.4.4, using STACEY plugin
+# 150 most informative UCE loci from Topaza
+# linked substitution models and clock models for all loci
+# every allele sequence assigned it's own taxon (n_taxa=18)
+# strict clock, fixed clock rate of 1.0
+# Tree:Species = STACEY default, says 'Yule model' but means BirthDeathCollapse model, choosing collapse height=1.0E-5 (small collapse heights don't differ much among each other, only when choosing a very large value here, you will end up with only one cluster)
+# bdcGrowthRate = log normal, M=4.6, S=1.5
+# collapseWeight = Beta distribution, alpha=2, beta=2 (when small value=more inferred clusters, when large value=less inferred clusters)
+# popPriorScale = log normal, M=-7, S=2
+# relativeDeathRate = Beta distribution, alpha=1.0, beta=1.0 (default)
+# MCMC chain length=1,000,000,000, store every=20,000, tracelog=20,000, speciesTreeLogger=20,000, store each gene tree every 10,000,000 (manually set for one, then search and replace in the xml file for all others)
+# removed Florisuga from analysis with:
+sed -i '' '/Florisuga/d' topaza-150-top-uces-phased-stacey_no_outgroup.xml
+
+!!!
+I simply redefined the taxon sets in the xml file of the previous analysis, defining each sequence as an individual taxon
+!!!
+
+
+
+# none of the below was applied to this xml file
+
+
+# to add a newick starting tree for species tree and all gene trees execute the following replace commands to the xml file:
+replace the species tree funciton:
+
+    <init id="RandomTree.t:Species" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Species" rootHeight="0.05" taxonset="@taxonsuperset">
+        <populationModel id="ConstantPopulation0.Species" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Species" name="popSize">0.05</parameter>
+        </populationModel>
+    </init>
+
+
+with the following:
+
+    <init spec="beast.util.TreeParser" id="NewickTree.t:Species" initial="@Tree.t:Species" taxonset="@taxonsuperset" IsLabelledNewick="true" newick="(((((T_pyra1.0,T_pyra1.1),(T_pyra2.0,T_pyra2.1)),((T_pyra3.0,T_pyra3.1),(T_pyra4.0,T_pyra4.1)))),((((T_pella5.0,T_pella5.1),(T_pella6.0,T_pella6.1)),(((T_pella8.0,T_pella8.1),(T_pella9.0,T_pella9.1)),(T_pella7.0,T_pella7.1)))))">
+    </init>
+
+
+The take care of the gene trees:
+
+replace
+'RandomGeneTree.t'
+with
+'NewickTree.t'
+
+replace
+'beast.evolution.speciation.RandomGeneTree'
+with
+'beast.util.TreeParser'
+
+replace
+'speciesTree="@Tree\.t:Species"'
+with
+'IsLabelledNewick="true" newick="(((((T_pyra1_0,T_pyra1_1),(T_pyra2_0,T_pyra2_1)),((T_pyra3_0,T_pyra3_1),(T_pyra4_0,T_pyra4_1)))),((((T_pella5_0,T_pella5_1),(T_pella6_0,T_pella6_1)),(((T_pella8_0,T_pella8_1),(T_pella9_0,T_pella9_1)),(T_pella7_0,T_pella7_1)))))"'
+
+replace
+'        <populationModel id="RGTPopulationModel.t:uce-.*\n.*\n.*\n'
+with 
+''

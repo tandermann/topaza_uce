@@ -1,0 +1,2605 @@
+#NEXUS
+begin data;
+	dimensions ntax=9 nchar=6856;
+	format datatype=standard symbols="012" missing=?;
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$(echo $el) snp $(echo $el) absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el absent/heterozygous/homozygous 
+$el snp $el

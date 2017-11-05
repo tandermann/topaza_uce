@@ -1,0 +1,57 @@
+HPDbars                 Plot HPD Intervals on Time-calibrated
+                        Phylogenies
+add.geoscale            Geological Time Scale for Phylogenies
+add.timeframe           High-lighting ages in chronograms
+add.trendline           Plotting Trendlines on a Phylogeny
+aliscore                Cleaning of Sequence Alignments
+append2tips             Append Symbols or Text to Tip Labels
+axisChrono              Axis for time-calibrated phylogenies
+axisGeo                 Geological Time Axis for Time-Calibrated
+                        Phylogenies
+box.clades              Plot Boxes around Clades in a Phylogeny
+c.alignment             Concatenation of DNA Sequences
+clade.bars              Plot Bars beside Clades in a Phylogeny
+code.simple.gaps        Simple Gap/Indel Coding
+compare.phylo           Compare PHYLO Objects Graphically
+continousML             ML Estimation of Continous Traits
+delete.empty.cells      Delete empty rows and columns from a DNA
+                        sequence alignment
+delete.gaps             Remove Indel Positions from an Alignment
+descendants             Descendants of an Internal Node in a Phylogeny
+drop.tip2               Remove Tips from a Phylogenetic Tree
+extract.clade2          Extract Clades from a Phylogentic Tree
+fillEndsWithN           Fill alignment ends with N
+fixNodes                Standard Node Numbering in Phylo Objects
+gblocks                 Cleaning of Sequence Alignments
+geophylo                3D Geophylogenies for GIS Applications
+gradstein04             Stratigraphic Chart 2004
+homogen.base.freq       Homogeneity of base frequencies
+hordeum                 Phylogeny of Wild Barley (Hordeum)
+ident.seq               Identify or delete identical DNA sequences
+mafft                   DNA Sequence Alignment with MAFFT
+mrbayes                 Bayesian MCMC Tree Search with MrBayes
+multistate              MULTISTATE
+node.support            Visualizing Node Support on Phylogenetic Trees
+node.trans              Translate Internal Node Indices between Trees
+nodeInfo                Graphical Annotation of Internal Nodes
+noi                     Identification of MRCAs for Taxon Sets
+phyloch-package         Phylogenetic Data Analysis And Display
+pis                     Number of parsimony-informative sites
+plot.phylo.upon         Helper function
+plotNetwork             Plot Haplotype/Genotype Networks
+prank                   PRANK
+raxml                   Maximium Likelihood Tree Search
+rbeauti                 XML Input Files for BEAST
+read.beast              Read Bayesian Trees
+read.beast.table        Extract node data from BEAST chronogram
+read.fas                Read DNA Sequences
+rotate2                 Swapping Sister Clades
+shiftNodeAge            Modify Node Ages in Ultramtric Trees
+sister                  Identification of Sister Nodes and Clades
+strat2012               Stratigraphic Chart 2012
+string.dim              Dimensions of Rotated Strings
+taxo.fonts              Font Types for Tip Labels
+tip.color               Colors for Tips and Edges in Phylogenies
+vipera                  Phylogenetic Trees of True Vipers
+write.fas               Write DNA Sequences to File
+write.partitioned.nex   Write partitioned and commented NEXUS files

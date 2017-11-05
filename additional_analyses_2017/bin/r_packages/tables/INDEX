@@ -1,0 +1,26 @@
+All                     Include all columns of a dataframe.
+AllObs                  Display all observations in a table.
+Arguments               'Arguments' pseudo-function
+DropEmpty               'DropEmpty' pseudo-function
+Format                  'Format' pseudo-function
+Heading                 'Heading' pseudo-function
+Hline                   Add a horizontal line to a LaTeX table.
+Justify                 'Justify' pseudo-function
+Literal                 Insert a literal entry into a table margin.
+Paste                   Generate terms to paste values together in
+                        table.
+Percent                 Pseudo-function to compute a statistic relative
+                        to a reference set.
+PlusMinus               Generate 'x +/- y' terms in table.
+RowFactor               Use a variable as a factor to give rows in a
+                        table.
+as.matrix.tabular       Convert tabular object to matrix
+as.tabular              Convert matrix or dataframe to tabular object.
+html.tabular            Display a tabular object using HTML.
+labelSubset             Add a label to a logical vector.
+latex.tabular           Display a tabular object using LaTeX.
+latexNumeric            Process numeric LaTeX or HTML values.
+rowLabels               Retrieve or modify the row or column labels.
+table_options           Set or query options for the table formatting.
+tabular                 Compute complex table
+write.csv.tabular       Write table to file in CSV or other format.

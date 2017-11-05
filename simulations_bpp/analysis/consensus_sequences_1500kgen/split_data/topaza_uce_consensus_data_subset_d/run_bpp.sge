@@ -1,0 +1,7 @@
+#$ -cwd
+#$ -q high_mem
+#$ -S /bin/bash
+cd /home/tobias/bpp/analysis
+cd ./consensus_sequences_1500kgen/split_data/topaza_uce_consensus_data_subset_d
+/home/tobias/bpp/bpp3.3/src/bpp topaza_consensus.bpp.ctl
+cd /home/tobias/bpp/analysis

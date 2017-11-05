@@ -1,0 +1,13 @@
+# set up in BEAUTI2.4.4, using STACEY plugin
+# 150 most informative UCE loci from simulated data
+# assigned both allele sequences to the individual they were sampled from (f1,f1,f2,f2,etc)
+# entered substitution models from jModeltest (JC=JC69, K80=HKY85, SYM=GTR)
+# strict clock, fixed clock rate of 1.0 for sim_alignment_2, all other loci estimated
+# Tree:Species = STACEY default, says 'Yule model' but means BirthDeathCollapse model, choosing collapse height=3E-4 (small collapse heights don't differ much among each other, only when choosing a very large value here, you will end up with only one cluster)
+# bdcGrowthRate = log normal, M=4.6, S=1.5
+# clock rate for each locus = log normal, M=0.0, S=1.0 (manually have to choose log normal distribution for all loci, but only change M and S for one locus, for all others search and replace in the resulting xml file)
+# collapseWeight = Beta distribution, alpha=2, beta=2 (when small value=more inferred clusters, when large value=less inferred clusters)
+# popPriorScale = log normal, M=-7, S=2
+# relativeDeathRate = Beta distribution, alpha=1.0, beta=1.0 (default)
+# MCMC chain length=1,000,000,000, store every=20,000, tracelog=20,000, speciesTreeLogger=20,000, store each gene tree every 10,000,000 (manually set for one, then search and replace in the xml file for all others)
+# make sure the Jukes Cantor model is correctly chosen for all loci, the default, which appears to be JC through the interface is something else and will cause an error

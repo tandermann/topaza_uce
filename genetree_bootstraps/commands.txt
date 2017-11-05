@@ -1,0 +1,203 @@
+###run on MacBook 2015, macOS Sierra, January 2017, author: Tobias Hofmann (tobias.hofmann@bioenv.gu.se)
+#
+##First: fetch all necessary data:
+#
+#python bin/add_missing_sequences.py --input ../SNP_extraction/data/topaza-uce-consensus-alignments/ --output data/topaza_consensus_alignments
+#for al in data/topaza_consensus_alignments/*.fasta;
+#do sed -i '' 's/?/N/g' $al;
+#done
+#phyluce_align_convert_one_align_to_another --alignments data/topaza_consensus_alignments --input-format fasta --output data/topaza_consensus_alignments/phylip --output-format phylip
+#rm data/topaza_consensus_alignments/*.fasta
+#mv data/topaza_consensus_alignments/phylip/*.phylip data/topaza_consensus_alignments
+#rm -r data/topaza_consensus_alignments/phylip
+#
+#
+#python bin/add_missing_sequences.py --input ../SNP_extraction/data/topaza-uce-allele-alignments/ --output data/topaza_allele_alignments
+#for al in data/topaza_allele_alignments/*.fasta;
+#do sed -i '' 's/?/N/g' $al;
+### the name of the florisuga sequences is too long for converison into phylip so it needs to be shortened:
+#sed -i '' 's/Florisuga_/Flor_/g' $al;
+#done
+#phyluce_align_convert_one_align_to_another --alignments data/topaza_allele_alignments --input-format fasta --output data/topaza_allele_alignments/phylip --output-format phylip
+#rm data/topaza_allele_alignments/*.fasta
+#mv data/topaza_allele_alignments/phylip/*.phylip data/topaza_allele_alignments
+#rm -r data/topaza_allele_alignments/phylip
+#
+#
+#mkdir data/simulated_consensus_alignments
+#for simrep in ../SNP_extraction/data/simulated-uce-consensus-alignments/*;
+#do cp -r $simrep data/simulated_consensus_alignments/$(basename $simrep); 
+#phyluce_align_convert_one_align_to_another --alignments data/simulated_consensus_alignments/$(basename $simrep) --input-format fasta --output data/simulated_consensus_alignments/$(basename $simrep)/phylip --output-format phylip
+#rm data/simulated_consensus_alignments/$(basename $simrep)/*.fasta
+#mv data/simulated_consensus_alignments/$(basename $simrep)/phylip/*.phylip data/simulated_consensus_alignments/$(basename $simrep)
+#rm -r data/simulated_consensus_alignments/$(basename $simrep)/phylip
+#done
+#
+#mkdir data/simulated_allele_alignments
+#mkdir data/simulated_allele_alignments
+#for simrep in ../SNP_extraction/data/simulated-uce-allele-alignments/*;
+#do cp -r $simrep data/simulated_allele_alignments/$(basename $simrep); 
+#phyluce_align_convert_one_align_to_another --alignments data/simulated_allele_alignments/$(basename $simrep) --input-format fasta --output data/simulated_allele_alignments/$(basename $simrep)/phylip --output-format phylip
+#rm data/simulated_allele_alignments/$(basename $simrep)/*.fasta
+#mv data/simulated_allele_alignments/$(basename $simrep)/phylip/*.phylip data/simulated_allele_alignments/$(basename $simrep)
+#rm -r data/simulated_allele_alignments/$(basename $simrep)/phylip
+#done
+#
+#
+#
+#phyluce_align_convert_one_align_to_another --alignments ../select_UCE_alignments/results/topaza_allele_alignments_selections/top_150 --input-format nexus --output data/selections/topaza/top_150_topaza_allele_alignments_temp --output-format fasta
+#python bin/add_missing_sequences.py --input data/selections/topaza/top_150_topaza_allele_alignments_temp --output data/selections/topaza/top_150_topaza_allele_alignments
+#rm -r data/selections/topaza/top_150_topaza_allele_alignments_temp
+#for al in data/selections/topaza/top_150_topaza_allele_alignments/*.fasta;
+#do sed -i '' 's/?/N/g' $al;
+#sed -i '' 's/Florisuga_/Flor_/g' $al;
+#done
+#phyluce_align_convert_one_align_to_another --alignments data/selections/topaza/top_150_topaza_allele_alignments/ --input-format fasta --output data/selections/topaza/top_150_topaza_allele_alignments/phylip --output-format phylip
+#rm data/selections/topaza/top_150_topaza_allele_alignments/*.fasta
+#cp data/selections/topaza/top_150_topaza_allele_alignments/phylip/*.phylip data/selections/topaza/top_150_topaza_allele_alignments/
+#rm -r data/selections/topaza/top_150_topaza_allele_alignments/phylip
+#
+#
+#
+#phyluce_align_convert_one_align_to_another --alignments ../select_UCE_alignments/results/topaza_allele_alignments_selections/bottom_150 --input-format nexus --output data/selections/topaza/bottom_150_topaza_allele_alignments_temp --output-format fasta
+#python bin/add_missing_sequences.py --input data/selections/topaza/bottom_150_topaza_allele_alignments_temp --output data/selections/topaza/bottom_150_topaza_allele_alignments
+#rm -r data/selections/topaza/bottom_150_topaza_allele_alignments_temp
+#for al in data/selections/topaza/bottom_150_topaza_allele_alignments/*.fasta;
+#do sed -i '' 's/?/N/g' $al;
+#sed -i '' 's/Florisuga_/Flor_/g' $al;
+#done
+#phyluce_align_convert_one_align_to_another --alignments data/selections/topaza/bottom_150_topaza_allele_alignments/ --input-format fasta --output data/selections/topaza/bottom_150_topaza_allele_alignments/phylip --output-format phylip
+#rm data/selections/topaza/bottom_150_topaza_allele_alignments/*.fasta
+#cp data/selections/topaza/bottom_150_topaza_allele_alignments/phylip/*.phylip data/selections/topaza/bottom_150_topaza_allele_alignments/
+#rm -r data/selections/topaza/bottom_150_topaza_allele_alignments/phylip
+#
+#
+#phyluce_align_convert_one_align_to_another --alignments ../select_UCE_alignments/results/topaza_allele_alignments_selections/random_150 --input-format nexus --output data/selections/topaza/random_150_topaza_allele_alignments_temp --output-format fasta
+#python bin/add_missing_sequences.py --input data/selections/topaza/random_150_topaza_allele_alignments_temp --output data/selections/topaza/random_150_topaza_allele_alignments
+#rm -r data/selections/topaza/random_150_topaza_allele_alignments_temp
+#for al in data/selections/topaza/random_150_topaza_allele_alignments/*.fasta;
+#do sed -i '' 's/?/N/g' $al;
+#sed -i '' 's/Florisuga_/Flor_/g' $al;
+#done
+#phyluce_align_convert_one_align_to_another --alignments data/selections/topaza/random_150_topaza_allele_alignments/ --input-format fasta --output data/selections/topaza/random_150_topaza_allele_alignments/phylip --output-format phylip
+#rm data/selections/topaza/random_150_topaza_allele_alignments/*.fasta
+#cp data/selections/topaza/random_150_topaza_allele_alignments/phylip/*.phylip data/selections/topaza/random_150_topaza_allele_alignments/
+#rm -r data/selections/topaza/random_150_topaza_allele_alignments/phylip
+#
+#
+#
+##same for simulated data
+#mkdir data/selections/simulated
+#
+#cp -r ../select_UCE_alignments/results/simulated_allele_alignments_selections/top_150 data/selections/simulated/top_150_simulated_allele_alignments
+#rm data/selections/simulated/top_150_simulated_allele_alignments/substitution_models.txt
+#phyluce_align_convert_one_align_to_another --alignments data/selections/simulated/top_150_simulated_allele_alignments/ --input-format nexus --output data/selections/simulated/top_150_simulated_allele_alignments/phylip --output-format phylip
+#rm data/selections/simulated/top_150_simulated_allele_alignments/*.nexus
+#cp data/selections/simulated/top_150_simulated_allele_alignments/phylip/*.phylip data/selections/simulated/top_150_simulated_allele_alignments/
+#rm -r data/selections/simulated/top_150_simulated_allele_alignments/phylip
+#
+#cp -r ../select_UCE_alignments/results/simulated_allele_alignments_selections/bottom_150 data/selections/simulated/bottom_150_simulated_allele_alignments
+#rm data/selections/simulated/bottom_150_simulated_allele_alignments/substitution_models.txt
+#phyluce_align_convert_one_align_to_another --alignments data/selections/simulated/bottom_150_simulated_allele_alignments/ --input-format nexus --output data/selections/simulated/bottom_150_simulated_allele_alignments/phylip --output-format phylip
+#rm data/selections/simulated/bottom_150_simulated_allele_alignments/*.nexus
+#cp data/selections/simulated/bottom_150_simulated_allele_alignments/phylip/*.phylip data/selections/simulated/bottom_150_simulated_allele_alignments/
+#rm -r data/selections/simulated/bottom_150_simulated_allele_alignments/phylip
+#
+#cp -r ../select_UCE_alignments/results/simulated_allele_alignments_selections/random_150 data/selections/simulated/random_150_simulated_allele_alignments
+#rm data/selections/simulated/random_150_simulated_allele_alignments/substitution_models.txt
+#phyluce_align_convert_one_align_to_another --alignments data/selections/simulated/random_150_simulated_allele_alignments/ --input-format nexus --output data/selections/simulated/random_150_simulated_allele_alignments/phylip --output-format phylip
+#rm data/selections/simulated/random_150_simulated_allele_alignments/*.nexus
+#cp data/selections/simulated/random_150_simulated_allele_alignments/phylip/*.phylip data/selections/simulated/random_150_simulated_allele_alignments/
+#rm -r data/selections/simulated/random_150_simulated_allele_alignments/phylip
+#
+#
+#rm phyluce_align_convert_one_align_to_another.log
+#
+#
+#
+#
+## for faster computation I ran the following on the Albiorix computer cluster
+## for this purpose I create a separate sge script for each analysis
+#
+#
+#mkdir results
+#mkdir results/genetrees
+#
+#for folder in data/topaza_*;
+#do outdir=results/genetrees/$(basename $folder | sed 's/_alignments/_genetrees/g');
+#mkdir $outdir
+#echo '#$ -cwd' > $outdir/cloudforest.sge
+#echo '#$ -q high_mem' >> $outdir/cloudforest.sge
+#echo '#$ -pe mpich 4' >> $outdir/cloudforest.sge
+#echo '#$ -S /bin/bash' >> $outdir/cloudforest.sge
+#echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir genetrees bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 4" >> $outdir/cloudforest.sge
+#qsub $outdir/cloudforest.sge
+#done
+#
+#for dir in data/simulated_*;
+#do outdir_parent=results/genetrees/$(basename $dir | sed 's/_alignments/_genetrees/g')
+#mkdir $outdir_parent;
+#for folder in $dir/rep*;
+#do outdir=results/genetrees/$(basename $dir | sed 's/_alignments/_genetrees/g')/$(basename $folder)
+#mkdir $outdir
+#echo '#$ -cwd' > $outdir/cloudforest.sge
+#echo '#$ -q high_mem' >> $outdir/cloudforest.sge
+#echo '#$ -pe mpich 4' >> $outdir/cloudforest.sge
+#echo '#$ -S /bin/bash' >> $outdir/cloudforest.sge
+#echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir genetrees bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 4" >> $outdir/cloudforest.sge
+#qsub $outdir/cloudforest.sge
+#done
+#done
+#
+#mkdir results/genetrees/selections/
+#mkdir results/genetrees/selections/topaza
+#
+#for folder in data/selections/topaza/*;
+#do outdir=results/genetrees/selections/topaza/$(basename $folder | sed 's/_alignments/_genetrees/g')
+#mkdir $outdir;
+#echo '#$ -cwd' > $outdir/cloudforest.sge
+#echo '#$ -q high_mem' >> $outdir/cloudforest.sge
+#echo '#$ -pe mpich 4' >> $outdir/cloudforest.sge
+#echo '#$ -S /bin/bash' >> $outdir/cloudforest.sge
+#echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir genetrees bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 4" >> $outdir/cloudforest.sge
+#qsub $outdir/cloudforest.sge
+#done
+#
+#####################################Bootstrapping#######################################
+
+
+for folder in data/topaza_*;
+do outdir=results/genetrees/$(basename $folder | sed 's/_alignments/_genetrees/g');
+mkdir $outdir/bootstrap_data
+echo '#$ -cwd' > $outdir/bootstrap_cloudforest.sge
+echo '#$ -q high_mem' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -pe mpich 16' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -S /bin/bash' >> $outdir/bootstrap_cloudforest.sge
+echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir/bootstrap_data bootstraps bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 16 --bootreps 1000 --genetrees $outdir/genetrees.tre" >> $outdir/bootstrap_cloudforest.sge
+qsub $outdir/bootstrap_cloudforest.sge
+done
+
+for dir in data/simulated_*;
+do outdir_parent=results/genetrees/$(basename $dir | sed 's/_alignments/_genetrees/g');
+for folder in $dir/rep*;
+do outdir=results/genetrees/$(basename $dir | sed 's/_alignments/_genetrees/g')/$(basename $folder);
+mkdir $outdir/bootstrap_data
+echo '#$ -cwd' > $outdir/bootstrap_cloudforest.sge
+echo '#$ -q high_mem' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -pe mpich 4' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -S /bin/bash' >> $outdir/bootstrap_cloudforest.sge
+echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir/bootstrap_data bootstraps bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 4 --bootreps 1000 --genetrees $outdir/genetrees.tre" >> $outdir/bootstrap_cloudforest.sge
+qsub $outdir/bootstrap_cloudforest.sge
+done
+done
+
+for folder in data/selections/topaza/*;
+do outdir=results/genetrees/selections/topaza/$(basename $folder | sed 's/_alignments/_genetrees/g');
+mkdir $outdir/bootstrap_data
+echo '#$ -cwd' > $outdir/bootstrap_cloudforest.sge
+echo '#$ -q high_mem' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -pe mpich 4' >> $outdir/bootstrap_cloudforest.sge
+echo '#$ -S /bin/bash' >> $outdir/bootstrap_cloudforest.sge
+echo "python bin/CloudForest-master/cloudforest/cloudforest_mpi.py $folder $outdir/bootstrap_data bootstraps bin/CloudForest-master/cloudforest/binaries/PhyML3linux64 --parallelism multiprocessing --cores 4 --bootreps 1000 --genetrees $outdir/genetrees.tre" >> $outdir/bootstrap_cloudforest.sge
+qsub $outdir/bootstrap_cloudforest.sge
+done

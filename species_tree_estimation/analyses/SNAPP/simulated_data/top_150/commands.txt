@@ -1,0 +1,15 @@
+# set up in BEAUTI2.4.4, using SNAPP plugin
+# taxon assignments, after first '_'
+# rate U = 1.0 (sample)
+# rate V = 1.0
+# coalescent rate = 10.0 (sample)
+# uncheck 'Include non-polymorphic sites'
+# only thing checked (by default) is 'Use Log Likelihood Correction'
+# lambda = exponential with mean=0.2
+# the rest with default settings:
+# alpha=11.75
+# beta=109.73
+# kappa=1.0
+# lambda=0.01 (sample)
+# u = 1/X, from 0-infinity
+# v = 1/X, from 0-infinity

@@ -1,0 +1,4 @@
+count      fraction               similarity             nclusters  pyra3 pella5 pyra2 pella6 pyra1 pella7 pella8 pella9 pyra4 
+47434      0.9780004535988949     47434.0                2          1    2    1    2    1    2    2    2    1    
+1067       0.021999546401105134   1067.0                 3          1    2    1    2    1    3    3    3    1    
+

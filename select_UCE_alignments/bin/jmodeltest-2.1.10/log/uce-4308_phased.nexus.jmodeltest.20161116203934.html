@@ -1,0 +1,620 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+	<title>jModelTest Output</title>
+
+	<link rel="stylesheet" href="resources/style.css" type="text/css" media="screen" />
+	<!--[if IE]>
+	<style type="text/css">
+	  .clearfix {
+		zoom: 1;
+		display: block; 
+		} 
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+
+<div id="container1">
+<div id="container2">
+ 
+	<div id="header">
+		<div id="logo">
+			<a href="http://code.google.com/p/jmodeltest2">
+				<img src="resources/logo0.png" style="width:129px; height:80px;"/>
+			</a>
+		</div>
+		<div id="header-links">
+			<ul>
+				<li  class="header_button"><a href="http://code.google.com/p/jmodeltest2" title="Home">Home</a></li>
+				<li  class="header_button_span"><a href="https://groups.google.com/group/jmodeltest" title="Group">Discussion group</a></li>
+				<li  class="header_button"><a href="https://groups.google.com/forum/#!forum/jmodeltest" title="Forum">Forum</a></li>
+				<li  class="header_button"><a href="mailto:ddarriba@udc.es" title="Contact">Contact</a></li>
+			</ul>
+		</div>
+		<div id="menul1">
+			<ul>
+				<li  class="selection_button"><a href="#program-meta" title="Meta">Meta</a></li>
+				<li  class="selection_button"><a href="#settings" title="Settings">Settings</a></li>
+				<li  class="selection_button"><a href="#results" title="Input Data">Results</a></li>
+					<li class="selection_button_span"><a>Selection</a></li>
+
+			</ul>
+		</div>
+		<div id="menul2">
+			<ul>
+									<li  class="selection_button_na">
+					<a href="#aic" title="AIC">AIC</a></li>
+					<li  class="selection_button_na">
+					<a href="#aicc" title="AICc">AICc</a></li>
+					<li  class="selection_button">
+					<a href="#bic" title="BIC">BIC</a></li>
+					<li  class="selection_button_na">
+					<a href="#dt" title="DT">DT</a></li>
+			</ul>
+		</div><!--menu-->
+		<div style="clear:both;"></div>
+	</div><!--header-->
+
+<div id="clearfix">
+
+<div id="page">
+		<div id="content">
+
+<div id="program-meta">
+	<h1><a name="program-meta"></a>Application Meta</h1>
+	<h3>jModeltest 2.1</h3>
+	(c) 2011-onwards D. Darriba, G.L. Taboada, R. Doallo and D. Posada,<br/>
+    (1) Department of Biochemistry, Genetics and Immunology<br/>
+        University of Vigo, 36310 Vigo, Spain.<br/>
+    (2) Department of Electronics and Systems<br/>
+        University of A Coruna, 15071 A Coruna, Spain.<br/>
+    e-mail: ddarriba@udc.es, dposada@uvigo.es<br/>
+<br/>
+	<hr/>
+	Wed Nov 16 20:39:44 CET 2016 <br/> Mac OS X 10.12, arch: x86_64, bits: 64, numcores: 4<br/>
+	
+	<p></p> 
+	<table align="center">
+	<tr valign="top"><td>Citation:</td><td align="left"> Darriba D, Taboada GL, Doallo R and Posada D. 2012. "jModelTest 2: more models, new heuristics and parallel computing". Nature Methods 9, 772.</td></tr>
+    </table>
+	<p></p>
+
+	 
+	Notice: This program may contain errors. Please inspect results carefully.<br/>
+	 <br/>
+ 
+</div>
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+	<h1><a name="settings"></a>Settings </h1>
+
+		 Arguments = -d results/topaza_allele_alignments_selections/random_150/uce-4308_phased.nexus -i -g 4 -s 3 -BIC <br/>
+		 Input Alignment: "results/topaza_allele_alignments_selections/random_150/uce-4308_phased.nexus"<br/>
+		 NumTaxa = 20<br/>
+		 Length = 967<br/> 
+		 Phyml version = 3.0<br/>
+		 Phyml binary = PhyML_3.0_macOS_i386<br/>
+		 Candidate models = 12<br/>
+		  number of substitution schemes = 3<br/>
+		  including only models with equal base frequencies<br/>
+		  including models with/without a proportion of invariable sites (+I)<br/>
+		  including models with/without rate variation among sites (+G) (nCat = 4)<br/>
+		 Optimized free parameters (K) = Substitution parameters + 37 branch lengths + topology<br/>
+		 
+		 Base tree for likelihood calculations = Maximum Likelihood<br/>
+		 Tree topology search operation = Best of {NNI, SPR}<br/>
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+<h1> <a name="results"></a>Model Optimization Results </h1>
+
+<div id="sorted-models">
+<table class="model-info">
+<tr><th> ID </th><th> Name </th><th> Partition </th><th> -lnL </th><th> p </th><th> fA </th><th> fC </th><th> fG </th><th> fT </th><th> ti/tv </th><th> R(a) </th><th> R(b) </th><th> R(c) </th><th> R(d) </th><th> R(e) </th><th> R(f) </th><th> p-inv </th><th> shape </th></tr>
+<tr><td> 1</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);&useBranchLengths=true">JC</a></td><td> 000000 </td><td> 1412.3097 </td><td> 38 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 2</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,Florisuga_0:0.00000002,((T_pella5_1:0.00000212,((T_pella6_1:0.00000007,T_pella5_0:0.00000006):0.00000006,((T_pyra3_1:0.00095289,T_pyra1_1:0.00000001):0.00000001,(T_pella9_1:0.00094589,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,((T_pella7_1:0.00000001,T_pella9_0:0.00000001):0.00000001,(T_pyra4_1:0.00000001,((T_pyra4_0:0.00000001,T_pella8_1:0.00093461):0.00000007,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000009):0.00000001):0.00000052):0.00000009):0.00002689):0.00003414):0.00004165):0.00060919):0.00000009):0.00094396):0.00094323):0.00094089,(Florisuga_1:0.00000008,T_pella6_0:0.00030871):0.00062558):0.00000002);&useBranchLengths=true">JC+I</a></td><td> 000000 </td><td> 1411.7902 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.4690 </td><td> - </td></tr>
+<tr><td> 3</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104561,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000007,((T_pyra3_1:0.00105064,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103993,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004289):0.00005174):0.00007771):0.00086744):0.00000008):0.00000013,(T_pella9_1:0.00104192,Florisuga_1:0.00000009):0.00000013):0.00104000):0.00000016):0.00104019):0.00104028);&useBranchLengths=true">JC+G</a></td><td> 000000 </td><td> 1410.9854 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 4</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00090594,T_pella8_0:0.00000000,((Florisuga_0:0.00000000,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000000,T_pella9_1:0.00054425):0.00038819,((T_pyra1_1:0.00000000,T_pyra3_1:0.00091001):0.00000004,((T_pella5_0:0.00000000,T_pella7_0:0.00000000):0.00000012,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pyra4_0:0.00000000,(T_pella8_1:0.00090088,T_pella9_0:0.00000000):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000005):0.00000000):0.00000004):0.00006114):0.00006461):0.00007204):0.00084089):0.00000004):0.00090098):0.00101513):0.00101510);&useBranchLengths=true">JC+I+G</a></td><td> 000000 </td><td> 1410.4061 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.5130 </td><td> 0.0110 </td></tr>
+<tr><td> 5</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104010,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000013,((T_pella9_1:0.00103728,Florisuga_1:0.00000009):0.00000013,(T_pyra3_1:0.00104552,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103470,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004211):0.00005170):0.00008085):0.00086063):0.00000008):0.00000007):0.00103471):0.00000032):0.00103450):0.00103545);&useBranchLengths=true">K80</a></td><td> 010010 </td><td> 1410.8913 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.6721 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 6</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00103158,T_pella8_0:0.00000000,(T_pella5_1:0.00000000,(Florisuga_0:0.00000000,(T_pella6_1:0.00000000,(T_pyra3_1:0.00103153,((T_pyra1_1:0.00000000,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pella8_1:0.00102283,(T_pyra4_0:0.00000000,T_pella9_0:0.00000000):0.00000000):0.00000000):0.00000000,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00000000):0.00045786):0.00000116):0.00000013):0.00000192):0.00057357):0.00000000,(T_pella9_1:0.00000215,Florisuga_1:0.00000001):0.00104422):0.00000000):0.00105204):0.00001081):0.00104537):0.00104861);&useBranchLengths=true">K80+I</a></td><td> 010010 </td><td> 1408.1436 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.7006 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.9710 </td><td> - </td></tr>
+<tr><td> 7</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104509,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000007,(Florisuga_1:0.00000009,(T_pella9_1:0.00104387,(T_pyra3_1:0.00104999,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103929,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004292):0.00005190):0.00007638):0.00087034):0.00000008):0.00000013):0.00000013):0.00103924):0.00000059):0.00103915):0.00104221);&useBranchLengths=true">K80+G</a></td><td> 010010 </td><td> 1409.5684 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.6694 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 8</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00090493,T_pella8_0:0.00000000,((Florisuga_0:0.00000000,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000000,T_pella9_1:0.00054473):0.00039028,((T_pyra1_1:0.00000000,T_pyra3_1:0.00090880):0.00000004,((T_pella5_0:0.00000000,T_pella7_0:0.00000000):0.00000012,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pyra4_0:0.00000000,(T_pella8_1:0.00089970,T_pella9_0:0.00000000):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000005):0.00000000):0.00000004):0.00006130):0.00006485):0.00007042):0.00084486):0.00000004):0.00089984):0.00101410):0.00101883);&useBranchLengths=true">K80+I+G</a></td><td> 010010 </td><td> 1408.9890 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.6721 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.5130 </td><td> 0.0110 </td></tr>
+<tr><td> 9</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00105950,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000009,((T_pyra3_1:0.00106588,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00105509,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000013):0.00000013):0.00000008):0.00000009):0.00004196):0.00005166):0.00007950):0.00088201):0.00000013):0.00000008,(T_pella9_1:0.00105607,Florisuga_1:0.00000013):0.00000013):0.00105577):0.00000003):0.00105642):0.00105631);&useBranchLengths=true">SYM</a></td><td> 012345 </td><td> 1407.5890 </td><td> 43 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 916.1150 </td><td> 733.6893 </td><td> 2131.0294 </td><td> 3315.2315 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 10</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00107743,T_pella8_0:0.00000000,(T_pella5_1:0.00000001,(Florisuga_0:0.00000001,(T_pella6_1:0.00000000,(T_pyra3_1:0.00108896,((T_pyra1_1:0.00000000,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pella8_1:0.00105798,(T_pyra4_0:0.00000000,T_pella9_0:0.00000000):0.00000000):0.00000000):0.00000001,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00000000):0.00045604):0.00000021):0.00000159):0.00000005):0.00059642):0.00000000,(T_pella9_1:0.00000418,Florisuga_1:0.00000001):0.00106054):0.00000001):0.00108302):0.00000677):0.00109132):0.00109184);&useBranchLengths=true">SYM+I</a></td><td> 012345 </td><td> 1405.0357 </td><td> 44 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2688.1265 </td><td> 2290.1177 </td><td> 6112.7424 </td><td> 10373.1764 </td><td> 1.0000 </td><td> 0.9650 </td><td> - </td></tr>
+<tr><td> 11</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00106490,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000010,(Florisuga_1:0.00000008,(T_pella9_1:0.00106038,(T_pyra3_1:0.00107163,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00105867,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000013):0.00000013):0.00000008):0.00000009):0.00004355):0.00005317):0.00007841):0.00088376):0.00000008):0.00000013):0.00000013):0.00106170):0.00000144):0.00106271):0.00106352);&useBranchLengths=true">SYM+G</a></td><td> 012345 </td><td> 1406.2809 </td><td> 44 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 1065.8597 </td><td> 860.2781 </td><td> 2483.5689 </td><td> 3894.2166 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 12</td><td><a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00095098,T_pella8_0:0.00000001,((Florisuga_0:0.00000001,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000001,T_pella9_1:0.00056548):0.00040972,((T_pyra1_1:0.00000001,T_pyra3_1:0.00095742):0.00000005,(T_pella5_0:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,((T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella8_1:0.00094387,T_pella9_0:0.00000001):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000005):0.00000001):0.00000004):0.00006150):0.00006532):0.00007759):0.00009994):0.00064363):0.00000005):0.00094898):0.00106688):0.00106538);&useBranchLengths=true">SYM+I+G</a></td><td> 012345 </td><td> 1405.7415 </td><td> 45 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 937.3715 </td><td> 761.0062 </td><td> 2140.7011 </td><td> 3459.1334 </td><td> 1.0000 </td><td> 0.4930 </td><td> 0.0120 </td></tr>
+</table>
+</div><!--sorted-models-->
+  <div id="topologies">
+  <p>
+  There are 7 different topologies. The following table shows the models supporting each topology and the rank according to each Information Criterion, as well as Robinson-Foulds and Euclidean distances with the tree of the best-fit model.
+  </p>
+  <table class="topologies-info">
+  <tr><th class="col-id"> ID </th>
+      <th class="col-models"> Models </th>
+      <th class="col-topo"> Topology </th>
+      <th/>
+      <th> AIC </th>
+      <th> BIC </th>
+      <th> AICc </th>
+      <th> DT </th>
+  </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 0</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella8_0,((T_pella6_1,(T_pella9_1,(T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1)))))))))))))),(Florisuga_1,T_pella5_1)),(Florisuga_0,T_pella6_0));">(T_pella8_0,((T_pella6_1,(T_pella9_1,(T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1)))))))))))))),(Florisuga_1,T_pella5_1)),(Florisuga_0,T_pella6_0));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.7151</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 1</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      K80+G SYM+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,(Florisuga_1,(T_pella9_1,(T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1))))))))))))))))));">(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,(Florisuga_1,(T_pella9_1,(T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1))))))))))))))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">1</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0115</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.0456e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2.3475e-10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 2</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+G K80 SYM 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,((T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1)))))))))))),(T_pella9_1,Florisuga_1))))));">(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,((T_pyra3_1,(T_pyra1_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,(T_pella7_1,(T_pyra4_0,(T_pella5_0,(T_pella8_1,(T_pella9_0,(T_pyra2_0,T_pyra2_1)))))))))))),(T_pella9_1,Florisuga_1))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.1814</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.1068e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8.6438e-09</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 3</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+I+G K80+I+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella6_0,T_pella8_0,((Florisuga_0,T_pella5_1),(T_pella6_1,((Florisuga_1,T_pella9_1),((T_pyra1_1,T_pyra3_1),((T_pella5_0,T_pella7_0),(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pyra4_0,(T_pella8_1,T_pella9_0))),(T_pyra2_0,T_pyra2_1)))))))))));">(T_pella6_0,T_pella8_0,((Florisuga_0,T_pella5_1),(T_pella6_1,((Florisuga_1,T_pella9_1),((T_pyra1_1,T_pyra3_1),((T_pella5_0,T_pella7_0),(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pyra4_0,(T_pella8_1,T_pella9_0))),(T_pyra2_0,T_pyra2_1)))))))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0056</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">28</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.0339e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">1.3573e-13</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 4</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      K80+I SYM+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,(T_pyra3_1,((T_pyra1_1,(T_pella5_0,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pella8_1,(T_pyra4_0,T_pella9_0))),(T_pyra2_0,T_pyra2_1)))))))),(T_pella9_1,Florisuga_1)))))));">(T_pella6_0,T_pella8_0,(T_pella5_1,(Florisuga_0,(T_pella6_1,(T_pyra3_1,((T_pyra1_1,(T_pella5_0,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pella8_1,(T_pyra4_0,T_pella9_0))),(T_pyra2_0,T_pyra2_1)))))))),(T_pella9_1,Florisuga_1)))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">4</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0477</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">28</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.0940e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8.5726e-10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 5</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      SYM+I+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella6_0,T_pella8_0,((Florisuga_0,T_pella5_1),(T_pella6_1,((Florisuga_1,T_pella9_1),((T_pyra1_1,T_pyra3_1),(T_pella5_0,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pyra4_0,(T_pella8_1,T_pella9_0))),(T_pyra2_0,T_pyra2_1))))))))))));">(T_pella6_0,T_pella8_0,((Florisuga_0,T_pella5_1),(T_pella6_1,((Florisuga_1,T_pella9_1),((T_pyra1_1,T_pyra3_1),(T_pella5_0,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,(T_pyra4_1,((T_pella7_1,(T_pyra4_0,(T_pella8_1,T_pella9_0))),(T_pyra2_0,T_pyra2_1))))))))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">5</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">28</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.1221e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 6</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(T_pella8_0,Florisuga_0,((T_pella5_1,((T_pella6_1,T_pella5_0),((T_pyra3_1,T_pyra1_1),(T_pella9_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,((T_pella7_1,T_pella9_0),(T_pyra4_1,((T_pyra4_0,T_pella8_1),(T_pyra2_0,T_pyra2_1))))))))))),(Florisuga_1,T_pella6_0)));">(T_pella8_0,Florisuga_0,((T_pella5_1,((T_pella6_1,T_pella5_0),((T_pyra3_1,T_pyra1_1),(T_pella9_1,(T_pella7_0,(T_pyra3_0,(T_pyra1_0,((T_pella7_1,T_pella9_0),(T_pyra4_1,((T_pyra4_0,T_pella8_1),(T_pyra2_0,T_pyra2_1))))))))))),(Florisuga_1,T_pella6_0)));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">6</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0387</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">30</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2.8922e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  </table>
+  </div><!--sorted-models-->
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="selection">   
+<h1> <a name="bic"></a>BIC Selection Results </h1>
+<div class="selection-upper"> 
+	<div class="selection_best_model">
+		<h2 style="text-align: center;"> Model selected </h2>
+		<table class="model_info">
+		<tr><th>   Model </th><td colspan="2">JC</tr>
+		<tr><th>   partition </th><td colspan="2"> 000000</tr>
+		<tr><th>   -lnL </th><td colspan="2"> 1412.3097</tr>
+		<tr><th>   K </th><td colspan="2"> 38</tr>
+		<tr><th>   freqA </th><td> -</td><th>   R(a) </th><td> - </td></tr>
+		<tr><th>   freqC </th><td> -</td><th>   R(b) </th><td> - </td></tr>
+		<tr><th>   freqG </th><td> -</td><th>   R(c) </th><td> - </td></tr>
+		<tr><th>   freqT </th><td> -</td><th>   R(d) </th><td> - </td></tr>
+		<tr><th>   ti/tv </th><td> - </td><th>   R(e) </th><td> - </td></tr>
+		<tr><th></th><td></td><th>   R(f) </th><td> - </td></tr>
+		<tr><th>   p-inv </th><td> -</td><th>   gamma </th><td> - </td></tr>
+		</table>
+	</div> <!--selection_best_model-->
+<div class="selection_best_tree">
+
+	<h2 style="text-align: center;"> Best model tree </h2>
+	
+		<div class="newick-tree">
+		(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);
+		</div><!--best-tree-newick-->
+	<a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);&useBranchLengths=true">Display best model tree in PhyloWidget</a>
+	</div><!--selection_best_tree-->
+</div><!--selection-upper-->
+
+<div class="selection-lower">
+<div class="selection_results">
+	<table class="selection_table">
+		<tr>
+		<th>Model</th><th> -lnL  </th><th>  K      </th><th>   BIC </th><th>delta</th><th>   weight</th><th> cumWeight</th>
+		</tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);&useBranchLengths=true">JC</a> </td><td>1412.3097</td><td>38</td><td>3085.8389</td><td>0.0000</td><td>0.7151</td><td>0.7151</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104010,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000013,((T_pella9_1:0.00103728,Florisuga_1:0.00000009):0.00000013,(T_pyra3_1:0.00104552,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103470,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004211):0.00005170):0.00008085):0.00086063):0.00000008):0.00000007):0.00103471):0.00000032):0.00103450):0.00103545);&useBranchLengths=true">K80</a> </td><td>1410.8913</td><td>39</td><td>3089.8763</td><td>4.0374</td><td>0.0950</td><td>0.8101</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104561,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000007,((T_pyra3_1:0.00105064,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103993,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004289):0.00005174):0.00007771):0.00086744):0.00000008):0.00000013,(T_pella9_1:0.00104192,Florisuga_1:0.00000009):0.00000013):0.00104000):0.00000016):0.00104019):0.00104028);&useBranchLengths=true">JC+G</a> </td><td>1410.9854</td><td>39</td><td>3090.0646</td><td>4.2258</td><td>0.0865</td><td>0.8966</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00103158,T_pella8_0:0.00000000,(T_pella5_1:0.00000000,(Florisuga_0:0.00000000,(T_pella6_1:0.00000000,(T_pyra3_1:0.00103153,((T_pyra1_1:0.00000000,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pella8_1:0.00102283,(T_pyra4_0:0.00000000,T_pella9_0:0.00000000):0.00000000):0.00000000):0.00000000,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00000000):0.00045786):0.00000116):0.00000013):0.00000192):0.00057357):0.00000000,(T_pella9_1:0.00000215,Florisuga_1:0.00000001):0.00104422):0.00000000):0.00105204):0.00001081):0.00104537):0.00104861);&useBranchLengths=true">K80+I</a> </td><td>1408.1436</td><td>40</td><td>3091.2552</td><td>5.4163</td><td>0.0477</td><td>0.9442</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,Florisuga_0:0.00000002,((T_pella5_1:0.00000212,((T_pella6_1:0.00000007,T_pella5_0:0.00000006):0.00000006,((T_pyra3_1:0.00095289,T_pyra1_1:0.00000001):0.00000001,(T_pella9_1:0.00094589,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,((T_pella7_1:0.00000001,T_pella9_0:0.00000001):0.00000001,(T_pyra4_1:0.00000001,((T_pyra4_0:0.00000001,T_pella8_1:0.00093461):0.00000007,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000009):0.00000001):0.00000052):0.00000009):0.00002689):0.00003414):0.00004165):0.00060919):0.00000009):0.00094396):0.00094323):0.00094089,(Florisuga_1:0.00000008,T_pella6_0:0.00030871):0.00062558):0.00000002);&useBranchLengths=true">JC+I</a> </td><td>1411.7902</td><td>39</td><td>3091.6741</td><td>5.8353</td><td>0.0387</td><td>0.9829</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00104509,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000007,(Florisuga_1:0.00000009,(T_pella9_1:0.00104387,(T_pyra3_1:0.00104999,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103929,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000007):0.00000007):0.00000008):0.00000009):0.00004292):0.00005190):0.00007638):0.00087034):0.00000008):0.00000013):0.00000013):0.00103924):0.00000059):0.00103915):0.00104221);&useBranchLengths=true">K80+G</a> </td><td>1409.5684</td><td>40</td><td>3094.1047</td><td>8.2658</td><td>0.0115</td><td>0.9944</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00090594,T_pella8_0:0.00000000,((Florisuga_0:0.00000000,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000000,T_pella9_1:0.00054425):0.00038819,((T_pyra1_1:0.00000000,T_pyra3_1:0.00091001):0.00000004,((T_pella5_0:0.00000000,T_pella7_0:0.00000000):0.00000012,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pyra4_0:0.00000000,(T_pella8_1:0.00090088,T_pella9_0:0.00000000):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000005):0.00000000):0.00000004):0.00006114):0.00006461):0.00007204):0.00084089):0.00000004):0.00090098):0.00101513):0.00101510);&useBranchLengths=true">JC+I+G</a> </td><td>1410.4061</td><td>40</td><td>3095.7802</td><td>9.9413</td><td>0.0050</td><td>0.9993</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00090493,T_pella8_0:0.00000000,((Florisuga_0:0.00000000,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000000,T_pella9_1:0.00054473):0.00039028,((T_pyra1_1:0.00000000,T_pyra3_1:0.00090880):0.00000004,((T_pella5_0:0.00000000,T_pella7_0:0.00000000):0.00000012,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pyra4_0:0.00000000,(T_pella8_1:0.00089970,T_pella9_0:0.00000000):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000005):0.00000000):0.00000004):0.00006130):0.00006485):0.00007042):0.00084486):0.00000004):0.00089984):0.00101410):0.00101883);&useBranchLengths=true">K80+I+G</a> </td><td>1408.9890</td><td>41</td><td>3099.8201</td><td>13.9812</td><td>0.0007</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00105950,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000009,((T_pyra3_1:0.00106588,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00105509,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000013):0.00000013):0.00000008):0.00000009):0.00004196):0.00005166):0.00007950):0.00088201):0.00000013):0.00000008,(T_pella9_1:0.00105607,Florisuga_1:0.00000013):0.00000013):0.00105577):0.00000003):0.00105642):0.00105631);&useBranchLengths=true">SYM</a> </td><td>1407.5890</td><td>43</td><td>3110.7686</td><td>24.9298</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00107743,T_pella8_0:0.00000000,(T_pella5_1:0.00000001,(Florisuga_0:0.00000001,(T_pella6_1:0.00000000,(T_pyra3_1:0.00108896,((T_pyra1_1:0.00000000,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pyra3_0:0.00000000,(T_pyra1_0:0.00000000,(T_pyra4_1:0.00000000,((T_pella7_1:0.00000000,(T_pella8_1:0.00105798,(T_pyra4_0:0.00000000,T_pella9_0:0.00000000):0.00000000):0.00000000):0.00000001,(T_pyra2_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00000000):0.00045604):0.00000021):0.00000159):0.00000005):0.00059642):0.00000000,(T_pella9_1:0.00000418,Florisuga_1:0.00000001):0.00106054):0.00000001):0.00108302):0.00000677):0.00109132):0.00109184);&useBranchLengths=true">SYM+I</a> </td><td>1405.0357</td><td>44</td><td>3112.5361</td><td>26.6972</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00106490,T_pella8_0:0.00000001,(T_pella5_1:0.00000013,(Florisuga_0:0.00000013,(T_pella6_1:0.00000010,(Florisuga_1:0.00000008,(T_pella9_1:0.00106038,(T_pyra3_1:0.00107163,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00105867,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000008):0.00000001):0.00000001):0.00000013):0.00000013):0.00000008):0.00000009):0.00004355):0.00005317):0.00007841):0.00088376):0.00000008):0.00000013):0.00000013):0.00106170):0.00000144):0.00106271):0.00106352);&useBranchLengths=true">SYM+G</a> </td><td>1406.2809</td><td>44</td><td>3115.0265</td><td>29.1876</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(T_pella6_0:0.00095098,T_pella8_0:0.00000001,((Florisuga_0:0.00000001,T_pella5_1:0.00000008):0.00000006,(T_pella6_1:0.00000008,((Florisuga_1:0.00000001,T_pella9_1:0.00056548):0.00040972,((T_pyra1_1:0.00000001,T_pyra3_1:0.00095742):0.00000005,(T_pella5_0:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,((T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella8_1:0.00094387,T_pella9_0:0.00000001):0.00000004):0.00000004):0.00000008,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000005):0.00000001):0.00000004):0.00006150):0.00006532):0.00007759):0.00009994):0.00064363):0.00000005):0.00094898):0.00106688):0.00106538);&useBranchLengths=true">SYM+I+G</a> </td><td>1405.7415</td><td>45</td><td>3120.8218</td><td>34.9830</td><td>0.0000</td><td>1.0000</td></tr>
+		 </table>
+</div><!--selection_results-->
+<div class="selection-caption">
+<table class="selection_table"><tr><td>
+		-lnL:</td><td>negative log likelihod
+		 </td> </tr><tr><td>
+		 K:</td><td>	number of estimated parameters
+		 </td> </tr><tr><td>
+		 BIC:</td><td>	Bayesian Information Criterion
+		 </td> </tr><tr><td>
+		 delta:	</td><td>BIC difference
+		 </td> </tr><tr><td>
+		 weight:</td><td>	BIC weight
+		 </td> </tr><tr><td>
+		 cumWeight:</td><td>cumulative BIC weight
+		 </td> </tr>
+	 </table>
+<h2>Confidence interval</h2>
+ <p class="confidence-list"> 
+There are 12 models in the 100.00% confidence interval:<br/>
+JC K80 JC+G K80+I JC+I K80+G JC+I+G K80+I+G SYM SYM+I SYM+G SYM+I+G 
+</p>
+  </div><!--selection-caption-->
+  </div><!--selection-lower-->
+
+  <div class="selection-distances">
+    <div class="euclidean-img">
+    	<img class="distances-img" src="images/uce-4308_phased.nexus.jmodeltest.20161116203934.html_eu_BIC.png"/><br/>
+    	Euclidean distances histogram from each model optimized tree to <a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);&useBranchLengths=true">JC tree</a>.
+    </div>
+    <div class="rf-img">
+    	<img class="distances-img" src="images/uce-4308_phased.nexus.jmodeltest.20161116203934.html_rf_BIC.png"/><br/>
+    	Relative Robinson-Foulds distances histogram from the different topologies to <a href="http://www.phylowidget.org/full/?tree=(T_pella8_0:0.00000001,((T_pella6_1:0.00000058,(T_pella9_1:0.00103745,(T_pyra3_1:0.00104585,(T_pyra1_1:0.00000001,(T_pella7_0:0.00000001,(T_pyra3_0:0.00000001,(T_pyra1_0:0.00000001,(T_pyra4_1:0.00000001,(T_pella7_1:0.00000001,(T_pyra4_0:0.00000001,(T_pella5_0:0.00000001,(T_pella8_1:0.00103593,(T_pella9_0:0.00000001,(T_pyra2_0:0.00000001,T_pyra2_1:0.00000011):0.00000001):0.00000001):0.00000007):0.00000007):0.00000054):0.00000009):0.00004204):0.00005160):0.00008154):0.00085954):0.00000013):0.00000007):0.00103485):0.00103493,(Florisuga_1:0.00000016,T_pella5_1:0.00000025):0.00000025):0.00103526,(Florisuga_0:0.00000013,T_pella6_0:0.00050732):0.00054478);&useBranchLengths=false">JC topology</a>.
+    </div>
+    <div style="clear:both;"></div>
+  </div><!--selection-distances-->
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+</div><!--selection-->
+
+
+
+
+
+
+
+
+
+</div><!--/content-->
+
+	</div><!--/page-->
+	</div><!--/clearfix-->
+
+</div><!--/container2-->
+</div><!--/container1-->
+
+<div id="footer">
+<div id="footerinner">
+<p class="poweredBy">
+<span class="buttons">
+<a href="http://code.google.com/p/jmodeltest2" title="Home" class="home"><img src="resources/homeIcon.gif" alt="Back to home" class="home" /></a> 
+<a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /></a>
+</span>
+<a href="http://code.google.com/p/jmodeltest2" rel="external">jModelTest 2.1</a>. D.Darriba, G.L.Taboada, R.Doallo and D.Posada
+</p>
+<div id="contact">
+    <a href="https://groups.google.com/forum/#!forum/jmodeltest">Forum</a>
+	-
+	<a href="http://groups.google.com/group/jmodeltest">Discussion group</a>
+	-
+	<a href="mailto:ddarriba@udc.es">Contact</a>
+</div>
+ 
+</div><!--/footerinner-->
+</div><!--/footer-->
+
+</body>
+</html>

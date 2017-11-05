@@ -1,0 +1,414 @@
+#run on MacBook 2015, macOS Sierra, December 2016, author: Tobias Hofmann (tobias.hofmann@bioenv.gu.se)
+phyluce_align_convert_one_align_to_another --alignments data/raw/topaza-uce-allele-alignments --input-format nexus --output data/temp/topaza-uce-allele-alignments-fasta --output-format fasta
+phyluce_align_convert_one_align_to_another --alignments data/raw/topaza-uce-consensus-alignments --input-format nexus --output data/temp/topaza-uce-consensus-alignments-fasta --output-format fasta
+
+python bin/add_missing_sequences.py --input data/temp/topaza-uce-allele-alignments-fasta --output data/temp/topaza-uce-allele-alignments-fasta-no-missing
+python bin/add_missing_sequences.py --input data/temp/topaza-uce-consensus-alignments-fasta --output data/temp/topaza-uce-consensus-alignments-fasta-no-missing
+
+for fasta in data/temp/topaza-uce-allele-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+for fasta in data/temp/topaza-uce-consensus-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+
+phyluce_align_convert_one_align_to_another --alignments data/temp/topaza-uce-allele-alignments-fasta-no-missing --input-format fasta --output data/temp/topaza-uce-allele-alignments --output-format nexus
+phyluce_align_convert_one_align_to_another --alignments data/temp/topaza-uce-consensus-alignments-fasta-no-missing --input-format fasta --output data/temp/topaza-uce-consensus-alignments --output-format nexus
+
+sh bin/prepare_nexus_alignments_for_bpp_input.sh data/temp/topaza-uce-allele-alignments/
+sh bin/prepare_nexus_alignments_for_bpp_input_consensus.sh data/temp/topaza-uce-consensus-alignments/
+
+rm phyluce_align_convert_one_align_to_another.log
+
+mv topaza-uce-allele-alignments-edited data/temp
+mv topaza-uce-consensus-alignments-edited data/temp
+
+cat data/temp/topaza-uce-allele-alignments-edited/bpp-formatted/*.bpp > data/temp/topaza_uce_allele_data_all.txt
+cat data/temp/topaza-uce-consensus-alignments-edited/bpp-formatted/*.bpp > data/temp/topaza_uce_consensus_data_all.txt
+
+sed -i -e 's/\( 20 \)/\'$'\n''\1/g' data/temp/topaza_uce_allele_data_all.txt
+sed -i -e 's/\( 20 \)/\'$'\n''\1/g' data/temp/topaza_uce_allele_data_all.txt
+
+sed -i -e 's/\( 10 \)/\'$'\n''\1/g' data/temp/topaza_uce_consensus_data_all.txt
+sed -i -e 's/\( 10 \)/\'$'\n''\1/g' data/temp/topaza_uce_consensus_data_all.txt
+
+rm data/temp/*-e
+
+
+mkdir analysis
+
+mkdir analysis/allele_sequences_150kgen
+mkdir analysis/consensus_sequences_150kgen
+cp data/temp/topaza_uce_allele_data_all.txt analysis/allele_sequences_150kgen
+cp data/temp/topaza_uce_consensus_data_all.txt analysis/consensus_sequences_150kgen
+cp control_files/topaza_alleles.bpp.ctl analysis/allele_sequences_150kgen
+cp control_files/topaza_consensus.bpp.ctl analysis/consensus_sequences_150kgen
+cp control_files/topaza_alleles.Imap.txt analysis/allele_sequences_150kgen
+cp control_files/topaza_consensus.Imap.txt analysis/consensus_sequences_150kgen
+mkdir analysis/allele_sequences_150kgen/full_dataset
+mv analysis/allele_sequences_150kgen/topaza* analysis/allele_sequences_150kgen/full_dataset
+mkdir analysis/consensus_sequences_150kgen/full_dataset
+mv analysis/consensus_sequences_150kgen/topaza* analysis/consensus_sequences_150kgen/full_dataset
+
+mkdir analysis/allele_sequences_1500kgen
+mkdir analysis/consensus_sequences_1500kgen
+cp data/temp/topaza_uce_allele_data_all.txt analysis/allele_sequences_1500kgen
+cp data/temp/topaza_uce_consensus_data_all.txt analysis/consensus_sequences_1500kgen
+cp control_files/topaza_alleles.bpp.ctl analysis/allele_sequences_1500kgen
+sed -i '' 's/sampfreq = 10/sampfreq = 100/g' analysis/allele_sequences_1500kgen/topaza_alleles.bpp.ctl
+sed -i '' 's/nsample = 150000/nsample = 1500000/g' analysis/allele_sequences_1500kgen/topaza_alleles.bpp.ctl
+cp control_files/topaza_consensus.bpp.ctl analysis/consensus_sequences_1500kgen
+sed -i '' 's/sampfreq = 10/sampfreq = 100/g' analysis/consensus_sequences_1500kgen/topaza_consensus.bpp.ctl
+sed -i '' 's/nsample = 150000/nsample = 1500000/g' analysis/consensus_sequences_1500kgen/topaza_consensus.bpp.ctl
+cp control_files/topaza_alleles.Imap.txt analysis/allele_sequences_1500kgen
+cp control_files/topaza_consensus.Imap.txt analysis/consensus_sequences_1500kgen
+mkdir analysis/allele_sequences_1500kgen/full_dataset
+mv analysis/allele_sequences_1500kgen/topaza* analysis/allele_sequences_1500kgen/full_dataset
+mkdir analysis/consensus_sequences_1500kgen/full_dataset
+mv analysis/consensus_sequences_1500kgen/topaza* analysis/consensus_sequences_1500kgen/full_dataset
+
+
+mkdir analysis/allele_sequences_150kgen/split_data
+cd analysis/allele_sequences_150kgen/split_data
+split -a 1 -l 1886 ../full_dataset/topaza_uce_allele_data_all.txt topaza_uce_allele_data_subset_
+rm topaza_uce_allele_data_subset_k 			#the few loci have to be removed for equal subset size
+for file in topaza_*;
+do mv $file ../;
+mkdir $file;
+mv ../$file $file;
+cp ../full_dataset/topaza_alleles.* $file;
+sed -i '' "s/topaza_uce_allele_data_all.txt/$file/g" $file/*.bpp.ctl;
+sed -i '' 's/nloci = 821/nloci = 82/g' $file/*.bpp.ctl;
+done
+cd ../../..
+
+mkdir analysis/consensus_sequences_150kgen/split_data
+cd analysis/consensus_sequences_150kgen/split_data
+split -a 1 -l 1066 ../full_dataset/topaza_uce_consensus_data_all.txt topaza_uce_consensus_data_subset_
+rm topaza_uce_consensus_data_subset_k 			#the few loci have to be removed for equal subset size
+for file in topaza_*;
+do mv $file ../;
+mkdir $file;
+mv ../$file $file;
+cp ../full_dataset/topaza_consensus.* $file;
+sed -i '' "s/topaza_uce_consensus_data_all.txt/$file/g" $file/*.bpp.ctl;
+sed -i '' 's/nloci = 824/nloci = 82/g' $file/*.bpp.ctl;
+done
+cd ../../..
+
+mkdir analysis/allele_sequences_1500kgen/split_data
+cd analysis/allele_sequences_1500kgen/split_data
+split -a 1 -l 1886 ../full_dataset/topaza_uce_allele_data_all.txt topaza_uce_allele_data_subset_
+rm topaza_uce_allele_data_subset_k 			#the few loci have to be removed for equal subset size
+for file in topaza_*;
+do mv $file ../;
+mkdir $file;
+mv ../$file $file;
+cp ../full_dataset/topaza_alleles.* $file;
+sed -i '' "s/topaza_uce_allele_data_all.txt/$file/g" $file/*.bpp.ctl;
+sed -i '' 's/nloci = 821/nloci = 82/g' $file/*.bpp.ctl;
+done
+cd ../../..
+
+mkdir analysis/consensus_sequences_1500kgen/split_data
+cd analysis/consensus_sequences_1500kgen/split_data
+split -a 1 -l 1066 ../full_dataset/topaza_uce_consensus_data_all.txt topaza_uce_consensus_data_subset_
+rm topaza_uce_consensus_data_subset_k 			#the few loci have to be removed for equal subset size
+for file in topaza_*;
+do mv $file ../;
+mkdir $file;
+mv ../$file $file;
+cp ../full_dataset/topaza_consensus.* $file;
+sed -i '' "s/topaza_uce_consensus_data_all.txt/$file/g" $file/*.bpp.ctl;
+sed -i '' 's/nloci = 824/nloci = 82/g' $file/*.bpp.ctl;
+done
+cd ../../..
+
+# create and execute sge scripts for all datasets for analysing on albiorix
+cd analysis
+for ctl in $(find .  \( -type f -and -name *.bpp.ctl \));
+do dir=$(dirname $ctl);
+echo '#$ -cwd' > $dir/run_bpp.sge
+echo '#$ -q high_mem' >> $dir/run_bpp.sge
+echo '#$ -S /bin/bash' >> $dir/run_bpp.sge
+echo 'cd /home/tobias/bpp/analysis' >> $dir/run_bpp.sge
+echo "cd $dir" >> $dir/run_bpp.sge
+file=$(basename $ctl)
+echo "/home/tobias/bpp/bpp3.3/src/bpp $file" >> $dir/run_bpp.sge
+echo 'cd /home/tobias/bpp/analysis' >> $dir/run_bpp.sge
+#qsub $dir/run_bpp.sge
+done
+cd ..
+
+# example for how to execute the bpp analysis
+#cd analysis/allele_sequences_150kgen/full_dataset
+#../../../bin/bpp3.2/bpp topaza_alleles.bpp.ctl
+#cd ../../..
+#
+#cd analysis/consensus_sequences_150kgen/full_dataset
+#../../../bin/bpp3.2/bpp topaza_consensus.bpp.ctl
+#cd ../../..
+
+rm -r data/temp
+
+
+
+
+##### SIMULATE ALLELE SEQUENCES
+
+tail -n 20 results/allele_sequences_150kgen/split_data/topaza_uce_allele_data_subset_a/out.txt | grep "theta" > results/summary_allele_sequences_split.txt
+for subset in results/allele_sequences_150kgen/split_data/*; do grep "mean" results/allele_sequences_150kgen/split_data/$(basename $subset)/out.txt | sed -e "s/mean/$(basename $subset)/g"; done >> results/summary_allele_sequences_split.txt
+TAB=$'\t'
+sed -i -e "s/[[:space:]]\{1,\}/$TAB/g" results/summary_allele_sequences_split.txt
+sed -i -e "s/^$TABtheta/subset/g" results/summary_allele_sequences_split.txt
+sed -i '' 's/subsettopaza/topaza/g' results/summary_allele_sequences_split.txt
+rm results/summary_allele_sequences_split.txt-e
+
+# calculate the average for the different parameters
+
+divider=$(tail -n +2 results/summary_allele_sequences_split.txt | wc -l)
+
+theta1F=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f2 | paste -sd+ - | bc)
+theta_1F=$(bc -l <<<"$theta1F/$divider")
+
+theta2D=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f3 | paste -sd+ - | bc)
+theta_2D=$(bc -l <<<"$theta2D/$divider")
+
+theta3E=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f4 | paste -sd+ - | bc)
+theta_3E=$(bc -l <<<"$theta3E/$divider")
+
+theta4X=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f5 | paste -sd+ - | bc)
+theta_4X=$(bc -l <<<"$theta4X/$divider")
+
+theta5Y=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f6 | paste -sd+ - | bc)
+theta_5Y=$(bc -l <<<"$theta5Y/$divider")
+
+theta6Z=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f7 | paste -sd+ - | bc)
+theta_6Z=$(bc -l <<<"$theta6Z/$divider")
+
+theta7DEYZXF=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f8 | paste -sd+ - | bc)
+theta_7DEYZXF=$(bc -l <<<"$theta7DEYZXF/$divider")
+
+theta8DEYZX=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f9 | paste -sd+ - | bc)
+theta_8DEYZX=$(bc -l <<<"$theta8DEYZX/$divider")
+
+theta9DE=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f10 | paste -sd+ - | bc)
+theta_9DE=$(bc -l <<<"$theta9DE/$divider")
+
+theta10YZX=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f11 | paste -sd+ - | bc)
+theta_10YZX=$(bc -l <<<"$theta10YZX/$divider")
+
+theta11YZ=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f12 | paste -sd+ - | bc)
+theta_11YZ=$(bc -l <<<"$theta11YZ/$divider")
+
+tau7DEYZXF=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f13 | paste -sd+ - | bc)
+tau_7DEYZXF=$(bc -l <<<"$tau7DEYZXF/$divider")
+
+tau8DEYZX=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f14 | paste -sd+ - | bc)
+tau_8DEYZX=$(bc -l <<<"$tau8DEYZX/$divider")
+
+tau9DE=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f15 | paste -sd+ - | bc)
+tau_9DE=$(bc -l <<<"$tau9DE/$divider")
+
+tau10YZX=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f16 | paste -sd+ - | bc)
+tau_10YZX=$(bc -l <<<"$tau10YZX/$divider")
+
+tau11YZ=$(tail -n +2 results/summary_allele_sequences_split.txt | cut -f17 | paste -sd+ - | bc)
+tau_11YZ=$(bc -l <<<"$tau11YZ/$divider")
+
+#echo $theta_1F $theta_2D $theta_3E $theta_4X $theta_5Y $theta_6Z $theta_7DEYZXF $theta_8DEYZX $theta_9DE $theta_10YZX $theta_11YZ $tau_7DEYZXF $tau_8DEYZX $tau_9DE $tau_10YZX $tau_11YZ
+
+#create the working directory for simulations
+mkdir results/simulated_uce_allele_alignments
+cp analysis/allele_sequences_150kgen/split_data/topaza_uce_allele_data_subset_a/topaza_alleles.Imap.txt results/simulated_uce_allele_alignments
+
+#create the tree for mccoal input
+tree=$(echo "(((D #0$theta_2D, E #0$theta_3E) :0$tau_9DE #0$theta_9DE, ((Y #0$theta_5Y, Z #0$theta_6Z) :0$tau_11YZ #0$theta_11YZ, X #0$theta_4X) :0$tau_10YZX #0$theta_10YZX) :0$tau_8DEYZX #0$theta_8DEYZX, F #0$theta_1F) :0$tau_7DEYZXF #0$theta_7DEYZXF";)
+
+
+cd sim_reps/allele_alignments
+mkdir simulations
+cd simulations
+mkdir rep1 rep2 rep3 rep4 rep5 rep6 rep7 rep8 rep9 rep10
+cd ..
+
+#now create the control file for mccoal
+echo "seed = 1" > topaza_alleles.mccoal.ctl
+echo "" >> topaza_alleles.mccoal.ctl
+echo "seqfile = simulations/rep1/simulated_uce_allele_alignments.txt 0" >> topaza_alleles.mccoal.ctl
+echo "Imapfile = topaza_alleles.Imap.txt" >> topaza_alleles.mccoal.ctl
+echo "" >> topaza_alleles.mccoal.ctl
+grep -A 1 "species&tree" ../../analysis/allele_sequences_150kgen/split_data/topaza_uce_allele_data_subset_a/topaza_alleles.bpp.ctl >> topaza_alleles.mccoal.ctl
+echo "$tree;" >> topaza_alleles.mccoal.ctl
+echo "" >> topaza_alleles.mccoal.ctl
+#simulate 820 alignments with the length of 848 base pairs (average of empirical allele data)
+echo "loci&length = 820 848" >> topaza_alleles.mccoal.ctl
+
+#run mccoal simulator, do so 10 times and store each in different folder
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep1/rep2/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 1/seed = 2/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep2/rep3/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 2/seed = 3/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep3/rep4/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 3/seed = 4/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep4/rep5/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 4/seed = 5/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep5/rep6/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 5/seed = 6/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep6/rep7/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 6/seed = 7/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep7/rep8/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 7/seed = 8/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep8/rep9/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 8/seed = 9/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+sed -i '' 's/rep9/rep10/g' topaza_alleles.mccoal.ctl
+sed -i '' 's/seed = 9/seed = 10/g' topaza_alleles.mccoal.ctl
+../../bin/bpp3.2/MCcoal topaza_alleles.mccoal.ctl
+
+cd simulations
+for rep in rep*;
+do echo $rep;
+mkdir $rep/raw;
+cd $rep/raw;
+split -a 3 -l 26 ../../../simulations/$rep/simulated_uce_allele_alignments.txt;
+mkdir ../fasta;
+mkdir ../fasta/temp;
+COUNTER=0;
+for al in *; do let COUNTER++; cp $al ../fasta/temp/sim_allele_alignment_$COUNTER.fasta; done
+cd ../fasta/temp
+for fasta in *.fasta; do grep "\^" $fasta | sed -e 's/\(^.*\^[A-Z]\)/>\1/g' | sed -e $'s/        /\\\n/g' | sed -e 's/\([ACGT]\) /\1/g' > ../$fasta; done
+cd ../;
+rm -r temp;
+cd ..;
+phyluce_align_convert_one_align_to_another --alignments fasta/ --output nexus --input-format fasta --output-format nexus
+rm phyluce_align_convert_one_align_to_another.log
+cd ../;
+done
+cd ../../../
+
+
+# This command creates consensus sequences from the simulated allele alignments, in order to be able to directly compare a simulated allele alignments with it's consensus counterpart. These will be used for all further analyses
+for rep in sim_reps/allele_alignments/simulations/rep*;
+do python2.7 bin/create_consensus_from_alleles.py --input $rep/fasta/ --output sim_reps/consensus_alignments/simulations/$(basename $rep)/fasta --config control_files/allele_consensus_assignments.txt
+phyluce_align_convert_one_align_to_another --alignments sim_reps/consensus_alignments/simulations/$(basename $rep)/fasta --output sim_reps/consensus_alignments/simulations/$(basename $rep)/nexus --input-format fasta --output-format nexus
+rm phyluce_align_convert_one_align_to_another.log
+done
+
+
+
+
+
+
+
+
+# The code below was not used in this project but is functional. It creates simulated consensus sequences directly from the alignment parameters that were estimated by bpp from the empirical consensus alignments.
+# Instead we generated consensus sequences from the simulated allele alignments in order to work with the same alignments in both data sets withj the only difference being consensus vs. allele sequences
+
+
+###### SIMULATE CONSENSUS SEQUENCES
+#
+#tail -n 20 results/consensus_sequences_150kgen/split_data/topaza_uce_consensus_data_subset_a/out.txt | grep "theta" > results/summary_consensus_sequences_split.txt
+#for subset in results/consensus_sequences_150kgen/split_data/*; do grep "mean" results/consensus_sequences_150kgen/split_data/$(basename $subset)/out.txt | sed -e "s/mean/$(basename $subset)/g"; done >> results/summary_consensus_sequences_split.txt
+#TAB=$'\t'
+#sed -i -e "s/[[:space:]]\{1,\}/$TAB/g" results/summary_consensus_sequences_split.txt
+#sed -i -e "s/^$TABtheta/subset/g" results/summary_consensus_sequences_split.txt
+#sed -i '' 's/subsettopaza/topaza/g' results/summary_consensus_sequences_split.txt
+#rm results/summary_consensus_sequences_split.txt-e
+#
+## calculate the average for the different parameters
+#
+#divider=$(tail -n +2 results/summary_consensus_sequences_split.txt | wc -l)
+#
+#theta2D=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f2 | paste -sd+ - | bc)
+#theta_2D=$(bc -l <<<"$theta2D/$divider")
+#
+#theta3E=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f3 | paste -sd+ - | bc)
+#theta_3E=$(bc -l <<<"$theta3E/$divider")
+#
+#theta4X=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f4 | paste -sd+ - | bc)
+#theta_4X=$(bc -l <<<"$theta4X/$divider")
+#
+#theta6Z=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f5 | paste -sd+ - | bc)
+#theta_6Z=$(bc -l <<<"$theta6Z/$divider")
+#
+#theta7DEYZXF=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f6 | paste -sd+ - | bc)
+#theta_7DEYZXF=$(bc -l <<<"$theta7DEYZXF/$divider")
+#
+#theta8DEYZX=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f7 | paste -sd+ - | bc)
+#theta_8DEYZX=$(bc -l <<<"$theta8DEYZX/$divider")
+#
+#theta9DE=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f8 | paste -sd+ - | bc)
+#theta_9DE=$(bc -l <<<"$theta9DE/$divider")
+#
+#theta10YZX=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f9 | paste -sd+ - | bc)
+#theta_10YZX=$(bc -l <<<"$theta10YZX/$divider")
+#
+#theta11YZ=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f10 | paste -sd+ - | bc)
+#theta_11YZ=$(bc -l <<<"$theta11YZ/$divider")
+#
+#tau7DEYZXF=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f11 | paste -sd+ - | bc)
+#tau_7DEYZXF=$(bc -l <<<"$tau7DEYZXF/$divider")
+#
+#tau8DEYZX=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f12 | paste -sd+ - | bc)
+#tau_8DEYZX=$(bc -l <<<"$tau8DEYZX/$divider")
+#
+#tau9DE=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f13 | paste -sd+ - | bc)
+#tau_9DE=$(bc -l <<<"$tau9DE/$divider")
+#
+#tau10YZX=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f14 | paste -sd+ - | bc)
+#tau_10YZX=$(bc -l <<<"$tau10YZX/$divider")
+#
+#tau11YZ=$(tail -n +2 results/summary_consensus_sequences_split.txt | cut -f15 | paste -sd+ - | bc)
+#tau_11YZ=$(bc -l <<<"$tau11YZ/$divider")
+#
+#echo $theta_2D $theta_3E $theta_4X $theta_6Z $theta_7DEYZXF $theta_8DEYZX $theta_9DE $theta_10YZX $theta_11YZ $tau_7DEYZXF $tau_8DEYZX $tau_9DE $tau_10YZX $tau_11YZ
+#
+##create the working directory for simulations
+#mkdir results/simulated_uce_consensus_alignments
+#cp analysis/consensus_sequences_150kgen/split_data/topaza_uce_consensus_data_subset_a/topaza_consensus.Imap.txt results/simulated_uce_consensus_alignments
+#
+##create the tree for mccoal input
+#tree=$(echo "(((D #0$theta_2D, E #0$theta_3E) :0$tau_9DE #0$theta_9DE, ((Y, Z #0$theta_6Z) :0$tau_11YZ #0$theta_11YZ, X #0$theta_4X) :0$tau_10YZX #0$theta_10YZX) :0$tau_8DEYZX #0$theta_8DEYZX, F) :0$tau_7DEYZXF #0$theta_7DEYZXF";)
+#
+#
+#cd results/simulated_uce_consensus_alignments
+#
+##now create the control file for mccoal
+#echo "seed = 12345" > topaza_consensus.mccoal.ctl
+#echo "" >> topaza_consensus.mccoal.ctl
+#echo "seqfile = simulated_uce_consensus_alignments.txt 0" >> topaza_consensus.mccoal.ctl
+#echo "Imapfile = topaza_consensus.Imap.txt" >> topaza_consensus.mccoal.ctl
+#echo "" >> topaza_consensus.mccoal.ctl
+#grep -A 1 "species&tree" ../../analysis/consensus_sequences_150kgen/split_data/topaza_uce_consensus_data_subset_a/topaza_consensus.bpp.ctl >> topaza_consensus.mccoal.ctl
+#echo "$tree;" >> topaza_consensus.mccoal.ctl
+#echo "" >> topaza_consensus.mccoal.ctl
+##simulate 820 alignments with the length of 870 base pairs (average of empirical consensus data)
+#echo "loci&length = 820 870" >> topaza_consensus.mccoal.ctl
+#
+##run mccoal simulator
+#../../bin/bpp3.2/MCcoal topaza_consensus.mccoal.ctl
+#
+#mkdir ./simulated_consensus_alignments
+#cd simulated_consensus_alignments
+#mkdir raw
+#cd raw
+#split -a 3 -l 16 ../../simulated_uce_consensus_alignments.txt
+#mkdir ../fasta
+#mkdir ../fasta/temp
+#COUNTER=0
+#for al in *; do let COUNTER++; cp $al ../fasta/temp/sim_consensus_alignment_$COUNTER.fasta; done
+#cd ../fasta/temp
+#for fasta in *.fasta; do grep "\^" $fasta | sed -e 's/\(^.*\^[A-Z]\)/>\1/g' | sed -e $'s/        /\\\n/g' | sed -e 's/\([ACGT]\) /\1/g' > ../$fasta; done
+#cd ..
+#rm -r temp
+#cd ../../../../
+#
+#phyluce_align_convert_one_align_to_another --alignments results/simulated_uce_consensus_alignments/simulated_consensus_alignments/fasta/ --output results/simulated_uce_consensus_alignments/simulated_consensus_alignments/nexus --input-format fasta --output-format nexus
+#rm phyluce_align_convert_one_align_to_another.log
+#
+#

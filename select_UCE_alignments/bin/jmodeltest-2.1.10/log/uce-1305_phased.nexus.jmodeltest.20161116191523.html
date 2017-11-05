@@ -1,0 +1,888 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+	<title>jModelTest Output</title>
+
+	<link rel="stylesheet" href="resources/style.css" type="text/css" media="screen" />
+	<!--[if IE]>
+	<style type="text/css">
+	  .clearfix {
+		zoom: 1;
+		display: block; 
+		} 
+	</style>
+	<![endif]-->
+
+</head>
+
+<body>
+
+<div id="container1">
+<div id="container2">
+ 
+	<div id="header">
+		<div id="logo">
+			<a href="http://code.google.com/p/jmodeltest2">
+				<img src="resources/logo0.png" style="width:129px; height:80px;"/>
+			</a>
+		</div>
+		<div id="header-links">
+			<ul>
+				<li  class="header_button"><a href="http://code.google.com/p/jmodeltest2" title="Home">Home</a></li>
+				<li  class="header_button_span"><a href="https://groups.google.com/group/jmodeltest" title="Group">Discussion group</a></li>
+				<li  class="header_button"><a href="https://groups.google.com/forum/#!forum/jmodeltest" title="Forum">Forum</a></li>
+				<li  class="header_button"><a href="mailto:ddarriba@udc.es" title="Contact">Contact</a></li>
+			</ul>
+		</div>
+		<div id="menul1">
+			<ul>
+				<li  class="selection_button"><a href="#program-meta" title="Meta">Meta</a></li>
+				<li  class="selection_button"><a href="#settings" title="Settings">Settings</a></li>
+				<li  class="selection_button"><a href="#results" title="Input Data">Results</a></li>
+					<li class="selection_button_span"><a>Selection</a></li>
+
+			</ul>
+		</div>
+		<div id="menul2">
+			<ul>
+									<li  class="selection_button_na">
+					<a href="#aic" title="AIC">AIC</a></li>
+					<li  class="selection_button_na">
+					<a href="#aicc" title="AICc">AICc</a></li>
+					<li  class="selection_button">
+					<a href="#bic" title="BIC">BIC</a></li>
+					<li  class="selection_button_na">
+					<a href="#dt" title="DT">DT</a></li>
+			</ul>
+		</div><!--menu-->
+		<div style="clear:both;"></div>
+	</div><!--header-->
+
+<div id="clearfix">
+
+<div id="page">
+		<div id="content">
+
+<div id="program-meta">
+	<h1><a name="program-meta"></a>Application Meta</h1>
+	<h3>jModeltest 2.1</h3>
+	(c) 2011-onwards D. Darriba, G.L. Taboada, R. Doallo and D. Posada,<br/>
+    (1) Department of Biochemistry, Genetics and Immunology<br/>
+        University of Vigo, 36310 Vigo, Spain.<br/>
+    (2) Department of Electronics and Systems<br/>
+        University of A Coruna, 15071 A Coruna, Spain.<br/>
+    e-mail: ddarriba@udc.es, dposada@uvigo.es<br/>
+<br/>
+	<hr/>
+	Wed Nov 16 19:16:01 CET 2016 <br/> Mac OS X 10.12, arch: x86_64, bits: 64, numcores: 4<br/>
+	
+	<p></p> 
+	<table align="center">
+	<tr valign="top"><td>Citation:</td><td align="left"> Darriba D, Taboada GL, Doallo R and Posada D. 2012. "jModelTest 2: more models, new heuristics and parallel computing". Nature Methods 9, 772.</td></tr>
+    </table>
+	<p></p>
+
+	 
+	Notice: This program may contain errors. Please inspect results carefully.<br/>
+	 <br/>
+ 
+</div>
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+	<h1><a name="settings"></a>Settings </h1>
+
+		 Arguments = -d /Users/tobias/GitHub/topaza_uce/select_UCE_alignments/results/topaza_allele_alignments_selections/top_150/uce-1305_phased.nexus -f -i -g 4 -s 5 -BIC <br/>
+		 Input Alignment: "/Users/tobias/GitHub/topaza_uce/select_UCE_alignments/results/topaza_allele_alignments_selections/top_150/uce-1305_phased.nexus"<br/>
+		 NumTaxa = 20<br/>
+		 Length = 1,047<br/> 
+		 Phyml version = 3.0<br/>
+		 Phyml binary = PhyML_3.0_macOS_i386<br/>
+		 Candidate models = 40<br/>
+		  number of substitution schemes = 5<br/>
+		  including models with equal/unequal base frequencies (+F)<br/>
+		  including models with/without a proportion of invariable sites (+I)<br/>
+		  including models with/without rate variation among sites (+G) (nCat = 4)<br/>
+		 Optimized free parameters (K) = Substitution parameters + 37 branch lengths + topology<br/>
+		 
+		 Base tree for likelihood calculations = Maximum Likelihood<br/>
+		 Tree topology search operation = Best of {NNI, SPR}<br/>
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+<h1> <a name="results"></a>Model Optimization Results </h1>
+
+<div id="sorted-models">
+<table class="model-info">
+<tr><th> ID </th><th> Name </th><th> Partition </th><th> -lnL </th><th> p </th><th> fA </th><th> fC </th><th> fG </th><th> fT </th><th> ti/tv </th><th> R(a) </th><th> R(b) </th><th> R(c) </th><th> R(d) </th><th> R(e) </th><th> R(f) </th><th> p-inv </th><th> shape </th></tr>
+<tr><td> 1</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000681,Florisuga_1:0.00000001,(((T_pyra4_0:0.00000001,T_pyra4_1:0.00000375):0.00288378,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111939,(T_pyra1_0:0.00103360,(T_pyra2_0:0.00000009,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096279):0.00000036):0.00000011):0.00000007):0.00290108,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000011):0.00000010):0.00288550,(T_pella9_0:0.00000007,((T_pella5_0:0.00000001,(T_pella6_0:0.00001940,T_pella6_1:0.00329756):0.00109891):0.00000001,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000027):0.00000010):0.00000012):0.00096130):0.00000024):0.00191284):0.01803661);&useBranchLengths=true">JC</a></td><td> 000000 </td><td> 1705.8662 </td><td> 38 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 2</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000637,Florisuga_1:0.00000001,((T_pyra1_0:0.00096395,(T_pyra3_1:0.00104432,(T_pyra1_1:0.00000009,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000350):0.00269081,(T_pyra2_0:0.00000008,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00089762):0.00000007):0.00000010):0.00000006):0.00271090,((T_pella9_0:0.00000001,(T_pella5_1:0.00000001,(T_pella7_0:0.00000008,T_pella7_1:0.00000025):0.00000001):0.00089510):0.00000004,(T_pella5_0:0.00000001,((T_pella8_1:0.00000003,(T_pella9_1:0.00000001,T_pella8_0:0.00000010):0.00000010):0.00269079,(T_pella6_0:0.00001811,T_pella6_1:0.00308772):0.00102884):0.00000011):0.00000004):0.00178558):0.01687802);&useBranchLengths=true">JC+I</a></td><td> 000000 </td><td> 1704.6196 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.4020 </td><td> - </td></tr>
+<tr><td> 3</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra3_1:0.00113246,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096945,(T_pyra1_1:0.00000006,(T_pyra1_0:0.00104305,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292329):0.00000006):0.00000005):0.00000005):0.00295839,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291845,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00336177):0.00111396):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097140):0.00000005):0.00191526):0.01897840);&useBranchLengths=true">JC+G</a></td><td> 000000 </td><td> 1702.6286 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 4</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000003,Florisuga_1:0.00000000,(((T_pyra1_1:0.00000002,(T_pyra1_0:0.00104468,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00293759):0.00000001):0.00000001,(T_pyra3_1:0.00114044,(T_pyra3_0:0.00000000,(T_pyra2_0:0.00000004,T_pyra2_1:0.00000000):0.00000004):0.00096818):0.00000003):0.00300434,(T_pella9_0:0.00000000,((T_pella8_1:0.00000002,(T_pella9_1:0.00000002,T_pella8_0:0.00000003):0.00000002):0.00293280,((T_pella6_0:0.00000002,T_pella6_1:0.00340022):0.00111888,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pella5_1:0.00000000,T_pella7_1:0.00000004):0.00000002):0.00000034):0.00000226):0.00097279):0.00000045):0.00190419):0.02023343);&useBranchLengths=true">JC+I+G</a></td><td> 000000 </td><td> 1701.7613 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.7640 </td><td> 0.7420 </td></tr>
+<tr><td> 5</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000662,Florisuga_1:0.00000001,(((T_pyra4_0:0.00000001,T_pyra4_1:0.00000375):0.00288264,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111626,(T_pyra1_0:0.00103209,(T_pyra2_0:0.00000009,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096229):0.00000036):0.00000011):0.00000007):0.00289334,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000011):0.00000010):0.00288649,(T_pella9_0:0.00000007,((T_pella5_0:0.00000001,(T_pella6_0:0.00001942,T_pella6_1:0.00329293):0.00109733):0.00000001,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000027):0.00000010):0.00000011):0.00096130):0.00000024):0.00192145):0.01799412);&useBranchLengths=true">F81</a></td><td> 000000 </td><td> 1679.4398 </td><td> 41 </td><td> 0.2886 </td><td> 0.1945 </td><td> 0.1972 </td><td> 0.3196 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 6</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000618,Florisuga_1:0.00000001,((T_pyra1_0:0.00096275,(T_pyra3_1:0.00104169,(T_pyra1_1:0.00000009,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000350):0.00269005,(T_pyra2_0:0.00000008,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00089729):0.00000008):0.00000010):0.00000006):0.00270125,((T_pella9_0:0.00000001,(T_pella5_1:0.00000001,(T_pella7_0:0.00000008,T_pella7_1:0.00000025):0.00000001):0.00089572):0.00000004,(T_pella5_0:0.00000001,((T_pella8_1:0.00000004,(T_pella9_1:0.00000001,T_pella8_0:0.00000010):0.00000010):0.00269325,(T_pella6_0:0.00001813,T_pella6_1:0.00308507):0.00102782):0.00000011):0.00000004):0.00179775):0.01684859);&useBranchLengths=true">F81+I</a></td><td> 000000 </td><td> 1678.2010 </td><td> 42 </td><td> 0.2886 </td><td> 0.1945 </td><td> 0.1972 </td><td> 0.3197 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.4020 </td><td> - </td></tr>
+<tr><td> 7</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103916,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291421,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112720,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096637):0.00000006):0.00000005):0.00000006):0.00292103,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291692,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335559):0.00111173):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00096964):0.00000006):0.00194821):0.01892500);&useBranchLengths=true">F81+G</a></td><td> 000000 </td><td> 1676.2482 </td><td> 42 </td><td> 0.2885 </td><td> 0.1946 </td><td> 0.1973 </td><td> 0.3197 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 8</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_1:0.00000001,(T_pyra1_0:0.00103762,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00291784):0.00000001):0.00000001,(T_pyra3_1:0.00113247,(T_pyra3_0:0.00000000,(T_pyra2_0:0.00000003,T_pyra2_1:0.00000000):0.00000002):0.00096176):0.00000003):0.00291815,(T_pella9_0:0.00000000,((T_pella8_1:0.00000001,(T_pella9_1:0.00000003,T_pella8_0:0.00000002):0.00000001):0.00292844,((T_pella6_0:0.00000002,T_pella6_1:0.00339149):0.00111636,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pella5_1:0.00000000,T_pella7_1:0.00000003):0.00000002):0.00000076):0.00000382):0.00096683):0.00000021):0.00197900):0.02013277);&useBranchLengths=true">F81+I+G</a></td><td> 000000 </td><td> 1675.4337 </td><td> 43 </td><td> 0.2882 </td><td> 0.1947 </td><td> 0.1973 </td><td> 0.3198 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.7820 </td><td> 0.9500 </td></tr>
+<tr><td> 9</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103364,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289412,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111913,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096293):0.00000006):0.00000006):0.00000006):0.00289144,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288362,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331305):0.00110312):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096155):0.00000005):0.00192605):0.01805766);&useBranchLengths=true">K80</a></td><td> 010010 </td><td> 1702.5939 </td><td> 39 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.1941 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 10</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112856,((T_pyra1_0:0.00103868,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096477):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00292131):0.00000001):0.00000003):0.00291009,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00096433):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00290083,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00334723):0.00110940):0.00000001):0.00000001):0.00196597):0.01796037);&useBranchLengths=true">K80+I</a></td><td> 010010 </td><td> 1698.9931 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.2233 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.8050 </td><td> - </td></tr>
+<tr><td> 11</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra3_1:0.00113183,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096901,(T_pyra1_1:0.00000006,(T_pyra1_0:0.00104255,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292847):0.00000005):0.00000005):0.00000006):0.00291790,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291145,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335477):0.00111337):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097210):0.00000005):0.00196390):0.01913612);&useBranchLengths=true">K80+G</a></td><td> 010010 </td><td> 1699.3282 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.2167 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 12</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100754,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283495):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093536,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109494):0.00000006):0.00000007):0.00282245,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281342,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324785):0.00107583,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093513):0.00000008):0.00000008):0.00191260):0.01898817);&useBranchLengths=true">K80+I+G</a></td><td> 010010 </td><td> 1698.8451 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.2294 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.2940 </td><td> 0.0120 </td></tr>
+<tr><td> 13</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103039,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289142,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111371,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096195):0.00000006):0.00000005):0.00000006):0.00288242,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288485,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330377):0.00110001):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096160):0.00000005):0.00193515):0.01797764);&useBranchLengths=true">HKY</a></td><td> 010010 </td><td> 1675.8459 </td><td> 42 </td><td> 0.2891 </td><td> 0.1940 </td><td> 0.1970 </td><td> 0.3199 </td><td> 1.1886 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td></tr>
+<tr><td> 14</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);&useBranchLengths=true">HKY+I</a></td><td> 010010 </td><td> 1672.3666 </td><td> 43 </td><td> 0.2888 </td><td> 0.1940 </td><td> 0.1971 </td><td> 0.3200 </td><td> 1.2139 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.8000 </td><td> - </td></tr>
+<tr><td> 15</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000012,Florisuga_1:0.00000001,((T_pyra1_0:0.00103595,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00291420,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096418,T_pyra3_1:0.00112340):0.00000005):0.00000007):0.00000005):0.00287536,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291030,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334514):0.00110998):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00097034):0.00000005):0.00199913):0.01905319);&useBranchLengths=true">HKY+G</a></td><td> 010010 </td><td> 1672.6446 </td><td> 43 </td><td> 0.2889 </td><td> 0.1941 </td><td> 0.1971 </td><td> 0.3200 </td><td> 1.2094 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 16</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103283,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000003):0.00292141):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095740,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112663):0.00000002):0.00000004):0.00281120,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00291743,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00337542):0.00111497,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096792):0.00000004):0.00000004):0.00210346):0.02059841);&useBranchLengths=true">HKY+I+G</a></td><td> 010010 </td><td> 1671.7585 </td><td> 44 </td><td> 0.2886 </td><td> 0.1941 </td><td> 0.1973 </td><td> 0.3201 </td><td> 1.2466 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.7740 </td><td> 0.8060 </td></tr>
+<tr><td> 17</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103309,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289333,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111898,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096266):0.00000006):0.00000006):0.00000006):0.00289056,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288258,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331192):0.00110274):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096127):0.00000005):0.00192561):0.01804956);&useBranchLengths=true">TrNef</a></td><td> 010020 </td><td> 1702.5902 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.3412 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.4341 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 18</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112342,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00290807,(T_pyra1_0:0.00103399,(T_pyra1_1:0.00000003,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096067):0.00000001):0.00000001):0.00000003):0.00289591,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333207):0.00110438,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096013):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288869):0.00000000):0.00195842):0.01794583);&useBranchLengths=true">TrNef+I</a></td><td> 010020 </td><td> 1698.9920 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.3925 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.4953 </td><td> 1.0000 </td><td> 0.8050 </td><td> - </td></tr>
+<tr><td> 19</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00104197,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292759,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096874,T_pyra3_1:0.00113150):0.00000005):0.00000006):0.00000005):0.00291570,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291068,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335342):0.00111283):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097185):0.00000005):0.00196427):0.01912961);&useBranchLengths=true">TrNef+G</a></td><td> 010020 </td><td> 1699.3247 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.3843 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.4812 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 20</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100698,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283414):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093507,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109455):0.00000006):0.00000007):0.00281973,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281283,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324653):0.00107540,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093488):0.00000008):0.00000008):0.00191362):0.01898816);&useBranchLengths=true">TrNef+I+G</a></td><td> 010020 </td><td> 1698.8398 </td><td> 42 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.4033 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.5083 </td><td> 1.0000 </td><td> 0.2950 </td><td> 0.0110 </td></tr>
+<tr><td> 21</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103035,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289142,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111367,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096196):0.00000006):0.00000005):0.00000006):0.00288255,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288467,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330374):0.00109999):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096159):0.00000005):0.00193512):0.01797749);&useBranchLengths=true">TrN</a></td><td> 010020 </td><td> 1675.8458 </td><td> 43 </td><td> 0.2891 </td><td> 0.1940 </td><td> 0.1970 </td><td> 0.3199 </td><td> - </td><td> 1.0000 </td><td> 2.4859 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.5017 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 22</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000003,Florisuga_1:0.00000000,((T_pyra1_0:0.00102650,(T_pyra1_1:0.00000001,(T_pyra3_1:0.00111464,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289210,(T_pyra3_0:0.00000000,(T_pyra2_1:0.00000000,T_pyra2_0:0.00000001):0.00000000):0.00095457):0.00000003):0.00000003):0.00000001):0.00284547,((T_pella5_0:0.00000000,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000002):0.00288889,((T_pella6_0:0.00000001,T_pella6_1:0.00332502):0.00110192,(T_pella7_1:0.00000002,(T_pella7_0:0.00000000,T_pella5_1:0.00000002):0.00000003):0.00001888):0.00094080):0.00000002):0.00000105,T_pella9_0:0.00000003):0.00200085):0.01802033);&useBranchLengths=true">TrN+I</a></td><td> 010020 </td><td> 1672.3223 </td><td> 44 </td><td> 0.2889 </td><td> 0.1940 </td><td> 0.1972 </td><td> 0.3200 </td><td> - </td><td> 1.0000 </td><td> 2.5291 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.5663 </td><td> 1.0000 </td><td> 0.8060 </td><td> - </td></tr>
+<tr><td> 23</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000012,Florisuga_1:0.00000001,((T_pyra1_0:0.00103588,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00291419,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096417,T_pyra3_1:0.00112339):0.00000005):0.00000007):0.00000006):0.00287507,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291068,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334513):0.00110998):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00097037):0.00000005):0.00199949):0.01905313);&useBranchLengths=true">TrN+G</a></td><td> 010020 </td><td> 1672.6443 </td><td> 44 </td><td> 0.2889 </td><td> 0.1940 </td><td> 0.1972 </td><td> 0.3199 </td><td> - </td><td> 1.0000 </td><td> 2.5256 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.5507 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 24</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000008,Florisuga_1:0.00000001,(((T_pyra1_1:0.00000005,(T_pyra1_0:0.00100434,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000007):0.00282977):0.00000004):0.00000004,(T_pyra3_1:0.00109065,(T_pyra3_0:0.00000001,(T_pyra2_0:0.00000011,T_pyra2_1:0.00000001):0.00000007):0.00093351):0.00000010):0.00280588,(T_pella9_0:0.00000001,((T_pella8_1:0.00000002,(T_pella9_1:0.00000010,T_pella8_0:0.00000007):0.00000002):0.00282845,((T_pella5_0:0.00000001,(T_pella6_0:0.00000006,T_pella6_1:0.00325439):0.00110683):0.00000012,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000011):0.00000006):0.00007450):0.00088588):0.00035540):0.00151817):0.01891219);&useBranchLengths=true">TrN+I+G</a></td><td> 010020 </td><td> 1672.2528 </td><td> 45 </td><td> 0.2888 </td><td> 0.1940 </td><td> 0.1972 </td><td> 0.3200 </td><td> - </td><td> 1.0000 </td><td> 2.5368 </td><td> 1.0000 </td><td> 1.0000 </td><td> 2.5711 </td><td> 1.0000 </td><td> 0.2690 </td><td> 0.0110 </td></tr>
+<tr><td> 25</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103362,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00289405,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096297,T_pyra3_1:0.00111913):0.00000005):0.00000006):0.00000005):0.00289173,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288363,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331314):0.00110320):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096157):0.00000005):0.00192603):0.01805798);&useBranchLengths=true">TPM1</a></td><td> 012210 </td><td> 1702.5938 </td><td> 40 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.3963 </td><td> 1.0061 </td><td> 1.0061 </td><td> 2.3963 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 26</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112382,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00290899,(T_pyra1_0:0.00103458,(T_pyra1_1:0.00000003,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096099):0.00000001):0.00000001):0.00000003):0.00289990,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333350):0.00110483,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096033):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288940):0.00000000):0.00195634):0.01795427);&useBranchLengths=true">TPM1+I</a></td><td> 012210 </td><td> 1698.9930 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.4863 </td><td> 1.0324 </td><td> 1.0324 </td><td> 2.4863 </td><td> 1.0000 </td><td> 0.8050 </td><td> - </td></tr>
+<tr><td> 27</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00104255,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292849,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096905,T_pyra3_1:0.00113188):0.00000005):0.00000006):0.00000005):0.00291883,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291151,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335480):0.00111338):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097209):0.00000005):0.00196289):0.01913940);&useBranchLengths=true">TPM1+G</a></td><td> 012210 </td><td> 1699.3269 </td><td> 41 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.4669 </td><td> 1.0266 </td><td> 1.0266 </td><td> 2.4669 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 28</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100750,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283484):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093531,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109489):0.00000006):0.00000007):0.00282407,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281329,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324774):0.00107577,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093499):0.00000008):0.00000008):0.00191080):0.01899788);&useBranchLengths=true">TPM1+I+G</a></td><td> 012210 </td><td> 1698.8406 </td><td> 42 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 1.0000 </td><td> 2.5087 </td><td> 1.0389 </td><td> 1.0389 </td><td> 2.5087 </td><td> 1.0000 </td><td> 0.2950 </td><td> 0.0110 </td></tr>
+<tr><td> 29</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103027,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289133,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111353,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096193):0.00000006):0.00000005):0.00000006):0.00288196,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288466,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330346):0.00109990):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096161):0.00000005):0.00193583):0.01797202);&useBranchLengths=true">TPM1uf</a></td><td> 012210 </td><td> 1675.8335 </td><td> 43 </td><td> 0.2891 </td><td> 0.1940 </td><td> 0.1970 </td><td> 0.3199 </td><td> - </td><td> 1.0000 </td><td> 2.3951 </td><td> 0.9235 </td><td> 0.9235 </td><td> 2.3951 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 30</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095477,(T_pyra1_0:0.00102670,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289141,(T_pyra1_1:0.00000002,T_pyra3_1:0.00111450):0.00000000):0.00000000):0.00000001):0.00284690,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00332393):0.00110175,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00095946):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288894):0.00000000):0.00199989):0.01788344);&useBranchLengths=true">TPM1uf+I</a></td><td> 012210 </td><td> 1672.3690 </td><td> 44 </td><td> 0.2889 </td><td> 0.1940 </td><td> 0.1971 </td><td> 0.3200 </td><td> - </td><td> 1.0000 </td><td> 2.4815 </td><td> 0.9504 </td><td> 0.9504 </td><td> 2.4815 </td><td> 1.0000 </td><td> 0.7990 </td><td> - </td></tr>
+<tr><td> 31</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103580,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291384,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112310,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096404):0.00000006):0.00000005):0.00000006):0.00287333,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291016,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334482):0.00110988):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097035):0.00000006):0.00200129):0.01904392);&useBranchLengths=true">TPM1uf+G</a></td><td> 012210 </td><td> 1672.6390 </td><td> 44 </td><td> 0.2889 </td><td> 0.1940 </td><td> 0.1971 </td><td> 0.3200 </td><td> - </td><td> 1.0000 </td><td> 2.4655 </td><td> 0.9449 </td><td> 0.9449 </td><td> 2.4655 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 32</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103276,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000003):0.00292141):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095737,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112653):0.00000002):0.00000004):0.00280973,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00291746,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00337525):0.00111492,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096813):0.00000004):0.00000004):0.00210491):0.02057662);&useBranchLengths=true">TPM1uf+I+G</a></td><td> 012210 </td><td> 1671.7577 </td><td> 45 </td><td> 0.2886 </td><td> 0.1941 </td><td> 0.1973 </td><td> 0.3201 </td><td> - </td><td> 1.0000 </td><td> 2.5772 </td><td> 0.9696 </td><td> 0.9696 </td><td> 2.5772 </td><td> 1.0000 </td><td> 0.7700 </td><td> 0.7800 </td></tr>
+<tr><td> 33</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00102694,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00287547,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111594,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00095717):0.00000006):0.00000006):0.00000006):0.00286962,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00286085,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00328982):0.00109535):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00095365):0.00000005):0.00191416):0.01792899);&useBranchLengths=true">SYM</a></td><td> 012345 </td><td> 1700.2035 </td><td> 43 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.1456 </td><td> 1.3737 </td><td> 0.6133 </td><td> 0.5522 </td><td> 1.4274 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 34</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000001,Florisuga_1:0.00000000,((T_pyra3_1:0.00112301,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000001):0.00289576,(T_pyra1_0:0.00102884,(T_pyra1_1:0.00000002,(T_pyra2_0:0.00000002,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095425):0.00000001):0.00000001):0.00000002):0.00282800,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000001,T_pella6_1:0.00328448):0.00108497,(T_pella5_1:0.00000000,T_pella7_1:0.00000001):0.00000001):0.00000001):0.00094131):0.00000002,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000001):0.00000001):0.00284627):0.00000000):0.00199771):0.02040177);&useBranchLengths=true">SYM+I</a></td><td> 012345 </td><td> 1696.2733 </td><td> 44 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.1021 </td><td> 1.4382 </td><td> 0.6648 </td><td> 0.5402 </td><td> 1.5150 </td><td> 1.0000 </td><td> 0.8730 </td><td> - </td></tr>
+<tr><td> 35</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103606,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00290706,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112817,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096357):0.00000006):0.00000006):0.00000005):0.00287877,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00287777,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331465):0.00109985):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00095914):0.00000006):0.00195856):0.01906649);&useBranchLengths=true">SYM+G</a></td><td> 012345 </td><td> 1696.9694 </td><td> 44 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.1282 </td><td> 1.3977 </td><td> 0.6309 </td><td> 0.5463 </td><td> 1.4579 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 36</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100239,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00281610):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093120,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109262):0.00000006):0.00000007):0.00277662,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00277864,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00320379):0.00106121,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00092135):0.00000008):0.00000008):0.00191531):0.01896844);&useBranchLengths=true">SYM+I+G</a></td><td> 012345 </td><td> 1696.5040 </td><td> 45 </td><td> - </td><td> - </td><td> - </td><td> - </td><td> - </td><td> 0.1191 </td><td> 1.4093 </td><td> 0.6461 </td><td> 0.5400 </td><td> 1.4775 </td><td> 1.0000 </td><td> 0.2920 </td><td> 0.0110 </td></tr>
+<tr><td> 37</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103133,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289432,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111656,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096314):0.00000006):0.00000005):0.00000006):0.00288431,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288456,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330233):0.00109946):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096130):0.00000005):0.00193550):0.01796381);&useBranchLengths=true">GTR</a></td><td> 012345 </td><td> 1673.4686 </td><td> 46 </td><td> 0.2907 </td><td> 0.1950 </td><td> 0.1955 </td><td> 0.3189 </td><td> - </td><td> 0.1505 </td><td> 1.4238 </td><td> 0.4903 </td><td> 0.6872 </td><td> 1.4268 </td><td> 1.0000 </td><td> - </td><td> - </td></tr>
+<tr><td> 38</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000001,Florisuga_1:0.00000000,(((T_pyra2_0:0.00000002,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00094955,(T_pyra1_0:0.00102342,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00288418,(T_pyra1_1:0.00000001,T_pyra3_1:0.00111634):0.00000000):0.00000000):0.00000001):0.00279091,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000001,T_pella6_1:0.00329866):0.00109011,(T_pella5_1:0.00000000,T_pella7_1:0.00000001):0.00000001):0.00000001):0.00094749):0.00000002,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000001):0.00000001):0.00286525):0.00000000):0.00204331):0.02027601);&useBranchLengths=true">GTR+I</a></td><td> 012345 </td><td> 1669.7553 </td><td> 47 </td><td> 0.2904 </td><td> 0.1950 </td><td> 0.1957 </td><td> 0.3189 </td><td> - </td><td> 0.1104 </td><td> 1.4944 </td><td> 0.5135 </td><td> 0.7098 </td><td> 1.5053 </td><td> 1.0000 </td><td> 0.8630 </td><td> - </td></tr>
+<tr><td> 39</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103589,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291216,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112545,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096400):0.00000006):0.00000005):0.00000006):0.00286709,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00289861,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00332707):0.00110379):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096537):0.00000006):0.00199485):0.01913482);&useBranchLengths=true">GTR+G</a></td><td> 012345 </td><td> 1670.3215 </td><td> 47 </td><td> 0.2906 </td><td> 0.1950 </td><td> 0.1956 </td><td> 0.3189 </td><td> - </td><td> 0.1328 </td><td> 1.4536 </td><td> 0.4976 </td><td> 0.6973 </td><td> 1.4547 </td><td> 1.0000 </td><td> - </td><td> 0.0290 </td></tr>
+<tr><td> 40</td><td><a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103239,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00291339):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095727,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112807):0.00000002):0.00000002):0.00278499,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00289001,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333500):0.00110099,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00095609):0.00000002):0.00000002):0.00209799):0.02079193);&useBranchLengths=true">GTR+I+G</a></td><td> 012345 </td><td> 1669.4922 </td><td> 48 </td><td> 0.2904 </td><td> 0.1950 </td><td> 0.1957 </td><td> 0.3189 </td><td> - </td><td> 0.1064 </td><td> 1.4991 </td><td> 0.5053 </td><td> 0.7095 </td><td> 1.5050 </td><td> 1.0000 </td><td> 0.7850 </td><td> 0.9720 </td></tr>
+</table>
+</div><!--sorted-models-->
+  <div id="topologies">
+  <p>
+  There are 11 different topologies. The following table shows the models supporting each topology and the rank according to each Information Criterion, as well as Robinson-Foulds and Euclidean distances with the tree of the best-fit model.
+  </p>
+  <table class="topologies-info">
+  <tr><th class="col-id"> ID </th>
+      <th class="col-models"> Models </th>
+      <th class="col-topo"> Topology </th>
+      <th/>
+      <th> AIC </th>
+      <th> BIC </th>
+      <th> AICc </th>
+      <th> DT </th>
+  </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 0</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      K80+I HKY+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra1_0,(T_pyra2_0,(T_pyra3_0,T_pyra2_1))),(T_pyra1_1,(T_pyra4_0,T_pyra4_1)))),((T_pella9_0,(T_pella5_1,(T_pella7_0,T_pella7_1))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella5_0,(T_pella6_0,T_pella6_1))))));">(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra1_0,(T_pyra2_0,(T_pyra3_0,T_pyra2_1))),(T_pyra1_1,(T_pyra4_0,T_pyra4_1)))),((T_pella9_0,(T_pella5_1,(T_pella7_0,T_pella7_1))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella5_0,(T_pella6_0,T_pella6_1))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.2136</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">5.0205e-05</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2.5205e-09</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 1</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+I F81+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra1_0,(T_pyra3_1,(T_pyra1_1,((T_pyra4_0,T_pyra4_1),(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella9_0,(T_pella5_1,(T_pella7_0,T_pella7_1))),(T_pella5_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella6_0,T_pella6_1))))));">(Florisuga_0,Florisuga_1,((T_pyra1_0,(T_pyra3_1,(T_pyra1_1,((T_pyra4_0,T_pyra4_1),(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella9_0,(T_pella5_1,(T_pella7_0,T_pella7_1))),(T_pella5_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella6_0,T_pella6_1))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">1</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0202</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">4.3121e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">1.0117e-11</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 2</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC F81 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,(((T_pyra4_0,T_pyra4_1),(T_pyra1_1,(T_pyra3_1,(T_pyra1_0,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella7_0,(T_pella5_1,T_pella7_1)))))));">(Florisuga_0,Florisuga_1,(((T_pyra4_0,T_pyra4_1),(T_pyra1_1,(T_pyra3_1,(T_pyra1_0,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella7_0,(T_pella5_1,T_pella7_1)))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.1895</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.7750e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.6524e-12</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 3</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+G K80+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,(T_pella7_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella5_1,T_pella7_1)))))));">(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,(T_pella7_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella5_1,T_pella7_1)))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">12</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.6363e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">1.0024e-10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 4</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      F81+G K80 HKY HKY+G TrNef TrNef+G TrN TrN+G TPM1 TPM1+G TPM1uf TPM1uf+G SYM SYM+G GTR GTR+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra1_0,((T_pyra4_0,T_pyra4_1),(T_pyra1_1,(T_pyra3_1,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,(T_pella7_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella5_1,T_pella7_1)))))));">(Florisuga_0,Florisuga_1,((T_pyra1_0,((T_pyra4_0,T_pyra4_1),(T_pyra1_1,(T_pyra3_1,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella8_1,(T_pella9_1,T_pella8_0)),(T_pella9_0,(T_pella7_0,((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella5_1,T_pella7_1)))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">4</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.5405</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">14</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.6936e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">3.9775e-09</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 5</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      TrN+I+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,(((T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))),(T_pyra3_1,(T_pyra3_0,(T_pyra2_0,T_pyra2_1)))),(T_pella9_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella7_0,(T_pella5_1,T_pella7_1)))))));">(Florisuga_0,Florisuga_1,(((T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))),(T_pyra3_1,(T_pyra3_0,(T_pyra2_0,T_pyra2_1)))),(T_pella9_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella5_0,(T_pella6_0,T_pella6_1)),(T_pella7_0,(T_pella5_1,T_pella7_1)))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">5</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0002</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">14</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.6491e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 6</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      JC+I+G F81+I+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,(((T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))),(T_pyra3_1,(T_pyra3_0,(T_pyra2_0,T_pyra2_1)))),(T_pella9_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella6_0,T_pella6_1),(T_pella5_0,(T_pella7_0,(T_pella5_1,T_pella7_1))))))));">(Florisuga_0,Florisuga_1,(((T_pyra1_1,(T_pyra1_0,(T_pyra4_0,T_pyra4_1))),(T_pyra3_1,(T_pyra3_0,(T_pyra2_0,T_pyra2_1)))),(T_pella9_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella6_0,T_pella6_1),(T_pella5_0,(T_pella7_0,(T_pella5_1,T_pella7_1))))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">6</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0099</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">16</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8.0461e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">5.1799e-10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 7</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      TrNef+I TPM1+I SYM+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra4_0,T_pyra4_1),(T_pyra1_0,(T_pyra1_1,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1)))),(T_pella5_0,(T_pella9_1,(T_pella8_1,T_pella8_0))))));">(Florisuga_0,Florisuga_1,((T_pyra3_1,((T_pyra4_0,T_pyra4_1),(T_pyra1_0,(T_pyra1_1,(T_pyra2_0,(T_pyra3_0,T_pyra2_1)))))),((T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1)))),(T_pella5_0,(T_pella9_1,(T_pella8_1,T_pella8_0))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">16</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8.1070e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2.5149e-08</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 8</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      TrN+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,((T_pyra1_0,(T_pyra1_1,(T_pyra3_1,((T_pyra4_0,T_pyra4_1),(T_pyra3_0,(T_pyra2_1,T_pyra2_0)))))),((T_pella5_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella6_0,T_pella6_1),(T_pella7_1,(T_pella7_0,T_pella5_1))))),T_pella9_0)));">(Florisuga_0,Florisuga_1,((T_pyra1_0,(T_pyra1_1,(T_pyra3_1,((T_pyra4_0,T_pyra4_1),(T_pyra3_0,(T_pyra2_1,T_pyra2_0)))))),((T_pella5_0,((T_pella8_1,(T_pella9_1,T_pella8_0)),((T_pella6_0,T_pella6_1),(T_pella7_1,(T_pella7_0,T_pella5_1))))),T_pella9_0)));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0069</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">16</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.4952e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0000e+00</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 9</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      K80+I+G HKY+I+G TrNef+I+G TPM1+I+G TPM1uf+I+G SYM+I+G GTR+I+G 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,(((T_pyra1_0,(T_pyra4_0,T_pyra4_1)),((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_1,T_pyra3_1))),((T_pella9_1,(T_pella8_1,T_pella8_0)),(T_pella5_0,(T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1))))))));">(Florisuga_0,Florisuga_1,(((T_pyra1_0,(T_pyra4_0,T_pyra4_1)),((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_1,T_pyra3_1))),((T_pella9_1,(T_pella8_1,T_pella8_0)),(T_pella5_0,(T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1))))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">9</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0125</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">18</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.3546e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">7.5641e-08</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  <tr>
+    <td rowspan="5" class="col-id"> 10</td>
+    <td rowspan="5" class="col-models">
+    <div class="topo-scroll"> 
+      TPM1uf+I GTR+I 
+    </div>
+    </td>
+    <td rowspan="5" class="col-topo">
+    <div class="topo-scroll">
+      <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0,Florisuga_1,(((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_0,((T_pyra4_0,T_pyra4_1),(T_pyra1_1,T_pyra3_1)))),((T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1)))),(T_pella5_0,(T_pella9_1,(T_pella8_1,T_pella8_0))))));">(Florisuga_0,Florisuga_1,(((T_pyra2_0,(T_pyra3_0,T_pyra2_1)),(T_pyra1_0,((T_pyra4_0,T_pyra4_1),(T_pyra1_1,T_pyra3_1)))),((T_pella9_0,(T_pella7_0,((T_pella6_0,T_pella6_1),(T_pella5_1,T_pella7_1)))),(T_pella5_0,(T_pella9_1,(T_pella8_1,T_pella8_0))))));</a>
+    </div>
+    </td>
+    <th>RANK</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">10</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Weight</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">0.0066</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>RF</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">18</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>AVG Distance</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">8.1836e-03</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+    <tr>
+    <th>Distance VAR</th>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank">2.5586e-08</td>
+      <td class="topo-rank"> - </td>
+      <td class="topo-rank"> - </td>
+    </tr>
+  </table>
+  </div><!--sorted-models-->
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="selection">   
+<h1> <a name="bic"></a>BIC Selection Results </h1>
+<div class="selection-upper"> 
+	<div class="selection_best_model">
+		<h2 style="text-align: center;"> Model selected </h2>
+		<table class="model_info">
+		<tr><th>   Model </th><td colspan="2">HKY+I</tr>
+		<tr><th>   partition </th><td colspan="2"> 010010</tr>
+		<tr><th>   -lnL </th><td colspan="2"> 1672.3666</tr>
+		<tr><th>   K </th><td colspan="2"> 43</tr>
+		<tr><th>   freqA </th><td> 0.2888</td><th>   R(a) </th><td> - </td></tr>
+		<tr><th>   freqC </th><td> 0.1940</td><th>   R(b) </th><td> - </td></tr>
+		<tr><th>   freqG </th><td> 0.1971</td><th>   R(c) </th><td> - </td></tr>
+		<tr><th>   freqT </th><td> 0.3200</td><th>   R(d) </th><td> - </td></tr>
+		<tr><th>   ti/tv </th><td> 1.2139 </td><th>   R(e) </th><td> - </td></tr>
+		<tr><th></th><td></td><th>   R(f) </th><td> - </td></tr>
+		<tr><th>   p-inv </th><td> 0.8000</td><th>   gamma </th><td> - </td></tr>
+		</table>
+	</div> <!--selection_best_model-->
+<div class="selection_best_tree">
+
+	<h2 style="text-align: center;"> Best model tree </h2>
+	
+		<div class="newick-tree">
+		(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);
+		</div><!--best-tree-newick-->
+	<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);&useBranchLengths=true">Display best model tree in PhyloWidget</a>
+	</div><!--selection_best_tree-->
+</div><!--selection-upper-->
+
+<div class="selection-lower">
+<div class="selection_results">
+	<table class="selection_table">
+		<tr>
+		<th>Model</th><th> -lnL  </th><th>  K      </th><th>   BIC </th><th>delta</th><th>   weight</th><th> cumWeight</th>
+		</tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);&useBranchLengths=true">HKY+I</a> </td><td>1672.3666</td><td>43</td><td>3643.7417</td><td>0.0000</td><td>0.2136</td><td>0.2136</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103039,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289142,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111371,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096195):0.00000006):0.00000005):0.00000006):0.00288242,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288485,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330377):0.00110001):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096160):0.00000005):0.00193515):0.01797764);&useBranchLengths=true">HKY</a> </td><td>1675.8459</td><td>42</td><td>3643.7464</td><td>0.0048</td><td>0.2131</td><td>0.4266</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000662,Florisuga_1:0.00000001,(((T_pyra4_0:0.00000001,T_pyra4_1:0.00000375):0.00288264,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111626,(T_pyra1_0:0.00103209,(T_pyra2_0:0.00000009,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096229):0.00000036):0.00000011):0.00000007):0.00289334,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000011):0.00000010):0.00288649,(T_pella9_0:0.00000007,((T_pella5_0:0.00000001,(T_pella6_0:0.00001942,T_pella6_1:0.00329293):0.00109733):0.00000001,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000027):0.00000010):0.00000011):0.00096130):0.00000024):0.00192145):0.01799412);&useBranchLengths=true">F81</a> </td><td>1679.4398</td><td>41</td><td>3643.9806</td><td>0.2389</td><td>0.1895</td><td>0.6161</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000012,Florisuga_1:0.00000001,((T_pyra1_0:0.00103595,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00291420,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096418,T_pyra3_1:0.00112340):0.00000005):0.00000007):0.00000005):0.00287536,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291030,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334514):0.00110998):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00097034):0.00000005):0.00199913):0.01905319);&useBranchLengths=true">HKY+G</a> </td><td>1672.6446</td><td>43</td><td>3644.2977</td><td>0.5560</td><td>0.1617</td><td>0.7779</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103916,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291421,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112720,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096637):0.00000006):0.00000005):0.00000006):0.00292103,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291692,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335559):0.00111173):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00096964):0.00000006):0.00194821):0.01892500);&useBranchLengths=true">F81+G</a> </td><td>1676.2482</td><td>42</td><td>3644.5512</td><td>0.8095</td><td>0.1425</td><td>0.9203</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000618,Florisuga_1:0.00000001,((T_pyra1_0:0.00096275,(T_pyra3_1:0.00104169,(T_pyra1_1:0.00000009,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000350):0.00269005,(T_pyra2_0:0.00000008,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00089729):0.00000008):0.00000010):0.00000006):0.00270125,((T_pella9_0:0.00000001,(T_pella5_1:0.00000001,(T_pella7_0:0.00000008,T_pella7_1:0.00000025):0.00000001):0.00089572):0.00000004,(T_pella5_0:0.00000001,((T_pella8_1:0.00000004,(T_pella9_1:0.00000001,T_pella8_0:0.00000010):0.00000010):0.00269325,(T_pella6_0:0.00001813,T_pella6_1:0.00308507):0.00102782):0.00000011):0.00000004):0.00179775):0.01684859);&useBranchLengths=true">F81+I</a> </td><td>1678.2010</td><td>42</td><td>3648.4566</td><td>4.7150</td><td>0.0202</td><td>0.9406</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103283,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000003):0.00292141):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095740,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112663):0.00000002):0.00000004):0.00281120,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00291743,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00337542):0.00111497,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096792):0.00000004):0.00000004):0.00210346):0.02059841);&useBranchLengths=true">HKY+I+G</a> </td><td>1671.7585</td><td>44</td><td>3649.4791</td><td>5.7375</td><td>0.0121</td><td>0.9527</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_1:0.00000001,(T_pyra1_0:0.00103762,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00291784):0.00000001):0.00000001,(T_pyra3_1:0.00113247,(T_pyra3_0:0.00000000,(T_pyra2_0:0.00000003,T_pyra2_1:0.00000000):0.00000002):0.00096176):0.00000003):0.00291815,(T_pella9_0:0.00000000,((T_pella8_1:0.00000001,(T_pella9_1:0.00000003,T_pella8_0:0.00000002):0.00000001):0.00292844,((T_pella6_0:0.00000002,T_pella6_1:0.00339149):0.00111636,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pella5_1:0.00000000,T_pella7_1:0.00000003):0.00000002):0.00000076):0.00000382):0.00096683):0.00000021):0.00197900):0.02013277);&useBranchLengths=true">F81+I+G</a> </td><td>1675.4337</td><td>43</td><td>3649.8758</td><td>6.1342</td><td>0.0099</td><td>0.9626</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000003,Florisuga_1:0.00000000,((T_pyra1_0:0.00102650,(T_pyra1_1:0.00000001,(T_pyra3_1:0.00111464,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289210,(T_pyra3_0:0.00000000,(T_pyra2_1:0.00000000,T_pyra2_0:0.00000001):0.00000000):0.00095457):0.00000003):0.00000003):0.00000001):0.00284547,((T_pella5_0:0.00000000,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000002):0.00288889,((T_pella6_0:0.00000001,T_pella6_1:0.00332502):0.00110192,(T_pella7_1:0.00000002,(T_pella7_0:0.00000000,T_pella5_1:0.00000002):0.00000003):0.00001888):0.00094080):0.00000002):0.00000105,T_pella9_0:0.00000003):0.00200085):0.01802033);&useBranchLengths=true">TrN+I</a> </td><td>1672.3223</td><td>44</td><td>3650.6066</td><td>6.8649</td><td>0.0069</td><td>0.9695</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103027,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289133,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111353,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096193):0.00000006):0.00000005):0.00000006):0.00288196,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288466,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330346):0.00109990):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096161):0.00000005):0.00193583):0.01797202);&useBranchLengths=true">TPM1uf</a> </td><td>1675.8335</td><td>43</td><td>3650.6755</td><td>6.9338</td><td>0.0067</td><td>0.9762</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103035,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289142,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111367,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096196):0.00000006):0.00000005):0.00000006):0.00288255,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288467,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330374):0.00109999):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096159):0.00000005):0.00193512):0.01797749);&useBranchLengths=true">TrN</a> </td><td>1675.8458</td><td>43</td><td>3650.7000</td><td>6.9584</td><td>0.0066</td><td>0.9828</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095477,(T_pyra1_0:0.00102670,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289141,(T_pyra1_1:0.00000002,T_pyra3_1:0.00111450):0.00000000):0.00000000):0.00000001):0.00284690,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00332393):0.00110175,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00095946):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288894):0.00000000):0.00199989):0.01788344);&useBranchLengths=true">TPM1uf+I</a> </td><td>1672.3690</td><td>44</td><td>3650.7001</td><td>6.9584</td><td>0.0066</td><td>0.9894</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103580,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291384,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112310,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096404):0.00000006):0.00000005):0.00000006):0.00287333,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291016,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334482):0.00110988):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097035):0.00000006):0.00200129):0.01904392);&useBranchLengths=true">TPM1uf+G</a> </td><td>1672.6390</td><td>44</td><td>3651.2401</td><td>7.4985</td><td>0.0050</td><td>0.9944</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000012,Florisuga_1:0.00000001,((T_pyra1_0:0.00103588,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00291419,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096417,T_pyra3_1:0.00112339):0.00000005):0.00000007):0.00000006):0.00287507,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291068,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00334513):0.00110998):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00097037):0.00000005):0.00199949):0.01905313);&useBranchLengths=true">TrN+G</a> </td><td>1672.6443</td><td>44</td><td>3651.2508</td><td>7.5091</td><td>0.0050</td><td>0.9994</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103276,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000003):0.00292141):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095737,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112653):0.00000002):0.00000004):0.00280973,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00291746,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00337525):0.00111492,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096813):0.00000004):0.00000004):0.00210491):0.02057662);&useBranchLengths=true">TPM1uf+I+G</a> </td><td>1671.7577</td><td>45</td><td>3656.4312</td><td>12.6896</td><td>0.0004</td><td>0.9998</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000008,Florisuga_1:0.00000001,(((T_pyra1_1:0.00000005,(T_pyra1_0:0.00100434,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000007):0.00282977):0.00000004):0.00000004,(T_pyra3_1:0.00109065,(T_pyra3_0:0.00000001,(T_pyra2_0:0.00000011,T_pyra2_1:0.00000001):0.00000007):0.00093351):0.00000010):0.00280588,(T_pella9_0:0.00000001,((T_pella8_1:0.00000002,(T_pella9_1:0.00000010,T_pella8_0:0.00000007):0.00000002):0.00282845,((T_pella5_0:0.00000001,(T_pella6_0:0.00000006,T_pella6_1:0.00325439):0.00110683):0.00000012,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000011):0.00000006):0.00007450):0.00088588):0.00035540):0.00151817):0.01891219);&useBranchLengths=true">TrN+I+G</a> </td><td>1672.2528</td><td>45</td><td>3657.4213</td><td>13.6797</td><td>0.0002</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000001,Florisuga_1:0.00000000,(((T_pyra2_0:0.00000002,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00094955,(T_pyra1_0:0.00102342,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00288418,(T_pyra1_1:0.00000001,T_pyra3_1:0.00111634):0.00000000):0.00000000):0.00000001):0.00279091,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000001,T_pella6_1:0.00329866):0.00109011,(T_pella5_1:0.00000000,T_pella7_1:0.00000001):0.00000001):0.00000001):0.00094749):0.00000002,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000001):0.00000001):0.00286525):0.00000000):0.00204331):0.02027601);&useBranchLengths=true">GTR+I</a> </td><td>1669.7553</td><td>47</td><td>3666.3338</td><td>22.5921</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103133,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289432,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111656,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096314):0.00000006):0.00000005):0.00000006):0.00288431,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288456,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00330233):0.00109946):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096130):0.00000005):0.00193550):0.01796381);&useBranchLengths=true">GTR</a> </td><td>1673.4686</td><td>46</td><td>3666.8067</td><td>23.0650</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000009,Florisuga_1:0.00000001,((T_pyra1_0:0.00103589,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00291216,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112545,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096400):0.00000006):0.00000005):0.00000006):0.00286709,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00289861,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00332707):0.00110379):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096537):0.00000006):0.00199485):0.01913482);&useBranchLengths=true">GTR+G</a> </td><td>1670.3215</td><td>47</td><td>3667.4661</td><td>23.7245</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,(((T_pyra1_0:0.00103239,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00291339):0.00000003,((T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095727,(T_pyra1_1:0.00000002,T_pyra3_1:0.00112807):0.00000002):0.00000002):0.00278499,((T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00289001,(T_pella5_0:0.00000000,(T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333500):0.00110099,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00095609):0.00000002):0.00000002):0.00209799):0.02079193);&useBranchLengths=true">GTR+I+G</a> </td><td>1669.4922</td><td>48</td><td>3672.7613</td><td>29.0196</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000681,Florisuga_1:0.00000001,(((T_pyra4_0:0.00000001,T_pyra4_1:0.00000375):0.00288378,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111939,(T_pyra1_0:0.00103360,(T_pyra2_0:0.00000009,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096279):0.00000036):0.00000011):0.00000007):0.00290108,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000011):0.00000010):0.00288550,(T_pella9_0:0.00000007,((T_pella5_0:0.00000001,(T_pella6_0:0.00001940,T_pella6_1:0.00329756):0.00109891):0.00000001,(T_pella7_0:0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000027):0.00000010):0.00000012):0.00096130):0.00000024):0.00191284):0.01803661);&useBranchLengths=true">JC</a> </td><td>1705.8662</td><td>38</td><td>3675.9724</td><td>32.2307</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112856,((T_pyra1_0:0.00103868,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096477):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00292131):0.00000001):0.00000003):0.00291009,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00096433):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00290083,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00334723):0.00110940):0.00000001):0.00000001):0.00196597):0.01796037);&useBranchLengths=true">K80+I</a> </td><td>1698.9931</td><td>40</td><td>3676.1336</td><td>32.3919</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103364,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289412,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111913,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096293):0.00000006):0.00000006):0.00000006):0.00289144,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288362,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331305):0.00110312):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096155):0.00000005):0.00192605):0.01805766);&useBranchLengths=true">K80</a> </td><td>1702.5939</td><td>39</td><td>3676.3814</td><td>32.6398</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra3_1:0.00113246,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096945,(T_pyra1_1:0.00000006,(T_pyra1_0:0.00104305,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292329):0.00000006):0.00000005):0.00000005):0.00295839,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291845,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00336177):0.00111396):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097140):0.00000005):0.00191526):0.01897840);&useBranchLengths=true">JC+G</a> </td><td>1702.6286</td><td>39</td><td>3676.4509</td><td>32.7092</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra3_1:0.00113183,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096901,(T_pyra1_1:0.00000006,(T_pyra1_0:0.00104255,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292847):0.00000005):0.00000005):0.00000006):0.00291790,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291145,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335477):0.00111337):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097210):0.00000005):0.00196390):0.01913612);&useBranchLengths=true">K80+G</a> </td><td>1699.3282</td><td>40</td><td>3676.8038</td><td>33.0622</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000637,Florisuga_1:0.00000001,((T_pyra1_0:0.00096395,(T_pyra3_1:0.00104432,(T_pyra1_1:0.00000009,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000350):0.00269081,(T_pyra2_0:0.00000008,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00089762):0.00000007):0.00000010):0.00000006):0.00271090,((T_pella9_0:0.00000001,(T_pella5_1:0.00000001,(T_pella7_0:0.00000008,T_pella7_1:0.00000025):0.00000001):0.00089510):0.00000004,(T_pella5_0:0.00000001,((T_pella8_1:0.00000003,(T_pella9_1:0.00000001,T_pella8_0:0.00000010):0.00000010):0.00269079,(T_pella6_0:0.00001811,T_pella6_1:0.00308772):0.00102884):0.00000011):0.00000004):0.00178558):0.01687802);&useBranchLengths=true">JC+I</a> </td><td>1704.6196</td><td>39</td><td>3680.4328</td><td>36.6911</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000003,Florisuga_1:0.00000000,(((T_pyra1_1:0.00000002,(T_pyra1_0:0.00104468,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00293759):0.00000001):0.00000001,(T_pyra3_1:0.00114044,(T_pyra3_0:0.00000000,(T_pyra2_0:0.00000004,T_pyra2_1:0.00000000):0.00000004):0.00096818):0.00000003):0.00300434,(T_pella9_0:0.00000000,((T_pella8_1:0.00000002,(T_pella9_1:0.00000002,T_pella8_0:0.00000003):0.00000002):0.00293280,((T_pella6_0:0.00000002,T_pella6_1:0.00340022):0.00111888,(T_pella5_0:0.00000000,(T_pella7_0:0.00000000,(T_pella5_1:0.00000000,T_pella7_1:0.00000004):0.00000002):0.00000034):0.00000226):0.00097279):0.00000045):0.00190419):0.02023343);&useBranchLengths=true">JC+I+G</a> </td><td>1701.7613</td><td>40</td><td>3681.6700</td><td>37.9283</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100754,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283495):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093536,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109494):0.00000006):0.00000007):0.00282245,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281342,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324785):0.00107583,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093513):0.00000008):0.00000008):0.00191260):0.01898817);&useBranchLengths=true">K80+I+G</a> </td><td>1698.8451</td><td>41</td><td>3682.7913</td><td>39.0496</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112342,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00290807,(T_pyra1_0:0.00103399,(T_pyra1_1:0.00000003,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096067):0.00000001):0.00000001):0.00000003):0.00289591,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333207):0.00110438,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096013):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288869):0.00000000):0.00195842):0.01794583);&useBranchLengths=true">TrNef+I</a> </td><td>1698.9920</td><td>41</td><td>3683.0850</td><td>39.3433</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00112382,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00290899,(T_pyra1_0:0.00103458,(T_pyra1_1:0.00000003,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00096099):0.00000001):0.00000001):0.00000003):0.00289990,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000002,T_pella6_1:0.00333350):0.00110483,(T_pella5_1:0.00000000,T_pella7_1:0.00000002):0.00000002):0.00000002):0.00096033):0.00000003,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000002):0.00000002):0.00288940):0.00000000):0.00195634):0.01795427);&useBranchLengths=true">TPM1+I</a> </td><td>1698.9930</td><td>41</td><td>3683.0871</td><td>39.3454</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103309,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00289333,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111898,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096266):0.00000006):0.00000006):0.00000006):0.00289056,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288258,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331192):0.00110274):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096127):0.00000005):0.00192561):0.01804956);&useBranchLengths=true">TrNef</a> </td><td>1702.5902</td><td>40</td><td>3683.3278</td><td>39.5862</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103362,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00289405,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096297,T_pyra3_1:0.00111913):0.00000005):0.00000006):0.00000005):0.00289173,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00288363,(T_pella9_0:0.00000006,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331314):0.00110320):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00096157):0.00000005):0.00192603):0.01805798);&useBranchLengths=true">TPM1</a> </td><td>1702.5938</td><td>40</td><td>3683.3349</td><td>39.5933</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00104197,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292759,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096874,T_pyra3_1:0.00113150):0.00000005):0.00000006):0.00000005):0.00291570,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291068,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335342):0.00111283):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097185):0.00000005):0.00196427):0.01912961);&useBranchLengths=true">TrNef+G</a> </td><td>1699.3247</td><td>41</td><td>3683.7505</td><td>40.0088</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00104255,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000010):0.00292849,(T_pyra1_1:0.00000006,((T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096905,T_pyra3_1:0.00113188):0.00000005):0.00000006):0.00000005):0.00291883,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00291151,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00335480):0.00111338):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000013):0.00000006):0.00097209):0.00000005):0.00196289):0.01913940);&useBranchLengths=true">TPM1+G</a> </td><td>1699.3269</td><td>41</td><td>3683.7549</td><td>40.0133</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100698,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283414):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093507,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109455):0.00000006):0.00000007):0.00281973,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281283,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324653):0.00107540,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093488):0.00000008):0.00000008):0.00191362):0.01898816);&useBranchLengths=true">TrNef+I+G</a> </td><td>1698.8398</td><td>42</td><td>3689.7343</td><td>45.9926</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100750,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00283484):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093531,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109489):0.00000006):0.00000007):0.00282407,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00281329,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00324774):0.00107577,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00093499):0.00000008):0.00000008):0.00191080):0.01899788);&useBranchLengths=true">TPM1+I+G</a> </td><td>1698.8406</td><td>42</td><td>3689.7358</td><td>45.9942</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000001,Florisuga_1:0.00000000,((T_pyra3_1:0.00112301,((T_pyra4_0:0.00000000,T_pyra4_1:0.00000001):0.00289576,(T_pyra1_0:0.00102884,(T_pyra1_1:0.00000002,(T_pyra2_0:0.00000002,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095425):0.00000001):0.00000001):0.00000002):0.00282800,((T_pella9_0:0.00000000,(T_pella7_0:0.00000000,((T_pella6_0:0.00000001,T_pella6_1:0.00328448):0.00108497,(T_pella5_1:0.00000000,T_pella7_1:0.00000001):0.00000001):0.00000001):0.00094131):0.00000002,(T_pella5_0:0.00000000,(T_pella9_1:0.00000000,(T_pella8_1:0.00000001,T_pella8_0:0.00000001):0.00000001):0.00284627):0.00000000):0.00199771):0.02040177);&useBranchLengths=true">SYM+I</a> </td><td>1696.2733</td><td>44</td><td>3698.5086</td><td>54.7670</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00102694,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00287547,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00111594,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00095717):0.00000006):0.00000006):0.00000006):0.00286962,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00286085,(T_pella9_0:0.00000007,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00328982):0.00109535):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00095365):0.00000005):0.00191416):0.01792899);&useBranchLengths=true">SYM</a> </td><td>1700.2035</td><td>43</td><td>3699.4153</td><td>55.6737</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000014,Florisuga_1:0.00000001,((T_pyra1_0:0.00103606,((T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00290706,(T_pyra1_1:0.00000006,(T_pyra3_1:0.00112817,(T_pyra2_0:0.00000006,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00096357):0.00000006):0.00000006):0.00000005):0.00287877,((T_pella8_1:0.00000006,(T_pella9_1:0.00000001,T_pella8_0:0.00000005):0.00000005):0.00287777,(T_pella9_0:0.00000005,(T_pella7_0:0.00000001,((T_pella5_0:0.00000001,(T_pella6_0:0.00000008,T_pella6_1:0.00331465):0.00109985):0.00000001,(T_pella5_1:0.00000001,T_pella7_1:0.00000013):0.00000007):0.00000006):0.00095914):0.00000006):0.00195856):0.01906649);&useBranchLengths=true">SYM+G</a> </td><td>1696.9694</td><td>44</td><td>3699.9008</td><td>56.1592</td><td>0.0000</td><td>1.0000</td></tr>
+		<tr><td>
+		<a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000006,Florisuga_1:0.00000001,(((T_pyra1_0:0.00100239,(T_pyra4_0:0.00000001,T_pyra4_1:0.00000008):0.00281610):0.00000010,((T_pyra2_0:0.00000010,(T_pyra3_0:0.00000001,T_pyra2_1:0.00000001):0.00000001):0.00093120,(T_pyra1_1:0.00000006,T_pyra3_1:0.00109262):0.00000006):0.00000007):0.00277662,((T_pella9_1:0.00000001,(T_pella8_1:0.00000004,T_pella8_0:0.00000006):0.00000006):0.00277864,(T_pella5_0:0.00000001,(T_pella9_0:0.00000001,(T_pella7_0:0.00000001,((T_pella6_0:0.00000007,T_pella6_1:0.00320379):0.00106121,(T_pella5_1:0.00000001,T_pella7_1:0.00000006):0.00000006):0.00000006):0.00092135):0.00000008):0.00000008):0.00191531):0.01896844);&useBranchLengths=true">SYM+I+G</a> </td><td>1696.5040</td><td>45</td><td>3705.9238</td><td>62.1822</td><td>0.0000</td><td>1.0000</td></tr>
+		 </table>
+</div><!--selection_results-->
+<div class="selection-caption">
+<table class="selection_table"><tr><td>
+		-lnL:</td><td>negative log likelihod
+		 </td> </tr><tr><td>
+		 K:</td><td>	number of estimated parameters
+		 </td> </tr><tr><td>
+		 BIC:</td><td>	Bayesian Information Criterion
+		 </td> </tr><tr><td>
+		 delta:	</td><td>BIC difference
+		 </td> </tr><tr><td>
+		 weight:</td><td>	BIC weight
+		 </td> </tr><tr><td>
+		 cumWeight:</td><td>cumulative BIC weight
+		 </td> </tr>
+	 </table>
+<h2>Confidence interval</h2>
+ <p class="confidence-list"> 
+There are 40 models in the 100.00% confidence interval:<br/>
+HKY+I HKY F81 HKY+G F81+G F81+I HKY+I+G F81+I+G TrN+I TPM1uf TrN TPM1uf+I TPM1uf+G TrN+G TPM1uf+I+G TrN+I+G GTR+I GTR GTR+G GTR+I+G JC K80+I K80 JC+G K80+G JC+I JC+I+G K80+I+G TrNef+I TPM1+I TrNef TPM1 TrNef+G TPM1+G TrNef+I+G TPM1+I+G SYM+I SYM SYM+G SYM+I+G 
+</p>
+  </div><!--selection-caption-->
+  </div><!--selection-lower-->
+
+  <div class="selection-distances">
+    <div class="euclidean-img">
+    	<img class="distances-img" src="images/uce-1305_phased.nexus.jmodeltest.20161116191523.html_eu_BIC.png"/><br/>
+    	Euclidean distances histogram from each model optimized tree to <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);&useBranchLengths=true">HKY+I tree</a>.
+    </div>
+    <div class="rf-img">
+    	<img class="distances-img" src="images/uce-1305_phased.nexus.jmodeltest.20161116191523.html_rf_BIC.png"/><br/>
+    	Relative Robinson-Foulds distances histogram from the different topologies to <a href="http://www.phylowidget.org/full/?tree=(Florisuga_0:0.00000002,Florisuga_1:0.00000000,((T_pyra3_1:0.00111466,((T_pyra1_0:0.00102679,(T_pyra2_0:0.00000003,(T_pyra3_0:0.00000000,T_pyra2_1:0.00000000):0.00000000):0.00095481):0.00000001,(T_pyra1_1:0.00000001,(T_pyra4_0:0.00000000,T_pyra4_1:0.00000002):0.00289224):0.00000001):0.00000003):0.00284822,((T_pella9_0:0.00000000,(T_pella5_1:0.00000000,(T_pella7_0:0.00000003,T_pella7_1:0.00000002):0.00000000):0.00095938):0.00000001,((T_pella8_1:0.00000001,(T_pella9_1:0.00000000,T_pella8_0:0.00000003):0.00000003):0.00288873,(T_pella5_0:0.00000000,(T_pella6_0:0.00000002,T_pella6_1:0.00332458):0.00110194):0.00000001):0.00000001):0.00199815):0.01790380);&useBranchLengths=false">HKY+I topology</a>.
+    </div>
+    <div style="clear:both;"></div>
+  </div><!--selection-distances-->
+
+<p class="back-to-top"><a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /> Back to top <img src="resources/topIcon.gif" alt="Back to top" class="top" /></a></p>
+
+</div><!--selection-->
+
+
+
+
+
+
+
+
+
+</div><!--/content-->
+
+	</div><!--/page-->
+	</div><!--/clearfix-->
+
+</div><!--/container2-->
+</div><!--/container1-->
+
+<div id="footer">
+<div id="footerinner">
+<p class="poweredBy">
+<span class="buttons">
+<a href="http://code.google.com/p/jmodeltest2" title="Home" class="home"><img src="resources/homeIcon.gif" alt="Back to home" class="home" /></a> 
+<a href="#" onclick="scrollTo(0,0);return false;" title="Back to top" class="top"><img src="resources/topIcon.gif" alt="Back to top" class="top" /></a>
+</span>
+<a href="http://code.google.com/p/jmodeltest2" rel="external">jModelTest 2.1</a>. D.Darriba, G.L.Taboada, R.Doallo and D.Posada
+</p>
+<div id="contact">
+    <a href="https://groups.google.com/forum/#!forum/jmodeltest">Forum</a>
+	-
+	<a href="http://groups.google.com/group/jmodeltest">Discussion group</a>
+	-
+	<a href="mailto:ddarriba@udc.es">Contact</a>
+</div>
+ 
+</div><!--/footerinner-->
+</div><!--/footer-->
+
+</body>
+</html>

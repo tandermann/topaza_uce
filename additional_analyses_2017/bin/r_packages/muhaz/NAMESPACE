@@ -1,0 +1,14 @@
+useDynLib(muhaz)
+
+import(survival)
+
+importFrom(graphics, plot)
+importFrom(graphics, lines)
+
+S3method(plot, muhaz)
+S3method(plot, pehaz)
+S3method(lines, pehaz)
+S3method(lines, muhaz)
+
+exportPattern("^[^\\.]")
+

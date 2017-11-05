@@ -1,0 +1,15 @@
+# set up in BEAUTI2.4.4, using STARBEAST plugin
+# 150 most informative UCE loci from Topaza
+# entered substitution models from jModeltest (JC=JC69, K80=HKY85, SYM=GTR)
+# strict clock, fixed clock rate of 1.0 for UCE-142, all other loci estimated
+
+# *************** following settings according to (Smith, B. T., Harvey, M. G., Faircloth, B. C., Glenn, T. C., & Brumfield, R. T. (2014). Target Capture and Massively Parallel Sequencing of Ultraconserved Elements for Comparative Studies at Shallow Evolutionary Time Scales. Systematic Biology, 63(1), 83–95. http://doi.org/10.1093/sysbio/syt061)
+# Tree=Yule model
+# birthRate=exponential, mean=1000
+# popMean=lognormal, mean=0.001,SD=2
+# ***************
+
+# clockRate for all loci set to lognormal with M=0.0 and S=1.0
+# removed outgroup with this command:
+sed -i '' '/Florisuga/d' topaza-150-top-uces-phased-stacey_no_outgroup.xml
+# remove the <\taxon> that are left over from removing the taxon Florisuga

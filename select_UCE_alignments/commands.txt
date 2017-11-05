@@ -1,0 +1,214 @@
+##run on MacBook 2015, macOS Sierra, December 2016, author: Tobias Hofmann (tobias.hofmann@bioenv.gu.se)
+#phyluce_align_convert_one_align_to_another --alignments data/raw/topaza-uce-allele-alignments --input-format nexus --output data/temp/topaza-uce-allele-alignments-fasta --output-format fasta
+#phyluce_align_convert_one_align_to_another --alignments data/raw/topaza-uce-consensus-alignments --input-format nexus --output data/temp/topaza-uce-consensus-alignments-fasta --output-format fasta
+#phyluce_align_convert_one_align_to_another --alignments data/raw/simulated-uce-allele-alignments --input-format nexus --output data/temp/simulated-uce-allele-alignments-fasta --output-format fasta
+phyluce_align_convert_one_align_to_another --alignments data/raw/simulated-uce-consensus-alignments --input-format nexus --output data/temp/simulated-uce-consensus-alignments-fasta --output-format fasta
+
+#python bin/add_missing_sequences.py --input data/temp/topaza-uce-allele-alignments-fasta --output data/temp/topaza-uce-allele-alignments-fasta-no-missing
+#python bin/add_missing_sequences.py --input data/temp/topaza-uce-consensus-alignments-fasta --output data/temp/topaza-uce-consensus-alignments-fasta-no-missing
+#python bin/add_missing_sequences.py --input data/temp/simulated-uce-allele-alignments-fasta --output data/temp/simulated-uce-allele-alignments-fasta-no-missing
+python bin/add_missing_sequences.py --input data/temp/simulated-uce-consensus-alignments-fasta --output data/temp/simulated-uce-consensus-alignments-fasta-no-missing
+
+#for fasta in data/temp/topaza-uce-allele-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+#for fasta in data/temp/topaza-uce-consensus-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+#for fasta in data/temp/simulated-uce-allele-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+for fasta in data/temp/simulated-uce-consensus-alignments-fasta-no-missing/*.fasta; do sed -i '' 's/?/N/g' $fasta; done
+
+#phyluce_align_convert_one_align_to_another --alignments data/temp/topaza-uce-allele-alignments-fasta-no-missing --input-format fasta --output data/temp/topaza-uce-allele-alignments --output-format nexus
+#phyluce_align_convert_one_align_to_another --alignments data/temp/topaza-uce-consensus-alignments-fasta-no-missing --input-format fasta --output data/temp/topaza-uce-consensus-alignments --output-format nexus
+#phyluce_align_convert_one_align_to_another --alignments data/temp/simulated-uce-allele-alignments-fasta-no-missing --input-format fasta --output data/temp/simulated-uce-allele-alignments --output-format nexus
+phyluce_align_convert_one_align_to_another --alignments data/temp/simulated-uce-consensus-alignments-fasta-no-missing --input-format fasta --output data/temp/simulated-uce-consensus-alignments --output-format nexus
+
+#phyluce_align_get_informative_sites --alignments data/temp/topaza-uce-allele-alignments/ --input-format nexus > data/temp/topaza-allele-stats.txt
+#phyluce_align_get_informative_sites --alignments data/temp/topaza-uce-consensus-alignments/ --input-format nexus > data/temp/topaza-consensus-stats.txt
+#phyluce_align_get_informative_sites --alignments data/temp/simulated-uce-allele-alignments/ --input-format nexus > data/temp/simulated-allele-stats.txt
+phyluce_align_get_informative_sites --alignments data/temp/simulated-uce-consensus-alignments/ --input-format nexus > data/temp/simulated-consensus-stats.txt
+#rm phyluce_align_convert_one_align_to_another.log
+
+
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-allele-stats.txt --output data/temp/topaza_allele_selection.txt --mode top --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-allele-stats.txt --output data/temp/topaza_allele_selection.txt --mode bottom --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-allele-stats.txt --output data/temp/topaza_allele_selection.txt --mode random --threshold 150
+
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-consensus-stats.txt --output data/temp/topaza_consensus_selection.txt --mode top --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-consensus-stats.txt --output data/temp/topaza_consensus_selection.txt --mode bottom --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/topaza-consensus-stats.txt --output data/temp/topaza_consensus_selection.txt --mode random --threshold 150
+
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-allele-stats.txt --output data/temp/simulated_allele_selection.txt --mode top --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-allele-stats.txt --output data/temp/simulated_allele_selection.txt --mode bottom --threshold 150
+#python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-allele-stats.txt --output data/temp/simulated_allele_selection.txt --mode random --threshold 150
+
+python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-consensus-stats.txt --output data/temp/simulated_consensus_selection.txt --mode top --threshold 150
+python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-consensus-stats.txt --output data/temp/simulated_consensus_selection.txt --mode bottom --threshold 150
+python bin/extract_uces_from_get_inf_sites_output.py --input data/temp/simulated-consensus-stats.txt --output data/temp/simulated_consensus_selection.txt --mode random --threshold 150
+
+
+#mkdir results
+#mkdir results/modeltests
+#
+#
+#### PHASED TOPAZA
+#
+#mkdir results/topaza_allele_alignments_selections
+#
+#mkdir results/topaza_allele_alignments_selections/top_150
+#touch results/topaza_allele_alignments_selections/top_150/substitution_models.txt
+#for locus in $(cat data/temp/top_150_topaza_allele_selection.txt );
+#do cp data/temp/topaza-uce-allele-alignments/$(echo $locus| tr -d '\r') results/topaza_allele_alignments_selections/top_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_allele_alignments_selections/top_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_allele_alignments_selections/top_150/substitution_models.txt
+#done
+#
+#mkdir results/topaza_allele_alignments_selections/bottom_150
+#touch results/topaza_allele_alignments_selections/bottom_150/substitution_models.txt
+#for locus in $(cat data/temp/bottom_150_topaza_allele_selection.txt );
+#do cp data/temp/topaza-uce-allele-alignments/$(echo $locus| tr -d '\r') results/topaza_allele_alignments_selections/bottom_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_allele_alignments_selections/bottom_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_allele_alignments_selections/bottom_150/substitution_models.txt
+#done
+#
+#mkdir results/topaza_allele_alignments_selections/random_150
+#touch results/topaza_allele_alignments_selections/random_150/substitution_models.txt
+#for locus in $(cat data/temp/random_150_topaza_allele_selection.txt );
+#do cp data/temp/topaza-uce-allele-alignments/$(echo $locus| tr -d '\r') results/topaza_allele_alignments_selections/random_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_allele_alignments_selections/random_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_allele_alignments_selections/random_150/substitution_models.txt
+#done
+#
+#
+#### CONSENSUS TOPAZA
+#
+#mkdir results/topaza_consensus_alignments_selections
+#
+#mkdir results/topaza_consensus_alignments_selections/top_150_matching_phased
+#touch results/topaza_consensus_alignments_selections/top_150_matching_phased/substitution_models.txt
+#sed 's/_phased//g' data/temp/top_150_topaza_allele_selection.txt > data/temp/top_150_topaza_allele_selection_modified.txt
+#for locus in $(cat data/temp/top_150_topaza_allele_selection_modified.txt );
+#do cp data/temp/topaza-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/topaza_consensus_alignments_selections/top_150_matching_phased;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_consensus_alignments_selections/top_150_matching_phased/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_consensus_alignments_selections/top_150_matching_phased/substitution_models.txt
+#done
+#
+#mkdir results/topaza_consensus_alignments_selections/top_150
+#touch results/topaza_consensus_alignments_selections/top_150/substitution_models.txt
+#for locus in $(cat data/temp/top_150_topaza_consensus_selection.txt );
+#do cp data/temp/topaza-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/topaza_consensus_alignments_selections/top_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_consensus_alignments_selections/top_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_consensus_alignments_selections/top_150/substitution_models.txt
+#done
+#
+#mkdir results/topaza_consensus_alignments_selections/bottom_150
+#touch results/topaza_consensus_alignments_selections/bottom_150/substitution_models.txt
+#for locus in $(cat data/temp/bottom_150_topaza_consensus_selection.txt );
+#do cp data/temp/topaza-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/topaza_consensus_alignments_selections/bottom_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_consensus_alignments_selections/bottom_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_consensus_alignments_selections/bottom_150/substitution_models.txt
+#done
+#
+#mkdir results/topaza_consensus_alignments_selections/random_150
+#touch results/topaza_consensus_alignments_selections/random_150/substitution_models.txt
+#for locus in $(cat data/temp/random_150_topaza_consensus_selection.txt );
+#do cp data/temp/topaza-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/topaza_consensus_alignments_selections/random_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/topaza_consensus_alignments_selections/random_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/topaza_consensus_alignments_selections/random_150/substitution_models.txt
+#done
+#
+#
+
+#### PHASED SIMULATED
+#
+#mkdir results/simulated_allele_alignments_selections
+#
+#mkdir results/simulated_allele_alignments_selections/top_150
+#touch results/simulated_allele_alignments_selections/top_150/substitution_models.txt
+#for locus in $(cat data/temp/top_150_simulated_allele_selection.txt );
+#do cp data/temp/simulated-uce-allele-alignments/$(echo $locus| tr -d '\r') results/simulated_allele_alignments_selections/top_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_allele_alignments_selections/top_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_allele_alignments_selections/top_150/substitution_models.txt
+#done
+#
+#mkdir results/simulated_allele_alignments_selections/bottom_150
+#touch results/simulated_allele_alignments_selections/bottom_150/substitution_models.txt
+#for locus in $(cat data/temp/bottom_150_simulated_allele_selection.txt );
+#do cp data/temp/simulated-uce-allele-alignments/$(echo $locus| tr -d '\r') results/simulated_allele_alignments_selections/bottom_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_allele_alignments_selections/bottom_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_allele_alignments_selections/bottom_150/substitution_models.txt
+#done
+#
+#mkdir results/simulated_allele_alignments_selections/random_150
+#touch results/simulated_allele_alignments_selections/random_150/substitution_models.txt
+#for locus in $(cat data/temp/random_150_simulated_allele_selection.txt );
+#do cp data/temp/simulated-uce-allele-alignments/$(echo $locus| tr -d '\r') results/simulated_allele_alignments_selections/random_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_allele_alignments_selections/random_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_allele_alignments_selections/random_150/substitution_models.txt
+#done
+#
+#
+#### CONSENSUS SIMULATED
+#
+#mkdir results/simulated_consensus_alignments_selections
+#
+#mkdir results/simulated_consensus_alignments_selections/top_150_matching_phased
+#touch results/simulated_consensus_alignments_selections/top_150_matching_phased/substitution_models.txt
+#sed 's/_allele/_consensus/g' data/temp/top_150_simulated_allele_selection.txt > data/temp/top_150_simulated_allele_selection_modified.txt
+#for locus in $(cat data/temp/top_150_simulated_allele_selection_modified.txt );
+#do cp data/temp/simulated-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/simulated_consensus_alignments_selections/top_150_matching_phased;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_consensus_alignments_selections/top_150_matching_phased/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_consensus_alignments_selections/top_150_matching_phased/substitution_models.txt
+#done
+#
+#mkdir results/simulated_consensus_alignments_selections/top_150
+#touch results/simulated_consensus_alignments_selections/top_150/substitution_models.txt
+#for locus in $(cat data/temp/top_150_simulated_consensus_selection.txt );
+#do cp data/temp/simulated-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/simulated_consensus_alignments_selections/top_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_consensus_alignments_selections/top_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_consensus_alignments_selections/top_150/substitution_models.txt
+#done
+#
+#mkdir results/simulated_consensus_alignments_selections/bottom_150
+#touch results/simulated_consensus_alignments_selections/bottom_150/substitution_models.txt
+#for locus in $(cat data/temp/bottom_150_simulated_consensus_selection.txt );
+#do cp data/temp/simulated-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/simulated_consensus_alignments_selections/bottom_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_consensus_alignments_selections/bottom_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_consensus_alignments_selections/bottom_150/substitution_models.txt
+#done
+#
+#mkdir results/simulated_consensus_alignments_selections/random_150
+#touch results/simulated_consensus_alignments_selections/random_150/substitution_models.txt
+#for locus in $(cat data/temp/random_150_simulated_consensus_selection.txt );
+#do cp data/temp/simulated-uce-consensus-alignments/$(echo $locus| tr -d '\r') results/simulated_consensus_alignments_selections/random_150;
+#name=$(echo $locus| tr -d '\r')
+#java -jar bin/jmodeltest-2.1.10/jModelTest.jar -d results/simulated_consensus_alignments_selections/random_150/$name -i -g 4 -s 3 -BIC > results/modeltests/jmodeltest-out-$name.txt
+#submod=$(tail -n 1 results/modeltests/jmodeltest-out-$name.txt | cut -f 2)
+#echo "$name\t$submod" >> results/simulated_consensus_alignments_selections/random_150/substitution_models.txt
+#done
+#
+
+
+#downloaded jmodeltest2 from: https://github.com/ddarriba/jmodeltest2/files/157117/jmodeltest-2.1.10.tar.gz

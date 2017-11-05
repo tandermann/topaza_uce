@@ -1,0 +1,3455 @@
+
+
+
+ ____________________________________________________
+|Launching SNP extraction script...                  |
+|                                                    |
+|Written by Tobias Hofmann, inspired by Yann Bertrand|
+|Version 1.1, August 2015                            |
+|____________________________________________________|
+
+Sequences with missing data are not considered during SNP extraction (add flag --missing to command for higher SNP yield, including missing data)
+
+
+__________________________________________________
+processing file: uce-101_phased.fasta
+[621, 707, 724, 777, 808, 862, 868, 885, 888]
+sampling position 621
+__________________________________________________
+processing file: uce-1035_phased.fasta
+[288, 308, 336, 340, 344, 410, 528, 659]
+sampling position 659
+__________________________________________________
+processing file: uce-1038_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-103_phased.fasta
+[100, 174, 175, 224, 262, 386, 394]
+sampling position 394
+__________________________________________________
+processing file: uce-1043_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1055_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1061_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1064_phased.fasta
+[360, 362]
+sampling position 362
+__________________________________________________
+processing file: uce-1068_phased.fasta
+[211, 221, 234, 235, 260, 267, 268, 280, 308, 315, 316, 322, 368, 451, 469, 528, 720, 782]
+sampling position 469
+__________________________________________________
+processing file: uce-1069_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1100_phased.fasta
+[189, 190]
+sampling position 189
+__________________________________________________
+processing file: uce-1148_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1162_phased.fasta
+[703, 710, 731, 737, 740, 744, 753, 781, 823, 839, 872, 882, 886, 896]
+sampling position 731
+__________________________________________________
+processing file: uce-1170_phased.fasta
+[87, 116, 171, 201, 280, 633]
+sampling position 116
+__________________________________________________
+processing file: uce-1177_phased.fasta
+[164, 176, 182, 218, 221, 225, 226, 228, 249, 257, 262, 277, 300, 440, 503]
+sampling position 176
+__________________________________________________
+processing file: uce-117_phased.fasta
+[240, 241, 244, 438, 800]
+sampling position 241
+__________________________________________________
+processing file: uce-1185_phased.fasta
+[164, 247, 297]
+sampling position 297
+__________________________________________________
+processing file: uce-1187_phased.fasta
+[543]
+sampling position 543
+__________________________________________________
+processing file: uce-11_phased.fasta
+[156, 158, 164, 217, 233, 261, 305, 315, 623, 675, 729, 737, 772, 777, 781, 782, 801]
+sampling position 782
+__________________________________________________
+processing file: uce-1252_phased.fasta
+[347]
+sampling position 347
+__________________________________________________
+processing file: uce-1253_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1271_phased.fasta
+[123, 506, 549]
+sampling position 506
+__________________________________________________
+processing file: uce-1286_phased.fasta
+[205, 206, 207, 215, 222, 242, 252, 261, 276, 280, 291, 295, 341, 386, 613, 821]
+sampling position 613
+__________________________________________________
+processing file: uce-1288_phased.fasta
+[334, 434, 440, 535, 603, 636]
+sampling position 535
+__________________________________________________
+processing file: uce-1297_phased.fasta
+[483, 562]
+sampling position 483
+__________________________________________________
+processing file: uce-129_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1305_phased.fasta
+[111, 118, 119, 137, 138, 168, 175, 302, 312, 331, 332, 338, 339, 343, 348, 349, 416, 431, 628]
+sampling position 332
+__________________________________________________
+processing file: uce-1323_phased.fasta
+[233, 248, 321, 371]
+sampling position 371
+__________________________________________________
+processing file: uce-1333_phased.fasta
+[325, 351]
+sampling position 351
+__________________________________________________
+processing file: uce-1354_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1361_phased.fasta
+[106, 127, 161, 174, 199, 208, 233, 234, 249, 255, 256, 325, 327, 358, 359, 370, 375, 386]
+sampling position 199
+__________________________________________________
+processing file: uce-1362_phased.fasta
+[149, 244, 563, 585, 630]
+sampling position 149
+__________________________________________________
+processing file: uce-1367_phased.fasta
+[154, 158, 181, 196, 201, 252, 363, 393]
+sampling position 154
+__________________________________________________
+processing file: uce-1389_phased.fasta
+[618, 790, 812, 819, 845]
+sampling position 790
+__________________________________________________
+processing file: uce-1393_phased.fasta
+[203, 348]
+sampling position 348
+__________________________________________________
+processing file: uce-1395_phased.fasta
+[28, 80, 112, 280]
+sampling position 28
+__________________________________________________
+processing file: uce-1396_phased.fasta
+These taxa are missing in alignment: ['T_pella9_0', 'T_pella9_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1410_phased.fasta
+[171, 188, 205, 209, 266, 349, 459, 524]
+sampling position 209
+__________________________________________________
+processing file: uce-1415_phased.fasta
+[711, 780, 841]
+sampling position 780
+__________________________________________________
+processing file: uce-1417_phased.fasta
+[109, 124, 144, 329, 635, 720]
+sampling position 109
+__________________________________________________
+processing file: uce-142_phased.fasta
+[179, 194, 210, 218, 227, 231, 247, 249, 250, 251, 259, 261, 291, 303, 308, 338, 340, 358, 395, 508, 547, 573, 574, 583, 614, 621, 623, 644, 653, 668, 679, 690, 701, 703, 711, 733, 738, 746, 803]
+sampling position 259
+__________________________________________________
+processing file: uce-1430_phased.fasta
+[187]
+sampling position 187
+__________________________________________________
+processing file: uce-1446_phased.fasta
+[200, 215, 217, 219, 244, 277, 314, 325, 334, 335, 357, 408, 465, 920, 921, 942]
+sampling position 942
+__________________________________________________
+processing file: uce-1454_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1471_phased.fasta
+These taxa are missing in alignment: ['T_pella8_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1497_phased.fasta
+[77, 123, 289]
+sampling position 289
+__________________________________________________
+processing file: uce-149_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1506_phased.fasta
+[357, 362, 364, 366, 372, 379, 386, 430, 573]
+sampling position 430
+__________________________________________________
+processing file: uce-1520_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1533_phased.fasta
+[388, 653, 665, 673, 699, 702]
+sampling position 699
+__________________________________________________
+processing file: uce-1540_phased.fasta
+[196, 431, 591, 605]
+sampling position 591
+__________________________________________________
+processing file: uce-1544_phased.fasta
+[128, 129, 130, 156, 191, 194, 200, 208, 209, 211, 215, 247, 249, 258, 283, 559, 573, 595, 639, 683]
+sampling position 283
+__________________________________________________
+processing file: uce-1555_phased.fasta
+[642, 693]
+sampling position 693
+__________________________________________________
+processing file: uce-1558_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1560_phased.fasta
+[199, 325, 367]
+sampling position 367
+__________________________________________________
+processing file: uce-1561_phased.fasta
+[158, 252, 253, 266, 267, 276, 316, 368, 510, 528, 663, 700, 735, 772, 811, 836, 880]
+sampling position 510
+__________________________________________________
+processing file: uce-1565_phased.fasta
+[490, 729]
+sampling position 490
+__________________________________________________
+processing file: uce-1568_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1570_phased.fasta
+[154, 171, 189, 196, 209, 220, 242, 298, 300, 311, 323]
+sampling position 311
+__________________________________________________
+processing file: uce-1600_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0', 'T_pella6_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1601_phased.fasta
+[385, 513]
+sampling position 385
+__________________________________________________
+processing file: uce-1610_phased.fasta
+[323, 341]
+sampling position 341
+__________________________________________________
+processing file: uce-1614_phased.fasta
+[79, 100, 347, 489, 556]
+sampling position 100
+__________________________________________________
+processing file: uce-1618_phased.fasta
+[185, 193, 194, 226, 227, 229, 245, 258, 268, 271, 348, 374, 392, 488, 493, 583]
+sampling position 493
+__________________________________________________
+processing file: uce-1622_phased.fasta
+[225]
+sampling position 225
+__________________________________________________
+processing file: uce-1629_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1630_phased.fasta
+[117, 120, 136, 146, 199, 210, 238, 516, 694, 812]
+sampling position 516
+__________________________________________________
+processing file: uce-1643_phased.fasta
+[155, 197, 213, 280, 281, 284, 303, 309]
+sampling position 197
+__________________________________________________
+processing file: uce-1652_phased.fasta
+[216, 219, 220, 228, 252, 290, 435, 436, 438, 440, 441, 442, 622, 663, 671, 693, 719, 774]
+sampling position 622
+__________________________________________________
+processing file: uce-1675_phased.fasta
+[262, 263, 275, 371, 373, 455, 458, 539, 744, 766, 783, 798, 802]
+sampling position 539
+__________________________________________________
+processing file: uce-1677_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1680_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-169_phased.fasta
+[691]
+sampling position 691
+__________________________________________________
+processing file: uce-1702_phased.fasta
+[75, 77, 109, 118, 241, 253, 254, 269, 270, 272, 280, 285, 297, 363, 422, 440, 454, 470, 491, 499, 520, 531, 534, 545, 549, 585, 597, 602]
+sampling position 254
+__________________________________________________
+processing file: uce-1708_phased.fasta
+[227, 356, 692, 771, 795, 796]
+sampling position 796
+__________________________________________________
+processing file: uce-1718_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1723_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-172_phased.fasta
+[637, 658, 686, 714]
+sampling position 637
+__________________________________________________
+processing file: uce-1749_phased.fasta
+[119, 123, 140, 146, 204, 256, 268, 295, 296, 309, 327, 329, 345, 637]
+sampling position 329
+__________________________________________________
+processing file: uce-1753_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1765_phased.fasta
+[93, 425, 588]
+sampling position 93
+__________________________________________________
+processing file: uce-1770_phased.fasta
+[162, 186, 260, 359, 392, 518]
+sampling position 186
+__________________________________________________
+processing file: uce-1781_phased.fasta
+[162, 188, 210, 253, 278, 294, 296, 332, 359, 513, 665]
+sampling position 210
+__________________________________________________
+processing file: uce-1783_phased.fasta
+[188, 199, 236, 268, 279]
+sampling position 279
+__________________________________________________
+processing file: uce-1802_phased.fasta
+[110, 111, 117, 144, 157, 158, 162, 169, 191, 299, 583]
+sampling position 299
+__________________________________________________
+processing file: uce-1804_phased.fasta
+[240, 270, 388, 393, 621]
+sampling position 270
+__________________________________________________
+processing file: uce-180_phased.fasta
+[735, 739, 754, 814]
+sampling position 739
+__________________________________________________
+processing file: uce-181_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1834_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1835_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1850_phased.fasta
+[245, 300, 397, 815]
+sampling position 397
+__________________________________________________
+processing file: uce-1858_phased.fasta
+[377]
+sampling position 377
+__________________________________________________
+processing file: uce-1859_phased.fasta
+[314, 324, 342, 353, 354]
+sampling position 354
+__________________________________________________
+processing file: uce-1884_phased.fasta
+[480, 570]
+sampling position 480
+__________________________________________________
+processing file: uce-1888_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1896_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1899_phased.fasta
+[180, 206, 218, 241, 243, 245, 264, 269, 271, 278, 294, 309]
+sampling position 271
+__________________________________________________
+processing file: uce-1908_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1915_phased.fasta
+[126, 136, 155, 160, 189, 195, 202, 218, 246, 247, 248, 293, 312, 363, 694]
+sampling position 155
+__________________________________________________
+processing file: uce-1917_phased.fasta
+These taxa are missing in alignment: ['T_pella5_0', 'T_pella5_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1956_phased.fasta
+[231, 248, 263, 316, 342]
+sampling position 231
+__________________________________________________
+processing file: uce-1985_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-1998_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-19_phased.fasta
+[766, 769]
+sampling position 766
+__________________________________________________
+processing file: uce-200_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2016_phased.fasta
+[164, 166, 174, 191, 216, 217, 243, 256, 267, 326, 398, 554, 555]
+sampling position 554
+__________________________________________________
+processing file: uce-201_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2021_phased.fasta
+[94, 132, 203]
+sampling position 203
+__________________________________________________
+processing file: uce-2023_phased.fasta
+[546]
+sampling position 546
+__________________________________________________
+processing file: uce-2036_phased.fasta
+[250]
+sampling position 250
+__________________________________________________
+processing file: uce-2043_phased.fasta
+[359, 702, 706, 717]
+sampling position 706
+__________________________________________________
+processing file: uce-2045_phased.fasta
+These taxa are missing in alignment: ['T_pyra4_0', 'T_pyra4_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2048_phased.fasta
+[102, 108, 144, 787]
+sampling position 787
+__________________________________________________
+processing file: uce-2051_phased.fasta
+[655, 664, 692]
+sampling position 655
+__________________________________________________
+processing file: uce-2052_phased.fasta
+[50, 205, 275, 697]
+sampling position 50
+__________________________________________________
+processing file: uce-2053_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2055_phased.fasta
+[610]
+sampling position 610
+__________________________________________________
+processing file: uce-2075_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2114_phased.fasta
+[186, 201, 363, 377]
+sampling position 201
+__________________________________________________
+processing file: uce-2116_phased.fasta
+[283]
+sampling position 283
+__________________________________________________
+processing file: uce-2126_phased.fasta
+[574, 701, 740, 758, 766, 806]
+sampling position 806
+__________________________________________________
+processing file: uce-2138_phased.fasta
+[165, 321]
+sampling position 165
+__________________________________________________
+processing file: uce-2146_phased.fasta
+[262, 460, 587, 597, 608, 631, 637, 638, 652, 658, 662, 670, 675, 693, 702, 712, 716, 721, 722, 724, 734]
+sampling position 721
+__________________________________________________
+processing file: uce-2160_phased.fasta
+[78, 99, 261, 281, 425]
+sampling position 99
+__________________________________________________
+processing file: uce-2169_phased.fasta
+[175, 378]
+sampling position 175
+__________________________________________________
+processing file: uce-2190_phased.fasta
+[482, 577, 579, 615, 658, 748, 749, 765, 795]
+sampling position 482
+__________________________________________________
+processing file: uce-2202_phased.fasta
+[77]
+sampling position 77
+__________________________________________________
+processing file: uce-2209_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2219_phased.fasta
+[701, 752, 754, 782, 832, 837, 844]
+sampling position 701
+__________________________________________________
+processing file: uce-2223_phased.fasta
+[699]
+sampling position 699
+__________________________________________________
+processing file: uce-2235_phased.fasta
+[406, 684]
+sampling position 406
+__________________________________________________
+processing file: uce-2246_phased.fasta
+[308, 704, 710, 713, 730]
+sampling position 308
+__________________________________________________
+processing file: uce-2252_phased.fasta
+[744]
+sampling position 744
+__________________________________________________
+processing file: uce-2259_phased.fasta
+[114, 182, 221, 223, 261, 265, 286, 297, 342, 368, 370, 539, 569, 572, 600, 614, 616, 623, 682, 745, 792, 817, 819, 828, 833, 845, 855, 860, 891, 897, 917]
+sampling position 286
+__________________________________________________
+processing file: uce-2261_phased.fasta
+[171, 179, 196, 368, 413, 496]
+sampling position 196
+__________________________________________________
+processing file: uce-2262_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2274_phased.fasta
+[86, 103, 149, 202, 203, 229, 252, 262, 356, 357, 394, 565, 600, 657]
+sampling position 394
+__________________________________________________
+processing file: uce-2328_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2334_phased.fasta
+[487, 634, 841, 869, 922]
+sampling position 922
+__________________________________________________
+processing file: uce-2335_phased.fasta
+[224, 274, 275, 675, 747, 748, 766, 772, 776, 780, 788]
+sampling position 748
+__________________________________________________
+processing file: uce-2336_phased.fasta
+[357, 465, 513, 525, 539, 541, 554]
+sampling position 525
+__________________________________________________
+processing file: uce-2340_phased.fasta
+[255, 303, 484, 509, 629, 658, 659, 665, 690]
+sampling position 255
+__________________________________________________
+processing file: uce-2349_phased.fasta
+[210, 211, 232, 248, 249, 267, 268, 271, 309, 400, 406, 413, 427]
+sampling position 248
+__________________________________________________
+processing file: uce-234_phased.fasta
+[252, 258, 357, 548, 635, 637, 650]
+sampling position 650
+__________________________________________________
+processing file: uce-2353_phased.fasta
+[44, 226, 277]
+sampling position 226
+__________________________________________________
+processing file: uce-2378_phased.fasta
+[353, 371]
+sampling position 371
+__________________________________________________
+processing file: uce-2379_phased.fasta
+[413, 437, 484, 534, 576]
+sampling position 534
+__________________________________________________
+processing file: uce-2383_phased.fasta
+[112, 133, 155, 165, 168, 177, 187, 191, 194, 197, 198, 201, 202, 207, 240, 280, 290, 303, 306, 733]
+sampling position 155
+__________________________________________________
+processing file: uce-2387_phased.fasta
+[447, 448, 469, 570, 791]
+sampling position 570
+__________________________________________________
+processing file: uce-2397_phased.fasta
+[131, 272, 586]
+sampling position 586
+__________________________________________________
+processing file: uce-2435_phased.fasta
+[115, 192, 330, 348]
+sampling position 330
+__________________________________________________
+processing file: uce-2444_phased.fasta
+[446, 610, 611, 612, 644, 648, 664]
+sampling position 611
+__________________________________________________
+processing file: uce-2445_phased.fasta
+[265, 327, 344, 362, 434]
+sampling position 265
+__________________________________________________
+processing file: uce-2456_phased.fasta
+[138, 166, 237, 544, 560]
+sampling position 166
+__________________________________________________
+processing file: uce-2465_phased.fasta
+[303, 309, 318, 341, 364, 390, 393, 394, 406, 719]
+sampling position 364
+__________________________________________________
+processing file: uce-2468_phased.fasta
+[651, 664, 671, 691, 692, 693, 695, 696, 698, 721, 722, 723, 740, 744, 782, 795, 821, 835, 841, 843, 855, 860, 861]
+sampling position 721
+__________________________________________________
+processing file: uce-2487_phased.fasta
+[458]
+sampling position 458
+__________________________________________________
+processing file: uce-24_phased.fasta
+[162, 167, 229, 244, 267, 268, 286, 294]
+sampling position 268
+__________________________________________________
+processing file: uce-2538_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2541_phased.fasta
+[273, 380, 456, 476, 489, 522, 584, 593, 595, 602, 643]
+sampling position 476
+__________________________________________________
+processing file: uce-2552_phased.fasta
+[113, 183, 229, 259, 327, 445, 478]
+sampling position 229
+__________________________________________________
+processing file: uce-256_phased.fasta
+[195]
+sampling position 195
+__________________________________________________
+processing file: uce-2578_phased.fasta
+[298]
+sampling position 298
+__________________________________________________
+processing file: uce-2592_phased.fasta
+[56, 68, 69, 73, 84, 101, 183, 197, 204, 221, 224, 252, 253, 254, 259, 275, 279, 316, 327, 345, 348, 365, 671, 764, 767, 811, 848, 859, 876]
+sampling position 279
+__________________________________________________
+processing file: uce-2598_phased.fasta
+[751]
+sampling position 751
+__________________________________________________
+processing file: uce-2613_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-261_phased.fasta
+[237]
+sampling position 237
+__________________________________________________
+processing file: uce-2625_phased.fasta
+[135, 140, 168, 190, 242, 325]
+sampling position 242
+__________________________________________________
+processing file: uce-2647_phased.fasta
+[318, 480]
+sampling position 480
+__________________________________________________
+processing file: uce-2666_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2701_phased.fasta
+[255, 273, 381, 506, 517, 585, 613]
+sampling position 255
+__________________________________________________
+processing file: uce-2713_phased.fasta
+[149, 160, 173, 185, 187, 189, 288, 595, 598, 605]
+sampling position 598
+__________________________________________________
+processing file: uce-2735_phased.fasta
+[119, 135, 148, 150, 212, 225, 227, 228, 238, 239, 659, 670, 671, 698, 706, 708]
+sampling position 119
+__________________________________________________
+processing file: uce-2771_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2777_phased.fasta
+[178, 182, 210, 218, 290, 316, 317, 425]
+sampling position 178
+__________________________________________________
+processing file: uce-2780_phased.fasta
+[236, 560, 561, 634, 651, 658, 664, 676, 680, 690, 716]
+sampling position 680
+__________________________________________________
+processing file: uce-2797_phased.fasta
+[753, 774, 783]
+sampling position 753
+__________________________________________________
+processing file: uce-2828_phased.fasta
+[569]
+sampling position 569
+__________________________________________________
+processing file: uce-2842_phased.fasta
+[392, 393, 575, 577, 589, 604, 607, 621, 622, 627]
+sampling position 589
+__________________________________________________
+processing file: uce-2851_phased.fasta
+[258, 405, 411, 444, 459, 483]
+sampling position 258
+__________________________________________________
+processing file: uce-2853_phased.fasta
+[107, 113, 114, 117, 543, 553, 564, 571, 607, 647, 651, 670, 683, 689, 706, 734, 747, 750, 771]
+sampling position 607
+__________________________________________________
+processing file: uce-285_phased.fasta
+[129, 138, 162, 165, 167, 180, 226, 232, 244, 651, 667, 669, 675, 685, 729, 740, 744]
+sampling position 129
+__________________________________________________
+processing file: uce-286_phased.fasta
+[169, 326, 540]
+sampling position 326
+__________________________________________________
+processing file: uce-2874_phased.fasta
+[351, 421, 447]
+sampling position 351
+__________________________________________________
+processing file: uce-2897_phased.fasta
+[419]
+sampling position 419
+__________________________________________________
+processing file: uce-2899_phased.fasta
+[217, 218, 244, 280, 287, 288, 289, 290, 298, 309, 791, 828]
+sampling position 288
+__________________________________________________
+processing file: uce-2908_phased.fasta
+[530, 601, 659]
+sampling position 530
+__________________________________________________
+processing file: uce-290_phased.fasta
+[101, 110, 116, 134, 138, 171, 261, 277, 299, 307, 378, 645]
+sampling position 307
+__________________________________________________
+processing file: uce-2910_phased.fasta
+[329, 340, 544, 637, 645, 647]
+sampling position 647
+__________________________________________________
+processing file: uce-2915_phased.fasta
+[250, 308, 360, 575, 615, 616, 623, 650, 676]
+sampling position 676
+__________________________________________________
+processing file: uce-2933_phased.fasta
+[291]
+sampling position 291
+__________________________________________________
+processing file: uce-2936_phased.fasta
+[195, 206, 277, 304, 322, 330, 357]
+sampling position 330
+__________________________________________________
+processing file: uce-2943_phased.fasta
+[154, 190, 199, 208, 219, 235, 248, 249, 290, 311, 346, 361]
+sampling position 290
+__________________________________________________
+processing file: uce-294_phased.fasta
+[387, 494, 596, 631, 749, 821]
+sampling position 631
+__________________________________________________
+processing file: uce-2950_phased.fasta
+[212, 263, 373, 618, 638, 647, 705, 778]
+sampling position 212
+__________________________________________________
+processing file: uce-2965_phased.fasta
+[335, 394]
+sampling position 335
+__________________________________________________
+processing file: uce-2968_phased.fasta
+[251, 363, 364, 365, 408, 487, 493, 507]
+sampling position 363
+__________________________________________________
+processing file: uce-2978_phased.fasta
+[245, 378]
+sampling position 378
+__________________________________________________
+processing file: uce-2992_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-2994_phased.fasta
+[178, 187, 210, 234, 543, 572]
+sampling position 210
+__________________________________________________
+processing file: uce-2998_phased.fasta
+These taxa are missing in alignment: ['T_pella5_0', 'T_pella5_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3014_phased.fasta
+[237, 330, 430, 440, 551, 638]
+sampling position 330
+__________________________________________________
+processing file: uce-3024_phased.fasta
+[122, 395, 482, 493, 552, 621]
+sampling position 552
+__________________________________________________
+processing file: uce-3026_phased.fasta
+[224, 236, 242, 288, 292]
+sampling position 242
+__________________________________________________
+processing file: uce-3030_phased.fasta
+[342, 343, 346, 355, 410, 417, 418, 421, 444, 453, 481, 490, 496, 501, 578, 580, 613, 627, 643, 644, 646, 667, 681, 699, 700, 706, 716, 727, 739, 770, 779]
+sampling position 444
+__________________________________________________
+processing file: uce-3046_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3054_phased.fasta
+[559, 560, 566, 579, 580, 592, 593, 594, 595, 596, 608, 622, 633, 651, 653, 677, 679, 693, 712]
+sampling position 712
+__________________________________________________
+processing file: uce-3067_phased.fasta
+[127, 137, 140, 151, 202, 289, 443]
+sampling position 443
+__________________________________________________
+processing file: uce-3079_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3096_phased.fasta
+[68, 484, 485, 514, 525, 535, 543, 599, 639, 648]
+sampling position 484
+__________________________________________________
+processing file: uce-3097_phased.fasta
+[283, 604, 673, 694]
+sampling position 283
+__________________________________________________
+processing file: uce-309_phased.fasta
+[413, 781]
+sampling position 413
+__________________________________________________
+processing file: uce-3101_phased.fasta
+[304, 317, 342, 346, 352, 401, 402, 405, 421, 549, 550, 600]
+sampling position 346
+__________________________________________________
+processing file: uce-3114_phased.fasta
+[267, 304, 342, 364]
+sampling position 342
+__________________________________________________
+processing file: uce-3116_phased.fasta
+[268]
+sampling position 268
+__________________________________________________
+processing file: uce-3117_phased.fasta
+[373, 374, 375, 401, 404, 428, 436, 534]
+sampling position 404
+__________________________________________________
+processing file: uce-3121_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3129_phased.fasta
+[309, 364, 390, 393]
+sampling position 364
+__________________________________________________
+processing file: uce-3130_phased.fasta
+[111, 115, 116, 153, 160, 183, 189, 191, 203, 224, 265]
+sampling position 191
+__________________________________________________
+processing file: uce-3141_phased.fasta
+[34, 213, 315]
+sampling position 213
+__________________________________________________
+processing file: uce-3152_phased.fasta
+[106, 124, 168, 169, 179, 183, 185, 187, 199, 207, 219, 222, 231, 234, 237, 238, 263, 269, 275, 312, 336, 347, 549, 556, 609, 610]
+sampling position 124
+__________________________________________________
+processing file: uce-3163_phased.fasta
+[268, 275, 301, 311, 331, 396, 433, 548]
+sampling position 331
+__________________________________________________
+processing file: uce-3181_phased.fasta
+[88, 98, 103, 104, 143, 144, 196, 205, 206, 222, 227, 262, 283, 287, 290, 385, 386, 513, 551, 552, 554, 586, 608, 625, 629, 651, 653, 670, 693]
+sampling position 551
+__________________________________________________
+processing file: uce-3188_phased.fasta
+[174, 430, 470]
+sampling position 470
+__________________________________________________
+processing file: uce-319_phased.fasta
+[182]
+sampling position 182
+__________________________________________________
+processing file: uce-3224_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3235_phased.fasta
+[201, 210, 222, 229, 265, 338, 339, 381, 419, 592, 602, 613, 621, 624, 649, 650, 705, 707, 739, 754, 757, 795, 853, 867, 915]
+sampling position 229
+__________________________________________________
+processing file: uce-3248_phased.fasta
+These taxa are missing in alignment: ['T_pella9_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3258_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3260_phased.fasta
+[108, 144, 394, 410, 430, 587, 588]
+sampling position 588
+__________________________________________________
+processing file: uce-3263_phased.fasta
+[180, 182, 183, 202, 368]
+sampling position 180
+__________________________________________________
+processing file: uce-3277_phased.fasta
+[158, 162, 183, 186, 213, 230, 232, 264, 277, 399, 493, 516, 541, 543, 573]
+sampling position 213
+__________________________________________________
+processing file: uce-3279_phased.fasta
+[260, 266, 288, 296, 347, 361, 362, 365]
+sampling position 296
+__________________________________________________
+processing file: uce-3280_phased.fasta
+[167, 178, 190, 191, 193, 195, 196, 197, 198, 199, 225, 230, 232, 238, 243, 298, 320, 344]
+sampling position 198
+__________________________________________________
+processing file: uce-3287_phased.fasta
+[554]
+sampling position 554
+__________________________________________________
+processing file: uce-3314_phased.fasta
+[227, 244, 260, 277, 279, 297, 315, 317, 326, 365, 387, 402, 415, 455]
+sampling position 227
+__________________________________________________
+processing file: uce-3318_phased.fasta
+[239]
+sampling position 239
+__________________________________________________
+processing file: uce-3323_phased.fasta
+[222, 227, 239, 290, 297, 300, 306, 310, 621, 722, 728, 766]
+sampling position 290
+__________________________________________________
+processing file: uce-3326_phased.fasta
+[154, 235, 256, 287, 305, 364, 367, 516, 657, 689]
+sampling position 367
+__________________________________________________
+processing file: uce-3329_phased.fasta
+[171, 176, 184, 382]
+sampling position 171
+__________________________________________________
+processing file: uce-3334_phased.fasta
+[435, 454, 477, 489, 498, 519, 522, 560, 594, 617, 625, 649, 657]
+sampling position 498
+__________________________________________________
+processing file: uce-3337_phased.fasta
+[529, 589, 595, 619, 621, 668, 670, 676, 685, 738]
+sampling position 685
+__________________________________________________
+processing file: uce-3338_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3368_phased.fasta
+[429, 430, 533, 553, 578, 619]
+sampling position 430
+__________________________________________________
+processing file: uce-3381_phased.fasta
+[111, 182, 185, 251, 283, 293, 334, 597, 600, 603, 613, 622, 630, 631, 634, 661, 670, 671, 678, 681, 687, 741, 751, 754, 775, 784, 814]
+sampling position 751
+__________________________________________________
+processing file: uce-3384_phased.fasta
+[173, 175, 184, 187, 212, 235]
+sampling position 235
+__________________________________________________
+processing file: uce-3400_phased.fasta
+[179, 200, 477, 650, 667]
+sampling position 667
+__________________________________________________
+processing file: uce-3406_phased.fasta
+[254, 256, 262, 607]
+sampling position 262
+__________________________________________________
+processing file: uce-3421_phased.fasta
+[292, 437, 448]
+sampling position 292
+__________________________________________________
+processing file: uce-3429_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3430_phased.fasta
+[425, 439, 459]
+sampling position 459
+__________________________________________________
+processing file: uce-3441_phased.fasta
+[90, 101, 103, 145, 159, 171, 178, 273, 528, 538, 557, 575, 589, 605, 646, 654, 660, 661]
+sampling position 159
+__________________________________________________
+processing file: uce-3442_phased.fasta
+[324]
+sampling position 324
+__________________________________________________
+processing file: uce-3443_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3451_phased.fasta
+[415, 718, 722]
+sampling position 722
+__________________________________________________
+processing file: uce-3462_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3469_phased.fasta
+[398, 568, 588, 623, 628, 629, 633, 634, 677, 696]
+sampling position 623
+__________________________________________________
+processing file: uce-3472_phased.fasta
+[97, 147, 171, 181, 199, 220, 221, 233, 238, 248, 277, 278, 299, 304, 319, 505, 547, 552, 585, 588, 602, 631, 632, 633, 638, 647, 658, 675, 677, 688, 697, 705, 733, 752, 761, 768]
+sampling position 505
+__________________________________________________
+processing file: uce-3479_phased.fasta
+[131, 148, 165, 177, 203, 206, 207, 224, 231, 233, 269, 347, 354, 365, 618, 619, 758, 776, 788, 790, 792, 807, 813]
+sampling position 148
+__________________________________________________
+processing file: uce-3483_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3486_phased.fasta
+[143, 149, 196, 254]
+sampling position 149
+__________________________________________________
+processing file: uce-3493_phased.fasta
+[171, 183, 219, 237, 263, 301, 316]
+sampling position 171
+__________________________________________________
+processing file: uce-34_phased.fasta
+[300, 371]
+sampling position 371
+__________________________________________________
+processing file: uce-3501_phased.fasta
+[101, 189, 201, 204, 218, 226, 300, 502, 563, 572, 585]
+sampling position 572
+__________________________________________________
+processing file: uce-3504_phased.fasta
+[714, 746]
+sampling position 714
+__________________________________________________
+processing file: uce-350_phased.fasta
+[147, 326]
+sampling position 147
+__________________________________________________
+processing file: uce-3517_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-351_phased.fasta
+These taxa are missing in alignment: ['T_pella6_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3528_phased.fasta
+[359, 433, 434]
+sampling position 359
+__________________________________________________
+processing file: uce-353_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3546_phased.fasta
+[176, 182, 183, 187, 201, 447, 449]
+sampling position 201
+__________________________________________________
+processing file: uce-3554_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3555_phased.fasta
+[205, 223, 306, 419]
+sampling position 205
+__________________________________________________
+processing file: uce-3560_phased.fasta
+[116, 148, 149, 160, 193, 205, 207, 220, 227, 274, 302, 376]
+sampling position 205
+__________________________________________________
+processing file: uce-3569_phased.fasta
+[421, 429, 479, 492, 496, 511, 546, 595, 599, 631, 649, 653, 716, 718, 765, 767]
+sampling position 492
+__________________________________________________
+processing file: uce-3583_phased.fasta
+[134, 140, 163, 229, 234, 247, 283, 526]
+sampling position 234
+__________________________________________________
+processing file: uce-3586_phased.fasta
+[464, 480, 541, 547, 554, 581, 625, 676, 709, 725, 756, 758, 772]
+sampling position 541
+__________________________________________________
+processing file: uce-3589_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3601_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3606_phased.fasta
+[172, 189, 200, 203, 209, 219, 227, 237, 241, 246, 264, 269, 276, 287, 288, 304, 305, 309, 319, 320, 321, 324, 336, 342, 723, 726, 739, 752, 773, 781, 802, 843, 878, 885, 899]
+sampling position 227
+__________________________________________________
+processing file: uce-360_phased.fasta
+[594, 631, 677, 700, 714, 720, 779, 783, 857, 881, 882]
+sampling position 882
+__________________________________________________
+processing file: uce-3638_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3644_phased.fasta
+[56, 111, 214, 240, 286, 310, 362, 370, 388, 394, 510, 537, 579, 597, 652, 667]
+sampling position 214
+__________________________________________________
+processing file: uce-3647_phased.fasta
+[71, 77, 102, 103, 203, 210, 213, 234, 242, 247, 268, 270, 296, 314, 320, 620, 647, 648, 686, 688]
+sampling position 71
+__________________________________________________
+processing file: uce-3656_phased.fasta
+[488, 490, 523]
+sampling position 490
+__________________________________________________
+processing file: uce-3661_phased.fasta
+[497, 535, 543, 607, 622, 637]
+sampling position 497
+__________________________________________________
+processing file: uce-3664_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3667_phased.fasta
+[55]
+sampling position 55
+__________________________________________________
+processing file: uce-3668_phased.fasta
+[341, 344, 358]
+sampling position 341
+__________________________________________________
+processing file: uce-3669_phased.fasta
+[284, 303, 318, 327, 333, 345, 367, 607, 629]
+sampling position 345
+__________________________________________________
+processing file: uce-3670_phased.fasta
+[192, 219, 280, 286, 306, 355, 398, 468, 625, 628, 708, 716, 750, 757]
+sampling position 192
+__________________________________________________
+processing file: uce-3671_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3675_phased.fasta
+[221, 256, 270, 274, 379, 389, 401, 403, 463, 469, 470, 471, 472, 473, 539]
+sampling position 472
+__________________________________________________
+processing file: uce-3681_phased.fasta
+[304, 308, 311, 312, 313, 365]
+sampling position 312
+__________________________________________________
+processing file: uce-3682_phased.fasta
+[310, 335, 337, 339, 445, 475, 546, 653, 768]
+sampling position 445
+__________________________________________________
+processing file: uce-3683_phased.fasta
+[388, 447, 471, 486, 558, 566, 640, 647, 663, 667, 714, 723, 777, 780, 808, 809, 813, 836, 842, 843]
+sampling position 843
+__________________________________________________
+processing file: uce-3689_phased.fasta
+[154, 250, 430, 469, 470]
+sampling position 250
+__________________________________________________
+processing file: uce-3692_phased.fasta
+[403]
+sampling position 403
+__________________________________________________
+processing file: uce-3693_phased.fasta
+[502, 511, 519, 572, 575, 600, 610, 614, 645, 676, 695, 701, 702, 708, 728, 743, 744, 755]
+sampling position 575
+__________________________________________________
+processing file: uce-3694_phased.fasta
+[163, 224, 231, 312, 348]
+sampling position 312
+__________________________________________________
+processing file: uce-3697_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3698_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3714_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3720_phased.fasta
+[228, 252, 262, 278, 327]
+sampling position 327
+__________________________________________________
+processing file: uce-3725_phased.fasta
+[319, 424]
+sampling position 319
+__________________________________________________
+processing file: uce-3731_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3734_phased.fasta
+[155]
+sampling position 155
+__________________________________________________
+processing file: uce-3742_phased.fasta
+[341, 362, 365, 374, 381, 401, 402, 403, 408, 411, 422, 424, 456, 467, 473, 477]
+sampling position 365
+__________________________________________________
+processing file: uce-3743_phased.fasta
+[327, 329]
+sampling position 327
+__________________________________________________
+processing file: uce-3770_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3771_phased.fasta
+[67, 73, 124, 125, 459]
+sampling position 67
+__________________________________________________
+processing file: uce-3772_phased.fasta
+[292, 339, 537, 538, 606, 607, 608, 632, 649, 658, 668, 738]
+sampling position 606
+__________________________________________________
+processing file: uce-3788_phased.fasta
+[204, 205, 239, 242, 255, 375, 379, 480]
+sampling position 239
+__________________________________________________
+processing file: uce-3792_phased.fasta
+[90, 101, 110, 120, 130, 145, 185, 197, 200, 495]
+sampling position 145
+__________________________________________________
+processing file: uce-3798_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3814_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3824_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3831_phased.fasta
+[250, 266, 285, 291, 310, 315, 357, 362, 372]
+sampling position 266
+__________________________________________________
+processing file: uce-3835_phased.fasta
+[385, 560, 620, 691, 703, 709, 711, 736, 737, 741, 742, 748, 788, 801]
+sampling position 736
+__________________________________________________
+processing file: uce-3851_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-385_phased.fasta
+[486]
+sampling position 486
+__________________________________________________
+processing file: uce-3860_phased.fasta
+[231, 243, 269, 277, 281, 301, 309, 310, 321, 332, 353]
+sampling position 281
+__________________________________________________
+processing file: uce-3862_phased.fasta
+[304, 370]
+sampling position 370
+__________________________________________________
+processing file: uce-3864_phased.fasta
+[163, 192, 234, 303, 308, 314, 321, 340, 351, 364, 395, 396, 397, 446, 460, 546, 553, 666]
+sampling position 351
+__________________________________________________
+processing file: uce-3871_phased.fasta
+[402, 413, 459, 472, 480, 502]
+sampling position 402
+__________________________________________________
+processing file: uce-3874_phased.fasta
+[112, 117, 127, 153, 181, 235, 251, 255, 269, 347, 348, 353, 370, 515, 544, 589, 610, 625, 643, 650, 651]
+sampling position 348
+__________________________________________________
+processing file: uce-3890_phased.fasta
+[40, 84, 98, 129, 132, 196, 212, 213, 252, 253, 389]
+sampling position 98
+__________________________________________________
+processing file: uce-3901_phased.fasta
+[235, 264, 289, 290, 428, 430, 447, 456, 459]
+sampling position 235
+__________________________________________________
+processing file: uce-3903_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3905_phased.fasta
+[417, 740, 779, 825, 833, 834, 848]
+sampling position 740
+__________________________________________________
+processing file: uce-3907_phased.fasta
+[279, 371]
+sampling position 279
+__________________________________________________
+processing file: uce-3911_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3917_phased.fasta
+[187, 227, 228, 268, 274, 311, 321, 342, 347, 353, 654, 676, 682, 696, 720, 734, 737, 741]
+sampling position 696
+__________________________________________________
+processing file: uce-3929_phased.fasta
+[543, 669, 676, 722, 728, 732, 751, 759, 763, 770, 792, 807, 811]
+sampling position 751
+__________________________________________________
+processing file: uce-3937_phased.fasta
+[322, 488, 489, 547, 611, 701, 715]
+sampling position 489
+__________________________________________________
+processing file: uce-3939_phased.fasta
+[127, 132, 134, 145, 172, 183, 223, 224, 233, 317, 351, 432, 466, 562, 610, 651, 656, 705, 725, 736, 764]
+sampling position 127
+__________________________________________________
+processing file: uce-3957_phased.fasta
+[104, 143, 201, 207, 233, 235, 246, 250, 254, 271, 272, 277, 279, 282, 340, 369, 623]
+sampling position 143
+__________________________________________________
+processing file: uce-3973_phased.fasta
+[232, 249, 504, 537, 545, 546, 553, 560, 568, 576, 625, 639, 644, 657, 698, 701, 702, 736, 740, 759, 760]
+sampling position 644
+__________________________________________________
+processing file: uce-3976_phased.fasta
+These taxa are missing in alignment: ['T_pella5_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-3982_phased.fasta
+[227]
+sampling position 227
+__________________________________________________
+processing file: uce-3989_phased.fasta
+[643, 686, 731, 744, 745, 768]
+sampling position 686
+__________________________________________________
+processing file: uce-39_phased.fasta
+[109, 121, 250, 254, 257, 267, 271, 354, 379, 380, 409, 604, 820, 839, 856]
+sampling position 250
+__________________________________________________
+processing file: uce-4023_phased.fasta
+[169, 195, 241, 250, 263, 274, 278, 284, 296, 432, 580]
+sampling position 274
+__________________________________________________
+processing file: uce-4026_phased.fasta
+[533, 636, 643, 666, 667, 686, 693, 694, 707, 713, 717, 728, 743]
+sampling position 693
+__________________________________________________
+processing file: uce-4035_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4045_phased.fasta
+[175, 218, 219, 263, 284, 293, 316, 328, 667, 731, 734, 750, 754, 756, 757, 759, 809, 822]
+sampling position 754
+__________________________________________________
+processing file: uce-4050_phased.fasta
+[160, 174, 186, 192, 196, 234, 255, 257, 276, 278, 299, 307, 326, 328, 329, 331, 483, 622, 624, 647]
+sampling position 622
+__________________________________________________
+processing file: uce-4066_phased.fasta
+[111, 134, 149, 152, 154, 163, 185, 191, 206, 266, 283, 301, 354, 435, 490, 547, 629, 670, 676, 705, 707, 713, 714, 717, 759, 770, 782, 790, 798]
+sampling position 713
+__________________________________________________
+processing file: uce-4075_phased.fasta
+[546, 551]
+sampling position 546
+__________________________________________________
+processing file: uce-4078_phased.fasta
+[152, 163, 196, 207, 219, 222, 523, 609, 656]
+sampling position 219
+__________________________________________________
+processing file: uce-4080_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4091_phased.fasta
+[585, 601, 606, 611, 645, 655, 684, 706, 730, 748, 803, 816, 819, 848, 858, 863]
+sampling position 706
+__________________________________________________
+processing file: uce-4110_phased.fasta
+[223, 250, 251, 282, 295, 297, 301]
+sampling position 282
+__________________________________________________
+processing file: uce-4114_phased.fasta
+[254, 255, 282, 293, 352, 357, 710, 738, 753, 773, 792, 847, 855]
+sampling position 773
+__________________________________________________
+processing file: uce-4124_phased.fasta
+[106, 120, 175, 307, 522, 553, 560]
+sampling position 553
+__________________________________________________
+processing file: uce-4143_phased.fasta
+[139, 140, 166, 167, 173, 178, 180, 204, 223, 235, 243, 427, 443]
+sampling position 139
+__________________________________________________
+processing file: uce-4151_phased.fasta
+[150, 174, 175, 182, 185, 203, 211, 212, 216, 234, 306, 339, 379, 380, 415, 472, 478]
+sampling position 174
+__________________________________________________
+processing file: uce-4155_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1', 'T_pyra4_0', 'T_pyra4_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4166_phased.fasta
+[368, 419]
+sampling position 419
+__________________________________________________
+processing file: uce-4173_phased.fasta
+[467, 483, 513, 529, 535, 550, 552, 587, 589, 627, 636, 659, 664]
+sampling position 636
+__________________________________________________
+processing file: uce-4175_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4176_phased.fasta
+[280, 287, 303, 345, 683]
+sampling position 287
+__________________________________________________
+processing file: uce-4181_phased.fasta
+[627, 633, 677, 685, 686, 724]
+sampling position 686
+__________________________________________________
+processing file: uce-4184_phased.fasta
+[198, 201, 211, 225, 226, 228, 236, 258, 276, 280, 309, 331, 346, 392, 652, 683, 756, 768, 793, 798, 804, 807, 818]
+sampling position 807
+__________________________________________________
+processing file: uce-4189_phased.fasta
+[181, 194, 349, 375]
+sampling position 181
+__________________________________________________
+processing file: uce-41_phased.fasta
+[173, 194, 221, 223, 277, 296, 318, 364, 411, 452]
+sampling position 194
+__________________________________________________
+processing file: uce-4205_phased.fasta
+[211, 215, 238, 242, 248, 266, 311, 314, 318, 332, 342, 343, 361, 366, 427, 444]
+sampling position 242
+__________________________________________________
+processing file: uce-4207_phased.fasta
+[410, 420]
+sampling position 410
+__________________________________________________
+processing file: uce-4208_phased.fasta
+[114, 153, 188, 200, 201, 318, 371, 372, 375, 383, 402, 483, 587, 622]
+sampling position 375
+__________________________________________________
+processing file: uce-4215_phased.fasta
+[188, 216, 337, 563, 652, 682, 724]
+sampling position 216
+__________________________________________________
+processing file: uce-4217_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-421_phased.fasta
+[136, 145, 153, 181, 202, 219, 251, 274, 323, 703, 738, 744, 759]
+sampling position 202
+__________________________________________________
+processing file: uce-4232_phased.fasta
+[304, 321, 322, 338, 378, 405, 612, 658, 667, 736]
+sampling position 658
+__________________________________________________
+processing file: uce-4237_phased.fasta
+[107, 110, 141, 159, 180, 244, 312]
+sampling position 141
+__________________________________________________
+processing file: uce-4261_phased.fasta
+[227, 243, 253, 266, 305, 334, 468, 565, 700, 741, 770]
+sampling position 227
+__________________________________________________
+processing file: uce-4274_phased.fasta
+[125, 142, 148, 152, 179, 216, 241, 248, 319, 357, 385, 515, 601, 636, 727, 744, 747, 756, 770, 776, 832, 845, 867, 892, 898, 901]
+sampling position 319
+__________________________________________________
+processing file: uce-4279_phased.fasta
+[574, 575]
+sampling position 574
+__________________________________________________
+processing file: uce-4284_phased.fasta
+[345, 348, 398, 446, 492, 582, 592, 623, 625, 635, 641, 644, 645, 662, 665, 673, 699]
+sampling position 644
+__________________________________________________
+processing file: uce-4285_phased.fasta
+[198, 205, 214, 237, 262, 275, 283, 293, 314, 433, 558, 587, 607, 684, 687, 695]
+sampling position 607
+__________________________________________________
+processing file: uce-42_phased.fasta
+[395, 396, 597, 691]
+sampling position 691
+__________________________________________________
+processing file: uce-4300_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0', 'T_pella6_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4308_phased.fasta
+[498, 672]
+sampling position 498
+__________________________________________________
+processing file: uce-4311_phased.fasta
+[151, 184, 198, 216, 228, 247, 257, 280, 328, 341, 476, 547, 551, 552, 554, 556, 608, 626, 627, 629, 631, 650, 679, 693, 720, 733, 748, 757, 774, 807, 808, 822, 842, 847]
+sampling position 842
+__________________________________________________
+processing file: uce-4312_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4338_phased.fasta
+[148, 172, 177, 192, 208, 218, 231, 232, 233, 249, 261, 262, 265, 267, 277, 282, 288, 334, 395, 471, 472, 564, 568, 573, 595, 611, 613, 636, 649, 650, 705, 744, 758, 761, 775, 776, 780, 781, 789, 794, 795, 797, 798, 813, 827, 834, 874, 933, 934, 943]
+sampling position 636
+__________________________________________________
+processing file: uce-4342_phased.fasta
+[188, 203, 219, 247, 251, 276, 281, 290, 294, 341, 350, 357, 444, 523, 685]
+sampling position 290
+__________________________________________________
+processing file: uce-4343_phased.fasta
+[133, 139, 140, 160, 199, 218, 221, 238, 259, 273, 277, 427, 441, 447, 460, 471, 480, 581, 619, 624, 626, 628, 633, 656, 685]
+sampling position 199
+__________________________________________________
+processing file: uce-4347_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4349_phased.fasta
+[415, 509]
+sampling position 415
+__________________________________________________
+processing file: uce-4356_phased.fasta
+[85, 89, 100, 134, 142, 149, 160, 175, 196, 213, 214, 245, 489, 581, 604, 628, 672, 719, 743, 749, 752, 754]
+sampling position 142
+__________________________________________________
+processing file: uce-4363_phased.fasta
+[243, 244, 347, 401, 439, 451, 516, 538, 749, 766]
+sampling position 401
+__________________________________________________
+processing file: uce-4371_phased.fasta
+[292, 309, 313, 533, 561, 585, 598, 607, 652, 663, 692, 714, 727, 826, 840]
+sampling position 840
+__________________________________________________
+processing file: uce-4389_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4400_phased.fasta
+[303, 313, 315, 318, 325, 343, 351, 354, 357, 359, 365, 366, 385, 399, 403, 486, 494, 495, 513]
+sampling position 313
+__________________________________________________
+processing file: uce-4402_phased.fasta
+[103, 157, 184, 185, 237, 266, 268, 281, 287, 289, 292, 295, 304, 315, 319, 324, 343, 349, 350, 354, 530]
+sampling position 184
+__________________________________________________
+processing file: uce-4403_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4416_phased.fasta
+[105, 125, 142, 144, 161, 186, 218, 235, 243, 245, 253, 262, 324, 326, 331, 350, 352]
+sampling position 142
+__________________________________________________
+processing file: uce-4434_phased.fasta
+[659, 718, 731]
+sampling position 659
+__________________________________________________
+processing file: uce-443_phased.fasta
+[398]
+sampling position 398
+__________________________________________________
+processing file: uce-4445_phased.fasta
+[350, 354, 358, 376, 417, 436, 651]
+sampling position 376
+__________________________________________________
+processing file: uce-4465_phased.fasta
+[195, 239, 246, 256, 427]
+sampling position 246
+__________________________________________________
+processing file: uce-4466_phased.fasta
+[209]
+sampling position 209
+__________________________________________________
+processing file: uce-4473_phased.fasta
+[253, 296, 345]
+sampling position 253
+__________________________________________________
+processing file: uce-4482_phased.fasta
+[209, 247, 268, 282, 298, 306, 315]
+sampling position 268
+__________________________________________________
+processing file: uce-4486_phased.fasta
+[146, 493, 531]
+sampling position 493
+__________________________________________________
+processing file: uce-4500_phased.fasta
+[320, 344, 362]
+sampling position 344
+__________________________________________________
+processing file: uce-4509_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4516_phased.fasta
+[210, 219, 234, 256, 264, 310, 320, 341, 657, 686]
+sampling position 234
+__________________________________________________
+processing file: uce-4531_phased.fasta
+[112]
+sampling position 112
+__________________________________________________
+processing file: uce-4534_phased.fasta
+[206, 244, 252, 374, 533]
+sampling position 252
+__________________________________________________
+processing file: uce-4535_phased.fasta
+[283, 284, 317]
+sampling position 317
+__________________________________________________
+processing file: uce-4536_phased.fasta
+[614]
+sampling position 614
+__________________________________________________
+processing file: uce-453_phased.fasta
+[361, 392]
+sampling position 392
+__________________________________________________
+processing file: uce-4570_phased.fasta
+[126, 133, 496]
+sampling position 133
+__________________________________________________
+processing file: uce-4580_phased.fasta
+[367, 399, 501]
+sampling position 399
+__________________________________________________
+processing file: uce-4588_phased.fasta
+[307, 363, 601, 637, 646, 648, 659, 664, 671, 673, 714]
+sampling position 363
+__________________________________________________
+processing file: uce-4606_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4612_phased.fasta
+[144, 148, 151, 152, 167, 168, 181, 196, 217, 237, 239, 256, 264, 272, 365, 375, 384, 462, 548]
+sampling position 148
+__________________________________________________
+processing file: uce-4618_phased.fasta
+[186, 331, 411]
+sampling position 411
+__________________________________________________
+processing file: uce-4638_phased.fasta
+[113, 114, 115, 127, 135]
+sampling position 113
+__________________________________________________
+processing file: uce-463_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4640_phased.fasta
+[97, 99, 131, 132, 140, 143, 145, 154, 168, 180, 194, 195, 217, 221, 242, 268, 306, 312, 541, 637]
+sampling position 306
+__________________________________________________
+processing file: uce-4673_phased.fasta
+[171, 196]
+sampling position 196
+__________________________________________________
+processing file: uce-4679_phased.fasta
+[416, 700, 721, 744, 754, 767, 810, 822, 827, 853, 865]
+sampling position 744
+__________________________________________________
+processing file: uce-4690_phased.fasta
+[261]
+sampling position 261
+__________________________________________________
+processing file: uce-4699_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1', 'T_pyra1_0', 'T_pyra1_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4707_phased.fasta
+[149, 150, 152, 182, 187, 223, 333]
+sampling position 333
+__________________________________________________
+processing file: uce-4711_phased.fasta
+[250, 317]
+sampling position 250
+__________________________________________________
+processing file: uce-4713_phased.fasta
+[188, 199, 212, 225, 233, 234, 245, 254, 265, 282, 284, 285, 306, 307, 334, 360]
+sampling position 360
+__________________________________________________
+processing file: uce-4723_phased.fasta
+[296, 298, 321, 333, 395, 424, 425, 428, 442, 451, 457, 541, 565, 574, 592, 596, 599, 616, 627, 631, 643, 667, 672, 673, 681, 692, 705, 731, 772, 783, 785]
+sampling position 673
+__________________________________________________
+processing file: uce-4725_phased.fasta
+[354, 535]
+sampling position 535
+__________________________________________________
+processing file: uce-4732_phased.fasta
+[178, 284, 608, 629, 702]
+sampling position 702
+__________________________________________________
+processing file: uce-4744_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4751_phased.fasta
+[169, 273, 312]
+sampling position 273
+__________________________________________________
+processing file: uce-4752_phased.fasta
+[592, 613, 695, 700]
+sampling position 592
+__________________________________________________
+processing file: uce-4757_phased.fasta
+These taxa are missing in alignment: ['T_pella5_0', 'T_pella5_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4760_phased.fasta
+[477, 521, 643, 666]
+sampling position 666
+__________________________________________________
+processing file: uce-4764_phased.fasta
+[214, 338, 388, 418, 447, 452, 455, 458]
+sampling position 418
+__________________________________________________
+processing file: uce-4766_phased.fasta
+[106, 108, 109, 158, 189, 503, 545]
+sampling position 503
+__________________________________________________
+processing file: uce-4770_phased.fasta
+[173, 175, 200]
+sampling position 175
+__________________________________________________
+processing file: uce-4798_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4819_phased.fasta
+[239, 265, 422]
+sampling position 265
+__________________________________________________
+processing file: uce-4820_phased.fasta
+[253, 266, 270, 290, 330, 338, 490]
+sampling position 270
+__________________________________________________
+processing file: uce-4829_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4837_phased.fasta
+[102, 271, 396, 508]
+sampling position 508
+__________________________________________________
+processing file: uce-4846_phased.fasta
+[260, 292, 339, 596]
+sampling position 596
+__________________________________________________
+processing file: uce-4853_phased.fasta
+[205, 242, 244, 266, 272, 318, 324, 332, 352, 358, 364, 369, 379, 624, 689, 725, 749, 761, 810, 838, 843, 863, 869, 887]
+sampling position 749
+__________________________________________________
+processing file: uce-4865_phased.fasta
+[231, 232, 260, 272, 336, 455, 492, 496, 554]
+sampling position 492
+__________________________________________________
+processing file: uce-486_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4871_phased.fasta
+[254]
+sampling position 254
+__________________________________________________
+processing file: uce-4878_phased.fasta
+[259, 276]
+sampling position 259
+__________________________________________________
+processing file: uce-4881_phased.fasta
+[359]
+sampling position 359
+__________________________________________________
+processing file: uce-4884_phased.fasta
+[186, 207, 209, 246, 248, 260, 338, 384, 398, 402, 421]
+sampling position 248
+__________________________________________________
+processing file: uce-4889_phased.fasta
+[168, 170, 172, 205, 251, 429, 467]
+sampling position 205
+__________________________________________________
+processing file: uce-4904_phased.fasta
+[140, 173, 198, 204, 215, 227, 276, 285, 388, 430, 504, 524, 690]
+sampling position 204
+__________________________________________________
+processing file: uce-4919_phased.fasta
+[93, 128, 167, 168, 173, 184, 212, 226, 565, 598, 637, 639, 652, 661, 676, 711, 735, 740, 751]
+sampling position 598
+__________________________________________________
+processing file: uce-491_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4927_phased.fasta
+[183, 219, 268, 335]
+sampling position 219
+__________________________________________________
+processing file: uce-4930_phased.fasta
+These taxa are missing in alignment: ['T_pella9_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-4964_phased.fasta
+[167, 199, 588, 600]
+sampling position 199
+__________________________________________________
+processing file: uce-4976_phased.fasta
+[158, 159]
+sampling position 158
+__________________________________________________
+processing file: uce-4978_phased.fasta
+[573, 630, 635, 664, 665]
+sampling position 635
+__________________________________________________
+processing file: uce-4981_phased.fasta
+[154, 164, 262, 325, 326, 428, 496]
+sampling position 428
+__________________________________________________
+processing file: uce-4986_phased.fasta
+[293, 636, 651, 664, 678, 686]
+sampling position 636
+__________________________________________________
+processing file: uce-5005_phased.fasta
+[147, 163, 166, 316]
+sampling position 163
+__________________________________________________
+processing file: uce-5007_phased.fasta
+[434, 495, 542, 556, 736]
+sampling position 495
+__________________________________________________
+processing file: uce-5016_phased.fasta
+[322, 522]
+sampling position 522
+__________________________________________________
+processing file: uce-5051_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5062_phased.fasta
+[592]
+sampling position 592
+__________________________________________________
+processing file: uce-5077_phased.fasta
+[196, 224, 267, 285]
+sampling position 285
+__________________________________________________
+processing file: uce-5084_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5098_phased.fasta
+[91, 128, 180, 182]
+sampling position 182
+__________________________________________________
+processing file: uce-5101_phased.fasta
+[478]
+sampling position 478
+__________________________________________________
+processing file: uce-5113_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5116_phased.fasta
+[640, 659, 685, 689, 717, 749, 756, 777, 785]
+sampling position 749
+__________________________________________________
+processing file: uce-512_phased.fasta
+[92, 114, 147, 218, 225, 268, 269, 285, 287, 288, 300, 305, 318, 327, 377, 433]
+sampling position 114
+__________________________________________________
+processing file: uce-5136_phased.fasta
+[122, 123, 154, 164, 165, 168, 179, 180, 202, 262, 325, 349, 351, 440, 472, 585]
+sampling position 202
+__________________________________________________
+processing file: uce-5147_phased.fasta
+[92, 128, 185, 230, 236, 238, 314, 315]
+sampling position 236
+__________________________________________________
+processing file: uce-5153_phased.fasta
+[205, 219, 236, 237, 265, 267, 278, 329, 344, 410, 557]
+sampling position 344
+__________________________________________________
+processing file: uce-5155_phased.fasta
+[164, 209, 214, 219, 295]
+sampling position 164
+__________________________________________________
+processing file: uce-5158_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5167_phased.fasta
+[395, 403, 520]
+sampling position 520
+__________________________________________________
+processing file: uce-5181_phased.fasta
+[685, 713, 748, 762, 765, 780, 791, 805, 815, 837, 860]
+sampling position 815
+__________________________________________________
+processing file: uce-5185_phased.fasta
+[40, 41, 63, 75, 122, 125]
+sampling position 75
+__________________________________________________
+processing file: uce-5186_phased.fasta
+[150, 444, 484]
+sampling position 444
+__________________________________________________
+processing file: uce-519_phased.fasta
+[242, 268, 302, 305, 321, 370, 645]
+sampling position 645
+__________________________________________________
+processing file: uce-5202_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5204_phased.fasta
+[67, 71, 73, 119, 132, 151, 155, 244]
+sampling position 67
+__________________________________________________
+processing file: uce-5208_phased.fasta
+[146, 156, 158, 175, 186, 204, 205, 248, 260, 292, 293, 295, 296, 307, 311, 328, 343, 365, 445, 594, 711, 782, 826, 827, 828, 830, 831, 832, 835, 836, 841, 847, 852, 874, 891, 893, 898]
+sampling position 835
+__________________________________________________
+processing file: uce-5218_phased.fasta
+[569, 585, 630, 681, 687, 723, 735, 741, 742, 750, 759, 785, 789, 843, 851, 857, 859, 866]
+sampling position 759
+__________________________________________________
+processing file: uce-5221_phased.fasta
+[351]
+sampling position 351
+__________________________________________________
+processing file: uce-5224_phased.fasta
+[484, 598, 630, 648, 658]
+sampling position 658
+__________________________________________________
+processing file: uce-5227_phased.fasta
+[240, 248, 251, 275, 292, 301, 400, 401, 536, 630, 642, 735, 743, 768]
+sampling position 401
+__________________________________________________
+processing file: uce-5240_phased.fasta
+[146, 168, 182, 235, 272, 287, 288, 321, 346, 711, 723, 775, 781, 884]
+sampling position 781
+__________________________________________________
+processing file: uce-5258_phased.fasta
+[480]
+sampling position 480
+__________________________________________________
+processing file: uce-5268_phased.fasta
+[250, 375, 413, 449]
+sampling position 250
+__________________________________________________
+processing file: uce-527_phased.fasta
+[361, 745, 750]
+sampling position 361
+__________________________________________________
+processing file: uce-5295_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-52_phased.fasta
+[132, 156, 170, 197, 199, 223, 276, 282, 291, 306, 335, 572, 748, 870, 884, 888, 889, 894]
+sampling position 888
+__________________________________________________
+processing file: uce-5314_phased.fasta
+[282, 311, 423, 448]
+sampling position 423
+__________________________________________________
+processing file: uce-5347_phased.fasta
+These taxa are missing in alignment: ['T_pella9_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-534_phased.fasta
+[258, 273, 280, 308, 430, 650, 654]
+sampling position 654
+__________________________________________________
+processing file: uce-5356_phased.fasta
+[277, 384, 418, 433, 450, 465, 467, 478, 480, 484, 506, 507, 533, 538, 545]
+sampling position 533
+__________________________________________________
+processing file: uce-5361_phased.fasta
+These taxa are missing in alignment: ['T_pyra4_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5379_phased.fasta
+[103, 108, 111, 118, 130, 138, 192, 194, 228]
+sampling position 118
+__________________________________________________
+processing file: uce-5383_phased.fasta
+[129, 255, 546, 575, 705, 769, 780, 781, 797]
+sampling position 546
+__________________________________________________
+processing file: uce-5387_phased.fasta
+[228, 415, 465]
+sampling position 228
+__________________________________________________
+processing file: uce-5396_phased.fasta
+[151, 158, 188, 193, 336, 461, 821, 827, 845, 856, 885, 893]
+sampling position 188
+__________________________________________________
+processing file: uce-5416_phased.fasta
+[333, 366, 488]
+sampling position 488
+__________________________________________________
+processing file: uce-5440_phased.fasta
+[815, 829, 878, 882, 897, 898]
+sampling position 829
+__________________________________________________
+processing file: uce-5441_phased.fasta
+[260, 278, 502, 513, 519, 523, 533]
+sampling position 533
+__________________________________________________
+processing file: uce-5445_phased.fasta
+[120, 138, 153, 161, 176, 192, 193, 199, 200, 201, 203, 228, 251, 259, 288, 291, 359, 390]
+sampling position 288
+__________________________________________________
+processing file: uce-5469_phased.fasta
+[389, 409, 454, 488]
+sampling position 409
+__________________________________________________
+processing file: uce-547_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5490_phased.fasta
+[419, 477, 530]
+sampling position 477
+__________________________________________________
+processing file: uce-5494_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5497_phased.fasta
+[227, 242, 282, 284]
+sampling position 227
+__________________________________________________
+processing file: uce-550_phased.fasta
+[108, 110, 112, 144, 156, 168, 180, 192, 197, 265, 313, 322, 335, 353, 409, 420]
+sampling position 197
+__________________________________________________
+processing file: uce-5510_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5524_phased.fasta
+[412]
+sampling position 412
+__________________________________________________
+processing file: uce-553_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5542_phased.fasta
+[388]
+sampling position 388
+__________________________________________________
+processing file: uce-5586_phased.fasta
+[279, 285, 301, 387]
+sampling position 301
+__________________________________________________
+processing file: uce-5589_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5609_phased.fasta
+[130, 168, 253, 270, 293, 333, 343, 624, 626, 748, 752, 758, 759]
+sampling position 626
+__________________________________________________
+processing file: uce-5645_phased.fasta
+[177, 199, 202, 211, 213, 216, 222, 241, 249, 251, 271, 290, 336, 355, 356, 457, 616, 641, 647, 652, 659, 668, 678, 689, 706, 773, 824]
+sampling position 647
+__________________________________________________
+processing file: uce-5649_phased.fasta
+[216, 217, 232, 241, 270, 513, 585, 597]
+sampling position 217
+__________________________________________________
+processing file: uce-5661_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5671_phased.fasta
+[569, 605, 623, 650]
+sampling position 569
+__________________________________________________
+processing file: uce-5676_phased.fasta
+[525, 539]
+sampling position 539
+__________________________________________________
+processing file: uce-5679_phased.fasta
+[183, 683, 768]
+sampling position 683
+__________________________________________________
+processing file: uce-5684_phased.fasta
+[82, 113, 125, 132, 155, 158, 165, 188, 242, 255, 318, 319, 592, 595]
+sampling position 82
+__________________________________________________
+processing file: uce-5694_phased.fasta
+[488, 677]
+sampling position 488
+__________________________________________________
+processing file: uce-5699_phased.fasta
+[84, 212, 243, 320, 367, 527, 604, 624, 644, 675, 676]
+sampling position 644
+__________________________________________________
+processing file: uce-570_phased.fasta
+[224, 261, 298, 299, 330, 398, 489, 523, 604, 738]
+sampling position 489
+__________________________________________________
+processing file: uce-5713_phased.fasta
+[228, 242, 304, 336, 422]
+sampling position 422
+__________________________________________________
+processing file: uce-5722_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5730_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5733_phased.fasta
+[216, 245, 264, 286, 337, 564, 622, 774, 789, 845]
+sampling position 789
+__________________________________________________
+processing file: uce-5751_phased.fasta
+[177, 187, 192, 198, 206, 230, 231, 277, 358]
+sampling position 231
+__________________________________________________
+processing file: uce-5755_phased.fasta
+[140, 543]
+sampling position 543
+__________________________________________________
+processing file: uce-5759_phased.fasta
+[171, 243, 343, 380, 384, 510, 532]
+sampling position 343
+__________________________________________________
+processing file: uce-5761_phased.fasta
+[83, 86, 88, 89, 90, 114, 123, 126, 128, 129, 130, 135, 139, 171]
+sampling position 129
+__________________________________________________
+processing file: uce-5766_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5772_phased.fasta
+[88, 106, 138, 144]
+sampling position 144
+__________________________________________________
+processing file: uce-5774_phased.fasta
+[220, 224, 239, 250, 261, 262, 265, 268, 277, 281, 308, 353, 380, 388, 412, 414, 506, 607, 617, 622, 671, 737, 751, 767, 781, 794, 857, 864, 869]
+sampling position 277
+__________________________________________________
+processing file: uce-5797_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0', 'T_pella6_1', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5799_phased.fasta
+[137, 162, 238, 240, 277, 318, 345, 513, 528, 609, 654]
+sampling position 513
+__________________________________________________
+processing file: uce-5810_phased.fasta
+[155]
+sampling position 155
+__________________________________________________
+processing file: uce-5822_phased.fasta
+[245, 276, 277, 435, 654]
+sampling position 435
+__________________________________________________
+processing file: uce-5846_phased.fasta
+[78, 104, 129, 147, 202, 375]
+sampling position 129
+__________________________________________________
+processing file: uce-5849_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-584_phased.fasta
+[288, 293]
+sampling position 288
+__________________________________________________
+processing file: uce-5874_phased.fasta
+[86, 89, 101, 116, 133, 154, 204, 211, 231, 259, 510, 617, 771, 781, 789, 815, 816, 819, 820, 857]
+sampling position 89
+__________________________________________________
+processing file: uce-5880_phased.fasta
+[684, 817]
+sampling position 817
+__________________________________________________
+processing file: uce-5898_phased.fasta
+[301, 347, 440]
+sampling position 301
+__________________________________________________
+processing file: uce-5899_phased.fasta
+[165, 206, 286, 543, 641, 653, 654, 689, 710, 722, 724, 728]
+sampling position 710
+__________________________________________________
+processing file: uce-5908_phased.fasta
+[561, 601, 610]
+sampling position 601
+__________________________________________________
+processing file: uce-590_phased.fasta
+[328, 419]
+sampling position 419
+__________________________________________________
+processing file: uce-5925_phased.fasta
+[194, 212, 543]
+sampling position 194
+__________________________________________________
+processing file: uce-5930_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5932_phased.fasta
+[799]
+sampling position 799
+__________________________________________________
+processing file: uce-5943_phased.fasta
+[60]
+sampling position 60
+__________________________________________________
+processing file: uce-5961_phased.fasta
+[76, 85, 92, 127, 137, 138, 150, 154, 173, 194, 200, 211, 223, 284, 322, 332, 337, 631]
+sampling position 76
+__________________________________________________
+processing file: uce-5968_phased.fasta
+[312, 432]
+sampling position 432
+__________________________________________________
+processing file: uce-5969_phased.fasta
+[441]
+sampling position 441
+__________________________________________________
+processing file: uce-596_phased.fasta
+[234, 245, 250, 280, 498]
+sampling position 280
+__________________________________________________
+processing file: uce-5971_phased.fasta
+[284, 285, 300, 303, 312, 343, 360, 383, 387, 507, 601, 603, 610, 611, 637, 649, 663, 668, 681]
+sampling position 360
+__________________________________________________
+processing file: uce-5972_phased.fasta
+[212, 665, 666]
+sampling position 666
+__________________________________________________
+processing file: uce-5975_phased.fasta
+[114, 117, 133, 181, 217, 240, 250, 258, 305, 638, 724]
+sampling position 117
+__________________________________________________
+processing file: uce-5978_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-5980_phased.fasta
+[148, 183, 188, 225, 274, 277, 306, 402, 789, 810, 811, 849]
+sampling position 811
+__________________________________________________
+processing file: uce-5987_phased.fasta
+[180, 204, 213, 231, 246, 288, 354, 774, 776, 887]
+sampling position 288
+__________________________________________________
+processing file: uce-5996_phased.fasta
+[120, 222, 229, 266, 271, 278, 310, 313]
+sampling position 278
+__________________________________________________
+processing file: uce-6012_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6017_phased.fasta
+[139, 143, 182, 218, 265]
+sampling position 139
+__________________________________________________
+processing file: uce-6068_phased.fasta
+[44, 169, 426, 496, 519]
+sampling position 426
+__________________________________________________
+processing file: uce-607_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6085_phased.fasta
+[329, 520]
+sampling position 520
+__________________________________________________
+processing file: uce-6100_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6101_phased.fasta
+[292, 337, 624, 737]
+sampling position 292
+__________________________________________________
+processing file: uce-6121_phased.fasta
+[333, 365, 408, 463, 620, 697, 712, 741, 742]
+sampling position 741
+__________________________________________________
+processing file: uce-6126_phased.fasta
+These taxa are missing in alignment: ['T_pella9_0', 'T_pella9_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6131_phased.fasta
+[201, 238, 245]
+sampling position 238
+__________________________________________________
+processing file: uce-6154_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6157_phased.fasta
+[91, 99, 111, 118, 153, 164, 175, 176, 177, 207, 231, 236, 342]
+sampling position 236
+__________________________________________________
+processing file: uce-6167_phased.fasta
+[211, 229, 246, 279, 293, 296, 311, 312, 323, 336, 376, 381, 451, 682, 695, 696, 711, 753, 754]
+sampling position 451
+__________________________________________________
+processing file: uce-616_phased.fasta
+[258]
+sampling position 258
+__________________________________________________
+processing file: uce-6187_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6195_phased.fasta
+[119, 146, 159, 172, 196, 227, 521, 732, 747, 748]
+sampling position 172
+__________________________________________________
+processing file: uce-6221_phased.fasta
+[100, 119, 126, 129, 307, 593]
+sampling position 129
+__________________________________________________
+processing file: uce-6237_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6238_phased.fasta
+[162, 209, 245, 351, 363, 477, 481, 482, 505, 522]
+sampling position 522
+__________________________________________________
+processing file: uce-6242_phased.fasta
+[202, 203]
+sampling position 202
+__________________________________________________
+processing file: uce-6243_phased.fasta
+[462]
+sampling position 462
+__________________________________________________
+processing file: uce-6245_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6260_phased.fasta
+These taxa are missing in alignment: ['Florisuga_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6264_phased.fasta
+[183, 190, 204, 330, 429, 695, 743, 777, 807, 853]
+sampling position 807
+__________________________________________________
+processing file: uce-627_phased.fasta
+[192, 201, 202, 256, 258, 262, 263, 265, 266, 272, 293, 297, 322, 330, 332, 362, 394, 478, 531, 702, 736, 742, 788]
+sampling position 702
+__________________________________________________
+processing file: uce-6284_phased.fasta
+[213, 257, 259, 270, 272, 275, 282, 294, 298, 356]
+sampling position 272
+__________________________________________________
+processing file: uce-6287_phased.fasta
+[100, 102, 152]
+sampling position 102
+__________________________________________________
+processing file: uce-6290_phased.fasta
+[331, 412]
+sampling position 331
+__________________________________________________
+processing file: uce-62_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6316_phased.fasta
+[139, 141, 155, 171, 205, 216, 221, 238, 251, 253, 264, 283, 287, 342, 352, 380, 594, 788, 835, 836]
+sampling position 380
+__________________________________________________
+processing file: uce-6335_phased.fasta
+[214, 225, 229, 241, 588, 679, 788, 789]
+sampling position 788
+__________________________________________________
+processing file: uce-6346_phased.fasta
+[494, 513, 527, 533, 546, 565, 596, 609, 655, 674]
+sampling position 546
+__________________________________________________
+processing file: uce-6362_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-636_phased.fasta
+[222, 361, 468]
+sampling position 361
+__________________________________________________
+processing file: uce-6381_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6418_phased.fasta
+[307, 324, 370, 380]
+sampling position 380
+__________________________________________________
+processing file: uce-642_phased.fasta
+[99, 114, 116, 139, 146, 151, 164, 188, 189, 191, 193, 200, 213, 227, 283, 466, 841]
+sampling position 99
+__________________________________________________
+processing file: uce-6444_phased.fasta
+[230, 298, 299, 308, 309, 391, 448, 618, 623]
+sampling position 309
+__________________________________________________
+processing file: uce-6448_phased.fasta
+[329, 643, 689, 692, 711, 760, 769, 803, 810]
+sampling position 769
+__________________________________________________
+processing file: uce-6451_phased.fasta
+[565, 648, 691, 747, 757, 773, 778, 786]
+sampling position 691
+__________________________________________________
+processing file: uce-6457_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-645_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6478_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6496_phased.fasta
+[283, 305, 431, 434, 495, 519, 685, 821, 835, 846, 849]
+sampling position 283
+__________________________________________________
+processing file: uce-6520_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6521_phased.fasta
+[554, 608, 620, 666, 681, 694, 721, 722, 737, 818]
+sampling position 721
+__________________________________________________
+processing file: uce-6527_phased.fasta
+[163, 230, 465, 518, 519, 547, 549, 657, 660, 670, 755, 787]
+sampling position 518
+__________________________________________________
+processing file: uce-6532_phased.fasta
+[494, 640]
+sampling position 494
+__________________________________________________
+processing file: uce-6535_phased.fasta
+[190, 233, 234, 313, 317, 328, 347, 802, 846, 851, 903, 913, 926]
+sampling position 317
+__________________________________________________
+processing file: uce-6554_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0', 'T_pella6_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6555_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6574_phased.fasta
+[129, 141, 143, 260, 291, 292, 325, 331, 346, 353, 368, 388, 494, 511, 547, 694, 734, 779, 780, 810, 812, 827, 847, 867]
+sampling position 511
+__________________________________________________
+processing file: uce-6580_phased.fasta
+[189]
+sampling position 189
+__________________________________________________
+processing file: uce-6587_phased.fasta
+[185, 189, 206, 208, 215, 226, 235, 254, 290, 291, 332, 636, 670, 744, 768, 772, 773, 826, 827, 828, 830]
+sampling position 826
+__________________________________________________
+processing file: uce-658_phased.fasta
+[273, 335]
+sampling position 273
+__________________________________________________
+processing file: uce-6598_phased.fasta
+[115, 361, 432, 506, 517, 521, 523, 673, 721, 731, 734, 742, 785, 792, 797]
+sampling position 361
+__________________________________________________
+processing file: uce-6603_phased.fasta
+[168, 257, 376]
+sampling position 257
+__________________________________________________
+processing file: uce-6614_phased.fasta
+[159, 161, 162, 189, 195, 202, 226, 228, 229, 290, 312, 387]
+sampling position 228
+__________________________________________________
+processing file: uce-6625_phased.fasta
+[395]
+sampling position 395
+__________________________________________________
+processing file: uce-6627_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6635_phased.fasta
+[258, 311]
+sampling position 311
+__________________________________________________
+processing file: uce-6654_phased.fasta
+[482, 486, 487, 565, 736]
+sampling position 487
+__________________________________________________
+processing file: uce-6657_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6702_phased.fasta
+[276, 399, 464, 485, 568, 584, 586, 606, 624, 630, 672]
+sampling position 586
+__________________________________________________
+processing file: uce-6707_phased.fasta
+[202, 347, 352, 391, 436, 473, 498]
+sampling position 352
+__________________________________________________
+processing file: uce-6714_phased.fasta
+[243]
+sampling position 243
+__________________________________________________
+processing file: uce-6724_phased.fasta
+[769, 771, 785, 787]
+sampling position 787
+__________________________________________________
+processing file: uce-6725_phased.fasta
+[273, 386, 424, 470, 609, 629, 753]
+sampling position 629
+__________________________________________________
+processing file: uce-6726_phased.fasta
+[139, 151, 154, 156, 160, 179, 197, 218, 232, 299, 717, 764, 829, 844, 869]
+sampling position 717
+__________________________________________________
+processing file: uce-6778_phased.fasta
+[176, 192, 227, 248, 256, 258, 347]
+sampling position 256
+__________________________________________________
+processing file: uce-678_phased.fasta
+[177, 222, 318, 353, 354, 678, 682, 721, 730, 762, 767, 778, 779, 782, 899]
+sampling position 682
+__________________________________________________
+processing file: uce-6796_phased.fasta
+[332, 335, 418, 444, 482, 529, 530]
+sampling position 418
+__________________________________________________
+processing file: uce-6797_phased.fasta
+[243, 300, 303, 310, 315, 316, 548]
+sampling position 548
+__________________________________________________
+processing file: uce-6805_phased.fasta
+[150, 196, 206, 226, 237, 571, 682, 701, 713, 727]
+sampling position 682
+__________________________________________________
+processing file: uce-6812_phased.fasta
+[134, 147, 219, 468]
+sampling position 134
+__________________________________________________
+processing file: uce-681_phased.fasta
+[424, 734, 748, 753, 815, 837]
+sampling position 753
+__________________________________________________
+processing file: uce-6823_phased.fasta
+[443]
+sampling position 443
+__________________________________________________
+processing file: uce-6827_phased.fasta
+[508]
+sampling position 508
+__________________________________________________
+processing file: uce-6838_phased.fasta
+[577, 583, 629, 672, 709, 735, 737, 739]
+sampling position 709
+__________________________________________________
+processing file: uce-683_phased.fasta
+[327, 428, 440]
+sampling position 327
+__________________________________________________
+processing file: uce-6842_phased.fasta
+[141, 143, 145, 166, 171, 179, 201, 204, 230, 337, 339, 632, 711, 720]
+sampling position 230
+__________________________________________________
+processing file: uce-6844_phased.fasta
+[737, 738, 765, 800, 801, 802]
+sampling position 802
+__________________________________________________
+processing file: uce-6871_phased.fasta
+These taxa are missing in alignment: ['T_pella6_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6887_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6906_phased.fasta
+[291]
+sampling position 291
+__________________________________________________
+processing file: uce-6910_phased.fasta
+[315]
+sampling position 315
+__________________________________________________
+processing file: uce-6913_phased.fasta
+[129, 154, 186, 237, 247, 271, 273, 317]
+sampling position 154
+__________________________________________________
+processing file: uce-6922_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6932_phased.fasta
+[143, 202, 216, 269, 270, 304, 606, 639, 668, 669, 673, 674]
+sampling position 639
+__________________________________________________
+processing file: uce-6933_phased.fasta
+[83, 91, 93, 100, 101, 103, 118, 123, 135, 136, 155, 176, 177, 183, 192, 230, 272, 283, 293, 294, 337, 373, 537, 554, 658, 776, 780, 798, 803, 805]
+sampling position 283
+__________________________________________________
+processing file: uce-6934_phased.fasta
+[169, 186, 248, 271, 295, 297, 351, 398, 587, 716, 717, 727, 753, 770]
+sampling position 716
+__________________________________________________
+processing file: uce-6940_phased.fasta
+[139, 244, 257, 292, 293, 315, 336, 341, 522, 616, 707, 764, 802, 805]
+sampling position 805
+__________________________________________________
+processing file: uce-6945_phased.fasta
+[122, 124, 545, 648, 649, 655, 664, 695, 720, 725, 728, 730, 799]
+sampling position 730
+__________________________________________________
+processing file: uce-6969_phased.fasta
+[478, 552, 573, 583, 585, 623, 625]
+sampling position 585
+__________________________________________________
+processing file: uce-696_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-6973_phased.fasta
+[288, 314, 327, 333, 353, 380, 446, 514, 655, 672, 673, 682, 693, 708, 741, 763, 764, 771, 787, 796, 807, 820, 826]
+sampling position 796
+__________________________________________________
+processing file: uce-6975_phased.fasta
+[337]
+sampling position 337
+__________________________________________________
+processing file: uce-6983_phased.fasta
+[323, 373, 392, 558, 600, 618, 635]
+sampling position 600
+__________________________________________________
+processing file: uce-6986_phased.fasta
+[228, 229, 286, 299, 352, 598, 829]
+sampling position 299
+__________________________________________________
+processing file: uce-6990_phased.fasta
+[379]
+sampling position 379
+__________________________________________________
+processing file: uce-6991_phased.fasta
+[305, 374, 379, 405]
+sampling position 305
+__________________________________________________
+processing file: uce-6998_phased.fasta
+[132, 175, 187, 310, 325, 360, 370, 398, 401, 600, 603, 614, 654, 696, 697, 710, 739, 741, 781, 821, 846, 857, 858, 863]
+sampling position 175
+__________________________________________________
+processing file: uce-7003_phased.fasta
+[79, 120, 128, 149, 164, 177, 217, 231, 265, 283, 382, 442, 460, 581, 625, 626]
+sampling position 460
+__________________________________________________
+processing file: uce-7008_phased.fasta
+[127, 136, 147, 154, 160, 192, 334, 482]
+sampling position 127
+__________________________________________________
+processing file: uce-7016_phased.fasta
+[64, 68, 69, 128, 136, 208, 220, 254, 382]
+sampling position 208
+__________________________________________________
+processing file: uce-7019_phased.fasta
+[189, 511, 543, 546, 572, 604]
+sampling position 604
+__________________________________________________
+processing file: uce-7028_phased.fasta
+[723, 731, 776, 785, 792]
+sampling position 785
+__________________________________________________
+processing file: uce-7035_phased.fasta
+[370]
+sampling position 370
+__________________________________________________
+processing file: uce-7036_phased.fasta
+[192, 207, 294, 297, 311, 313, 333, 342, 343, 350, 434, 435, 468, 482, 557, 611, 797, 843]
+sampling position 797
+__________________________________________________
+processing file: uce-7044_phased.fasta
+[133, 157, 221, 255, 342]
+sampling position 221
+__________________________________________________
+processing file: uce-7051_phased.fasta
+[193, 194, 197, 275, 628, 698, 716, 746]
+sampling position 698
+__________________________________________________
+processing file: uce-7064_phased.fasta
+[604, 682, 688, 706, 741, 748, 749, 771, 779, 792, 794, 798, 831, 839, 840, 845, 847]
+sampling position 748
+__________________________________________________
+processing file: uce-706_phased.fasta
+[74, 75, 106, 120, 124, 160, 226, 247, 258, 263, 301, 303, 308, 365, 556, 574, 578, 579]
+sampling position 75
+__________________________________________________
+processing file: uce-7077_phased.fasta
+[380, 535, 552, 563, 565, 594]
+sampling position 563
+__________________________________________________
+processing file: uce-7078_phased.fasta
+[129, 238, 435]
+sampling position 129
+__________________________________________________
+processing file: uce-7081_phased.fasta
+[211, 274, 351, 532]
+sampling position 532
+__________________________________________________
+processing file: uce-7098_phased.fasta
+[181, 196, 204, 207, 212, 233, 288, 301, 414, 578, 579, 583, 615, 632, 649, 698, 756, 760, 763, 782]
+sampling position 301
+__________________________________________________
+processing file: uce-7102_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7107_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-710_phased.fasta
+[220, 238, 246, 269, 270, 358, 444]
+sampling position 238
+__________________________________________________
+processing file: uce-7118_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7129_phased.fasta
+[201, 234, 244, 247, 260, 522, 605, 629, 646, 658]
+sampling position 658
+__________________________________________________
+processing file: uce-7133_phased.fasta
+[158, 218, 234, 250, 261, 274, 312, 318, 480, 481, 569]
+sampling position 569
+__________________________________________________
+processing file: uce-7167_phased.fasta
+These taxa are missing in alignment: ['T_pella7_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7173_phased.fasta
+These taxa are missing in alignment: ['Florisuga_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-717_phased.fasta
+[160, 188, 203, 217, 223, 283, 336]
+sampling position 223
+__________________________________________________
+processing file: uce-7190_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7192_phased.fasta
+[49, 69, 94, 115, 139, 768]
+sampling position 115
+__________________________________________________
+processing file: uce-7195_phased.fasta
+[320, 360, 370, 380, 408, 412, 430, 611, 687]
+sampling position 430
+__________________________________________________
+processing file: uce-7200_phased.fasta
+[245, 258, 259, 263, 266, 269, 271, 275, 342, 536]
+sampling position 259
+__________________________________________________
+processing file: uce-7205_phased.fasta
+[97, 98, 102, 116, 117, 551, 567, 568, 576, 594, 596, 618, 638, 660]
+sampling position 576
+__________________________________________________
+processing file: uce-7248_phased.fasta
+[146, 157, 160, 180, 192, 201, 210, 219, 222, 235, 246, 252, 285, 286, 288, 326, 327, 328, 350, 355, 360, 369, 391, 454, 472, 577, 585]
+sampling position 219
+__________________________________________________
+processing file: uce-7257_phased.fasta
+[210, 212, 213, 222, 240, 243, 248, 255, 259, 263, 273, 282, 291, 292, 294, 295, 298, 354, 360, 369, 382]
+sampling position 282
+__________________________________________________
+processing file: uce-7263_phased.fasta
+[214, 231, 243, 279, 403, 561, 600, 687]
+sampling position 243
+__________________________________________________
+processing file: uce-7283_phased.fasta
+[215, 369, 392, 571, 639, 710, 717, 772, 791]
+sampling position 772
+__________________________________________________
+processing file: uce-7292_phased.fasta
+[365, 427, 531, 535]
+sampling position 365
+__________________________________________________
+processing file: uce-7295_phased.fasta
+[76, 401, 428, 433]
+sampling position 428
+__________________________________________________
+processing file: uce-7303_phased.fasta
+[469]
+sampling position 469
+__________________________________________________
+processing file: uce-7319_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7347_phased.fasta
+These taxa are missing in alignment: ['T_pyra1_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7349_phased.fasta
+[344, 345, 451, 459, 493, 499, 506, 513, 517, 519]
+sampling position 499
+__________________________________________________
+processing file: uce-7350_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-735_phased.fasta
+[540, 671, 685, 687]
+sampling position 671
+__________________________________________________
+processing file: uce-7364_phased.fasta
+[341, 358, 415, 577, 602, 652, 682, 729, 752, 777]
+sampling position 415
+__________________________________________________
+processing file: uce-7369_phased.fasta
+[174, 188, 210, 229, 235, 241, 265, 401, 414, 417, 536]
+sampling position 229
+__________________________________________________
+processing file: uce-7384_phased.fasta
+[181, 206, 380, 434, 718]
+sampling position 181
+__________________________________________________
+processing file: uce-7393_phased.fasta
+[297, 383]
+sampling position 383
+__________________________________________________
+processing file: uce-7395_phased.fasta
+[112, 117, 134, 152, 188, 272]
+sampling position 117
+__________________________________________________
+processing file: uce-7410_phased.fasta
+[190, 203, 204, 205, 247, 274, 293, 354, 452]
+sampling position 274
+__________________________________________________
+processing file: uce-7417_phased.fasta
+[189, 235, 346]
+sampling position 189
+__________________________________________________
+processing file: uce-7419_phased.fasta
+[275, 302, 331, 362, 391, 495]
+sampling position 331
+__________________________________________________
+processing file: uce-7461_phased.fasta
+[381]
+sampling position 381
+__________________________________________________
+processing file: uce-746_phased.fasta
+[454]
+sampling position 454
+__________________________________________________
+processing file: uce-7473_phased.fasta
+[665, 672, 678, 683, 695, 708, 709, 710]
+sampling position 672
+__________________________________________________
+processing file: uce-7483_phased.fasta
+[203, 341]
+sampling position 203
+__________________________________________________
+processing file: uce-7491_phased.fasta
+[347, 430]
+sampling position 347
+__________________________________________________
+processing file: uce-7495_phased.fasta
+[447, 586, 612, 678, 720, 724, 727, 742]
+sampling position 720
+__________________________________________________
+processing file: uce-7496_phased.fasta
+[181, 212, 214, 236, 239, 253, 259, 264, 267, 282, 305, 324, 414, 513, 566, 575, 577, 599, 619, 652, 660, 671, 676, 677, 678, 689, 693]
+sampling position 181
+__________________________________________________
+processing file: uce-7499_phased.fasta
+[610, 611, 628]
+sampling position 610
+__________________________________________________
+processing file: uce-7503_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7504_phased.fasta
+[195, 219, 272, 285, 292, 371, 611, 619, 632, 633, 665]
+sampling position 272
+__________________________________________________
+processing file: uce-7511_phased.fasta
+[168, 170, 176, 232, 247, 252, 265, 276, 290, 331, 615]
+sampling position 290
+__________________________________________________
+processing file: uce-7521_phased.fasta
+[758, 775, 833, 846, 851, 854, 861, 900, 901]
+sampling position 833
+__________________________________________________
+processing file: uce-7538_phased.fasta
+[644, 658, 698]
+sampling position 644
+__________________________________________________
+processing file: uce-754_phased.fasta
+[157, 163, 200, 201, 202, 204, 226, 408, 667]
+sampling position 226
+__________________________________________________
+processing file: uce-7552_phased.fasta
+[660]
+sampling position 660
+__________________________________________________
+processing file: uce-7553_phased.fasta
+[180, 187, 202, 541, 637, 722, 724]
+sampling position 724
+__________________________________________________
+processing file: uce-7558_phased.fasta
+[196, 220, 234, 335, 412, 552, 716, 734, 767, 772, 785, 793]
+sampling position 220
+__________________________________________________
+processing file: uce-7574_phased.fasta
+[391, 400, 504]
+sampling position 504
+__________________________________________________
+processing file: uce-7587_phased.fasta
+[119, 134, 135, 138, 170, 191, 210, 223, 263, 270, 295, 352, 390, 400, 404, 413]
+sampling position 191
+__________________________________________________
+processing file: uce-7588_phased.fasta
+[190, 281, 294, 296, 309, 322, 378, 516, 554, 571, 584, 631, 643, 645, 647, 649, 651, 660]
+sampling position 584
+__________________________________________________
+processing file: uce-7595_phased.fasta
+[100, 101, 103, 138]
+sampling position 103
+__________________________________________________
+processing file: uce-7599_phased.fasta
+[136, 184, 233, 247, 460, 481, 498]
+sampling position 233
+__________________________________________________
+processing file: uce-7609_phased.fasta
+[220, 222, 230]
+sampling position 220
+__________________________________________________
+processing file: uce-760_phased.fasta
+[251]
+sampling position 251
+__________________________________________________
+processing file: uce-7613_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7616_phased.fasta
+[411]
+sampling position 411
+__________________________________________________
+processing file: uce-761_phased.fasta
+[136, 166, 168, 176, 177, 197, 212, 267, 322, 340]
+sampling position 168
+__________________________________________________
+processing file: uce-7621_phased.fasta
+[188, 197, 210, 220, 236, 298]
+sampling position 210
+__________________________________________________
+processing file: uce-762_phased.fasta
+[342, 468, 484, 561]
+sampling position 342
+__________________________________________________
+processing file: uce-7632_phased.fasta
+[296, 351, 550, 565]
+sampling position 550
+__________________________________________________
+processing file: uce-7636_phased.fasta
+[105, 109, 116, 140, 141, 174, 177, 212, 260, 288, 319, 340, 412, 516, 520, 547, 728, 746]
+sampling position 746
+__________________________________________________
+processing file: uce-7648_phased.fasta
+[182, 496, 583, 595, 613, 641, 657, 665, 670, 671, 672, 673]
+sampling position 595
+__________________________________________________
+processing file: uce-7662_phased.fasta
+[138, 333, 496, 506, 517, 558, 562, 564, 573, 594, 609, 626, 635, 657, 673, 689, 691, 694, 697, 701, 706, 707, 713, 718, 725, 742, 743]
+sampling position 691
+__________________________________________________
+processing file: uce-7686_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7703_phased.fasta
+[177]
+sampling position 177
+__________________________________________________
+processing file: uce-7706_phased.fasta
+[453, 486, 587, 598, 620, 622, 625, 627, 638, 648, 660]
+sampling position 622
+__________________________________________________
+processing file: uce-7708_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7715_phased.fasta
+[256, 396, 397, 401, 430, 433]
+sampling position 397
+__________________________________________________
+processing file: uce-7726_phased.fasta
+[220, 392, 634]
+sampling position 220
+__________________________________________________
+processing file: uce-7747_phased.fasta
+[410, 413, 451, 458, 460, 468, 476, 478, 480, 490]
+sampling position 480
+__________________________________________________
+processing file: uce-7748_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7752_phased.fasta
+[494]
+sampling position 494
+__________________________________________________
+processing file: uce-7753_phased.fasta
+[80, 87, 95, 111, 135, 154, 155, 181, 193, 210, 236, 244, 252, 260, 268, 275, 291, 293, 304, 311, 318, 337, 349, 360, 368, 386, 493, 546, 547, 613, 728]
+sampling position 95
+__________________________________________________
+processing file: uce-7768_phased.fasta
+[212, 213, 237, 247, 288, 687]
+sampling position 288
+__________________________________________________
+processing file: uce-7769_phased.fasta
+[114, 195, 268, 280, 321, 325, 410, 458, 533, 540, 543, 601, 602, 614, 615]
+sampling position 533
+__________________________________________________
+processing file: uce-7776_phased.fasta
+[304, 306, 318]
+sampling position 318
+__________________________________________________
+processing file: uce-7790_phased.fasta
+[656, 685, 721, 722, 738]
+sampling position 721
+__________________________________________________
+processing file: uce-7797_phased.fasta
+[164, 177, 191, 198, 309, 487]
+sampling position 164
+__________________________________________________
+processing file: uce-7806_phased.fasta
+[450, 515, 557, 579, 601]
+sampling position 450
+__________________________________________________
+processing file: uce-7811_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7819_phased.fasta
+[365, 509, 584]
+sampling position 509
+__________________________________________________
+processing file: uce-7823_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7841_phased.fasta
+[484]
+sampling position 484
+__________________________________________________
+processing file: uce-7843_phased.fasta
+[237, 267, 269, 321, 363, 421, 447, 479, 527, 567, 569, 713, 730, 739]
+sampling position 363
+__________________________________________________
+processing file: uce-7865_phased.fasta
+[236, 260, 290, 299, 342, 459, 470, 492, 501]
+sampling position 236
+__________________________________________________
+processing file: uce-7869_phased.fasta
+[220, 246, 493, 511]
+sampling position 246
+__________________________________________________
+processing file: uce-7884_phased.fasta
+[736]
+sampling position 736
+__________________________________________________
+processing file: uce-7889_phased.fasta
+[534, 593, 816]
+sampling position 534
+__________________________________________________
+processing file: uce-7898_phased.fasta
+[166, 171, 172, 173, 206, 210, 226, 231, 235, 254, 259, 273, 274, 307, 610, 629, 655, 665, 691, 698, 700, 701, 710, 715, 717, 725, 732, 735, 748, 761, 782, 786, 788, 796, 800, 808, 809, 817, 820, 845, 846, 847]
+sampling position 761
+__________________________________________________
+processing file: uce-7904_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-7906_phased.fasta
+[149, 156, 160, 167, 204, 277, 309, 389]
+sampling position 309
+__________________________________________________
+processing file: uce-7928_phased.fasta
+[130, 131, 133, 141, 153, 171, 182, 187, 239, 249, 276, 299]
+sampling position 187
+__________________________________________________
+processing file: uce-7940_phased.fasta
+[684, 725, 739, 767, 780]
+sampling position 767
+__________________________________________________
+processing file: uce-7960_phased.fasta
+[118, 157, 158, 181, 206, 215, 233, 234, 235, 254, 305, 312, 338, 344, 352, 365, 394, 395, 404, 412, 464, 547, 587, 604, 658, 660, 769, 770, 775, 789, 802]
+sampling position 464
+__________________________________________________
+processing file: uce-7963_phased.fasta
+[79, 80, 82, 83, 110]
+sampling position 80
+__________________________________________________
+processing file: uce-7969_phased.fasta
+[658]
+sampling position 658
+__________________________________________________
+processing file: uce-7981_phased.fasta
+[141, 142, 159, 163, 167, 178, 693, 710, 716, 719, 746, 766, 770, 774, 800, 816, 825, 841]
+sampling position 159
+__________________________________________________
+processing file: uce-7983_phased.fasta
+[219, 237]
+sampling position 237
+__________________________________________________
+processing file: uce-8029_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-802_phased.fasta
+[874, 886, 915, 922]
+sampling position 886
+__________________________________________________
+processing file: uce-8035_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-810_phased.fasta
+[206, 260, 264, 385, 392, 421, 512]
+sampling position 392
+__________________________________________________
+processing file: uce-81_phased.fasta
+[312]
+sampling position 312
+__________________________________________________
+processing file: uce-831_phased.fasta
+[644]
+sampling position 644
+__________________________________________________
+processing file: uce-833_phased.fasta
+[205, 254, 336, 337]
+sampling position 254
+__________________________________________________
+processing file: uce-837_phased.fasta
+[628]
+sampling position 628
+__________________________________________________
+processing file: uce-841_phased.fasta
+These taxa are missing in alignment: ['T_pella9_0', 'T_pella9_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-843_phased.fasta
+[206, 287, 298]
+sampling position 298
+__________________________________________________
+processing file: uce-853_phased.fasta
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-859_phased.fasta
+[126, 150, 181, 182, 670, 686]
+sampling position 181
+__________________________________________________
+processing file: uce-864_phased.fasta
+[99, 100, 166, 174, 313, 367, 562, 634, 711, 725, 739]
+sampling position 100
+__________________________________________________
+processing file: uce-866_phased.fasta
+[123, 144, 149, 161, 308, 576, 663, 747, 771, 783, 784]
+sampling position 783
+__________________________________________________
+processing file: uce-868_phased.fasta
+[295, 311, 331, 352, 631]
+sampling position 352
+__________________________________________________
+processing file: uce-869_phased.fasta
+[244, 271, 372, 742]
+sampling position 742
+__________________________________________________
+processing file: uce-872_phased.fasta
+[181, 246, 253, 257, 275]
+sampling position 275
+__________________________________________________
+processing file: uce-885_phased.fasta
+[140, 162, 193, 208, 240, 251, 274, 299, 315, 385]
+sampling position 315
+__________________________________________________
+processing file: uce-90_phased.fasta
+[366, 398, 605]
+sampling position 366
+__________________________________________________
+processing file: uce-913_phased.fasta
+[700, 705, 807]
+sampling position 807
+__________________________________________________
+processing file: uce-915_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_0', 'T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-931_phased.fasta
+[169, 176, 611, 670]
+sampling position 611
+__________________________________________________
+processing file: uce-951_phased.fasta
+[131, 192, 212, 213, 215, 228, 229, 230, 233, 273, 295, 310, 331, 379, 450, 461, 483, 550, 589]
+sampling position 233
+__________________________________________________
+processing file: uce-967_phased.fasta
+These taxa are missing in alignment: ['T_pyra2_1'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites
+__________________________________________________
+processing file: uce-97_phased.fasta
+[108, 186, 198, 279, 291, 336, 409, 573]
+sampling position 336
+__________________________________________________
+processing file: uce-985_phased.fasta
+[484]
+sampling position 484
+__________________________________________________
+processing file: uce-990_phased.fasta
+These taxa are missing in alignment: ['T_pella8_0'] 
+Sequences for missing taxa will be generated only containing "N".
+[]
+no SNP extraction performed due too a lack of polymorphic sites

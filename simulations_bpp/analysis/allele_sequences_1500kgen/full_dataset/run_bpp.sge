@@ -1,0 +1,7 @@
+#$ -cwd
+#$ -q high_mem
+#$ -S /bin/bash
+cd /home/tobias/bpp/analysis
+cd ./allele_sequences_1500kgen/full_dataset
+/home/tobias/bpp/bpp3.3/src/bpp topaza_alleles.bpp.ctl
+cd /home/tobias/bpp/analysis
