@@ -1,0 +1,22 @@
+Tue Nov  7 11:35:49 2017
+ velveth velvet_test_35 35 -fastq -separate -shortPaired ../../test_reads/T_pella5-READ1.fastq ../../test_reads/T_pella5-READ2.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 96
+
+Tue Nov  7 12:07:27 2017
+ velvetg velvet_test_35 -cov_cutoff auto -exp_cov auto -min_contig_lgth 100
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 96
+
+Median coverage depth = 1.915929
+Final graph has 510843 nodes and n50 of 281, max 2017, total 73725936, using 1158836/1460030 reads

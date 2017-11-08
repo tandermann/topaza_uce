@@ -1,0 +1,1 @@
+abyss-pe k=35 j=1 name=abysstest_35 in=../../test_reads/T_pella5-READ*.fastq
