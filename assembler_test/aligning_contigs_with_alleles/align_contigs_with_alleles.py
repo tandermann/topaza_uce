@@ -9,6 +9,7 @@ Created on Wed Nov  8 14:39:39 2017
 import os
 import re
 import random
+import subprocess
 from Bio import SeqIO
 from Bio import AlignIO
 from Bio.SeqRecord import SeqRecord
@@ -29,11 +30,15 @@ contig_file = '/Users/tobias/GitHub/topaza_uce/assembler_test/finding_uce_contig
 contig_sequences = SeqIO.parse(open(contig_file),'fasta')
 
 # pick n random loci for which to extract both allele sequences and the contig sequence
-n = 10
+#n = 10
 # shuffle list randomely
-random.shuffle(allele_alignment_files)
+#random.shuffle(allele_alignment_files)
 # take first n elements
-random_pick = allele_alignment_files[0:n]
+#random_pick = allele_alignment_files[0:n]
+
+# get all alignments
+random_pick = allele_alignment_files
+
 
 def get_seq_objects_for_taxon(taxon, fasta_path):
     file_name = fasta_path.split('/')[-1]
@@ -83,7 +88,7 @@ for contig_fasta in contig_sequences:
         locus_fasta_dict.setdefault(locus,fasta_list)
         
 
-out_path = '/Users/tobias/GitHub/topaza_uce/assembler_test/aligning_contigs_with_alleles/sequence_comparisons'
+out_path = '/Users/tobias/GitHub/topaza_uce/assembler_test/aligning_contigs_with_alleles/sequence_comparisons/sequence_fastas'
 for locus in locus_fasta_dict:
     filename = '%s_sequences.fasta' %locus
     with open(os.path.join(out_path,filename), "w") as out_file:
@@ -100,6 +105,24 @@ for locus in locus_fasta_dict:
                 sequence.name=''
                 sequence.description=''                
             out_file.write(sequence.format('fasta'))
+
+
+
+# align the sequence fasta files
+aln_path = '/Users/tobias/GitHub/topaza_uce/assembler_test/aligning_contigs_with_alleles/sequence_comparisons/alignments'
+for fasta in os.listdir(out_path):
+    fasta_file = os.path.join(out_path,fasta)
+    new_file_name = re.sub('_sequences.fasta','_sequence_alignment.fasta',fasta)
+    aln = os.path.join(aln_path,new_file_name)
+    aln_stdout = open(aln, 'w')
+    # run MAFFT on the temp file
+    cmd = ["mafft","--maxiterate", "1000", fasta_file]
+    # just pass all ENV params
+    proc = subprocess.Popen(cmd,stderr=subprocess.PIPE,stdout=aln_stdout)
+    stderr = proc.communicate()
+    aln_stdout.close()
+
+
 
 
 """

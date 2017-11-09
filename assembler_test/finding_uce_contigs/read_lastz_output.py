@@ -9,10 +9,11 @@ import os
 import re
 import pandas as pd
 from Bio import SeqIO
+from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
 
-wd = '/Users/tobias/Desktop/topaza_review/3rd_submission/new_analyses/finding_uce_contigs/blast_contigs_uces'
+wd = '/Users/tobias/GitHub/topaza_uce/assembler_test/finding_uce_contigs/blast_contigs_uces'
 lastz_iupac = 'lastz_results_iupac.txt'
 contig_file_name = 'abyss_contigs_T_pella5.fa'
 match_output_name = 'contigs_matching_uces.fasta'
@@ -28,9 +29,11 @@ contig_sequences = SeqIO.parse(open(contig_file),'fasta')
 match_output_file = os.path.join(wd,match_output_name)
 
 
+
 # make a dictionary with all contig names that match a uce locus
 uce_contig_dict = {}
 contig_uce_dict = {}
+contig_orientation_dict = {}
 for row in lastz_df.iterrows():
     locus = row[1].name2
     locus_name = re.sub('\_p[0-9]* \|.*', '', locus)
@@ -43,6 +46,9 @@ for row in lastz_df.iterrows():
     uce_contig_dict[locus_name].append(contig_name)
     contig_uce_dict.setdefault(contig_name,[])
     contig_uce_dict[contig_name].append(locus_name)
+    orientation = row[1].strand2
+    contig_orientation_dict.setdefault(contig_name,orientation)
+
 
 # get uces that have multiple contigs matching them
 invalid_uce_loci = []
@@ -75,11 +81,19 @@ for uce in uce_contig_dict:
 with open(match_output_file, "w") as out_file:
     for fasta in contig_sequences:
         if fasta.id in valid_contig_names:
-            seq = fasta.seq
+            orientation = contig_orientation_dict[fasta.id]
+            if orientation == '-':
+                seq = fasta.seq.reverse_complement()
+            else:
+                seq = fasta.seq
             # get the corresponding uce locus name from the dictionary
             header = '%s_%s' %(contig_uce_dict[fasta.id][0],sample_id)
             new_fasta = SeqRecord(seq, id=header, name='', description='')
             out_file.write(new_fasta.format('fasta'))
+
+
+
+
 
 
 
