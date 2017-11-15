@@ -28,10 +28,10 @@ tree1 <- phyloch::read.beast(file = "analyses/treeannotator/empirical_allele_ali
 tree2 <- phyloch::read.beast(file = "analyses/treeannotator/empirical_chimeric_allele_alignments_stacey.tre")
 tree3 <- phyloch::read.beast(file = "analyses/treeannotator/empirical_consensus_contig_alignments_stacey.tre")
 tree4 <- phyloch::read.beast(file = "analyses/treeannotator/empirical_iupac_consensus_alignments_stacey.tre")
-tree5 <- phyloch::read.beast(file = "analyses/treeannotator/simulated_allele_alignments_stacey.tre")
-tree6 <- phyloch::read.beast(file = "analyses/treeannotator/simulated_chimeric_allele_alignments_stacey.tre")
-tree7 <- phyloch::read.beast(file = "analyses/treeannotator/simulated_consensus_contig_alignments_stacey.tre")
-tree8 <- phyloch::read.beast(file = "analyses/treeannotator/simulated_iupac_consensus_alignments_stacey.tre")
+tree5 <- phyloch::read.beast(file = "analyses/treeannotator/rep10/simulated_allele_alignments_stacey.tre")
+tree6 <- phyloch::read.beast(file = "analyses/treeannotator/rep10/simulated_chimeric_allele_alignments_stacey.tre")
+tree7 <- phyloch::read.beast(file = "analyses/treeannotator/rep10/simulated_consensus_contig_alignments_stacey.tre")
+tree8 <- phyloch::read.beast(file = "analyses/treeannotator/rep10/simulated_iupac_consensus_alignments_stacey.tre")
 
 # captialize tip labels in simulated trees
 tree5$tip.label <- Hmisc::capitalize(tree5$tip.label)
@@ -40,7 +40,7 @@ tree7$tip.label <- Hmisc::capitalize(tree7$tip.label)
 tree8$tip.label <- Hmisc::capitalize(tree8$tip.label)
 
 # check the node numbers and see where we want to turn the tree nodes
-phytools::plotTree(tree1,pts=F,node.numbers=T)
+phytools::plotTree(tree5,pts=F,node.numbers=T)
 tree1<-phytools::rotateNodes(tree1,c(29,30,33,32,31,35,34,20,21,22,23,24,26,25,27,28))
 tree2<-phytools::rotateNodes(tree2,c(29,30,33,32,31,35,34,20,21,22,23,24,26,25,27,28))
 tree3<-phytools::rotateNodes(tree3,c(15,16,17,11,12,13,14))
@@ -88,28 +88,28 @@ node.support(tree4$posterior,cutoff=0,digits=2,cex=1,mode="numbers",pos = "above
 HPDbars(tree4, label = "height_95%_HPD",col = "skyblue",lwd=4)
 dev.off()
 
-pdf("results/trees/simulated_allele_alignments_stacey.pdf")
+pdf("results/trees/rep10/simulated_allele_alignments_stacey.pdf")
 plot(tree5, edge.color = color_allele, edge.width = 2,x.lim=c(-0.00017, 0.00106))
 add.scale.bar(length = 1e-04,lwd = 2)
 node.support(tree5$posterior,cutoff=0,digits=2,cex=1,mode="numbers",pos = "above")
 HPDbars(tree5, label = "height_95%_HPD",col = "skyblue",lwd=4)
 dev.off()
 
-pdf("results/trees/simulated_chimeric_allele_alignments_stacey.pdf")
+pdf("results/trees/rep10/simulated_chimeric_allele_alignments_stacey.pdf")
 plot(tree6, edge.color = color_allele, edge.width = 2,x.lim=c(-0.00020, 0.00136))
 add.scale.bar(length = 1e-04,lwd = 2)
 node.support(tree6$posterior,cutoff=0,digits=2,cex=1,mode="numbers",pos = "above")
 HPDbars(tree6, label = "height_95%_HPD",col = "skyblue",lwd=4)
 dev.off()
 
-pdf("results/trees/simulated_consensus_contig_alignments_stacey.pdf")
+pdf("results/trees/rep10/simulated_consensus_contig_alignments_stacey.pdf")
 plot(tree7, edge.color = color_consensus, edge.width = 2,x.lim=c(-2.1e-04, 0.00134))
 add.scale.bar(length = 1e-04,lwd = 2)
 node.support(tree7$posterior,cutoff=0,digits=2,cex=1,mode="numbers",pos = "above")
 HPDbars(tree7, label = "height_95%_HPD",col = "skyblue",lwd=4)
 dev.off()
 
-pdf("results/trees/simulated_iupac_consensus_alignments_stacey.pdf")
+pdf("results/trees/rep10/simulated_iupac_consensus_alignments_stacey.pdf")
 plot(tree8, edge.color = color_consensus, edge.width = 2,x.lim=c(-7.5e-05, 0.00028))
 add.scale.bar(length = 1e-04,lwd = 2)
 node.support(tree8$posterior,cutoff=0,digits=2,cex=1,mode="numbers",pos = "above")
@@ -128,4 +128,5 @@ dev.off()
 #plot(new_tree, edge.color = tre$edge.color, edge.width = 2)
 #add.scale.bar(length = 1e-04,lwd = 2)
 #dev.off()
+
 

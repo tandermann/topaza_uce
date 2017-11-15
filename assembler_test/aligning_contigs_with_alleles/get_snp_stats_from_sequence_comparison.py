@@ -16,6 +16,7 @@ alignment_list = os.listdir(alignment_path)
 
 valid_snp_contig_list = []
 all_pos_contig_list = []
+loci_with_heterozygous_alleles = []
 for fasta in alignment_list:
     fasta_path = os.path.join(alignment_path,fasta)
     alignment = AlignIO.read(open(fasta_path), "fasta")
@@ -40,16 +41,21 @@ for fasta in alignment_list:
                 pass
                 #print('this',allele_base_calls)
             else:
-                valid_snp_contig_list.append((allele_base_calls,abyss_contig_call,re.sub('_sequence_alignment.fasta','',fasta),x))
-
+                locus_name = re.sub('_sequence_alignment.fasta','',fasta)
+                valid_snp_contig_list.append((allele_base_calls,abyss_contig_call,locus_name,x))
+                if locus_name not in loci_with_heterozygous_alleles:
+                    loci_with_heterozygous_alleles.append(locus_name)
 
 # get all positions where IUPAC ambiguity codes are in contigs
 iupac_contig_bases = []
+loci_with_iupac_ambiguities = []
 for snp in all_pos_contig_list:
     if snp[1] not in ['a','c','t','g','-']:
         #if snp[0] != 'nn':
         iupac_contig_bases.append(snp)
-        
+        if snp[2] not in loci_with_iupac_ambiguities:
+            loci_with_iupac_ambiguities.append(snp[2])
+     
 valid_iupac_contig_bases = []
 for snp in all_pos_contig_list:
     if snp[1] not in ['a','c','t','g','-']:
@@ -57,11 +63,11 @@ for snp in all_pos_contig_list:
             valid_iupac_contig_bases.append(snp)
 
 # how many heterozygous positions were called by allele phasing?        
-print('In total',len(valid_snp_contig_list),'heterozygous positions were found among allele sequences for this sample')
+print('In total',len(valid_snp_contig_list),'heterozygous positions in %i loci were found among allele sequences for this sample' %len(loci_with_heterozygous_alleles))
 # how many where called in abyss contigs
-print('In total',len(iupac_contig_bases),'ambiguous positions were found in abyss contigs')
+print('In total',len(iupac_contig_bases),'ambiguous positions in %i loci were found in abyss contigs' %len(loci_with_iupac_ambiguities))
 # how many of the abyss positions are valid (supported by >2 reads)?
-print('In total',len(valid_iupac_contig_bases),'of the abyss snps are supported by >2 reads')
+print('In total',len(valid_iupac_contig_bases),'of the abyss snps are at positions that are also covered by allele seqeunces (no missing data)')
 # overlap between heterozygous positions called by abyss and by allele phasing
 shared_snps = set(iupac_contig_bases).intersection(valid_snp_contig_list)
 print('In total',len(shared_snps),'heterozygous positions shared between abyss contigs and alleles')
