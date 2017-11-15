@@ -134,9 +134,9 @@ points(density(sim_iupac_contig_node_heights_DEXYZ[,1]), type = 'l', col = iupac
 polygon(density(sim_iupac_contig_node_heights_DEXYZ[,1]),density = 70, col = iupac_col)
 abline(v=mean(sim_iupac_contig_node_heights_DEXYZ[,1]),lty = 5,lwd = 2, col = iupac_col)
 
-points(density(sim_chimeric_node_heights_DEXYZ[,1]), type = 'l', col = chimeric_col)
-polygon(density(sim_chimeric_node_heights_DEXYZ[,1]),density = 70, col = chimeric_col)
-abline(v=mean(sim_chimeric_node_heights_DEXYZ[,1]),lty = 5,lwd = 2, col = chimeric_col)
+points(density(sim_contig_node_heights_DEXYZ[,1]), type = 'l', col = contig_col)
+polygon(density(sim_contig_node_heights_DEXYZ[,1]),density = 70, col = contig_col)
+abline(v=mean(sim_contig_node_heights_DEXYZ[,1]),lty = 5,lwd = 2, col = contig_col)
 
 points(density(sim_phased_node_heights_DEXYZ[,1]), type = 'l', col = allele_col)
 polygon(density(sim_phased_node_heights_DEXYZ[,1]),density = 70, col = allele_col)
