@@ -1,0 +1,1 @@
+../trinityrnaseq-Trinity-v2.4.0/Trinity --seqType fq --left ./T_pella5-READ1.fastq --right ./T_pella5-READ2.fastq --min_contig_length 200 --output trinity_test --max_memory 10G --CPU 11 --full_cleanup

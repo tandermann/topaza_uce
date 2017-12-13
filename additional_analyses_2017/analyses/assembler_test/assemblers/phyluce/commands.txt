@@ -1,0 +1,1 @@
+phyluce_assembly_assemblo_abyss --config assembly.conf --output phyluce_assemblies --kmer 35 --subfolder split-adapter-quality-trimmed --log-path log

@@ -2,18 +2,16 @@ import os
 import io
 import re
 import csv
-#import dendropy
-from operator import itemgetter
 from Bio import Phylo
 
 
 #treefile = raw_input("Give path to tree file: ")
-treefile = "/Users/tobias/GitHub/topaza_uce/additional_analyses_2017/analyses/stacey/simulated/allele_alignments/species.trees"
+treefile = "/Users/tobias/GitHub/topaza_uce/additional_analyses_2017/analyses/stacey/simulated/xxxxx/rescaled_species.trees"
 subfolder = treefile.split('/')[-3]+'_'+treefile.split('/')[-2]
-out_dir_raw = "/Users/tobias/GitHub/topaza_uce/additional_analyses_2017/results/node_depth_distribution"
+out_dir_raw = "/Users/tobias/GitHub/topaza_uce/additional_analyses_2017/results/node_depth_distribution/yyyyy"
 out_dir = os.path.join(out_dir_raw,subfolder)
 if not os.path.exists(out_dir):
-    os.mkdir(out_dir)
+    os.makedirs(out_dir)
 burnin = 0.1
 process_trees = 'all'
 clade_list = ['d,e','y,z','x,y,z','e,d,x,y,z']
@@ -143,8 +141,7 @@ for row in new_body:
 
 
 for clade in nodeheight_dict:
-    
-    print('The mean node heigt of clade %s is:' %clade,float(sum(nodeheight_dict[clade])/len(nodeheight_dict[clade])),'. Clade found in', len(nodeheight_dict[clade]), 'trees')
+    print('The mean node heigt of clade %s is:' %clade,float(sum(nodeheight_dict[clade])/len(nodeheight_dict[clade])))
 
 DE_output = open(os.path.join(out_dir,"./DE_node_depths.txt"), "w")
 DE_output_log=csv.writer(DE_output, delimiter='\n')

@@ -1,62 +1,79 @@
 # The following workflow creates plots and sim-matrices from the results stored in the analyses folder
 
+# __________________________rescale all trees to average mutation rate of 1__________________________
+python bin/rescale_beast_trees.py analyses/stacey/empirical/allele_alignments/species.trees analyses/stacey/empirical/allele_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/empirical/consensus_contig_alignments/species.trees analyses/stacey/empirical/consensus_contig_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/empirical/chimeric_allele_alignments/species.trees analyses/stacey/empirical/chimeric_allele_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/empirical/iupac_consensus_alignments/species.trees analyses/stacey/empirical/iupac_consensus_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/simulated/allele_alignments/species.trees analyses/stacey/simulated/allele_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/simulated/consensus_contig_alignments/species.trees analyses/stacey/simulated/consensus_contig_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/simulated/chimeric_allele_alignments/species.trees analyses/stacey/simulated/chimeric_allele_alignments/*.log
+python bin/rescale_beast_trees.py analyses/stacey/simulated/iupac_consensus_alignments/species.trees analyses/stacey/simulated/iupac_consensus_alignments/*.log
+for sim in analyses/stacey/simulated/10_reps/*;
+do echo $sim;
+python bin/rescale_beast_trees.py $sim/allele_alignments/species.trees $sim/allele_alignments/*.log;
+python bin/rescale_beast_trees.py $sim/consensus_contig_alignments/species.trees $sim/consensus_contig_alignments/*.log;
+python bin/rescale_beast_trees.py $sim/chimeric_allele_alignments/species.trees $sim/chimeric_allele_alignments/*.log;
+python bin/rescale_beast_trees.py $sim/iupac_consensus_alignments/species.trees $sim/iupac_consensus_alignments/*.log;
+done;
+
 # _______________run speciesDA on all stacey results____________________
 mkdir -p analyses/species_da/empirical/allele_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/allele_alignments/species.trees analyses/species_da/empirical/allele_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/allele_alignments/species.trees analyses/species_da/empirical/allele_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/allele_alignments/species.trees analyses/species_da/empirical/allele_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/allele_alignments/rescaled_species.trees analyses/species_da/empirical/allele_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/allele_alignments/rescaled_species.trees analyses/species_da/empirical/allele_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/allele_alignments/rescaled_species.trees analyses/species_da/empirical/allele_alignments/species_da_results_3e-4.txt
 mkdir -p analyses/species_da/empirical/consensus_contig_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/consensus_contig_alignments/species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/consensus_contig_alignments/species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/consensus_contig_alignments/species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/consensus_contig_alignments/rescaled_species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/consensus_contig_alignments/rescaled_species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/consensus_contig_alignments/rescaled_species.trees analyses/species_da/empirical/consensus_contig_alignments/species_da_results_3e-4.txt
 
 mkdir -p analyses/species_da/empirical/chimeric_allele_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/chimeric_allele_alignments/species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/chimeric_allele_alignments/species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/chimeric_allele_alignments/species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/empirical/chimeric_allele_alignments/species_da_results_3e-4.txt
 mkdir -p analyses/species_da/empirical/iupac_consensus_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/iupac_consensus_alignments/species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/iupac_consensus_alignments/species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/iupac_consensus_alignments/species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-5 analyses/stacey/empirical/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 1e-4 analyses/stacey/empirical/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1500 -collapseheight 3e-4 analyses/stacey/empirical/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/empirical/iupac_consensus_alignments/species_da_results_3e-4.txt
 
 
 mkdir -p analyses/species_da/simulated/allele_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/allele_alignments/species.trees analyses/species_da/simulated/allele_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/allele_alignments/species.trees analyses/species_da/simulated/allele_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/allele_alignments/species.trees analyses/species_da/simulated/allele_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/allele_alignments/rescaled_species.trees analyses/species_da/simulated/allele_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/allele_alignments/rescaled_species.trees analyses/species_da/simulated/allele_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/allele_alignments/rescaled_species.trees analyses/species_da/simulated/allele_alignments/species_da_results_3e-4.txt
 mkdir -p analyses/species_da/simulated/consensus_contig_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/consensus_contig_alignments/species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/consensus_contig_alignments/species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/consensus_contig_alignments/species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/consensus_contig_alignments/species_da_results_3e-4.txt
 
 mkdir -p analyses/species_da/simulated/chimeric_allele_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/chimeric_allele_alignments/species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/chimeric_allele_alignments/species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/chimeric_allele_alignments/species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/chimeric_allele_alignments/species_da_results_3e-4.txt
 mkdir -p analyses/species_da/simulated/iupac_consensus_alignments/
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/iupac_consensus_alignments/species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_1e-5.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/iupac_consensus_alignments/species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_1e-4.txt
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/iupac_consensus_alignments/species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_3e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_1e-5.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_1e-4.txt
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/iupac_consensus_alignments/species_da_results_3e-4.txt
 
 
 for sim in analyses/stacey/simulated/10_reps/*;
 do mkdir -p analyses/species_da/simulated/10_reps/$(echo $(echo $sim | sed 's/.*\///g') | sed 's/.*\///g')/allele_alignments/;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_1e-5.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_1e-4.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_3e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_1e-5.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_1e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/allele_alignments/species_da_results_3e-4.txt;
 mkdir -p analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_1e-5.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_1e-4.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_3e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_1e-5.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_1e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/consensus_contig_alignments/species_da_results_3e-4.txt;
 
 mkdir -p analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_1e-5.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_1e-4.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_3e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_1e-5.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_1e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/chimeric_allele_alignments/species_da_results_3e-4.txt;
 mkdir -p analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_1e-5.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_1e-4.txt;
-java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_3e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-5 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_1e-5.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 1e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_1e-4.txt;
+java -jar /Users/tobias/bin/speciesDA.jar -burnin 1000 -collapseheight 3e-4 analyses/stacey/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/rescaled_species.trees analyses/species_da/simulated/10_reps/$(echo $sim | sed 's/.*\///g')/iupac_consensus_alignments/species_da_results_3e-4.txt;
 
 done;
 
@@ -300,34 +317,34 @@ done
 mkdir analyses/treeannotator
 
 # empirical allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/allele_alignments/species.trees analyses/treeannotator/empirical_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/allele_alignments/rescaled_species.trees analyses/treeannotator/empirical_allele_alignments_stacey.tre
 # empirical chimeric allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/chimeric_allele_alignments/species.trees analyses/treeannotator/empirical_chimeric_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/chimeric_allele_alignments/rescaled_species.trees analyses/treeannotator/empirical_chimeric_allele_alignments_stacey.tre
 # empirical consensus contig sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/consensus_contig_alignments/species.trees analyses/treeannotator/empirical_consensus_contig_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/consensus_contig_alignments/rescaled_species.trees analyses/treeannotator/empirical_consensus_contig_alignments_stacey.tre
 # empirical iupac consensus sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/iupac_consensus_alignments/species.trees analyses/treeannotator/empirical_iupac_consensus_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/empirical/iupac_consensus_alignments/rescaled_species.trees analyses/treeannotator/empirical_iupac_consensus_alignments_stacey.tre
 # simulated allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/allele_alignments/species.trees analyses/treeannotator/simulated_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/allele_alignments/rescaled_species.trees analyses/treeannotator/simulated_allele_alignments_stacey.tre
 # simulated chimeric allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/chimeric_allele_alignments/species.trees analyses/treeannotator/simulated_chimeric_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/chimeric_allele_alignments/rescaled_species.trees analyses/treeannotator/simulated_chimeric_allele_alignments_stacey.tre
 # simulated consensus contig sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/consensus_contig_alignments/species.trees analyses/treeannotator/simulated_consensus_contig_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/consensus_contig_alignments/rescaled_species.trees analyses/treeannotator/simulated_consensus_contig_alignments_stacey.tre
 # simulated iupac consensus sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/iupac_consensus_alignments/species.trees analyses/treeannotator/simulated_iupac_consensus_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/iupac_consensus_alignments/rescaled_species.trees analyses/treeannotator/simulated_iupac_consensus_alignments_stacey.tre
 
 # make trees for 10 simreps
 for sim in analyses/species_da/simulated/10_reps/*;
 do sim_rep=$(echo $sim | sed 's/.*\///g' | sed 's/\\r//g');
 mkdir analyses/treeannotator/$sim_rep/
 # simulated allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/allele_alignments/species.trees analyses/treeannotator/$sim_rep/simulated_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/allele_alignments/rescaled_species.trees analyses/treeannotator/$sim_rep/simulated_allele_alignments_stacey.tre
 # simulated chimeric allele sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/chimeric_allele_alignments/species.trees analyses/treeannotator/$sim_rep/simulated_chimeric_allele_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/chimeric_allele_alignments/rescaled_species.trees analyses/treeannotator/$sim_rep/simulated_chimeric_allele_alignments_stacey.tre
 # simulated consensus contig sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/consensus_contig_alignments/species.trees analyses/treeannotator/$sim_rep/simulated_consensus_contig_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/consensus_contig_alignments/rescaled_species.trees analyses/treeannotator/$sim_rep/simulated_consensus_contig_alignments_stacey.tre
 # simulated iupac consensus sequences
-/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/iupac_consensus_alignments/species.trees analyses/treeannotator/$sim_rep/simulated_iupac_consensus_alignments_stacey.tre
+/Applications/BEAST\ 2.4.4/bin/treeannotator -burnin 10 -heights mean analyses/stacey/simulated/10_reps/$sim_rep/iupac_consensus_alignments/rescaled_species.trees analyses/treeannotator/$sim_rep/simulated_iupac_consensus_alignments_stacey.tre
 done
 
 
@@ -384,3 +401,43 @@ mkdir results/trees/$sim_rep
 # _________________________extract and plot node height distribution______________________________
 # run bin/extract_node_heights.py for every stacey analysis and then plot with bin/plot_node_heigh_distribution.r
 
+
+# extract node heights for all simulation replicates
+for rep_result in $(ls analyses/stacey/simulated/10_reps);
+do rep=$(basename $rep_result);
+cp bin/extract_node_heights.py bin/tmp_extract_node_heights.py;
+sed -i -e "s/xxxxx/10_reps\/$rep\/allele_alignments/g" bin/tmp_extract_node_heights.py;
+sed -i -e "s/yyyyy/10_reps/g" bin/tmp_extract_node_heights.py;
+python bin/tmp_extract_node_heights.py;
+rm bin/tmp_extract_node_heights.py;
+cp bin/extract_node_heights.py bin/tmp_extract_node_heights.py;
+sed -i -e "s/xxxxx/10_reps\/$rep\/chimeric_allele_alignments/g" bin/tmp_extract_node_heights.py;
+sed -i -e "s/yyyyy/10_reps/g" bin/tmp_extract_node_heights.py;
+python bin/tmp_extract_node_heights.py;
+rm bin/tmp_extract_node_heights.py;
+cp bin/extract_node_heights.py bin/tmp_extract_node_heights.py;
+sed -i -e "s/xxxxx/10_reps\/$rep\/consensus_contig_alignments/g" bin/tmp_extract_node_heights.py;
+sed -i -e "s/yyyyy/10_reps/g" bin/tmp_extract_node_heights.py;
+python bin/tmp_extract_node_heights.py;
+rm bin/tmp_extract_node_heights.py;
+cp bin/extract_node_heights.py bin/tmp_extract_node_heights.py;
+sed -i -e "s/xxxxx/10_reps\/$rep\/iupac_consensus_alignments/g" bin/tmp_extract_node_heights.py;
+sed -i -e "s/yyyyy/10_reps/g" bin/tmp_extract_node_heights.py;
+python bin/tmp_extract_node_heights.py;
+rm bin/tmp_extract_node_heights.py;
+rm bin/*-e;
+done
+
+# plot the node height distribution for each simulation replicate
+for rep_result in $(ls analyses/stacey/simulated/10_reps);
+do rep=$(basename $rep_result);
+repnum=$(echo $rep | sed 's/rep//g')
+cp bin/plot_node_heigh_distribution_simreps.r bin/tmp_plot_node_heigh_distribution_simreps.r;
+sed -i -e "s/xxxxx/$rep/g" bin/tmp_plot_node_heigh_distribution_simreps.r;
+sed -i -e "s/yyyyy/$repnum/g" bin/tmp_plot_node_heigh_distribution_simreps.r;
+Rscript bin/tmp_plot_node_heigh_distribution_simreps.r;
+rm bin/tmp_plot_node_heigh_distribution_simreps.r;
+rm bin/*-e;
+done
+
+pdfjoin results/node_depth_distribution/10_reps/*.pdf --outfile results/node_depth_distribution/10_reps/all_node_depths_simreps_combined.pdf

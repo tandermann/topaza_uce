@@ -1,0 +1,29 @@
+rep=$(echo 'rep10')
+
+cp ../simmatrix_plots/$rep/simmatrix_simulated_*1e-5.pdf simrep_stacey_results/
+cp ../trees/$rep/*.pdf simrep_stacey_results/
+
+mv simrep_stacey_results/simulated_consensus_contig_alignments_stacey.pdf simrep_stacey_results/1_simulated_consensus_contig_alignments_stacey.pdf
+mv simrep_stacey_results/simmatrix_simulated_consensus_contig_alignments_stacey_1e-5.pdf simrep_stacey_results/2_simmatrix_simulated_consensus_contig_alignments_stacey_1e-5.pdf
+mv simrep_stacey_results/simulated_allele_alignments_stacey.pdf simrep_stacey_results/3_simulated_allele_alignments_stacey.pdf
+mv simrep_stacey_results/simmatrix_simulated_allele_alignments_stacey_1e-5.pdf simrep_stacey_results/4_simmatrix_simulated_allele_alignments_stacey_1e-5.pdf
+mv simrep_stacey_results/simulated_iupac_consensus_alignments_stacey.pdf simrep_stacey_results/5_simulated_iupac_consensus_alignments_stacey.pdf
+mv simrep_stacey_results/simmatrix_simulated_iupac_consensus_alignments_stacey_1e-5.pdf simrep_stacey_results/6_simmatrix_simulated_iupac_consensus_alignments_stacey_1e-5.pdf
+mv simrep_stacey_results/simulated_chimeric_allele_alignments_stacey.pdf simrep_stacey_results/7_simulated_chimeric_allele_alignments_stacey.pdf
+mv simrep_stacey_results/simmatrix_simulated_chimeric_allele_alignments_stacey_1e-5.pdf simrep_stacey_results/8_simmatrix_simulated_chimeric_allele_alignments_stacey_1e-5.pdf
+
+pdfjoin simrep_stacey_results/* --outfile $rep-joined.pdf
+
+rm simrep_stacey_results/*
+
+
+# after all replicates are done:
+mv rep*-joined.pdf simrep_stacey_results/
+pdfjoin simrep_stacey_results/* --outfile all_stacey_reps_combined.pdf
+
+# created header file in latex on overleaf and stored as figure_captions.tex
+# change format of plots to a4
+pdfjam --outfile all_stacey_reps_combined_a4.pdf --paper a4paper all_stacey_reps_combined.pdf
+
+#pdftk all_stacey_reps_combined_a4.pdf multistamp simrep_figure_headers.pdf output finished_sim_rep_stacey_results.pdf
+cpdf -combine-pages simrep_figure_headers.pdf all_stacey_reps_combined_a4.pdf -o S6_sim_rep_stacey_results.pdf

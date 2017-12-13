@@ -1,0 +1,2 @@
+velveth velvet_test_35 35 -fastq -separate -shortPaired ../../test_reads/T_pella5-READ1.fastq ../../test_reads/T_pella5-READ2.fastq 
+velvetg velvet_test_35 -cov_cutoff auto -exp_cov auto -min_contig_lgth 100
